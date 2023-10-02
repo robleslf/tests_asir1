@@ -1,0 +1,128 @@
+UD1-Sistemas de almacenamiento
+2.- Archivos.
+
+ORIENTACIÓN A LOS PROCESOS.
+
+Surge de la automatización de los procesos manuales que se realizaban en cada
+departamento de las organizaciones.
+
+* Los datos de cada archivo están fuertemente ligados al programa que los procesa.
+* Los procesos y los datos se almacenan en cintas magnéticas. Para el procesamiento,
+se cargan los procesos y los datos en el equipo. Después del procesamiento, los datos
+resultantes se vuelcan de nuevo en cinta.
+* Cada proceso maneja sus propios archivos:
+* Archivos con datos de entrada, con los datos a procesar.
+* Archivos con datos de salida, con los datos resultantes de realizar el procesamiento.
+* Cada archivo contiene datos relacionados con un determinado proceso.
+* Los datos de cada archivo son independientes de otros archivos y otros procesos.
+
+REGISTROS.
+
+En los archivos, los datos se organizan en forma de registros.
+
+* Cada registro agrupa un conjunto de datos relacionados relativos al
+mismo objeto o elemento.
+* Cada dato corresponde a una categoría que le da significado.
+* Ejemplo:
+** Un registro contiene los datos de un cliente: los datos de Javier Barquín.
+** Cada dato corresponde a un campo o atributo: el DNI, el nombre, el
+teléfono, ...
+
+Registros de tamaño fijo:
+
+* Todos los registros tienen el mismo tamaño.
+** Todos los registros tienen los mismos campos.
+** Cada campo tiene un espacio reservado en memoria.
+* El valor de un campo no puede exceder el tamaño reservado.
+* Si un campo no tiene valor o tiene un valor pequeño, ocupará igualmente el
+tamaño máximo: desperdicio de espacio de almacenamiento.
+* Es fácil calcular la posición de un registro n:
+bastará sumar n*tamaño a la posición inicial.
+
+Registros de tamaño variable:
+
+* Los registros pueden tener tamaños distintos.
+* El tamaño de un campo será el que necesite su valor.
+* Se ahorra espacio de almacenamiento.
+* No podemos determinar dónde empieza y termina cada registro: es
+necesario usar algún sistema para identificarlo (por ejemplo, marcas
+de fin de registro).
+* Conocer la posición en memoria de cada registro es complejo.
+* Cambios en un registro exigen reasignar memoria.
+
+
+Estructura de los ficheros.
+
+Existen distintas formas de representar os rexistros en ficheiros, a máis
+habitual é en forma de táboa:
+* Cada fila representa un rexistro.
+* Cada columna representa un campo.
+
+La otra es la que parecen fichas de UML.
+
+Inconvenientes de los sitemas de ficheros.
+
+Redundancia: Los datos que se utilicen en varios procesos estarán repetidos
+en varios archivos.
+
+* Costo de almacenamiento elevado: Cada dato es almacenado varias veces,
+cada copia ocupa espacio en el disco.
+* Tiempos de procesamiento elevados: El tratamiento de los datos es generalmente
+secuencial. El procesamiento de un solo dato implica recorrer archivos completos.
+* Modificación costosa: Si un dato cambia, debe modificarse en todos los
+archivos en los que esté.
+* Inconsistencias: Se produce una inconsistencia si un dato se repite en
+varios archivos con diferente valor. Generalmente es debido a que un cambio no se
+reprodujo en todas las copias del dato.
+
+Tipos según su uso.
+
+* Mestres: Son los principales sistemas de información y contienen los
+datos fundamentales. Raramente cambian.
+* Constantes: Contienen información que apenas varía a lo largo del
+tiempo.
+* Históricos: Almacenan copias de los archivos maestros que se realizan
+periódicamente.
+* De movimiento: Almacenan los cambios que se harán en los archivos
+maestros. Se eliminan después de hacer esos cambios.
+* De maniobra: Archivos auxiliares empleados por el software que
+gestiona los datos. Se destruyen tan pronto como terminan las aplicaciones.
+
+Fichero secuencial.
+
+* Los registros se escriben en el dispositivo de almacenamiento en posiciones físicamente
+contiguas, sin dejar espacios entre ellos, en el mismo orden en el que se introdujeron.
+* Este tipo de archivos pueden utilizar dispositivos o soportes de acceso
+secuencial o no direccionables, como cintas de almacenamiento magnético de
+datos.
+
+
+Operaciones:
+* Recorrido del archivo: Los registros se recorren secuencialmente comenzando desde el principio del archivo hasta llegar al final.
+* Acceso a un registro: Requiere crear un proceso en el que se recorre el archivo y se compara el valor del campo a localizar con el valor del mismo campo de los registros recorridos.
+* Consulta de un registro: Requiere primero acceder al registro. Luego la lectura es directa.
+* Inserción de un registro: Solo se puede hacer al final del archivo. No se pueden insertar nuevos registros entre los ya existentes.
+* Borrado de un registro: Requiere primero acceder al registro. Luego el registro no se puede eliminar físicamente, sino que se marcará como borrado (borrado lógico). Los registros con la marca de borrados no se tienen en cuenta en las otras operaciones.
+* Modificación de un registro: No es posible la modificación. En su lugar se procederá a borrar el registro e insertarlo de nuevo, con el campo modificado.
+* Para mantener ordenado y compacto el archivo, es necesario realizar periódicamente operaciones de mantenimiento: copiar los registros no borrados en otra posición de memoria.
+
+Ventajas:
+* Acceso rápido a un bloque de registros contiguos.
+* No se desperdicia espacio de almacenamiento en el
+dispositivo, porque no hay espacios vacíos.
+* Se puede usar cualquier tipo de registro: longitud fija,
+variable o indefinida.
+
+
+Fichero secuencial encadenado
+
+Son archivos de organización secuencial gestionados mediante punteros.
+* Un puntero es un campo adicional que almacena la dirección de otro registro
+del archivo. Usando el puntero podemos acceder a ese registro.
+* El uso de punteros permite recorrer los registros en un orden diferente al
+orden en el que fueron registrados, estableciendo una secuencia lógica.
+* Dado un registro, llamaremos registro siguiente a aquel al que se accede
+usando el puntero almacenado en el primero.
+* Los registros quedarán ordenados mediante el orden que establece la secuencia
+de punteros.
+* El orden generalmente está relacionado con el valor de algún otro campo.
