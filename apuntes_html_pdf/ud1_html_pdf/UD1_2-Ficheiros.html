@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/001_style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Sistemas de ficheros</h1>
+    <h2>Orientación a los Procesos</h2>
+    <p>Surge de la automatización los procesos manuales que se realizaban en cada departamento de las organizaciones.</p>
+    <ul>
+        <li>Los datos de cada archivo están fuertemente vinculados al programa que los procesa.</li>
+        <li>Los procesos y los datos se almacenan en cintas magnéticas. Para el procesamiento, los procesos y los datos se cargan en el equipo. Después del procesamiento, los datos resultantes se vuelcan de nuevo en la cinta.</li>
+        <li>Cada proceso maneja sus propios archivos:</li>
+        <ul>
+            <li>Ficheros con datos de entrada, con los datos a procesar.</li>
+            <li>Ficheros con datos de salida, con los datos resultantes de realizar el procesamiento.</li>
+        </ul>
+        <li>Cada archivo contiene datos relacionados con un proceso determinado.</li>
+        <li>Los datos de cada fichero son independientes de otros archivos y de otros procesos.</li>
+    </ul>
+
+    <p class="destacado">Cada archivo de datos está atado a un programa específico. Los datos se guardan en cintas magnéticas, se cargan para su procesamiento y luego se vuelcan de nuevo. Cada proceso maneja sus propios archivos: entrada y salida. Cada archivo está relacionado con un proceso y es independiente de los demás.</p>
+
+    <h2>Registros</h2>
+    <p>En los ficheros, los datos se organizan en forma de registros.</p>
+<ul>
+    <li>Cada registro agrupa un conjunto de datos relacionados relativos al mismo objeto o elemento.</li>
+    <li>Cada dato se corresponde con una categoría que le da significado.</li>
+</ul>
+<p>Ejemplo:</p>
+<ul>
+    <li>Un registro contiene los datos de un cliente: los datos de Javier Barquín.</li>
+    <li>Cada dato corresponde a un campo o atributo: el DNI, el nombre, el teléfono, ...</li>
+</ul>
+
+<h3>Registros de tamaño fijo:</h3>
+<ul>
+    <li>Todos los ficheros tienen el mismo tamaño.</li>
+    <ul>
+        <li>Todos los ficheros tienen los mismos campos.</li>
+        <li>Cada campo tiene un espacio reservado en memoria.</li>
+    </ul>
+    <li>El valor de un campo no puede exceder el tamaño reservado.</li>
+    <li>Si un campo no tiene valor o tiene un valor pequeño, ocupará igualmente el tamaño máximo, lo que conlleva un desperdicio de espacio de almacenamiento.</li>
+    <li>Es fácil calcular la posición de un fichero n: bastará sumar n*tamaño a la posición inicial.</li>
+</ul>
+
+
+<h3>Registros de tamaño variable:</h3>
+<ul>
+    <li>Os ficheros pueden tener tamaños distintos.</li>
+    <li>El tamaño de un campo será el que precise su valor.</li>
+    <li>Se ahorra espacio de almacenamiento.</li>
+    <li>No podemos determinar dónde empieza y termina cada fichero: es necesario usar algún sistema para identificarlo (por ejemplo, marcas de fin de fichero).</li>
+    <li>Conocer la posición en memoria de cada fichero es complejo.</li>
+    <li>Cambios en un fichero exigen reasignar memoria.</li>
+</ul>
+
+<h2>Estructura de los ficheros</h2>
+
+
+<p>Existen distintas formas de representar los ficheros, la más habitual es en forma de tabla:</p>
+<ul>
+    <li>Cada fila representa un fichero.</li>
+    <li>Cada columna representa un campo.</li>
+</ul>
+
+<p>La otra es la que parecen fichitas tipo UML.</p>
+
+<h2>Inconvenientes de los sistemas de ficheros</h2>
+
+<ul>
+    <li><strong>Redundancia:</strong>Los datos que se utilizan en varios procesos estarán repetidos en varios ficheros.</li>
+    <p class="destacado">Por ejemplo, tener dos listas de la compra iguales.</p>
+
+    <li><strong>Costo de almacenamiento elevado:</strong> Cada dato se almacena varias veces, cada copia ocupa espacio en el disco.</li>
+    <p class="destacado">Por ejemplo, tener tantas listas de la compra que no te caben las llaves en el bolsillo.</p>
+
+    <li><strong>Tiempos de procesamiento elevados:</strong> El tratamiento de los datos es generalmente secuencial. El procesamiento de un solo dato implica recorrer ficheros completos.</li>
+    <p class="destacado">Por ejemplo, tardas media hora en encontrar la lista de la compra porque tienes que leer las todas las listas de la compra que hicistes desde enero.</p>
+
+    <li><strong>Modificación costosa:</strong> Si un dato cambia, debe modificarse en todos los ficheros en los que esté.</li>
+    <p class="destacado">Por ejemplo, tienes que modificar "piña" donde pone "pizza" y tienes que hacerlo en las 189 listas de la compra que tienes.</p>
+    <li><strong>Inconsistencias:</strong> Se produce una inconsistencia si un dato se repite en varios ficheros con distinto valor. Generalmente, esto se debe a que un cambio no se reprodujo en todas las copias del dato.</li>
+    <p class="destacado">Por ejemplo, en una lista de la compra pone "Leche desnatada", y en otra "Leche entera"; cuando llegues al supermercado no sabes cuál comprar.</p>
+</ul>
+
+
+<h2>Tipos de ficheros:</h2>
+
+<h3>Tipos según su uso</h3>
+<ul>
+    <li>Mestres: Son los principales sistemas de información y contienen los datos fundamentales. Raramente cambian.</li>
+    <p class="destacado">Ejemplo: Un sistema de gestión de clientes en una empresa. Los datos de los clientes, como nombres, direcciones y números de teléfono, se almacenan en un archivo maestro. Estos datos son fundamentales y cambian raramente, ya que no es común que los clientes cambien su información personal con frecuencia.</p>
+    <li>Constantes: Contienen información que apenas varía a lo largo del tiempo.</li>
+    <p class="destacado">Ejemplo: Una base de datos de productos en una tienda en línea. La información sobre los productos, como sus nombres, descripciones y precios, se almacena en un archivo constante. Estos datos apenas varían con el tiempo, ya que los productos no cambian sus características esenciales con frecuencia.</p>
+    <li>Históricos: Almacenan copias de los ficheros mestres que se realizan periódicamente.</li>
+    <p class="destacado">Ejemplo: Un sistema de copias de seguridad en una empresa. Se realizan copias periódicas de los datos críticos del negocio, como registros financieros, y se almacenan en archivos históricos con marcas de tiempo. Estos archivos sirven como una copia de seguridad de los datos en caso de pérdida o daño y se actualizan regularmente.</p>
+    <li>De movimiento: Almacenan los cambios que se harán en los ficheros mestres. Se eliminan después de realizar esos cambios.</li>
+    <p class="destacado">Ejemplo: Un sistema de seguimiento de pedidos en una tienda en línea. Cuando un cliente realiza un pedido, se registra inicialmente en un archivo de movimiento. Este archivo contiene detalles del pedido actual, como los productos solicitados y la información de envío. Una vez que el pedido se ha procesado y entregado, se elimina del archivo de movimiento, ya que ya no es relevante.</p>
+    <li>De maniobra: Archivos auxiliares empleados por el software que gestiona los datos. Se destruyen tan pronto como finalizan las aplicaciones.</li>
+    <p class="destacado">Ejemplo: Un sistema de almacenamiento en caché en un navegador web. Los archivos temporales, como imágenes y archivos CSS, se almacenan en un archivo de maniobra para acelerar la carga de páginas web. Estos archivos son auxiliares y se eliminan tan pronto como se cierra el navegador o se borran manualmente para liberar espacio en disco.</p>
+</ul>
+
+
+
+<h3>Tipos de fichero según la forma de acceso a los registros</h3>
+
+
+<p>Métodos de acceso a ficheros:</p>
+<ul>
+    <li>Secuencial: Los registros están ordenados secuencialmente en la misma secuencia en la que se registraron. Para acceder a un registro es necesario recorrer todos los registros anteriores.</li>
+    <li>Secuencial encadenado: Son ficheros secuenciales gestionados usando punteros. Un puntero es un dato especial que contiene la dirección de otro registro en el fichero.</li>
+    <li>Directo o aleatorio: Permiten acceder directamente a cualquier registro del fichero, pero es necesario conocer la posición en la que se encuentra. La posición puede indicarse en bytes o mediante una clave.</li>
+    <li>Indexado: Los registros del fichero están agrupados en bloques de registros ordenados. Para acceder a los registros se utiliza un índice en forma de tabla, que relaciona la primera clave de cada bloque con la posición en la que se encuentra. Una vez localizado el bloque, se recorren secuencialmente sus registros hasta encontrar el buscado.</li>
+    <li>Dinámico: Permite el acceso directo o por índice a algún registro, y a partir de ese se accede a los demás de forma secuencial.</li>
+</ul>
+
+<h2>Fichero Secuencial</h2>
+
+
+<p><strong>Características de escritura de registros:</strong></p>
+<ul>
+    <li>Los registros se escriben en el dispositivo de almacenamiento en posiciones físicamente contiguas, sin dejar espacios entre ellos, en la misma secuencia en la que se introdujeron.</li>
+    <li>Este tipo de ficheros pueden emplear dispositivos o soportes de acceso secuencial o no direccionables, como cintas de almacenamiento magnético de datos.</li>
+</ul>
+
+<p><strong>Operaciones:</strong></p>
+<ul>
+    <li>Recorrido del fichero: Los registros se recorren secuencialmente empezando por el principio del fichero y hasta llegar al final.</li>
+    <li>Acceso a un registro: Requiere crear un proceso en el que se recorre el fichero y se compara el valor del campo a localizar con el valor del mismo campo de los registros recorridos.</li>
+    <li>Consulta de un registro: Requiere primero acceder al registro. Después la lectura es directa.</li>
+    <li>Inserción dun registro: Solo puede hacerse al final del fichero. No se pueden insertar nuevos registros entre los ya existentes.</li>
+    <li>Borrado dun registro: Requiere primero acceder al registro. Después el registro no se puede eliminar físicamente, sino que se marcará como borrado (borrado lógico). Los registros con la marca de borrados no se tienen en cuenta en las otras operaciones.</li>
+    <li>Modificación de un registro: No es posible la modificación. En su lugar se procederá a borrar el registro e insertarlo de nuevo, con el campo modificado.</li>
+    <li>Para mantener ordenado y compacto el fichero, es necesario realizar periódicamente operaciones de mantenimiento: copiar los registros no borrados en otra posición de memoria.</li>
+</ul>
+
+
+<p><strong>Ventajas:</strong></p>
+<ul>
+    <li>Acceso rápido a un bloque de registros contiguos.</li>
+    <li>No se desperdicia espacio de almacenamiento en el dispositivo, porque no hay huecos.</li>
+    <li>Se puede usar cualquier tipo de registro: longitud fija, variable o indefinida.</li>
+</ul>
+
+
+<h2>Fichero Secuencial Encadenado</h2>
+
+<ul>
+    <li>Un puntero es un campo adicional que almacena la dirección de otro registro en el fichero. Usando el puntero podemos acceder a ese registro.</li>
+    <li>El uso de punteros permite recorrer los registros en un orden distinto al orden en que fueron registrados, estableciendo una secuencia lógica.</li>
+    <li>Dado un registro, llamaremos "registro siguiente" a aquel al que se accede usando el puntero almacenado en el primero.</li>
+    <li>Los registros quedarán ordenados mediante el orden que establece la secuencia de punteros.</li>
+    <li>La ordenación generalmente está relacionada con el valor de algún otro campo.</li>
+</ul>
+
+
+<p><strong>Utiliza dos marcas especiales:</strong></p>
+<ul>
+    <li><b>Puntero cabeceira:</b> Un puntero adicional que indica dónde comienza la secuencia.</li>
+    <li><b>Marca de final de ficheiro:</b>
+         Indica dónde termina la secuencia.</li>
+</ul>
+
+<p><strong>Operaciones:</strong></p>
+<ul>
+    <li><b>Recorrido del fichero:</b> Los registros se recorren secuencialmente utilizando los punteros, empezando por el puntero cabeceira y terminando en la marca de final de ficheiro.</li>
+    <li><b>Acceso a un registro:</b> Requiere crear un proceso en el que se recorre el fichero y se compara el valor del campo a localizar con el valor del mismo campo de los registros recorridos.</li>
+    <li><b>Consulta dun registro:</b> Requiere primero acceder al registro. Después la lectura es directa. Tipicamente se harán consultas por el criterio de ordenación, por lo que bastará con seguir el puntero al registro siguiente.</li>
+    <li><b>Inserción dun registro:</b> La inserción física solo puede hacerse al final del fichero. Para insertar un registro entre los ya existentes, se insertará al final y se modificarán los punteros para mantener el orden.</li>
+    <li><b>Borrado dun registro:</b> Requiere primero acceder al registro. Después se modificará el valor del puntero del registro anterior para que apunte al registro siguiente al que se quiere eliminar. El borrado, por tanto, es lógico.</li>
+    <li><b>Modificación dun registro:</b> No es posible la modificación. En su lugar se procederá a borrar el registro e insertarlo de nuevo, con el campo modificado.</li>
+    <li><b>Para mantener ordenado y compacto el fichero, es necesario realizar periódicamente operaciones de mantenimiento:</b> copiar los registros no borrados en otra posición de memoria y actualizar los punteros.</li>
+</ul>
+
+
+<h2>Fichero secuencial doblemente encadenado</h2>
+
+<p>Variación de los ficheros encadenados:</p>
+<ul>
+    <li>Cada registro mantiene dos punteros:</li>
+    <ul>
+        <li>Al registro siguiente.</li>
+        <li>Al registro anterior.</li>
+    </ul>
+    <li>Permite recorridos en ambos sentidos de la ordenación.</li>
+    <li>Permite accesos más rápidos: se usarán los punteros en el sentido más conveniente.</li>
+    <li>Facilita algunas operaciones, por ejemplo, el borrado.</li>
+    <p class="destacado">Facilita el borrado porque cuando tienes dos punteros en cada registro que apuntan al registro anterior y al siguiente, puedes simplemente actualizar esos punteros para "saltar" el registro que deseas eliminar. Aquí hay una explicación más detallada:</p>
+    <li>Las actualizaciones requieren actualizar ambos punteros.</li>
+</ul>
+
+<h2>Fichero de acceso directo o aleatorio</h2>
+
+<p><strong>Organización con clave:</strong></p>
+
+<ul>
+    <li>Cada registro tiene un campo adicional clave, que permite localizarlo físicamente en el almacenamiento.</li>
+    <li>Usando la clave se puede recuperar la posición física del registro en el almacenamiento y acceder a él directamente.</li>
+    <li>Los registros pueden almacenarse en cualquier posición física del disco: acceso aleatorio.</li>
+    <li>Suele usarse con sistemas de almacenamiento de memoria masiva de acceso directo, como discos magnéticos.</li>
+</ul>
+
+
+<p><strong>Tipos de de fichero directo</strong></p>
+<ul>
+    <li>Acceso directo: La clave contiene la dirección de memoria donde está el registro.</li>
+    <li>Acceso directo indexado: Utiliza una tabla que relaciona índices con direcciones de memoria. La clave contiene un índice que se usa para recuperar en la tabla la dirección de memoria donde está el registro.</li>
+    <li>Acceso directo calculado: Utiliza una función matemática. La clave contiene un valor que al serle aplicada dicha función permite obtener la dirección de memoria donde está el registro.</li>
+</ul>
+
+<p><strong>Otras características:</strong></p>
+<ul>
+    <li>Posicionamiento inmediato.</li>
+    <p class="destacado">Los ficheros de acceso directo están diseñados para permitir el acceso inmediato a registros específicos utilizando una clave. Esto significa que puedes acceder directamente a los datos que necesitas sin tener que recorrer todos los registros en secuencia.</p>
+
+    <li>Registros de longitud fija.</li>
+    <p class="destacado">Para facilitar el acceso directo, se suelen utilizar registros de longitud fija. Esto significa que cada registro ocupa la misma cantidad de espacio en el almacenamiento. Dado que se utiliza una clave para ubicar registros, esta uniformidad en la longitud facilita la búsqueda y el acceso directo.</p>
+
+    <li>Los registros se borran colocando un cero en la posición que ocupan.</li>
+    <p class="destacado">La capacidad de borrar registros colocando un cero en la posición que ocupan se refiere a la eliminación lógica de registros. En lugar de eliminar físicamente un registro, se marca como borrado, lo que permite mantener la integridad de la estructura del fichero y facilita la recuperación si es necesario.</p>
+    
+    <li>Permiten el uso de algoritmos de compactación de huecos.</li>
+    <p class="destacado">Cuando se eliminan registros, se crean huecos en el fichero. Los algoritmos de compactación de huecos permiten reorganizar el fichero para eliminar estos espacios vacíos y reducir el desperdicio de espacio de almacenamiento. Esto ayuda a mantener el fichero eficiente a medida que se realizan operaciones de eliminación.</p>
+
+    <li>En la creación del fichero se establece su tamaño máximo, es decir, el número máximo de registros que puede contener.</li>
+    <p class="destacado">Establecer un tamaño máximo para el fichero significa que se reserva una cantidad específica de espacio en el almacenamiento para él. Esto puede ser útil para gestionar el uso de recursos y garantizar que el fichero no crezca indefinidamente.</p>
+
+    <li>Se usan cuando el acceso a los datos de un registro siempre se hace con la misma clave y la velocidad de acceso a un registro es lo que más nos importa.</li>
+    <li>Permiten la actualización de los registros en el mismo fichero, sin necesidad de copiarlo.</li>
+    <p class="destacado"> Los ficheros de acceso directo se utilizan cuando el acceso a los datos de un registro siempre se hace con la misma clave. Esto es especialmente eficiente cuando los datos se buscan y recuperan frecuentemente utilizando una clave específica.</p>
+
+    <li>Permiten actualizar procesos en tiempo real.</li>
+    <p class="destacado">Los ficheros de acceso directo permiten actualizar registros en el mismo fichero sin necesidad de copiarlo. Esto es útil cuando necesitas realizar actualizaciones en tiempo real en los datos, lo que puede ser crítico en aplicaciones que requieren procesamiento continuo.</p>
+</ul>
+
+<p><strong>Operaciones:</strong></p>
+<ul>
+    <li><b>Recorrido del fichero:</b> Se recorrerá el índice secuencialmente y se accederá a cada registro directamente.</li>
+    <li><b>Acceso a un registro:</b> Acceso directo a partir de su clave utilizando el índice.</li>
+    <li><b>Consulta de un registro:</b> Requiere primero acceder al registro. Después la lectura es directa.</li>
+    <li><f>Inserción de un registro:</f> Si el índice está lleno, no se permite insertar más elementos. Si hay espacio, se inserta el elemento en la memoria y se almacena en el índice, en la posición correspondiente, su clave y su posición en memoria.</li>
+    <li><b>Borrado de un registro:</b> Se modifica el índice para que la posición del elemento con esa clave tome valor cero.</li>
+    <li><b>Modificación de un registro:</b>
+         Requiere primero acceder al registro. Después se modifican los campos que corresponda.</li>
+</ul>
+
+<h2>Ficheros Indexados</h2>
+
+<p><strong>Organización de registros en memoria:</strong></p>
+<ul>
+    <li>Los registros del fichero se guardan <b>secuencialmente</b> en memoria ordenados por uno de sus campos (<b>clave</b>).</li>
+    <li>El fichero se divide lógicamente en <b>bloques de registros</b>. Todos los bloques tienen el mismo tamaño.</li>
+    <li>Se utiliza un <b>índice en forma de tabla</b>, que relaciona la primera clave de cada bloque con la posición en memoria en la que se encuentra.</li>
+    <li>Usando el índice se puede acceder de forma directa al <b>primer registro de cada bloque</b>.</li>
+    <li>Una vez localizado el bloque, el acceso a los registros será <b>secuencial</b>.</li>
+</ul>
+
+
+
+<p><strong>Cada fichero consta de 3 áreas:</strong></p>
+<ol>
+    <li><strong>Área primaria:</strong> Contiene los registros ordenados secuencialmente por la chave y agrupados en bloques.</li>
+    <li><strong>Área de índices:</strong> La crea el sistema en el momento de almacenar los datos. Cada registro contiene dos campos:
+        <ul>
+            <li>El valor de la chave del primer registro de un bloque.</li>
+            <li>La posición de memoria del primer registro del bloque.</li>
+        </ul>
+    </li>
+    <li><strong>Área de overflow o de excedentes:</strong> Contiene los registros que se añadieron al fichero después de su creación. Los registros no están ordenados por la clave y su clave puede intercalarse con las del área primaria.</li>
+</ol>
+
+
+<p><strong>Operaciones:</strong></p>
+<ul>
+    <li><strong>Recorrido del ficheiro:</strong> No es fácil realizar un recorrido ordenado de los registros debido al área de overflow.</li>
+    <li><strong>Acceso a un registro:</strong> Puede requerir 2 o 3 pasos:
+        <ul>
+            <li>Utilizar el <b>índice</b> para acceder directamente al <b>primer registro de su bloque</b>.</li>
+            <li>Realizar un <b>recorrido secuencial</b> de los registros del bloque hasta encontrar el registro.</li>
+            <li>Si no se encuentra, realizar un <b>recorrido secuencial</b> de los registros del <b>área de overflow</b> hasta encontrarlo.</li>
+        </ul>
+    </li>
+    <li><strong>Consulta de un registro:</strong> Requiere primero acceder al registro. Después la lectura es directa.</li>
+    <li><strong>Inserción de un registro:</strong> Se insertará al <b>final del área de overflow</b>. No se permiten inserciones en el área primaria después de la creación.</li>
+    <li><strong>Borrado de un registro:</strong> Requiere primero acceder al registro. Después el registro no se puede eliminar físicamente, sino que se marcará como borrado (<b>borrado lógico</b>).</li>
+    <li><strong>Modificación de un registro:</strong> No es posible la modificación. En su lugar se procederá a <b>borrar el registro e insertarlo de nuevo</b>, con el campo modificado.</li>
+    <li>Para mantener ordenado y compacto el ficheiro, es necesario <b>reorganizar el archivo</b> cuando hay muchos <b>borrados</b> o si el <b>área de overflow es grande</b>.</li>
+</ul>
+
+
+</body>
+</html>
