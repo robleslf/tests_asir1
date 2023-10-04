@@ -21,6 +21,7 @@ body {
     padding: 0;
     background: linear-gradient(135deg, #2d2d2d, #a1a0a0); /* Colores más oscuros para el fondo */
     color: aliceblue;
+    font-size: large;
 }
 
 h1, h2 {
