@@ -19,17 +19,18 @@ body {
     font-family: "Raleway", Arial, sans-serif;
     margin: 20px;
     padding: 0;
-    background: linear-gradient(135deg, #2d2d2d, #444444); /* Colores más oscuros para el fondo */
+    background: linear-gradient(135deg, #2d2d2d, #a1a0a0); /* Colores más oscuros para el fondo */
+    color: aliceblue;
 }
 
 h1, h2 {
     color: #6b3c8e; /* Un púrpura oscuro para títulos */
     font-family: "Orbitron", sans-serif;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 2px 4px rgba(22, 21, 21, 0.7);
 }
 
 h3 {
-    color: #337ab7; /* Un azul más elegante para encabezados de tercer nivel */
+    color: #1e4464; /* Un azul más elegante para encabezados de tercer nivel */
     font-family: "Mooly", sans-serif;
 }
 
@@ -37,6 +38,7 @@ p {
     line-height: 1.6;
     font-family: "Mooly", sans-serif;
     font-size: large;
+    color: aliceblue;
 }
 
 ul, ol {
@@ -56,6 +58,7 @@ ul ul, ol ul, ul ol, ol ol {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 20px;
+    color: aliceblue;
 }
 
 /* Estilos para enlaces */
@@ -69,7 +72,7 @@ a:hover {
 }
 
 strong {
-    color: #854c27; /* Un marrón oscuro para texto fuerte */
+    color: #c63dca; /* Un marrón oscuro para texto fuerte */
 }
 
 .destacado {
@@ -83,4 +86,8 @@ strong {
 
 .destacado:hover {
     transform: scale(1.05);
+}
+
+b {
+    color:antiquewhite;
 }

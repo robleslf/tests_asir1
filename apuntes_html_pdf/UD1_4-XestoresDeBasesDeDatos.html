@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/003_style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Unidad 1. 4 - Gestores de Bases de Datos</h1>
+
+    <ul>
+        <li><strong>SXBD = Sistema Gestor de Bases de Datos</strong></li>
+        <ul>
+          <li>Son aplicaciones que permiten a los usuarios <b>definir, crear y mantener</b> una o varias bases de datos y proporcionan <b>acceso controlado</b> a las mismas.</li>
+          <li><b>Mantienen el modelo</b> de datos de la BD y administran sus datos.</li>
+          <li>Existen SGDB <b>específicos</b> para cada modelo de datos (jerárquico, en red, ...), nosotros trabajaremos solo con SGDB relacionales.</li>
+          <li>Para el funcionamiento de los SGDB relacionales se utilizan una serie de lenguajes específicos, incluidos en la definición del modelo relacional y basados en el <b>álgebra relacional</b>.</li>
+          <li>Ejemplos de SGDB: PostgreSQL, MySQL, MariaDB, Oracle, ...</li>
+        </ul>
+      </ul>
+<br>
+      <ul>
+        <li><strong>Servicios que proporciona un SGDB:</strong></li>
+        <ul>
+          <li><b>Definición de la base de datos:</b> Permiten especificar la <b>estructura</b> y tipo de los datos de la BD, así como sus restricciones.</li>
+          <li><b>Manipulación de los datos:</b> Consulta, inserción, eliminación y modificación de los datos almacenados en la BD.</li>
+          <li><b>Acceso controlado a la BD:</b> Mediante sistemas que permiten establecer restricciones de acceso y control sobre los datos:</li>
+          <ul>
+            <li>Sistema de seguridad que controla el <b>acceso de los usuarios</b> a los datos.</li>
+            <li>Sistema de integridad que mantiene la <b>integridad y consistencia</b> de los datos.</li>
+            <li>Sistema de <b>control de concurrencia</b> que permite el acceso compartido a los datos.</li>
+            <li><b>Diccionario de datos </b>o catálogo de datos que contiene la descripción de los datos de la BD.</li>
+          </ul>
+        </ul>
+      </ul>
+      
+<br>
+      <ul>
+        <li><strong>El modelo de BD incluye la definición de lenguajes específicos para gestionar los datos, que los SGDB utilizan:</strong></li>
+        <ul>
+          <li><strong>DDL</strong> (Data Definition Language) o Lenguaje de Definición de Datos: Se utilizan para <b>definir</b> los datos, sus estructuras, sus tipos y las restricciones entre ellos.</li>
+          <li><strong>DML </strong>(Data Manipulation Language) o Lenguaje de Manipulación de Datos: Se utiliza para realizar <b>consultas, inserciones, modificaciones y eliminaciones</b> sobre los datos de la BD.</li>
+          <li><strong>DCL</strong> (Data Control Language) o Lenguaje de Control de Datos: Se utiliza para establecer reglas que controlen el <b>acceso de los usuarios</b> a los datos.</li>
+          <li><strong>TCL</strong> (Transaction Control Language) o Lenguaje de Control de Transacciones: Se utiliza para <b>controlar las transacciones</b>, que son operaciones que incluyen varios pasos y que deben realizarse todos o ninguno para mantener la integridad de los datos.</li>
+        </ul>
+      </ul>
+      
+<br>
+      <ul>
+        <li><strong>La arquitectura de BD define:</strong></li>
+        <ul>
+          <li><strong>Tres niveles de abstracción:</strong> <b>físico o interno</b>, <b>conceptualo lógico</b> , y <b>externo o de usuario</b>.</li>
+          <li><strong>Dos tipos de independencia de datos:</strong> <b>física</b> (los cambios en el esquema físico no afectan al esquema lógico) y <b>lógica</b> (los cambios en el esquema lógico no afectan a la visión de los usuarios).</li>
+        </ul>
+        <li>Los SGDB gestionan los tres niveles de abstracción y los dos tipos de independencia.</li>
+        <ul>
+          <li>El <b>modelo físico</b> (cómo se almacenan los datos en memoria y cómo se accede a ellos) es gestionado internamente por el <b>SGDB</b> de forma <b>transparente</b> para el usuario.</li>
+          <li>Los <b>modelos conceptual y de usuario</b> son definidos y gestionados por el <b>diseñador y el administrador</b> de bases de datos.</li>
+          <li>Los <b>usuarios finales</b> solo acceden a los datos a través de su propio <b>modelo externo (vista)</b>.</li>
+        </ul>
+      </ul>
+      
+
+      <h2>Diccionario de datos</h2>
+
+      <ul>
+        <li>Elemento de la base de datos que recoge la <b>descripción de todos los elementos de la BD</b>, sus <b>tipos de datos</b> y sus <b>descripciones</b>.</li>
+        <li>Las descripciones de los datos son a su vez datos almacenados en la BD: <b>metadatos</b>.</li>
+        <li>Los diccionarios de datos son <b>accesibles a los usuarios</b> (según su modelo externo) y se utilizan para obtener <b>información semántica</b> sobre los datos.</li>
+      </ul>
+      
+      <ul>
+        <li><b>Información almacenada</b> en el diccionario de datos:</li>
+        <ul>
+          <li><b>Nombre, tipo y tamaño</b> de los datos.</li>
+          <li>Nombre de las <b>relaciones</b> entre los datos.</li>
+          <li><b>Restricciones</b> de integridad sobre los datos.</li>
+          <li><b>Nombres de los usuarios</b> (personas o aplicaciones) autorizados a acceder a la base de datos.</li>
+          <li><b>Esquemas interno, conceptual y externo</b>, y correspondencia entre ellos.</li>
+          <li><b>Estadísticas</b> de uso.</li>
+          <li>...</li>
+        </ul>
+      </ul>
+
+      
+      <ul>
+        <li><strong>Beneficios</strong> que aporta el uso de diccionarios de datos:</li>
+        <ul>
+          <li><b>Control centralizado</b> de los datos en un solo punto.</li>
+          <li>Concreción del <b>significado de los datos</b>, favoreciendo la comunicación.</li>
+          <li><b>Información semántica</b> de los datos disponible para los usuarios.</li>
+          <li>Control de <b>qué datos pertenecen a cada usuario</b>.</li>
+          <li>Fácil <b>identificación de redundancias e inconsistencias</b> de los datos, dado que están centralizados.</li>
+          <li>Mantenimiento de un <b>historial de cambios</b> de los datos.</li>
+          <li>Permite determinar el <b>impacto de un cambio antes de ser aplicado</b>.</li>
+          <li>Control de la <b>seguridad</b>.</li>
+          <li>Control de la <b>integridad</b> de los datos.</li>
+        </ul>
+      </ul>
+
+      <h2>Funciones de los DBMS</h2>
+    
+    
+      <ul>
+        <li>Capacidad de <b>almacenar datos</b> en la base de datos, <b>acceder </b>a ellos y <b>actualizarlos</b>, ocultando al usuario la estructura interna de los datos.</li>
+        <li>Proporcionar un <b>catálogo</b> en el que se almacenen las descripciones de los datos (<b>diccionario de datos</b>) y hacerlo accesible a los usuarios.</li>
+        <li><b>Control de transaccionalidad:</b> garantizar que las actualizaciones incluidas en la misma transacción se realicen todas o ninguna.</li>
+        <li><b>Control de concurrencia:</b> garantizar que los datos se actualicen correctamente cuando varios usuarios los están actualizando simultáneamente.</li>
+        <li><b>Capacidad de recuperación</b> de los datos en caso de que ocurra algún incidente que los dañe (interrupción de operaciones, fallos de hardware, fallos de software, ...).</li>
+        <li><b>Control de acceso:</b> solo los usuarios autorizados pueden acceder a los datos.</li>
+      </ul>
+
+      <ul>
+        <li>Integración con <b>software de comunicación</b> que permita el <b>acceso remoto</b> a los datos desde otros equipos.</li>
+        <li>Permitir establecer <b>reglas</b> que garanticen la <b>integridad y consistencia</b> de los datos, y que estos se correspondan con su semántica (<b>restricciones</b>).</li>
+        <li>Mantener la <b>independencia externa</b>, de forma que cambios en la estructura de los datos <b>no afecten a los programas</b> que los utilizan. Esto es fácil en el caso de añadir elementos o campos, pero difícil en el caso de eliminarlos.</li>
+        <li>Proporcionar <b>herramientas que permitan administrar la base de datos</b> de forma efectiva. Algunas de estas estarán incluidas por el fabricante, mientras que otras deben ser producidas por el administrador. Por ejemplo, herramientas para: importar y exportar datos, monitorización de uso y funcionamiento, análisis estadístico de uso o de prestaciones, reorganización de índices, gestión del almacenamiento físico, ...</li>
+      </ul>
+
+      
+      <h2>Ventajas de los DBMS</h2>
+
+      <ul>
+        <li>Ventajas de los Sistemas Gestores de Bases de Datos con respecto a los Sistemas Gestores de Archivos.</li>
+        <ul>
+          <li>Debidas a la <b>integración</b> de los datos.</li>
+          <li>Debidas a la <b>interfaz común</b> que proporcionan.</li>
+        </ul>
+      </ul>
+
+      <h3>Ventajas debidas a la integración de los datos</h3>
+
+      <ul>
+        <li><b>Control de redundancia:</b> evita todos los problemas de la redundancia (costo de almacenamiento, velocidad, pérdida de integridad, ...). Mantienen cierto nivel de redundancia, necesario para relacionar los datos o para mejorar las prestaciones.</li>
+        <li><b>Consistencia de los datos:</b> al no haber apenas redundancia y estar el mismo dato accesible para todos los usuarios, es más fácil mantener la consistencia. En el caso de duplicados, es posible establecer restricciones que garanticen la consistencia.</li>
+        <li>Posibilidad de obtener más información con los mismos datos, al estar <b>todos integrados</b>.</li>
+        <li><b>Compartición de datos:</b> los datos no están aislados en los procesos o departamentos que los usan, sino que son compartidos por todos los usuarios, en función de sus permisos.</li>
+      </ul>
+
+      
+      <h3>Ventajas debidas a la interfaz común</h3>
+
+      <ul>
+        <li><n>Mejora en la integridad de los datos</n> (validez y consistencia de los datos), mediante el uso de <n>restricciones</n> sobre los datos o las relaciones entre ellos. Algunas restricciones son establecidas por el propio SGDB, mientras que otras deben ser establecidas por el administrador.</li>
+        <li>Mejora en la <b>seguridad</b> frente a usuarios <b>no autorizados</b>, al establecer un control de acceso mediante <b>claves</b>, y al establecer un sistema de autorizaciones a nivel de operación y de datos, que permite, por ejemplo, que un usuario pueda consultar un dato pero no modificarlo.</li>
+        <li>Mejora de la <b>accesibilidad de los datos</b>, mediante el uso de lenguajes de consulta o generación de informes en el <b>propio SGDB</b>, sin necesidad de usar un programa adicional.</li>
+      </ul>
+
+      <ul>
+        <li><b>Mejora de la productividad</b>, al disponer en el propio sistema de muchas <b>funciones estándar</b> (suma, unión de datos, subcadenas, ...) que pueden ser utilizadas por el programador sin necesidad de implementarlas.</li>
+        <li>Mejora del <b>mantenimiento</b> gracias a la <b>independencia de los datos</b>: cambios en los datos generalmente no requieren cambiar los programas que los utilizan.</li>
+        <li>Aumento de la <b>concurrencia</b>, mediante la gestión de la concurrencia, que permite múltiples accesos (consultas, modificaciones, ...) simultáneos a los mismos datos sin que afecte a su integridad.</li>
+        <li>Mejora de los servicios de <b>copias de seguridad y recuperación</b> ante fallos, mediante su automatización.</li>
+      </ul>
+      
+
+      <h3>Inconvenientes de los DBMS</h3>
+
+      <ul>
+        <li><b>Complejidad:</b> Es necesario comprender la funcionalidad que ofrecen los SGDB para poder aprovecharlos.</li>
+        <li><b>Tamaño:</b> Requieren mucho espacio en disco y mucha memoria para funcionar eficientemente.</li>
+        <li><b>Costo económico:</b> Los SGDB suelen ser costosos tanto en términos de licencias como de hardware necesario.</li>
+        <li><b>Costo del equipo adicional:</b> Debido a su tamaño y requerimientos, a menudo se necesita hardware adicional para soportar un SGDB.</li>
+        <li><b>Costo de conversión:</b> Si se parte de un sistema de gestión de archivos existente, la <b>migración</b> a un SGDB puede ser costosa y llevar tiempo.</li>
+        <li>Menores prestaciones para algún <b>proceso específico</b>: En algunos casos, para ciertas operaciones específicas, los sistemas de gestión de archivos pueden ser más eficientes que los SGDB.</li>
+        <li><b>Vulnerabilidad a fallos:</b> Dado que los datos están centralizados en un SGDB, si este falla, toda la organización puede quedar sin acceso a los datos, lo que puede ser un problema crítico.</li>
+      </ul>
+
+      
+      <h3>Lenguajes de los DBMS</h3>
+
+      <p>El modelo de base de datos incluye la definición de lenguajes específicos para gestionar los datos, que los Sistemas de Gestión de Bases de Datos (SGDB) utilizan:</p>
+<ul>
+  <li><strong>DDL</strong> (Data Definition Language) o Lenguaje de Definición de Datos.</li>
+  <li><strong>DML</strong> (Data Manipulation Language) o Lenguaje de Manipulación de Datos.</li>
+  <li><strong>DCL</strong> (Data Control Language) o Lenguaje de Control de Datos.</li>
+  <li><strong>TCL</strong> (Transaction Control Language) o Lenguaje de Control de Transacciones.</li>
+</ul>
+<p>Estos lenguajes permiten proporcionar las funcionalidades necesarias sobre la base de datos para cada tipo de usuario: administradores, diseñadores, programadores de aplicaciones y usuarios finales.</p>
+
+<p class="destacado">DDL (Data Definition Language) o Lenguaje de Definición de Datos:</p>
+<ul>
+  <li>Se utiliza para <b>definir</b> los datos, sus estructuras, sus tipos, sus restricciones y las relaciones entre los datos.</li>
+  <li>Se utiliza después de diseñar la base de datos y <b>elegir el Sistema de Gestión de Bases de Datos</b> (SGDB) que se utilizará, para implementar la base de datos diseñada en el SGDB elegido.</li>
+  <li>El lenguaje DDL <b>afecta a la estructura</b> de la base de datos, no a los propios datos almacenados.</li>
+  <li>Es utilizado por <b>administradores</b>, <b>diseñadores</b> del sistema y <b>programadores</b>. Nunca es utilizado por los usuarios finales del sistema.</li>
+</ul>
+
+
+<ul>
+  <li>Se utiliza para <b>implementar la base de datos</b> diseñada <b>en el Sistema de Gestión de Bases de Datos</b> (SGDB) elegido, lo que implica:</li>
+  <ul>
+    <li><b>Crear tablas y sus campos</b>, estableciendo tipos de datos, restricciones, semántica, relaciones con otras tablas, etc.</li>
+    <li><b>Crear usuarios</b> y otorgarles <b>permisos</b>.</li>
+    <li><b>Crear índices</b> y otras estructuras para mejorar la velocidad.</li>
+    <li><b>Crear vistas</b> con la información disponible para cada usuario.</li>
+    <li>Y más.</li>
+  </ul>
+  <li>También se utiliza para realizar <b>cambios en la estructura</b> de la base de datos en el <b>futuro</b>, lo que incluye:</li>
+  <ul>
+    <li><b>Añadir o eliminar tablas</b>, campos, índices, restricciones, etc.</li>
+    <li><b>Modificar tipos</b> de datos, restricciones, permisos, etc.</li>
+  </ul>
+</ul>
+
+<p class="destacado">DML (Data Manipulation Language) o Lenguaje de Manipulación de Datos:</p>
+<ul>
+  <li>Se utiliza para realizar <b>consultas</b>, <b>inserciones</b>, <b>modificaciones</b> y <b>eliminaciones</b> de <b>datos</b> en la base de datos.</li>
+  <li>Se utiliza una vez que la <b>base de datos ya ha sido creada</b> y su <b>estructura definida</b>.</li>
+  <li>Es utilizado por <b>todos los usuarios</b> de la base de datos, así como por <b>programas</b>.</li>
+  <li>En bases de datos <b>jerárquicas y en red</b>, el lenguaje DML es <b>procedural</b>, lo que significa que se debe especificar qué dato se obtiene y qué camino seguir para obtenerlo. A menudo, las sentencias DML deben estar incrustadas en un <b>lenguaje de alto nivel</b> para utilizar sus estructuras de control.</li>
+  <li>En bases de datos <b>relacionales</b>, el lenguaje DML es <b>declarativo</b>, lo que significa que el usuario especifica qué dato se obtiene, pero no la forma de acceder a él. El sistema de gestión de bases de datos (<b>SGDB</b>) se encarga del acceso a los datos.</li>
+</ul>
+
+
+<p class="destacado">DCL (Data Control Language) o Lenguaje de Control de Datos:</p>
+
+<ul>
+  <li>Se utiliza para establecer reglas que controlen el <b>acceso de los usuarios</b> a los datos.</li>
+  <li>Gestiona los <b>permisos de acceso y el acceso concurrente</b> de varios usuarios.</li>
+</ul>
+
+<p class="destacado">TCL (Transaction Control Language) o Lenguaje de Control de Transacciones:</p>
+
+<ul>
+  <li>Se utiliza para <b>controlar las transacciones</b>, que son operaciones que constan de varios pasos y que deben realizarse todos o ninguno para mantener la integridad de los datos.</li>
+</ul>
+      
+<h3>Clasificación de los DBMS</h3>
+
+<ul>
+    <li><strong>Según el modelo lógico utilizado:</strong> xerárquico, en red, relacional, orientado a objetos, ...</li>
+    <li><strong>Según el número de usuarios concurrentes:</strong> monousuario o multiusuario.</li>
+    <li><strong>Según la distribución física de la BD:</strong> centralizado o distribuido, en función de si toda la BD y el SXBD están en un solo equipo o distribuidos en varios.</li>
+    <li><b>Según el modelo:</b> libre (PostgreSQL, MaríaDB, ...) o propietario (Oracle, MySQL, ...).</li>
+    <li><b>Según el propósito:</b> de propósito general o específico. Los de propósito específico se utilizan en entornos con requisitos especiales de seguridad o velocidad que justifican el costo de construir un SXBD específico en lugar de usar uno comercial; por ejemplo, se utilizan en el control aéreo.</li>
+  </ul>
+
+    
+    </body>
+</html>
