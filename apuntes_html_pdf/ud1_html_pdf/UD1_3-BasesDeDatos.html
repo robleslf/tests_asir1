@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/../assets/css/002_style.css">
+    <title>UD1.3-Bases de Datos</title>
+</head>
+<body>
+    <h1>Bases de Datos</h1>
+
+    <h2>Orientación a los datos</h2>
+
+    <ul>
+        <li>Los datos se almacenan en una <b>estructura lógica</b> basada en las características de los <b>propios datos</b>.</li>
+        <li>El tratamiento de los datos se realiza mediante <b>aplicaciones y programas</b> que acceden a estas estructuras lógicas.</li>
+        <li>El almacenamiento y la organización de los datos son <b>independientes</b>
+             de su procesamiento.</li>
+        <li>Varias aplicaciones y procesos <b>distintos</b> pueden acceder a las mismas estructuras de datos.</li>
+      </ul>
+
+      <ul>
+        <li>Una base de datos <b>permitirá</b>:</li>
+        <ul>
+          <li>Reunir toda la información relacionada en un <b>único sistema de almacenamiento</b>.</li>
+          <li>Cualquier aplicación podrá usarla de forma <b>independiente</b>.</li>
+          <li>Facilita el tratamiento de la información y la evolución para el <b>desarrollo de aplicaciones</b>.</li>
+        </ul>
+        <li>Base de datos: Estructura de datos interrelacionados a la que pueden acceder <b>simultáneamente</b>
+             varios usuarios.</li>
+      </ul>
+      
+      <h2>Ventajas</h2>
+
+      <ul>
+        <li><strong>Independencia de los datos de los programas que los utilizan:</strong> Permite modificar los datos sin necesidad de modificar el código de las aplicaciones.</li>
+        <li><strong>Control de la redundancia:</strong> No se necesitan repeticiones de datos.</li>
+        <li><strong>Consistencia:</strong> Menor riesgo de que el mismo dato tome valores distintos.</li>
+        <li><strong>Integridad:</strong> Menor riesgo de errores al manipular los datos.</li>
+        <li><strong>Seguridad:</strong> Permite controlar qué usuarios pueden acceder a los datos.</li>
+        <li><strong>Acceso múltiple:</strong> Diversos usuarios o aplicaciones podrán acceder simultáneamente a la base de datos.</li>
+        <li><strong>Confidencialidad y seguridad:</strong> Se puede establecer un control de acceso a los datos para que algunos usuarios o aplicaciones puedan acceder a algunos datos y otros no, evitando que usuarios no autorizados utilicen la base de datos.</li>
+        <li><strong>Documentación:</strong> Incluye metadatos que describen la información de la base de datos (qué datos hay, qué representan, cuáles son sus posibles valores, qué dependencias tienen con otros datos, quién puede acceder, etc.).</li>
+        <li><strong>Eficiencia:</strong> Una mejor organización de los datos reduce el tiempo necesario para procesarlos.</li>
+        <li><strong>Menos almacenamiento:</strong> Una mejor estructuración de los datos, sin duplicados, reduce el espacio de almacenamiento necesario.</li>
+      </ul>
+
+      
+      <h2>Inconvenientes</h2>
+
+      <ul>
+        <li><strong>Coste:</strong> El software necesario para el almacenamiento de los datos y su gestión puede ser costoso.</li>
+        <li>Requiere <strong>personal especializado</strong>.</li>
+        <li><strong>Implementación larga y difícil</strong>.</li>
+        <li><strong>Ausencia de estándares reales:</strong> Los programas de gestión comerciales introducen pequeñas variaciones que se alejan del estándar.</li>
+      </ul>
+
+      
+      <h2>Visión abstracta de los datos</h2>
+
+      <ul>
+        <li>En los sistemas basados en BD:</li>
+        <ul>
+          <li>El almacenamiento se orienta hacia las <b>características de los datos</b>.</li>
+          <li><b>Programas y aplicaciones</b> acceden a los datos para procesarlos.</li>
+        </ul>
+        <li>Visión abstracta de los datos: Los <b>programas</b> que utilizan la BD <b>no tienen que conocer</b> detalles sobre el almacenamiento y mantenimiento de los datos:</li>
+        <ul>
+          <li><b>Facilidad de uso:</b> Solo deben centrarse en sus procesos.</li>
+          <li><b>Seguridad:</b> Solo tendrán acceso a lo que necesiten.</li>
+        </ul>
+      </ul>
+
+      
+      <ul>
+        <li>Arquitectura de tres niveles:</li>
+        <ul>
+          <li>Comité ANSI-SPARC (1975)</li>
+          <li>Objetivo: <b>separar</b> los programas de aplicación de la base de datos física.</li>
+          <li>3 niveles de abstracción:</li>
+          <ul>
+            <li><b>Físico o interno:</b> Describe cómo se almacenan físicamente las estructuras de datos.</li>
+            <li><b>Conceptual o lógico:</b> Describe la organización lógica de los datos y sus relaciones.</li>
+            <li><b>Externo de usuario o de vista:</b> Describe la BD tal como la perciben los usuarios.</li>
+          </ul>
+        </ul>
+      </ul>
+
+      
+      <ul>
+        <li class="destacado">Nivel físico o interno:</li>
+        <ul>
+          <li>Describe <b>cómo se almacenan físicamente</b> las <b>estructuras</b> de datos. Especifica: los archivos que contienen la información, su organización, los métodos de acceso a los registros, los tipos de registros, la longitud, los campos que los componen, las rutas de acceso, etc.</li>
+          <li>La descripción del nivel físico se hace a través de un <b>esquema interno</b>: un conjunto de definiciones y reglas que permite definir las tablas y cómo están relacionadas entre sí.</li>
+          <li>Los usuarios que trabajan en este nivel son los <b>diseñadores o administradores</b> de bases de datos. Es raro trabajar en este nivel. Solo se hace cuando se necesitan optimizaciones de estructuración de datos de bajo nivel.</li>
+        </ul>
+      </ul>
+
+      <ul>
+        <li class="destacado">Nivel conceptual o lógico:</li>
+        <ul>
+          <li>Describe la <b>organización lógica</b> de los <wbr> y las relaciones entre ellos. Trata de la estructura organizativa de los datos sin abordar las estructuras de almacenamiento físico.</li>
+          <li>La descripción del nivel conceptual se hace a través de un <b>esquema conceptual:</b> define las entidades, los atributos y sus propiedades, las relaciones, las operaciones del usuario y las reglas y restricciones de validación.</li>
+          <li>Los usuarios que trabajan en este nivel son los <b>programadores y administradores</b> de bases de datos, encargados de crear las estructuras lógicas necesarias para guardar la información.</li>
+        </ul>
+      </ul>
+      
+      <ul>
+        <li class="destacado">Nivel externo o de usuario o de vista:</li>
+        <ul>
+          <li>Describe la base de datos tal como la <b>perciben los usuarios</b>.</li>
+          <ul>
+            <li>La mayoría de los usuarios no necesitan conocer toda la estructura lógica de la base de datos.</li>
+            <li>Los usuarios no tienen que conocer detalles de la complejidad interna.</li>
+          </ul>
+          <li>La descripción del nivel externo se hace a través del <b>esquema externo</b>: conjunto de objetos de la base de datos a los que puede acceder un usuario, como tablas, vistas, formularios, informes, etc.</li>
+          <li>El nivel externo es la <n>percepción</n> de la base de datos que tiene un <b>usuario</b>; hay tantos niveles externos diferentes como grupos de usuarios.</li>
+        </ul>
+      </ul>
+
+      <h2>Independencia de los datos</h2>
+
+      <ul>
+        <li>Arquitectura de tres niveles ANSI-SPARC y el concepto de independencia de datos.</li>
+        <li>3 niveles de abstracción conducen a 2 tipos de independencia.</li>
+        <li>2 tipos de independencia:</li>
+        <ul>
+          <li><strong>Independencia física:</strong> Posibilidad de modificar el esquema interno sin tener que modificar ni el esquema conceptual ni el esquema externo.</li>
+          <li><strong>Independencia lógica:</strong> Posibilidad de modificar el esquema conceptual de la base de datos sin tener que modificar los esquemas externos ni los programas.</li>
+        </ul>
+      </ul>
+      
+      <ul>
+        <li><b><u>Independencia física</u>:</b> Posibilidad de modificar el esquema interno sin tener que modificar ni el esquema conceptual ni el esquema externo. Por ejemplo, no afectaría a los modelos lógicos ni a las aplicaciones:</li>
+        <ul>
+          <li>Reorganizar archivos físicos o añadir nuevos archivos de datos para mejorar el rendimiento.</li>
+          <li>Cambiar los datos de un soporte físico a otro.</li>
+          <li>Cambiar la forma de acceso a los registros (por ejemplo, usar un Btree en lugar de un índice).</li>
+          <li>Cambiar el formato de la codificación.</li>
+          <li>...</li>
+        </ul>
+      </ul>
+      
+      <ul>
+        <li><b><u>Independencia lógica</u>:</b> Posibilidad de modificar el esquema conceptual de la base de datos sin tener que modificar los esquemas externos ni los programas. Por ejemplo, no afectaría a las vistas ni a las aplicaciones:</li>
+        <ul>
+          <li>Eliminar un atributo de una entidad (excepto a las que usen ese atributo).</li>
+          <li>Eliminar una entidad (excepto a las que la usen).</li>
+        </ul>
+      </ul>
+      
+      <h2>Modelos de bases de datos</h2>
+
+      <ul>
+        <li><strong>Modelo:</strong> Representación de una <n>parte del mundo real</n>.</li>
+        <ul>
+          <li>Debe incluir aquellos <b>aspectos importantes</b> de los elementos a representar y excluir detalles de bajo nivel o irrelevantes.</li>
+          <li>Su observación y manipulación debe permitir obtener los mismos resultados que los que se obtendrían en la realidad.</li>
+        </ul>
+        <li><strong>Proceso de modelado:</strong> Definir una representación a partir de una parte del mundo real.</li>
+        <li><strong>Modelo de datos:</strong> Conjunto de <b>herramientas conceptuales</b> que permiten describir datos, sus relaciones y las reglas de integridad que debe cumplir.</li>
+        <li>El modelo de datos se establece durante el diseño de la base de datos y generalmente no cambia mucho. Los datos almacenados en la base de datos, en cambio, suelen cambiar con más frecuencia.</li>
+      </ul>
+      
+
+      <ul>
+        <li><strong>Evolución y tipos de modelos de datos:</strong></li>
+        <ul>
+          <li>Jerárquicos (principios de los 60).</li>
+          <li>En red (finales de los 60).</li>
+          <li>Relacional (desde 1970, es el más usado actualmente).</li>
+          <li>Multidimensionales.</li>
+          <li>Relacional extendido (evolución del relacional).</li>
+          <li>De objetos (para sistemas orientados a objetos y multimedia).</li>
+        </ul>
+      </ul>
+
+      
+      <h2>Modelo Jerárquico</h2>
+
+      <ul>
+        <li><b>Primeras bases de datos</b> (principios de los 60).</li>
+        <li>Los datos se organizan en registros almacenados <b>jerárquicamente</b> en forma de <b>árbol invertido</b>.</li>
+      </ul>
+
+      
+      <ul>
+        <li>Los registros se llaman <n>segmentos o nodos</n> y contienen <b>atributos</b> o <b>campos</b>.</li>
+        <li>Los nodos están organizados en niveles:</li>
+        <ul>
+          <li>Cada nodo puede tener <b>un solo nodo padre</b> y <b>varios nodos hijos</b>.</li>
+          <li>El nodo en el nivel más alto se llama <b>raíz</b> y no tiene padre.</li>
+        </ul>
+        <li>Cada nodo contiene los <n>campos comunes</n> a los nodos hijos, vinculados a él.</li>
+        <li>Las relaciones entre registros están representadas por <b>arcos o lazos</b>.</li>
+        <li>Fueron los modelos de bases de datos más usados en las décadas de <b>1970 y 1980</b>.</li>
+        <li>Actualmente se utilizan <b>IMS de IBM</b> y <b>Registro de Datos de Windows</b> de Microsoft.</li>
+      </ul>
+
+      
+      <h2>Modelo en red</h2>
+
+      <ul>
+        <li><b>Evolución de la jerárquica</b> (finales de los 60).</li>
+        <li>Inventada por <b>Charles Bachman</b> en 1969 y adoptada por <b>CODASYL</b>.</li>
+        <li>Mantiene las relaciones jerárquicas, pero <b>cada registro puede tener más de un padre</b>: los registros se relacionan en forma de red.</li>
+        <li>Permite representar <b>cualquier relación</b> entre los datos.</li>
+        <li>El manejo de los datos es <b>complejo</b>.</li>
+        <li>Utilizada, por ejemplo, por <b>IDMS</b> (Sistema de Gestión de Bases de Datos Integradas) de <b>Computer Associates</b>.</li>
+      </ul>
+
+      
+      <h2>Modelo Relacional</h2>
+
+      <ul>
+        <li>Modelo relacional de <b>Codd</b> (1970):</li>
+        <ul>
+          <li>Plantea que los datos deberían relacionarse a través de <b>interrelaciones naturales y lógicas</b>.</li>
+          <li>Los datos se representan como tablas llamadas <b>relaciones</b>.</li>
+          <ul>
+            <li>Cada fila de la tabla representa un <b>registro</b>.</li>
+            <li>Cada columna de la tabla representa un <b>campo</b>.</li>
+          </ul>
+        </ul>
+      </ul>
+
+      <ul>
+        <li>Las <b>tablas son independientes</b> pero están relacionadas por una <b>vinculación común</b>.</li>
+        <li>Permite <b>redundancia e inconsistencia mínimas</b>.</li>
+        <li>Los datos pueden ser manejados aplicando <b>álgebra y cálculo relacional</b>.</li>
+      </ul>
+      <ul>
+        <li><strong>Ventajas:</strong></li>
+        <ul>
+          <li>Los usuarios y diseñadores perciben el sistema como un conjunto de tablas, los <b>detalles físicos complejos permanecen ocultos</b>.</li>
+          <li><b>Independencia entre los datos y los dispositivos</b> de almacenamiento: los detalles de almacenamiento permanecen ocultos.</li>
+          <li><b>Independencia estructural:</b> Los usuarios se centran en los datos a los que deben acceder, y no en la ruta que deben seguir para acceder a ellos. Cambios en la estructura de la base de datos no afectan a la capacidad de acceso a los datos.</li>
+          <li><b>Sencillez conceptual:</b> debido a que el sistema cuida el almacenamiento físico de los datos, los diseñadores se centran en la representación lógica de la base de datos.</li>
+          <li><b>Facilidad de diseñar, gestionar y utilizar</b> la base de datos, debido a la independencia estructural y de los datos.</li>
+          <li>Permite realizar consultas y manipulaciones con un lenguaje sencillo (lenguaje <b>SQL</b>).</li>
+        </ul>
+      </ul>
+      <ul>
+        <li><strong>Inconvenientes:</strong></li>
+        <ul>
+          <li>Requiere una <b>inversión considerable</b> en hardware y software para evitar que sea lento (cada vez menos gracias a la evolución del hardware y los sistemas operativos).</li>
+          <li>El <b>diseño deficiente es bastante común </b>debido a la facilidad de uso de esta herramienta para personas sin experiencia. A medida que la base de datos crece, si el diseño es inadecuado, el sistema se vuelve más lento y se producen anomalías.</li>
+          <li>Debido a la facilidad de uso, los usuarios finales tienden a crear <b>subconjuntos</b> de bases de datos que pueden generar <b>datos inconsistentes</b>.</li>
+        </ul>
+      </ul>
+      <ul>
+        <li>El modelo relacional reemplazó al modelo de red porque:</li>
+        <ul>
+          <li>Permite representar la realidad de una manera más <b>sencilla</b>.</li>
+          <li>Ofrece una mayor <b>independencia</b> de datos.</li>
+          <li>Admite consultas y manipulaciones con un <b>lenguaje relativamente sencillo</b>.</li>
+        </ul>
+        <li>Es el <b>modelo más utilizado</b> actualmente.</li>
+        <li>Evolución: modelo <b>relacional ampliado</b> y modelos <b>orientados a objetos</b> (más visuales).</li>
+        <li>Se estudiará con más detalle en las siguientes unidades.</li>
+      </ul>
+      
+      <h2>Modelo Multirrelacional</h2>
+
+      <ul>
+        <li>Variante de la base de datos relacional en la que los datos se organizan en <b>más de dos dimensiones</b> (no solo filas y columnas).</li>
+        <li>Tiene cierta similitud con las <b>hojas de cálculo</b>.</li>
+        <li>Apenas se utiliza.</li>
+      </ul>
+      
+      <h2>Modelo orientado a objetos</h2>
+
+      <ul>
+        <li>Diseñada según el paradigma de los <b>lenguajes orientados a objetos</b> (años 90).</li>
+        <li>Los datos se representan en <b>forma de objetos</b>.</li>
+        <li>Cada objeto almacena:</li>
+        <ul>
+          <li>Los propios <b>datos</b>.</li>
+          <li>Las <b>relaciones</b> con otros objetos.</li>
+          <li>Las <b>operaciones</b> que se pueden realizar con esos datos.</li>
+        </ul>
+      </ul>
+      <ul>
+        <li>La estructura básica es el <b>objeto</b>: representa una <b>entidad individual</b> (el cliente Frinsa, el alumno Miguel, ...).</li>
+        <li>Los objetos se agrupan en <b>clases</b> que los definen:</li>
+        <ul>
+          <li>Todos los objetos de la <b>misma clase</b> tendrán las <b>mismas características</b>: <b>atributos</b>.</li>
+          <li>Todos los objetos de la <b>misma clase</b> tendrán los <b>mismos comportamientos</b>: <b>métodos</b>.</li>
+        </ul>
+        <li>Ejemplo: Clase alumno:</li>
+        <ul>
+          <li>Atributos: nombre, dirección, materias matriculadas, ...</li>
+          <li>Métodos: matricularse, convalidar, aprobar, ...</li>
+        </ul>
+      </ul>
+      <ul>
+        <li>Las clases se organizan en una <b>jerarquía de clases</b> que se asemeja a un árbol invertido donde cada clase tiene solo un padre.</li>
+        <li>Ejemplo: la clase cliente y la clase proveedor pertenecen a la clase padre empresa.</li>
+      </ul>
+      <ul>
+        <li>La <b>herencia</b> es la capacidad de un objeto para heredar los <b>atributos y métodos</b> de sus antecesores.</li>
+        <li>Ejemplo: la clase cliente y la clase proveedor heredan los atributos y métodos de la clase empresa.</li>
+      </ul>
+      <ul>
+        <li>Soporta tipos de <b>datos gráficos, imágenes, voz y texto </b>de forma natural.</li>
+        <li>Suele utilizarse en <b>aplicaciones web </b>para multimedia.</li>
+      </ul>
+      
+      
+</body>
+</html>

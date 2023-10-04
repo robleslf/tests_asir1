@@ -1,0 +1,91 @@
+/* Fuentes */
+
+@font-face {
+    font-family: "Mooly";
+    src: url(../fonts/Mooli/Mooli-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Orbitron";
+    src: url(../fonts/Orbitron/Orbitron-VariableFont_wght.ttf);
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background: linear-gradient(135deg, #9034db, #bdc3c7);
+}
+
+h1, h2 {
+    color: #e0ad3e;
+    font-family: Orbitron;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Agrega una sombra de borde negro */
+}
+
+h3 {
+    color: crimson;
+    font-family: Mooly;
+}
+
+p {
+    line-height: 1.6;
+    font-family: Mooly;
+    font-size: large;
+}
+
+ul, ol {
+    margin: 10px 0;
+    padding-left: 20px;
+    font-size: large;
+}
+
+li {
+    margin-bottom: 5px;
+    font-size: large;
+    font-family: Mooly;
+}
+
+
+
+/* Estilos para listas dentro de listas */
+ul ul, ol ul, ul ol, ol ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+/* Estilos para enlaces */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+strong {
+    color: darkorange;
+}
+
+
+.destacado {
+    border: 2px solid #fff; /* Borde blanco sólido */
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Sombra blanca */
+    background: linear-gradient(135deg, #9034db, #bdc3c7); /* Fondo con degradado */
+    padding: 10px; /* Espaciado interno para separar el contenido del borde */
+    transition: all 0.3s ease; /* Transición suave */
+  }
+  
+.destacado:hover {
+    transform: scale(1.05); /* Escalado al pasar el ratón por encima */
+  }
+  
