@@ -1,0 +1,135 @@
+= Comandos ISO
+
+* *pwd:* En qué directorio estamos posicionados.
+* *clear:* Limpia pantalla.
+* *exit:* Salir de la terminal.
+* *id:* Toda la información sobre nuestra cuenta: -grupos, nombres y números
+
+[EXAMPLE]
+====
+usuario=número_de_grupo(nombre_de_grupo)
+====
+
+* *id -nu:* Nombre de usuario; el parámetro (los parámetros van con guión) nu es "name user", y puede ir en diferente orden *-un*.
+
+* *id -u:* Número de usuario.
+
+* *id -g:* Número de grupo principal.
+
+* *id -gn:* Nombre del grupo principal.
+
+* *groups:* Nos muestra todos los grupos a los que pertenecemos.
+
+* *uname:* 
+
+* *uname -n:* Nombre del sistema. Se suele utilizar con parámetros, es raro usarlo solo.
+- *-n:* Nodo. Es el nombre del PC. 
+- *-o:* Nombre completo del Sistema Operativo.
+- *-p:* Procesador. Muestra la arquitectura, p.ej: x86_64.
+- *-r:* Release; versión del kernell, núcleo.
+- *-a:* BUscarlo bien, pero creo que muestra todo lo de uname (all).
+
+* *date:* nos muestra la fecha/hora
+
+* *bc:* Entras a la calculadora. 
+- Ctrl+D (^d) para salir.
+
+* *man:* Manual del sistema. Va seguido del comando del que quieres saber la ayuda.
+- -date: Ayuda del comando date.
+
+* *info:* Información. Se basa en el man, pero suele ser más entendible. Es indistinto usar uno u otro, donde se encuentre mejor. Suele dar más ejemplos el info.
+
+* *whatis [...]:* Nos dice para qué sirve un parámetro, por ejemplo: _whatis pwd_.
+
+* *ls:* (listar), nos muestra el contenido de donde estamos. Tiene una serie de colores (en Ubuntu al menos).
+- *-a:* Nos muestra los ocultos.
+- *.:* Nos muestra lo del directorio actual, es lo mismo que no poner nada.
+- *..:* Nos muestra lo que hay en el directorio padre.
+- *A:* Nos saca lo mismo que el _-a_, pero no nos saca los directorios de referencia, saca menos información.
+- *l:* Listado largo, tiene la mayoría de la información que estamos buscando: nombre, tamaño de la carpeta, hora y fehca de creación... Y el tipo de fichero que es (la d es de directorio, el . un fichero oculto, la _ un fichero ordinario...) y los permisos (rwx), quién es el propietario del fichero y cuál es el grupo primario (el grupo que sale es el grupo principal que era en el momento de la creación)
+- *-1:* La lista la quiero en una columna; no existe el -2 xD. Obviamente si lo combinas con -A no hace falta porque ya lo saca en una columna. Carece de sentido.
+- *ls /:* En este caso nos muestra lo que hay en la raíz del sistema; se puede poner otro sitio en vez de _/_, por ejemplo *ls /home -l*.
+- *D*:* Que liste todo lo que empiece por M. Si buscamos directorios hay que hacer el siguiente comando.
+- *-d M*:* Especifica que buscas un directorio la _-d_.
+- *ls -ld M\*:* > Musica.vacio: Te crea el directorio que le pones detrás del _>_
+- *ls -ld \*ca*:* Que muestre lo que empiece como sea, que contenga ca, y que acabe como sea, como si no hay nada más del _ca_.
+- ls -ld *s > termina.s: No lo mostrará por pantalla, porque le estás cambiando la salida al archivo que le mandas crear después del _>_.
+
+[NOTE]
+Los parámetros se pueden combinar; por ejemplo: *ls -la*
+
+[NOTE]
+La ruta y el parámetro pueden ir uno delante del otro indistintamente: *ls .. -l* = *ls -l ..*
+
+* *cat nombre.fichero:* Visualizamos el contenido de un fichero ordinario.
+* *cat > nombre.fichero:* Crear un fichero de forma interactiva; le vas a poner datos y los va guardando en el fichero; cuando quieras acabar, Ctrl+D.
+
+[NOTE]
+AQUÍ FALTAN LOS COMANDOS DEL JUEVES Y VIERNES ÚLTIMOS DE SEPTIEMBRE.
+
+
+* *ls -l d-uno:* mostrar el contendio del directorio d_uno-
+* *ls -l d_uno/d_dos:* mostrar el contenido de d_dos.
+
+* *ls -R / 2>/dev/null:* QUe haga un listado recursivo desde la raíz (/)el 1 es para que muestre por pantalla, no es necesario porque lo pone por defecto. Pero el 2 es de error, y lo de null es papelera, para que se deshaga del error y lo mande a la papelera. Buscar mejor este comando porque está explicado raro aquí. Si quiero hacer un listado recursivo a partir del directorio actual, vale con no ponerle nada, o sino: *ls -R . 2>/dev/null*; y si quieres desde la raíz *ls -R / 2>/dev/null*
+
+Va entrando en todos los subdirectorios desde la raíz y diciéndote qué hay en cada uno.
+
+
+* *ls -r:* la r minúscula es de reverse, y va a ir de la Z a la A. 
+
+
+[NOTE]
+No confundir -R con -r, la primera es recursividad, la segunda es reverse, de la A a la Z-
+
+
+* *rmdir d_tres:* Borra el directorio d3 pero tiene que estar vacío. Dará fallo si tiene contenido.
+
+* *rm -r d_uno:* elimina el directorio aunque tenga contenido. Aquí la -r es remove, no reverse. 
+
+* *cat -n colores.txt:* el - n enumera las líneas del archivo.
+
+
+* *more colores.txt:* nos permite ver un fichero por dentro a partir de cierta línea; por ejemplo, *more +3* muestra a partir de la línea 3, esta incluída.
+
+* *less colores.txt:* probarlo, va igual que el more pero al revés o algo así.
+
+* *ls -1 / | more +3:* vemos el listado a partir de la línea 3.
+
+* *cp colores.txt color.txt:* copiar un archivo _colores.txt_ y guardarlo con el nombre _color.txt_.
+
+* *cp colores.txt cinco/:* que haga una copiar de colores.txt en el directorio cinco/ (cp origen destino); la "/" es opcional, va a entender que es un directorio aunque no se la pongas
+
+* *mv colores.txt lista.color.txt:* renombrar el archivo colores.txt a lista.color.txt. Con mover no generas nada, simplemente cambias el nombre del fichero. *mv* también renombra directorios: *mv seis dire:*
+
+* *mv planetas.txt dire/:* mv también sirve para mover, aquí está moviendo el archivo planetas.txt al directorio dire/.
+
+* *mv color.txt siete/color.siete.txt:* no solo lo mueve, sino que lo renombra a la vez.
+
+* *mv *.txt ..:* cuando usemos comodines como mover todo lo que termine en .txt, puede dar problemas, sobre todo si en vez de en el origen como en el ejemplo, usamos el comodín en el destino. Verificar siempre con _ls_. Por ejemplo, si quiero coger todos los ficheros .txt y renombrarlos a .doc (*mv *.txt *.doc*) nos va a dar error, se piensa que *.doc es un directorio
+
+* *cp ~{c1.txt,c2.txt,lscolor.txt} .:* le estamos pidiendo que con una ruta absoluta vaya a homre, y coja los tres ficheros que hay entre llaves y los copie aquí (.) OJO NO PONER ESPACIOS DESPUÉS DE LAS COMAS.
+
+
+* *cp ../c1.txt ../c2.txt ../COLOR.txt ocho/:* es lo mismo, que copie los fichero del directorio padre (vamos, realmente el archivo está en el directorio donde estamos xd) y los copie a ocho/. Las rutas de origen pueden ser todas las que quieras, la que tenga cada archivo que quieres copiar, pero el destino tiene que ser el mismo para todos, solo puede ser uno.
+
+* *touch:* crea fichero vacío; puede crear varios a la vez: *touch iso.txt fol.txt bases.txt*; si quiero crearlos en diferentes rutas, se especifica en cada fichero: *touch ../xbd.txt /../apuntes/fundamentos.adoc*.
+
+
+* *mkdir -p facturacion/compras/{C_2020, C_2021}*: sin la _-p_ daría error, porque es la que especifica que primero cree el directorio padre que ya y luego entre llaves pones los directorios hijos que son los que crea.
+
+
+* *touch facturacion/compras/C_2020/{ene_2020.txt,feb_2020.txt,mazo_2020.txt}:* crear tres archivo a la vez en un directorio (destino{ficheros}); ojo a no poner espacio después de las comas.
+
+
+
+
+
+
+
+
+
+
+
+
+

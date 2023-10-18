@@ -1,0 +1,56 @@
+home del sistema es */home*
+nuestro home es *~*
+
+No son lo mismo
+
+___
+
+Una cosa es root como superusuario, o root como menú raíz.
+
+___
+
+Saber qué significa GNU.
+
+___
+
+Linux es el núcleo. Buscar qué es el núcleo, kernell. 
+Sobre el kernell está el shell. Para manejar el hardware necesitamos comunicarnos con el SO, y para ello tenemos el shell, la interfaz entre el núcleo y el usuario.
+Y sobre esto, están las aplicaciones; todo lo que instalamos, navegadores...pero no son necesarios para trabajar con la máquina, lo que hace falta es el kernel.
+
+El más común, más antiguo y clásico shell, es el *bash*. Son comandos del bash lo que estamos usando que, al fin y al cabo, es un lenguaje.
+
+___
+
+En los manuales (con el comando man), todo lo que está entre corchetes es porque es opcional. Es importante la fecha del final, porque igual hay comandos que cambiaron y ahora no funcionan.
+
+___
+
+Para Linux, todo es un fichero; exiten siete tipos de ficheros:
+
+- Directorio, d.
+- Ordinario, _. 
+- Enlace, l. (link, en Windows son los accesos directos, en Linux hay accesos directos pero también otro tipo de enlaces).
+- Caracter, c. Trabaja con el teclado, para Linux un teclado es un fichero, un disco duro es un fichero...todo es un fichero xD.
+- Por bloque, b. Por ejemplo un disco duro, es un fichero por bloque.
+- Filtro o pipe (|), p.
+- Socket, s.
+
+___
+
+Si empieza por punto son ficheros ocultos. Los otros son comunes o de tipo ordinario.
+Directorio . hace referencia al directorio actual.
+Directorio .. hace referencia a la carpeta padre.
+
+___
+Si el directorio ocupa 4096, significa que Linux está utilizando 4 bloques (1024 bytes -o bits, no estoy seguro-) para crear un directorio.
+
+El "total 4" o el número que salga con el ls -l es el número de bloques.
+___
+
+___
+
+Aquí falte dos días, necesito apuntes.
+___
+
+
+
