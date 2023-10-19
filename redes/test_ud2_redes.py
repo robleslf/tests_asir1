@@ -549,7 +549,275 @@ preguntas = [
         "b) El modelo OSI ha dominado la industria de redes y ha reemplazado por completo a otros modelos.",
         "c) El modelo OSI ha sido ampliamente adoptado como el único estándar para todas las redes.",
         "d) El modelo OSI ha realizado aportes importantes para el desarrollo de otros protocolos y productos en diversas redes."
-    ], "d")
+    ], "d"),
+    ("Los elementos de una red de datos y telecomunicaciones son:", [
+        "a) Host, medios, adaptador de red, armario de distribución, panel de parcheo, elementos de conexión y guiado, electrónica de red.",
+        "b) Computadoras y routers.",
+        "c) Host, cables de alimentación, y elementos de red.",
+        "d) Dispositivos finales, nodos, dispositivos finales y conectores de red."
+    ], "a"),
+    ("En una red de datos y telecomunicaciones, ¿cuál es la descripción más adecuada de los 'hosts'?", [
+        "a) Son los equipos que se conectan directamente a un segmento de red: computadoras, impresoras, escáner, otros dispositivos...",
+        "b) Son los cables de alimentación utilizados para conectar los dispositivos a la red.",
+        "c) Son los servidores que administran la red de datos y telecomunicaciones.",
+        "d) Son los elementos de conexión utilizados para enrutar los datos en la red."
+    ], "a"),
+    ("¿Cuál es la función principal de los 'hosts' en una red de datos y telecomunicaciones?", [
+        "a) Suministran a los usuarios conexión a la red, por medio de la cual se comparte, crea y obtiene información.",
+        "b) Son cables de alimentación utilizados para conectar los dispositivos a la red.",
+        "c) Son los servidores que administran la red de datos y telecomunicaciones.",
+        "d) Son los elementos de conexión utilizados para enrutar los datos en la red."
+    ], "a"),
+    ("¿Existe una simbología estandarizada para representar los 'hosts' en una red de datos y telecomunicaciones?", [
+        "a) Sí, existe una simbología estandarizada para representar los 'hosts'.",
+        "b) No, no existe una simbología estandarizada para representar los 'hosts'.",
+        "c) La simbología para 'hosts' varía según el fabricante de la red.",
+        "d) La simbología de 'hosts' depende del tipo de dispositivo conectado."
+    ], "b"),
+    ("¿En qué capa específica de las 7 capas del modelo OSI se ubican los 'hosts' en una red de datos y telecomunicaciones?", [
+        "a) Los 'hosts' no forman parte de ninguna capa en especial y operan dentro de las 7 capas.",
+        "b) Los 'hosts' se ubican principalmente en la capa de Enlace de Datos.",
+        "c) Los 'hosts' se ubican en la capa de Red del modelo OSI.",
+        "d) Los 'hosts' operan exclusivamente en la capa de Aplicación del modelo OSI."
+    ], "a"),
+    ("En una red de datos y telecomunicaciones, ¿cuál es la función principal de los 'medios'?", [
+        "a) Los medios son los que transportan la información.",
+        "b) Los medios son dispositivos de almacenamiento de datos en la red.",
+        "c) Los medios son servidores que gestionan la comunicación en la red.",
+        "d) Los medios son cables de alimentación para dispositivos en la red."
+    ], "a"),
+    ("Cuando se seleccionan los 'medios' para una red de datos y telecomunicaciones, ¿qué factores se deben tener en cuenta?", [
+        "a) La velocidad de la red y el tipo de hardware de los hosts.",
+        "b) La simbología estandarizada y el fabricante de la red.",
+        "c) La disponibilidad de servidores y la capacidad de almacenamiento.",
+        "d) Se debe tener en cuenta la longitud del cable, el costo, la facilidad de instalación y la cantidad de computadoras."
+    ], "d"),
+    ("Dentro de los 'medios' utilizados en una red de datos y telecomunicaciones, ¿cuál de las siguientes opciones es un ejemplo de medio de transmisión?", [
+        "a) Token Ring",
+        "b) CPU",
+        "c) DNS",
+        "d) Bluetooth"
+    ], "a"),
+    ("Dentro de los 'medios' utilizados en una red de datos y telecomunicaciones, ¿cuál de las siguientes opciones es un ejemplo de medio de transmisión?", [
+    "d) Anillo FDDI",
+    "b) CPU",
+    "c) DNS",
+    "a) Bluetooth"
+    ], "d"),
+    ("Dentro de los 'medios' utilizados en una red de datos y telecomunicaciones, ¿cuál de las siguientes opciones es un ejemplo de medio de transmisión?", [
+        "c) Línea Ethernet",
+        "b) CPU",
+        "a) DNS",
+        "d) Bluetooth"
+    ], "c"),
+    ("¿Cuál es una forma común en la que los 'adaptadores de red' se presentan en una red de datos y telecomunicaciones?", [
+        "a) Normalmente en forma de tarjeta PCI, USB, PCMCIA, etc.",
+        "b) Normalmente en forma de cable de red Ethernet.",
+        "c) Normalmente en forma de servidor de red.",
+        "d) Normalmente en forma de software."
+    ], "a"),
+    ("En el contexto de redes de datos y telecomunicaciones, ¿qué siglas comúnmente se utilizan para referirse al 'adaptador de red'?", [
+        "b) NIC",
+        "a) CPU",
+        "c) DNS",
+        "d) USB"
+    ], "b"),
+    ("¿Cuáles son los puertos más comunes utilizados para el 'adaptador de red' en una red de datos y telecomunicaciones?", [
+        "a) No hay puertos específicos para el adaptador de red.",
+        "b) Par trenzado y cable coaxial.",
+        "c) USB y HDMI .",
+        "d) VGA y cable coaxial."
+    ], "b"),
+    ("¿Qué característica identifica cada 'NIC' (tarjeta de interfaz de red) al ser fabricada?", [
+        "a) Cada NIC es identificada con un número de serie único.",
+        "b) Cada NIC es identificada con una dirección IP única.",
+        "c) Cada NIC es identificada con una dirección MAC (48 bits) única al ser fabricada.",
+        "d) Cada NIC es identificada con un código de barras único."
+    ], "c"),
+    ("En una red de datos y telecomunicaciones, ¿cuál es una característica común de los 'armarios de distribución'?", [
+        "a) Los armarios de distribución son totalmente opacos y no tienen puerta.",
+        "b) Los armarios de distribución son fabricados únicamente de metal.",
+        "c) Los armarios de distribución tienen puertas de cristal o material transparente.",
+        "d) Los armarios de distribución son del mismo tamaño que una computadora de escritorio."
+    ], "c"),
+    ("¿Cuáles son algunas de las características comunes de los 'armarios de distribución' en una red de datos y telecomunicaciones?", [
+        "a) Los armarios de distribución no tienen puertas ni aberturas en el techo y suelo.",
+        "b) Los armarios de distribución no permiten el paso de cableado a través de ellos.",
+        "c) Los armarios de distribución tienen paredes y puertas desmontables.",
+        "d) Los armarios de distribución son sellados herméticamente sin ninguna abertura."
+    ], "c"),
+    ("¿Qué función pueden cumplir el techo y el suelo de los 'armarios de distribución' en una red de datos y telecomunicaciones?", [
+        "a) El techo y el suelo son totalmente sólidos sin aberturas ni funciones específicas.",
+        "b) El techo y el suelo no tienen relación con los armarios de distribución.",
+        "c) Tanto el techo como el suelo pueden tener aberturas para pasar cableado a través de ellos.",
+        "d) El techo y el suelo se utilizan únicamente para la ventilación de los armarios."
+    ], "c"),
+    ("¿Cuál de las siguientes afirmaciones describe mejor un 'armario de distribución' en una red de datos y telecomunicaciones?", [
+        "a) Un armario de distribución es un producto que no se puede montar en bastidores.",
+        "b) Un armario de distribución no tiene ningún bastidor en su interior.",
+        "c) Un armario de distribución es un producto rackeable con cuatro bastidores internos de armazón universal de 19 pulgadas.",
+        "d) Un armario de distribución es un producto que solo se utiliza en entornos de red inalámbrica."
+    ], "c"),
+    ("¿Cuáles son algunas de las características comunes de un 'armario de distribución' en una red de datos y telecomunicaciones?", [
+        "a) Los armarios de distribución no tienen bastidores ni agujeros.",
+        "b) Los armarios de distribución tienen bastidores con agujeros cada 5 cm (unidad U) y un armazón de bastidores con conexión a tierra.",
+        "c) Los armarios de distribución tienen un bastidor único sin agujeros.",
+        "d) Los armarios de distribución solo tienen agujeros sin bastidores."
+    ], "b"),
+    ("¿Cuál es una de las funciones comunes de un 'panel de parcheo' en una red de datos y telecomunicaciones?", [
+        "a) Los paneles de parcheo no tienen ninguna función específica.",
+        "b) Los paneles de parcheo se utilizan para organizar líneas de entrada y salida.",
+        "c) Los paneles de parcheo se utilizan exclusivamente para la ventilación en los armarios de distribución.",
+        "d) Los paneles de parcheo son utilizados para conectar cables de alimentación."
+    ], "b"),
+    ("¿Qué tipo de cables se conectan comúnmente a los 'paneles de parcheo' en una red de datos y telecomunicaciones?", [
+        "a) Se conectan cables de alimentación.",
+        "b) Se conectan cables de fibra óptica.",
+        "c) Se conectan cables de par trenzado.",
+        "d) Se conectan cables coaxiales."
+    ], "c"),
+    ("En una red de datos y telecomunicaciones, ¿cuántas tomas típicamente tiene un 'panel de parcheo' que ocupa 1U?", [
+        "a) 24 tomas (1 fila).",
+        "b) 48 tomas (2 filas).",
+        "c) 72 tomas (3 filas).",
+        "d) 96 tomas (4 filas)."
+    ], "a"),
+    ("¿Cuál es una de las características comunes de los 'paneles de parcheo' en una red de datos y telecomunicaciones en relación a la codificación de las tomas?", [
+        "a) Los paneles de parcheo no utilizan ningún tipo de codificación.",
+        "b) Los paneles de parcheo utilizan una codificación que no se corresponde con las tomas del otro lado del cable.",
+        "c) Los paneles de parcheo utilizan una codificación que se corresponde con la toma del otro lado del cable.",
+        "d) Los paneles de parcheo utilizan una codificación única para todas las tomas."
+    ], "c"),
+    ("¿Cuál es una de las características comunes de los 'paneles de parcheo' en una red de datos y telecomunicaciones en relación a su formato y conectores?", [
+        "a) Los paneles de parcheo utilizan rosetas en lugar de regletas modulares.",
+        "b) Los paneles de parcheo no utilizan ningún tipo de conector o formato específico.",
+        "c) Los paneles de parcheo tienen un formato modular y utilizan regletas modulares.",
+        "d) Los paneles de parcheo utilizan exclusivamente conectores USB."
+    ], "c"),
+    ("¿Es posible encontrar 'paneles de parcheo' en una red de datos y telecomunicaciones que estén diseñados para la conexión de cables de fibra óptica?", [
+        "a) No, los paneles de parcheo nunca están diseñados para la conexión de cables de fibra óptica.",
+        "b) Sí, los paneles de parcheo pueden estar diseñados para la conexión de cables de fibra óptica.",
+        "c) Los paneles de parcheo solo están diseñados para cables coaxiales.",
+        "d) Los paneles de parcheo solo están diseñados para cables de alimentación."
+    ], "b"),
+    ("¿Qué nombre se le da comúnmente a los celementos de conexión y guiado?", [
+        "a) Se les llama 'tomas de usuario', 'de telecomunicaciones' o 'rosetas'.",
+        "b) Se les llama 'enlaces principales' o 'conectores centrales'.",
+        "c) Se les llama 'puntos de acceso' o 'routers'.",
+        "d) Se les llama 'interruptores de red' o 'servidores de red'."
+    ], "a"),
+    ("¿Qué característica común tienen los componentes llamados 'tomas de usuario', 'de telecomunicaciones' o 'rosetas' en una red de datos y telecomunicaciones?", [
+        "a) Pueden ofrecer una o más conexiones a la red.",
+        "b) Solo ofrecen una única conexión a la red.",
+        "c) No ofrecen ninguna conexión a la red.",
+        "d) Solo ofrecen conexiones a la red de fibra óptica."
+    ], "a"),
+    ("¿Qué se utiliza comúnmente para conectar las 'tomas de usuario' a los armarios en una red de datos y telecomunicaciones, ya sea entre el equipo y la toma o entre un panel de parcheo y otro lugar?", [
+        "d) Se utilizan latiguillos.",
+        "b) Se utilizan cables de alimentación.",
+        "c) Se utilizan conectores USB.",
+        "a) Se utilizan cables coaxiales."
+    ], "d"),
+    ("En una red de datos y telecomunicaciones, ¿qué opciones tienen los administradores en cuanto a los latiguillos utilizados para conectar tomas de usuario a armarios?", [
+        "a) Los latiguillos solo pueden comprarse ya hechos.",
+        "b) Los latiguillos solo pueden fabricarse manualmente.",
+        "c) Los latiguillos pueden comprarse ya hechos o fabricarse manualmente.",
+        "d) Los latiguillos no se utilizan en redes de datos y telecomunicaciones."
+    ], "c"),
+    ("¿Cómo se guía comúnmente el cableado de red en una infraestructura de datos y telecomunicaciones?", [
+        "a) El cableado de red no se guía a través de soportes.",
+        "b) El cableado de red se guía mediante sujeciones magnéticas.",
+        "c) El cableado de red se guía a través de soportes de guiado.",
+        "d) El cableado de red se guía a través de canales subterráneos."
+    ], "c"),
+    ("¿Cuáles son algunos de los tipos comunes de 'tomas de usuario' utilizados en una red de datos y telecomunicaciones?", [
+        "a) Superficie, empotrables y de suelo.",
+        "b) Solamente superficie.",
+        "c) Solamente empotrables.",
+        "d) Solamente de suelo."
+    ], "a"),
+    ("¿Cuáles son algunos de los tipos comunes de 'soportes de guiado' utilizados para guiar el cableado de red en una infraestructura de datos y telecomunicaciones?", [
+        "a) Canalizaciones, bandejas de guiado, guías de cable y pasahilos.",
+        "b) Solamente canalizaciones.",
+        "c) Solamente bandejas de guiado.",
+        "d) Solamente guías de cable."
+    ], "a"),
+    ("Dentro de la 'electrónica de red', ¿cuáles son algunos de los componentes comunes utilizados en una red de datos y telecomunicaciones?", [
+        "a) Repetidores, hubs, switches, bridges, routers y gateways.",
+        "b) Repetidores, hubs, routers y gateways.",
+        "c) Repetidores, hubs, swichs y routers.",
+        "d) Routers, hubs y switchs."
+    ], "a"),
+    ("¿Cuál es una de las funciones principales de un repetidor en una red de datos y telecomunicaciones?", [
+    "a) Capturar señales y almacenarlas.",
+    "b) Filtrar las señales no deseadas.",
+    "d) Captar una señal y enviarla amplificada.",
+    "c) Transformar las señales en datos digitales."
+    ], "d"),
+    ("¿Qué consideración es importante al utilizar repetidores en una red para evitar problemas como 'zonas de sombra' o 'puntos muertos'?", [
+        "a) Los repetidores siempre eliminan las zonas de sombra y puntos muertos automáticamente.",
+        "c) No es necesario preocuparse por zonas de sombra o puntos muertos en una red con repetidores.",
+        "b) Se debe planificar la ubicación de los repetidores para evitar zonas de sombra y puntos muertos.",
+        "d) Los repetidores crean intencionadamente zonas de sombra y puntos muertos."
+    ], "b"),
+    ("¿Cuáles son los componentes principales de un repetidor inalámbrico en una red de datos y telecomunicaciones?", [
+        "c) Una antena y una conexión USB.",
+        "b) Un cable coaxial y una batería recargable.",
+        "a) Una antena y una conexión RJ-45.",
+        "d) Un conector HDMI y una fuente de alimentación externa."
+    ], "a"),
+    ("¿En qué capa del modelo OSI opera un repetidor en una red de datos y telecomunicaciones?", [
+        "a) Capa 3",
+        "b) Capa 2",
+        "d) Capa 1",
+        "c) Capa 4"
+    ], "d"),
+    ("¿Cuáles son los dos modos de funcionamiento comunes de un repetidor en una red de datos y telecomunicaciones?", [
+        "a) Modo de alta velocidad y modo de baja velocidad.",
+        "b) Modo con alimentación por batería y modo con alimentación eléctrica.",
+        "c) Modo con vínculo inalámbrico y modo con extensión cableada.",
+        "d) Modo de enrutamiento y modo de conmutación."
+    ], "c")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     ]
 
