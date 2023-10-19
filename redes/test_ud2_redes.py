@@ -83,7 +83,7 @@ preguntas = [
     ("¿Cuál es la función principal del Nivel 1 (Nivel Físico) en el Modelo OSI?", [
         "a) Procesar y enrutar datos a través de la red.",
         "b) Realizar el control de flujo en la red.",
-        "c) Encapsular datos en paquetes para la transmisión."
+        "c) Encapsular datos en paquetes para la transmisión.",
         "d) Transmitir bits a través del canal de comunicación asegurando que se transmita el mismo valor (1 o 0).",
     ], "d"),
     ("¿Cuál es la unidad de transmisión principal en el Nivel 1 (Nivel Físico) del Modelo OSI?", [
@@ -301,26 +301,255 @@ preguntas = [
         "b) Traducir los datos a un formato adecuado para su presentación a la capa de aplicación.",
         "c) Gestionar la sincronización de trama en la red.",
         "d) Controlar el flujo de datos extremo a extremo."
-    ], "b")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    ], "b"),
+    ("¿Cuál es una de las funciones clave del Nivel 6 (Nivel de Presentación) en el modelo OSI?", [
+        "a) Gestionar el encaminamiento de los paquetes en la red.",
+        "b) Traducir datos de un formato utilizado por la capa de aplicación en el equipo origen a un formato común y luego a un formato conocido por la capa de aplicación del equipo destino.",
+        "c) Realizar la detección y corrección de errores en las tramas de datos.",
+        "d) Controlar la sincronización de trama en la red."
+    ], "b"),
+    ("¿Cuál de las siguientes funciones se incluyen en la capa de Presentación (Nivel 6) del modelo OSI?", [
+        "a) Traducir distintos formatos de representación de la información, comprimir datos y cifrar datos por motivos de seguridad.",
+        "b) Encaminar los paquetes en la red.",
+        "c) Controlar la sincronización de trama en la red.",
+        "d) Realizar el control de flujo en la red.",
+    ], "a"),
+    ("¿Cuál de las siguientes funciones se realiza en la capa de Presentación (Nivel 6) del modelo OSI?", [
+        "a) Encaminar los paquetes en la red.",
+        "b) Controlar la sincronización de trama en la red.",
+        "c) Traducir distintos formatos de representación de la información, como de ASCII a EBCDIC.",
+        "d) Realizar el control de flujo en la red.",
+    ], "c"),
+    ("¿Cuál de las siguientes funciones se realiza en la capa de Presentación (Nivel 6) del modelo OSI?", [
+        "a) Encaminar los paquetes en la red.",
+        "b) Controlar la sincronización de trama en la red.",
+        "c) Realizar la compresión de datos para reducir el número de bits transmitidos en la red.",
+        "d) Gestionar las direcciones IP en la red.",
+    ], "c"),
+    ("¿Qué función se lleva a cabo en la capa de Presentación (Nivel 6) del modelo OSI?", [
+        "a) Controlar la sincronización de trama en la red.",
+        "b) Realizar presentaciones PowerPoint.",
+        "c) Unir bits en líneas de código.",
+        "d) Cifrar los datos por razones de seguridad.",
+    ], "d"),
+    ("¿Qué tipo de aplicaciones se encuentran típicamente en el Nivel de Aplicación (Nivel 7) del modelo OSI?", [
+        "a) Aplicaciones dirigidas a la infraestructura de red.",
+        "b) Aplicaciones dirigidas al usuario final.",
+        "c) Herramientas de diagnóstico de red.",
+        "d) Sistemas operativos de servidores.",
+    ], "b"),
+    ("¿Qué caracteriza al Nivel de Aplicación (Nivel 7) del modelo OSI en términos de los servicios que ofrece?", [
+        "a) Ofrece servicios únicamente a otros niveles en el modelo OSI.",
+        "b) Ofrece servicios tanto a otros niveles como al usuario final.",
+        "c) Ofrece servicios de seguridad y cifrado de datos únicamente.",
+        "d) Ofrece servicios solamente al usuario.",
+    ], "d"),
+    ("¿Cuál es la principal característica del Nivel de Aplicación (Nivel 7) en el modelo OSI en relación con el acceso a información o servicios distribuidos?", [
+        "a) Proporciona servicios de cifrado para proteger la privacidad de los datos.",
+        "b) Ofrece servicios a otros niveles del modelo OSI.",
+        "c) No ofrece servicios a otros niveles sino solo al usuario.",
+        "d) Permite que para el usuario sea transparente el hecho de que se esté teniendo acceso a información o servicios distribuidos.",
+    ], "d"),
+     ("¿Qué tipo de aplicaciones se encuentran en el Nivel de Aplicación (Nivel 7) del modelo OSI?", [
+    "a) Aplicaciones finales del usuario y protocolos estandarizados como HTTP, FTP, LDAP, SMTP, entre otros.",
+    "b) Solo aplicaciones finales del usuario.",
+    "c) Solo aplicaciones de carácter transitorio.",
+    "d) Solo aplicaciones de sistemas operativos.",
+    ], "a"),
+    ("¿Cuál es la principal función del Nivel de Aplicación (Nivel 7) en el modelo OSI?", [
+        "a) Proporcionar servicios a otros niveles del modelo OSI.",
+        "b) Ofrecer servicios solo al usuario final.",
+        "c) Realizar la compresión de datos antes de su transmisión.",
+        "d) Controlar el flujo extremo a extremo de los datos.",
+    ], "b"),
+    ("¿Qué caracteriza a los protocolos de la arquitectura TCP/IP en relación a la comunicación en redes de gran escala?", [
+        "a) Están diseñados exclusivamente para redes de pequeña escala.",
+        "b) Se centran en la resolución de nombres de equipo.",
+        "c) Permite la comunicación en redes de gran escala.",
+        "d) Funcionan de forma teórica sin aplicaciones prácticas."
+    ], "c"),
+    ("¿Cuál es una de las actividades realizadas por los protocolos de la pila TCP/IP para que la comunicación en la red sea exitosa?", [
+        "a) Resolución de nombres de equipo.",
+        "b) Compresión de datos.",
+        "c) Determinación de la ubicación del equipo de destino.",
+        "d) Uso exclusivo en sistemas operativos."
+    ], "a"),
+    ("¿Cuál es uno de los usos más destacados de TCP/IP en la actualidad?", [
+        "a) Comunicación en redes de gran tamaño.",
+        "b) Traducción de formatos de datos.",
+        "c) Cifrado de datos.",
+        "d) Resolución de nombres de equipo."
+    ], "a"),
+    ("¿Qué arquitectura de red es la más ampliamente aceptada y utilizada en la actualidad?", [
+        "a) OSI",
+        "b) TCP/IP",
+        "c) Ethernet",
+        "d) Token Ring"
+    ], "b"),
+    ("¿Por qué la mayoría de los sistemas operativos en uso hoy en día ofrecen soporte para TCP/IP?", [
+        "a) Porque TCP/IP es una arquitectura de red obsoleta y requiere un soporte especial.",
+        "b) Porque TCP/IP es ampliamente utilizado y es esencial para la comunicación en redes modernas.",
+        "c) Porque TCP/IP es exclusivo de sistemas Windows.",
+        "d) Porque TCP/IP es más barato que otras arquitecturas de red."
+    ], "b"),
+    ("¿Qué describe mejor la arquitectura TCP/IP?", [
+        "a) Un conjunto de protocolos obsoletos para comunicación en redes locales.",
+        "b) Una pila de protocolos estándar ampliamente utilizada para la comunicación entre equipos en redes de gran escala.",
+        "c) Un sistema de enrutamiento de tráfico de red utilizado exclusivamente en sistemas Windows.",
+        "d) Una arquitectura de red que solo se utiliza en redes pequeñas."
+    ], "b"),
+    ("¿Cuál es la función principal de los diversos protocolos en la pila TCP/IP?", [
+        "a) Funcionan de manera aislada y no tienen relación entre sí.",
+        "b) Trabajan en conjunto para permitir la comunicación efectiva en la red.",
+        "c) Controlan la velocidad de transmisión de datos en la red.",
+        "d) Son exclusivos de sistemas Windows."
+    ], "b"),
+    ("Dentro del proceso de comunicación en la arquitectura TCP/IP, ¿cuál es el propósito de la 'resolución de nombres de equipo a direcciones IP'?", [
+        "a) Establecer diálogo entre aplicaciones en el nivel de sesión.",
+        "b) Comprimir datos para reducir la velocidad de transmisión en la red.",
+        "c) Determinar la ubicación del equipo de destino.",
+        "d) Convertir datos de formato ASCII a EBCDIC."
+    ], "c"),
+    (
+    "En la arquitectura TCP/IP, ¿qué papel desempeñan los distintos protocolos de la pila TCP/IP en el proceso de comunicación?",
+    [
+        "a) Todos los protocolos tienen el mismo papel y realizan las mismas funciones.",
+        "b) Cada protocolo tiene un papel distinto en el proceso de comunicación.",
+        "c) Los protocolos TCP/IP no desempeñan ningún papel en la comunicación de datos.",
+        "d) Solo un protocolo es responsable de todo el proceso de comunicación."
+    ], "b"),
+    ("¿Cuántas capas conforman el modelo de comunicación de TCP/IP para transmitir datos de una ubicación a otra?", [
+        "a) 3 capas",
+        "b) 4 capas",
+        "c) 5 capas",
+        "d) 7 capas"
+    ], "b"),
+    ("¿En qué capa de la pila TCP/IP se encuentran todas las aplicaciones y utilidades que utilizan esta capa para obtener acceso a la red?", [
+        "a) Capa de aplicación",
+        "b) Capa de transporte",
+        "c) Capa de Internet",
+        "d) Capa de interfaz de red"
+    ], "a"),
+    ("La capa de aplicaciones de la pila TCP/IP se encarga de formatear e intercambiar información de usuario. ¿En qué capa se encuentran los protocolos utilizados para este propósito?", [
+        "a) Capa de aplicación",
+        "b) Capa de transporte",
+        "c) Capa de Internet",
+        "d) Capa de interfaz de red"
+    ], "a"),
+    ("¿Qué significa la sigla 'HTTP' y para qué se utiliza en el contexto de la World Wide Web?", [
+        "a) Hypertext Transfer Protocol, se utiliza para transferir archivos de imágenes en la web.",
+        "b) Hyperlink Text Transfer Protocol, se utiliza para transmitir archivos de texto en línea.",
+        "c) Hypertext Transfer Protocol, se utiliza para transferir los archivos que componen las páginas web de la World Wide Web.",
+        "d) High-Tech Transport Protocol, se utiliza para transferir aplicaciones de alta tecnología a través de la web."
+    ], "c"),
+    ("¿Qué significa la sigla 'FTP' y para qué se utiliza en el contexto de la transferencia de archivos?", [
+        "a) File Transmission Protocol, se utiliza para la transmisión de archivos de audio en línea.",
+        "b) Fast Transfer Protocol, se utiliza para la transferencia rápida de datos en redes locales.",
+        "c) File Transfer Protocol, se utiliza para la transferencia interactiva de archivos.",
+        "d) Free Text Protocol, se utiliza para el intercambio gratuito de mensajes de texto en línea."
+    ], "c"),
+    ("¿Cuál es la función principal de la capa de Transporte en la pila TCP/IP?", [
+        "a) Proporcionar seguridad a las comunicaciones de red.",
+        "b) Ordenar y garantizar la comunicación entre equipos.",
+        "c) Administrar el direccionamiento IP de los dispositivos.",
+        "d) Realizar el enrutamiento de datos a través de la red."
+    ], "b"),
+    ("Además de garantizar la comunicación entre equipos, ¿qué otra función importante realiza la capa de Transporte en la pila TCP/IP?", [
+        "a) Controlar la velocidad de transmisión de datos.",
+        "b) Administrar la dirección IP de los dispositivos.",
+        "c) Proporcionar seguridad a las comunicaciones de red.",
+        "d) Especificar el identificador único de la aplicación a la que deben entregarse los datos."
+    ], "d"),
+    ("En la capa de Transporte de la pila TCP/IP, existen dos protocolos principales que controlan el método de entrega de datos. ¿Cuáles son estos protocolos y cuál es su diferencia principal en cuanto a la entrega de datos?", [
+        "a) TCP y FTP; ambos garantizan la entrega de datos mediante acuse de recibo.",
+        "b) TCP e IP; ambos proporcionan una rápida entrega de datos, pero no la garantizan.",
+        "c) TCP y UDP; TCP garantiza la entrega de datos mediante acuse de recibo, mientras que UDP proporciona una entrega rápida de datos, pero no la garantiza.",
+        "d) HTTP y FTP; ambos están diseñados para la transferencia de archivos en línea."
+    ], "c"),
+    ("¿Qué característica fundamental del Protocolo de control de transmisión (TCP) en la capa de Transporte de la pila TCP/IP lo distingue en términos de la entrega de datos?", [
+        "a) TCP garantiza una rápida entrega de datos.",
+        "b) TCP garantiza la entrega de datos mediante acuse de recibo.",
+        "c) TCP proporciona una entrega rápida de datos, pero no la garantiza.",
+        "d) TCP solo se utiliza para la transferencia de archivos."
+    ], "b"),
+    ("En la capa de Transporte de la pila TCP/IP, el Protocolo de datagramas de usuario (UDP) se destaca por una característica específica en términos de la entrega de datos. ¿Cuál es esa característica?", [
+        "a) UDP garantiza la entrega de datos mediante acuse de recibo.",
+        "b) UDP proporciona una entrega rápida de datos y garantiza su entrega.",
+        "c) UDP proporciona una rápida entrega de los datos, pero no la garantiza.",
+        "d) UDP se utiliza exclusivamente para la transferencia de archivos grandes."
+    ], "c"),
+    ("¿Cuál es la principal responsabilidad de la capa de Internet en la pila TCP/IP?", [
+        "a) Garantizar la seguridad de las comunicaciones de red.",
+        "b) Proporcionar una interfaz de usuario para la navegación web.",
+        "c) Direccionar, empaquetar y enrutar los datos a transmitir.",
+        "d) Administrar los servicios de correo electrónico."
+    ], "c"),
+    ("La capa de Internet en la pila TCP/IP contiene cuatro protocolos principales. ¿Cuál de los siguientes es responsable de direccionar los datos a transmitir y enviarlos a su destino?", [
+        "a) Protocolo Internet (Internet Protocol, IP)",
+        "b) Protocolo de resolución de direcciones (Address Resolution Protocol, ARP)",
+        "c) Protocolo de mensajes de control en Internet (Internet Control Message Protocol, ICMP)",
+        "d) Protocolo de administración de grupos de Internet (Internet Group Management Protocol, IGMP)"
+    ], "a"),
+    ("Dentro de la capa de Internet en la pila TCP/IP, ¿cuál de los siguientes protocolos es el responsable de direccionar los datos a transmitir y enviarlos a su destino?", [
+        "a) Protocolo Internet (Internet Protocol, IP)",
+        "b) Protocolo de resolución de direcciones (Address Resolution Protocol, ARP)",
+        "c) Protocolo de mensajes de control en Internet (Internet Control Message Protocol, ICMP)",
+        "d) Protocolo de administración de grupos de Internet (Internet Group Management Protocol, IGMP)"
+    ], "a"),
+    ("Dentro de la capa de Internet en la pila TCP/IP, ¿cuál de los siguientes protocolos es responsable de identificar la dirección MAC (media access control) del adaptador de red del equipo de destino?", [
+        "a) Protocolo Internet (Internet Protocol, IP)",
+        "b) Protocolo de resolución de direcciones (Address Resolution Protocol, ARP)",
+        "c) Protocolo de mensajes de control en Internet (Internet Control Message Protocol, ICMP)",
+        "d) Protocolo de administración de grupos de Internet (Internet Group Management Protocol, IGMP)"
+    ], "b"),
+    ("Dentro de la capa de Internet en la pila TCP/IP, ¿cuál de los siguientes protocolos es responsable de proporcionar funciones de diagnóstico e información de errores debidos a la entrega incorrecta de datos?", [
+        "a) Protocolo Internet (Internet Protocol, IP)",
+        "b) Protocolo de resolución de direcciones (Address Resolution Protocol, ARP)",
+        "c) Protocolo de mensajes de control en Internet (Internet Control Message Protocol, ICMP)",
+        "d) Protocolo de administración de grupos de Internet (Internet Group Management Protocol, IGMP)"
+    ], "c"),
+    ("Dentro de la capa de Internet en la pila TCP/IP, ¿cuál de los siguientes protocolos es responsable de la administración de la multidifusión en TCP/IP?", [
+        "a) Protocolo Internet (Internet Protocol, IP)",
+        "b) Protocolo de resolución de direcciones (Address Resolution Protocol, ARP)",
+        "c) Protocolo de mensajes de control en Internet (Internet Control Message Protocol, ICMP)",
+        "d) Protocolo de administración de grupos de Internet (Internet Group Management Protocol, IGMP)"
+    ], "d"),
+    ("¿Cuál es la principal responsabilidad de la capa de Interfaz de red en la pila TCP/IP?", [
+        "a) Administrar los servicios de correo electrónico.",
+        "b) Proporcionar una interfaz de usuario para la navegación web.",
+        "c) Enviar los datos en el medio físico de la red y recibir datos desde el mismo.",
+        "d) Proporcionar seguridad a las comunicaciones de red."
+    ], "c"),
+    ("¿Cuál de las siguientes afirmaciones describe mejor la capa de Interfaz de red en la pila TCP/IP?", [
+        "a) Contiene protocolos para la transferencia de archivos en línea.",
+        "b) Proporciona una interfaz de usuario para la navegación web.",
+        "c) No contiene el tipo de protocolos incluidos en las otras tres capas.",
+        "d) Garantiza la entrega de datos en la red."
+    ], "c"),
+    ("En la capa de Interfaz de red de la pila TCP/IP, ¿cuál es el propósito principal según la arquitectura TCP/IP?", [
+        "a) Incluir todos aquellos estándares y protocolos de niveles de enlace y físico capaces de transmitir paquetes IP, como Ethernet, redes Wifi, ATM, Frame Relay, X.25, e incluso palomas mensajeras (RFC 1149)",
+        "b) Proporcionar una interfaz de usuario para la navegación web.",
+        "c) Garantizar la entrega de datos en la red.",
+        "d) Administrar los servicios de correo electrónico."
+    ], "a"),
+    ("¿Cuál fue la visión inicial detrás del modelo OSI (Open Systems Interconnection)?", [
+        "a) Establecer un conjunto de protocolos propietarios para redes internacionales.",
+        "b) Proporcionar un marco para crear un conjunto de protocolos abiertos que no dependieran de sistemas propietarios.",
+        "c) Crear una red internacional basada en sistemas propietarios.",
+        "d) Desarrollar una red internacional sin ningún protocolo."
+    ], "b"),
+    ("A pesar de sus objetivos iniciales, ¿por qué el modelo OSI llegó tarde y no pudo igualar la velocidad de adopción y expansión de Internet basada en TCP/IP?", [
+        "a) Debido a la falta de apoyo de la industria de la tecnología.",
+        "b) Porque OSI fue diseñado como un conjunto de protocolos propietarios.",
+        "c) La velocidad de adopción de Internet basada en TCP/IP superó la de OSI.",
+        "d) Porque OSI no ofrecía ventajas técnicas sobre TCP/IP."
+    ], "c"),
+    ("A pesar de que pocos de los protocolos desarrollados según las especificaciones OSI se utilizan ampliamente en la actualidad, ¿qué contribución importante ha realizado el modelo OSI de siete capas para el desarrollo de otros protocolos y productos en diversas redes?", [
+        "a) El modelo OSI no ha tenido un impacto significativo en el desarrollo de otros protocolos o productos para redes.",
+        "b) El modelo OSI ha dominado la industria de redes y ha reemplazado por completo a otros modelos.",
+        "c) El modelo OSI ha sido ampliamente adoptado como el único estándar para todas las redes.",
+        "d) El modelo OSI ha realizado aportes importantes para el desarrollo de otros protocolos y productos en diversas redes."
+    ], "d")
 
     ]
 
@@ -349,7 +578,7 @@ def realizar_test():
             print(f"✖✖✖✖✖✖✖ Respuesta incorrecta. La opción correcta es: {respuesta}\n")
             print("-------------------------\n")
     
-    print(f"Has completado el test, {nombre_usuario}. Puntaje final: {puntaje}/{len(preguntas)}")
+    print(f"Has completado el test, {nombre_usuario}. Puntuación final: {puntaje}/{len(preguntas)}")
 
 # Solicitar el nombre del usuario
 nombre_usuario = input("Bienvenido al test HTML. Por favor, introduce tu nombre: ")
