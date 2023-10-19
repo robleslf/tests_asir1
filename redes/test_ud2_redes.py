@@ -181,7 +181,7 @@ preguntas = [
         "b) Traducción de distintos formatos, compresión de datos y cifrado de datos.",
         "c) Cifrado de datos, control de congestión en las líneas y control de flujo.",
         "d) Sincronización de trama, control de errores y control de flujo."
-    ], "d"),
+    ], "b"),
     ("¿Cuál es la unidad de transmisión principal en el Nivel 2 (Nivel de Enlace) del modelo OSI?", [
         "a) Bit",
         "b) Paquete",
