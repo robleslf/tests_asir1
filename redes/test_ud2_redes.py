@@ -772,12 +772,432 @@ preguntas = [
         "d) Capa 1",
         "c) Capa 4"
     ], "d"),
-    ("¿Cuáles son los dos modos de funcionamiento comunes de un repetidor en una red de datos y telecomunicaciones?", [
+    ("¿Cuáles son los dos modos de funcionamiento comunes de un repetidor en una red de datos?", [
         "a) Modo de alta velocidad y modo de baja velocidad.",
         "b) Modo con alimentación por batería y modo con alimentación eléctrica.",
         "c) Modo con vínculo inalámbrico y modo con extensión cableada.",
         "d) Modo de enrutamiento y modo de conmutación."
-    ], "c")
+    ], "c"),
+    ("¿Cuál es una de las funciones principales de un hub (concentrador) en una red de datos?", [
+        "c) Encriptar la información de la red.",
+        "b) Actuar como un firewall para proteger la red.",
+        "a) Vincular tramos de red y ampliar la red.",
+        "d) Actuar como un enrutador para redirigir el tráfico."
+    ], "a"),
+    ("¿Qué tipos de conexiones pueden ser utilizados por un hub (concentrador) en una red de datos?", [
+        "a) Solamente conexiones USB.",
+        "b) Solamente conexiones HDMI.",
+        "d) Conexiones RJ-45, coaxiales, USB, HDMI, etc.",
+        "d) Conexiones inalámbricas."
+    ], "c"),
+    ("¿Qué función tiene la toma up-link en un hub (concentrador) en una red de datos?", [
+        "a) Bloquear el tráfico no deseado.",
+        "c) Conectar dispositivos móviles.",
+        "b) Vincular dos hubs para extender la red (hubs en cascada).",
+        "d) Actuar como un servidor de archivos."
+    ], "b"),
+    ("¿En qué capa del modelo OSI opera un hub (concentrador) y cómo gestiona la información que recibe?", [
+        "c) Capa 3, enrutando la información a las tomas necesarias.",
+        "b) Capa 2, filtrando la información antes de enviarla a las tomas.",
+        "a) Capa 1, replicando la información a todas las tomas con cable.",
+        "d) Capa 4, procesando la información antes de distribuirla."
+    ], "a"),
+    ("¿Cuál es una de las funciones principales de un switch (conmutador) en una red de datos?", [
+        "a) Filtrar el tráfico de la red.",
+        "b) Actuar como un firewall para proteger la red.",
+        "c) Interconectar varios segmentos de red.",
+        "d) Replicar todos los paquetes a todas las estaciones."
+    ], "c"),
+    ("¿Qué hace un switch (conmutador) para construir sus tablas con direcciones MAC de los equipos en una red?", [
+        "a) Consulta una base de datos en línea.",
+        "b) Solicita información a cada equipo de la red.",
+        "c) Utiliza un mecanismo de autoaprendizaje.",
+        "d) No necesita tablas de direcciones MAC."
+    ], "c"),
+    ("¿Cómo puede ser físicamente un switch (conmutador) en una red de datos y telecomunicaciones?", [
+        "c) Siempre es independiente.",
+        "b) Siempre es rackeable (2U).",
+        "a) Puede ser rackeable (2U) o independiente.",
+        "d) Solo puede ser montado en una pared."
+    ], "a"),
+    ("¿Qué tipos de conexiones pueden ser utilizados por un switch (conmutador) en una red de datos y telecomunicaciones?", [
+        "a) Solamente conexiones coaxiales.",
+        "c) Solamente conexiones de fibra óptica.",
+        "b) Conexiones RJ-45, coaxiales o fibra óptica.",
+        "d) Conexiones inalámbricas."
+    ], "b"),
+    ("¿En qué capa del modelo OSI opera un switch (conmutador) y qué función cumple en relación a los paquetes de datos?", [
+        "a) Capa 3, traduce las direcciones IP a direcciones físicas.",
+        "b) Capa 2, interpreta la dirección de destino de los paquetes y los remite.",
+        "c) Capa 1, se encarga de la transmisión de bits individuales.",
+        "d) Capa 4, administra la calidad del servicio (QoS)."
+    ], "b"),
+    ("¿Cuál es una de las funciones principales de un bridge (puente de red) en una red de datos?", [
+        "a) Gestionar el tráfico de la red de manera centralizada.",
+        "b) Actuar como un firewall para proteger la red.",
+        "c) Interconectar varios segmentos de red.",
+        "d) Transmitir todos los paquetes a todas las estaciones."
+    ], "c"),
+    ("¿Cuáles son los dos tipos principales de bridges (puentes de red) en una red de datos?", [
+        "a) Bridge local y bridge remoto.",
+        "c) Bridge gestionado y bridge no gestionado.",
+        "b) Bridge transparente y bridge encaminado en el origen.",
+        "d) Bridge de alta velocidad y bridge de baja velocidad."
+    ], "b"),
+    ("¿Cuál es una ventaja de un bridge (puente de red) en términos de velocidad en una red de datos?", [
+        "c) El bridge siempre opera a la misma velocidad que los dispositivos de la red.",
+        "b) El bridge es más lento que otros dispositivos de red.",
+        "a) El bridge puede trabajar a varias velocidades, adaptándose a las necesidades de la red.",
+        "d) El bridge no afecta la velocidad de la red en absoluto."
+    ], "a"),
+    ("¿Cuál es una de las funciones principales de un router (enrutador) en una red de datos?", [
+        "a) Actuar como un switch dentro de una red local.",
+        "b) Ampliar la red local conectando más dispositivos.",
+        "d) Interconectar diferentes redes, ya sean LAN o WAN.",
+        "c) Proporcionar una conexión a Internet mediante cable coaxial."
+    ], "d"),
+    ("¿Cómo puede ser físicamente un router (enrutador) en una red de datos?", [
+        "a) Siempre es independiente.",
+        "b) Siempre es rackeable (2U).",
+        "c) Puede ser rackeable (2U) o independiente.",
+        "d) Se conecta a través de conexiones coaxiales."
+    ], "c"),
+    ("¿Qué tipo de conexión es comúnmente utilizada por un router SoHo (independiente) para acceder a Internet?", [
+        "c) Conexiones de fibra óptica.",
+        "b) Conexiones inalámbricas.",
+        "a) Conexiones RJ-45.",
+        "d) Conexiones de cable coaxial."
+    ], "c"),
+    ("¿Cuáles son algunas de las características de un router rackeable en una red de datos?", [
+        "a) Utiliza exclusivamente conexiones inalámbricas.",
+        "b) No permite la instalación de tarjetas adicionales.",
+        "c) Utiliza diferentes conexiones y velocidades, y ofrece slots para tarjetas.",
+        "d) Opera solamente en la capa 1 del modelo OSI."
+    ], "c"),
+    ("¿En qué capa del modelo OSI opera un router (enrutador) y qué ventaja ofrece su sistema operativo (IOS)?", [
+        "c) Opera en la capa 2 del modelo OSI y permite una mayor velocidad de transmisión.",
+        "b) Opera en la capa 4 del modelo OSI y ofrece seguridad avanzada.",
+        "a) Opera en la capa 3 del modelo OSI y el sistema operativo integra funciones de capas inferiores, permitiendo la operación con switch o bridge.",
+        "d) Opera en la capa 7 del modelo OSI y proporciona servicios de aplicaciones directamente a los usuarios."
+    ], "a"),
+    ("¿Cuál es una de las funciones principales de un gateway (pasarela) en una red de datos y telecomunicaciones?", [
+        "a) Conectar redes solo si utilizan la misma arquitectura y protocolos.",
+        "b) Conectar redes solo si son LAN.",
+        "c) Conectar redes independientemente de la arquitectura y protocolos.",
+        "d) Controlar el tráfico de datos en una red local."
+    ], "c"),
+    ("¿Cómo se presenta físicamente un gateway (pasarela) comúnmente en una red de datos y telecomunicaciones?", [
+        "a) Siempre es independiente y ofrece múltiples tomas RJ-45.",
+        "b) Siempre es rackeable (2U) y ofrece dos tomas RJ-45.",
+        "b) Puede ser independiente o rackeable y suele ofrecer dos tomas RJ-45.",
+        "d) Siempre es rackeable (4U) y ofrece una sola toma RJ-45."
+    ], "b"),
+    ("¿En qué capa del modelo OSI opera un gateway (pasarela) y cuál es una característica especial de su funcionamiento?", [
+        "a) Opera exclusivamente en la capa 1 del modelo OSI.",
+        "b) Opera en la capa 3 del modelo OSI y no puede realizar funciones de capas superiores.",
+        "c) Opera en la capa 4 del modelo OSI y puede realizar funciones de las capas 5, 6 y 7, así como de capas inferiores como router o switch.",
+        "d) Opera en la capa 7 del modelo OSI y proporciona servicios de aplicaciones directamente a los usuarios."
+    ], "c"),
+    ("¿Cuál es una de las funciones de seguridad de un gateway (pasarela) y en cuántas capas del modelo OSI opera en términos de seguridad?", [
+        "a) No tiene funciones de seguridad.",
+        "b) Opera solo en la capa 3 para controlar el tráfico.",
+        "c) Tiene función cortafuegos y opera en las 7 capas de OSI para controlar el tráfico de datos entrante y saliente.",
+        "d) Opera solo en la capa 2 para filtrar paquetes de datos."
+    ], "c"),
+    ("¿Cuál es una de las funciones de un gateway (pasarela) como intermediario entre dos equipos y en qué capa del modelo OSI opera para realizar esta función?", [
+        "a) No tiene función de intermediario.",
+        "b) Opera en la capa 3 para redireccionar tráfico entre equipos.",
+        "d) Tiene función proxy y opera en la capa 7 del modelo OSI como intermediario entre dos equipos.",
+        "c) Opera en la capa 1 para transmitir datos entre equipos."
+    ], "d"),
+    ("¿Cuál es una de las funciones de un gateway (pasarela) relacionada con la seguridad y el acceso a redes privadas, y cuál es el término asociado a esta función?", [
+        "a) No tiene funciones de seguridad relacionadas con el acceso a redes privadas.",
+        "b) Opera en la capa 2 para proporcionar conexiones privadas.",
+        "c) Tiene función VPN para permitir una conexión segura a una LAN privada desde una red pública.",
+        "d) Opera en la capa 5 para garantizar la confidencialidad de los datos."
+    ], "c"),
+    ("¿Cuál de las siguientes afirmaciones describe una red de área personal (PAN) en términos de su área de cobertura?", [
+        "a) Cubre extensiones intermedias, como una ciudad o localidad.",
+        "b) Tiene una cobertura de kilómetros y suele cruzar derechos públicos de paso.",
+        "c) Se utiliza para la interconexión de redes LAN en campus universitarios.",
+        "d) Tiene una cobertura muy pequeña, de hasta 3 o 4 metros, para dispositivos próximos."
+    ], "d"),
+    ("¿Cuál de las siguientes características es típica de las redes de área local (LAN)?", [
+        "a) Cobertura que abarca una ciudad o localidad.",
+        "b) Propiedad de compañías de telecomunicaciones.",
+        "c) Velocidades de transmisión bajas.",
+        "d) Cobertura pequeña en edificios o campus, alta velocidad de transmisión."
+    ], "d"),
+    ("¿Cuál es una característica común de las redes de área metropolitana (MAN)?", [
+        "a) Cubren extensiones intermedias, como una ciudad o localidad.",
+        "b) Proporcionan alta velocidad de transmisión en campus universitarios.",
+        "c) Son propiedades de organizaciones en edificios o campus pequeños.",
+        "d) Cruzan derechos públicos de paso y tienen velocidades de transmisión intermedias."
+    ], "a"),
+    ("¿Qué característica principal distingue a las redes de área extensa (WAN) de otras redes?", [
+        "a) Son propiedades de organizaciones en edificios o campus pequeños.",
+        "b) Tienen velocidades de transmisión muy elevadas.",
+        "c) Cubren extensiones intermedias, como una ciudad o localidad.",
+        "d) Tienen una cobertura geográfica grande, cruzando derechos públicos de paso, con velocidades de transmisión inferiores."
+    ], "d"),
+    ("¿Cuál de las siguientes opciones describe mejor a Internet?", [
+        "a) Es una red de área extensa (WAN) con alta velocidad de transmisión.",
+        "b) Es propiedad de una única organización y cubre extensiones intermedias.",
+        "c) Cubre extensiones de hasta 3 o 4 metros y se utiliza para interconectar dispositivos próximos.",
+        "d) Es una red distribuida de dimensión mundial que utiliza las redes PAN, LAN, MAN y WAN."
+    ], "d"),
+    ("¿Cuál de las siguientes opciones describe cómo puede ser una red según su titularidad?", [
+        "a) Red de área local (LAN)",
+        "b) Red de área extensa (WAN)",
+        "c) Red privada, red pública y VPN",
+        "d) Red de ordenadores y red de dispositivos móviles"
+    ], "c"),
+    ("¿Cómo se caracteriza una red que permite a cualquier persona comunicarse, compartir información y acceder a sus servicios?", [
+        "a) Red de área local (LAN)",
+        "b) Red de área personal (PAN)",
+        "c) Red privada",
+        "d) Red pública, como Internet"
+    ], "d"),
+    ("¿Cuál es la principal característica de una red privada y cómo se denomina cuando ofrece servicios similares a Internet solo para sus usuarios?", [
+        "a) Permite el acceso público y se llama Extranet.",
+        "b) Proporciona acceso exclusivo y se llama Intranet.",
+        "c) No tiene restricciones de acceso y se llama LAN.",
+        "d) Se comparte con otras organizaciones y se llama WAN."
+    ], "b"),
+    ("¿Qué característica principal define a una Red Privada Virtual (VPN)?", [
+        "a) Utiliza una red privada dedicada para la comunicación.",
+        "b) No utiliza cifrado ni medidas de seguridad.",
+        "c) Permite el acceso seguro a una red privada a través de Internet.",
+        "d) Requiere una conexión física directa a la red privada."
+    ], "c"),
+    ("¿Cuál es uno de los usos comunes de una Red Privada Virtual (VPN)?", [
+        "a) Transmitir datos sin cifrado a través de Internet.",
+        "b) Acceder a una red pública de manera segura.",
+        "c) Establecer conexiones físicas a equipos de red.",
+        "d) Administrar equipos de forma remota con conexiones cifradas."
+    ], "d"),
+    ("¿Qué define la topología de una red?", [
+        "a) La velocidad de transmisión de datos en la red.",
+        "b) La dirección IP asignada a cada nodo de la red.",
+        "c) La forma en que se conectan los nodos de la red.",
+        "d) El tipo de cable utilizado en la red."
+    ], "c"),
+    ("¿Cuál es la principal diferencia entre los enlaces punto a punto y los enlaces multipunto en una red?", [
+        "a) Los enlaces punto a punto son utilizados exclusivamente en redes inalámbricas.",
+        "b) En los enlaces punto a punto, una única línea de comunicación es compartida por todos los nodos.",
+        "c) Los enlaces multipunto conectan únicamente 2 nodos.",
+        "d) En los enlaces multipunto, hay una única línea de comunicación compartida por todos los nodos, mientras que en la de punto a punto cada enlace conecta únicamente con dos nodos."
+    ], "d"),
+    ("¿Qué característica destaca a la topología de malla?", [
+        "a) La falta de redundancia.",
+        "b) Alta redundancia.",
+        "c) Conexiones centralizadas.",
+        "d) Baja escalabilidad"
+    ], "b"),
+    ("¿Cómo se complica la topología de malla al agregar nuevos nodos?", [
+        "a) No se ve afectada.",
+        "b) Se vuelve más eficiente.",
+        "c) Requiere la reconexión con todos los nodos existentes.",
+        "d) Facilita la gestión de nuevos nodos."
+    ], "c"),
+    ("¿Cuál de las siguientes afirmaciones describe mejor los costos asociados con la topología de malla en enlaces punto a punto?", [
+        "a) Es una solución rentable para agregar nodos.",
+        "b) Puede volverse costosa al agregar nuevos nodos.",
+        "c) Los costos se mantienen constantes sin importar el número de nodos.",
+        "d) No implica costos adicionales."
+    ], "b"),
+    ("¿Cómo están conectados los nodos en una topología de malla en enlaces punto a punto?", [
+        "a) Cada nodo se conecta solo a un nodo central.",
+        "b) Todos los nodos se conectan entre sí.",
+        "c) Un único nodo actúa como intermediario para la comunicación.",
+        "d) Los nodos funcionan de manera independiente sin conexiones."
+    ], "b"),
+    ("¿Qué caracteriza a la topología de estrella?", [
+        "a) No tiene un nodo central.",
+        "b) Todos los nodos se conectan entre sí directamente.",
+        "c) Tiene un nodo central del que parten enlaces a todos los nodos.",
+        "d) Los nodos están dispersos sin conexiones."
+    ], "c"),
+    ("¿Cuál es una de las principales ventajas de la topología de estrella?", [
+        "a) Alta redundancia.",
+        "b) Bajo costo inicial.",
+        "c) No depende de un nodo central.",
+        "d) Escalabilidad limitada."
+    ], "b"),
+    ("¿Qué ocurre si el nodo central en una topología de estrella falla?", [
+        "c) La red sigue funcionando normalmente.",
+        "b) La red se vuelve altamente redundante.",
+        "a) La red colapsa y se vuelve muy vulnerable.",
+        "d) Los otros nodos eligen un nuevo nodo central."
+    ], "a"),
+    ("¿Cómo se compara el costo inicial de la topología de estrella con la expansión a nuevos nodos?", [
+        "a) La expansión a nuevos nodos es costosa.",
+        "b) El costo inicial es bajo.",
+        "c) Ambos tienen un costo alto.",
+        "d) Ambos son igualmente económicos."
+    ], "b"),
+    ("¿Cómo se conectan las estrellas en una topología de árbol?", [
+        "a) No están conectadas entre sí.",
+        "b) Se conectan directamente todos con todos.",
+        "c) Se conectan a través de sus nodos centrales.",
+        "d) Se conectan mediante un nodo principal."
+    ], "c"),
+    ("¿Cómo se conectan las estrellas en una topología de árbol?", [
+        "c) No están conectadas entre sí.",
+        "b) Se conectan directamente todos con todos.",
+        "a) Se conectan a través de sus nodos centrales.",
+        "d) Se conectan mediante un nodo principal."
+    ], "a"),
+    ("¿Cuál es una de las situaciones en las que se emplea una topología de árbol?", [
+        "a) Cuando la red se compone de una sola estrella.",
+        "b) Cuando las comunicaciones se producen entre nodos distantes.",
+        "c) Cuando la mayor parte de las comunicaciones se producen entre nodos próximos.",
+        "d) Cuando se necesita alta redundancia."
+    ], "c"),
+    ("¿Qué define la topología de árbol en términos de conexiones entre nodos?", [
+        "a) Una red sin nodos centrales.",
+        "b) Una red altamente redundante.",
+        "d) La conexión entre estrellas a través de sus nodos centrales.",
+        "c) Una red en la que todos los nodos se conectan directamente."
+    ], "d"),
+    ("¿Cómo se transmiten los mensajes en una topología de anillo hasta llegar al destino?", [
+        "a) Los mensajes saltan aleatoriamente entre nodos.",
+        "b) Los mensajes se envían en múltiples direcciones simultáneamente.",
+        "c) Los mensajes atraviesan todos los nodos hasta llegar al destino.",
+        "d) Los mensajes son gestionados por un nodo central."
+    ], "c"),
+    ("¿Cuál es una de las principales vulnerabilidades de una topología de anillo?", [
+        "a) Vulnerabilidad a fallos en el nodo central.",
+        "b) Vulnerabilidad a fallos en la comunicación bidireccional.",
+        "d) Vulnerabilidad a fallos en los nodos o los enlaces entre ellos.",
+        "c) Vulnerabilidad a fallos en la comunicación unidireccional."
+    ], "d"),
+    ("¿Cómo se conectan los ordenadores en una topología de bus?", [
+        "c) Cada ordenador se conecta a un nodo central.",
+        "b) Cada ordenador se conecta con el anterior y el siguiente ordenador.",
+        "a) Cada ordenador se conecta al canal de transmisión común o bus.",
+        "d) Los ordenadores no están conectados entre sí."
+    ], "a"),
+    ("¿Cómo se comporta un mensaje enviado en una topología de bus?", [
+        "a) Un mensaje enviado por un nodo solo se recibirá en el nodo destino.",
+        "b) Un mensaje enviado por un nodo será recibido por todos los otros nodos.",
+        "c) Un mensaje solo puede ser recibido por el nodo anterior al emisor.",
+        "d) Cada nodo envía su propio mensaje independientemente."
+    ], "b"),
+    ("¿Quién es el encargado de determinar si un mensaje es para él en una topología de bus?", [
+        "a) El nodo emisor del mensaje.",
+        "b) El primer nodo de la red.",
+        "c) El nodo destino del mensaje.",
+        "d) Todos los nodos reciben todos los mensajes."
+    ], "c"),
+    ("¿Qué tipo de mecanismos son necesarios en una topología de bus?", [
+        "a) Mecanismos para gestionar la comunicación bidireccional.",
+        "b) Mecanismos para gestionar la comunicación punto a punto.",
+        "c) Mecanismos para gestionar la transmisión a larga distancia.",
+        "d) Mecanismos para gestionar cuándo se puede o no enviar un mensaje."
+    ], "d"),
+    ("¿Cómo es el enlace en una topología de anillo (multipunto)?", [
+        "a) El enlace es abierto y la información puede ir en ambos sentidos.",
+        "b) El enlace es cerrado y la información va siempre en el mismo sentido.",
+        "c) El enlace es un punto central de conexión.",
+        "d) El enlace cambia constantemente de dirección."
+    ], "b"),
+    ("¿Qué mecanismos se utilizan en una topología de anillo (multipunto) para determinar quién puede transmitir?", [
+        "b) Se utiliza un nodo central para controlar la transmisión.",
+        "a) Se utiliza un sistema de turnos predefinidos para transmitir (paso de testigos).",
+        "c) Se permite que todos los nodos transmitan simultáneamente.",
+        "d) No es necesario ningún mecanismo para determinar quién puede transmitir."
+    ], "a"),
+    ("¿Cómo afecta la caída de un nodo en una topología de anillo (multipunto) al resto de la red?", [
+        "a) La caída de un nodo detiene por completo la red.",
+        "b) La caída de un nodo afecta negativamente a la red, pero no la detiene.",
+        "c) La caída de un nodo no afecta al resto de la red.",
+        "d) La caída de un nodo solo afecta a los nodos cercanos."
+    ], "c"),
+    ("¿Cuál es la característica principal de la topología de anillo (multipunto) en términos de dirección de la información?", [
+        "a) La información va en direcciones variables y cambia constantemente.",
+        "b) La información va en ambos sentidos simultáneamente.",
+        "c) La información va siempre en el mismo sentido.",
+        "d) La información va en cualquier dirección según las necesidades."
+    ], "c"),
+    ("¿Cómo puede ser una red según su topología inalámbrica?", [
+        "a) Topología distribuida y topología centralizada.",
+        "b) Topología distribuida, topología centralizada y topología .",
+        "c) La información va siempre en el mismo sentido.",
+        "d) La información va en cualquier dirección según las necesidades."
+    ], "a"),
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
