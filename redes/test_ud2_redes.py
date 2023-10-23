@@ -1122,10 +1122,249 @@ preguntas = [
     ], "c"),
     ("¿Cómo puede ser una red según su topología inalámbrica?", [
         "a) Topología distribuida y topología centralizada.",
-        "b) Topología distribuida, topología centralizada y topología .",
-        "c) La información va siempre en el mismo sentido.",
-        "d) La información va en cualquier dirección según las necesidades."
+        "b) Topología distribuida, topología centralizada y topología parcial.",
+        "c) Topología parcial y topología total.",
+        "d) Topología ascendente y topología descendente."
     ], "a"),
+    ("En una topología distribuida, ¿qué función cumplen las celdas?", [
+        "a) Las celdas son elementos de hardware que almacenan datos.",
+        "b) Las celdas son dispositivos de almacenamiento de energía para los dispositivos inalámbricos.",
+        "c) Las celdas son zonas donde la señal se emite con efectividad, definiendo áreas de cobertura.",
+        "d) Las celdas son nodos centrales que gestionan todas las comunicaciones en la red."
+    ], "c"),
+    ("¿Cuál es la función principal de los puntos de acceso en una topología distribuida?", [
+        "a) Almacenar información en la nube para su acceso remoto.",
+        "b) Ampliar el rango de cobertura de la red inalámbrica.",
+        "c) Gestionar el tráfico de datos en la red local.",
+        "d) Proporcionar energía a los dispositivos inalámbricos."
+    ], "b"),
+    ("¿Qué significa el término 'itinerancia' (roaming) en el contexto de una topología distribuida?", [
+        "a) La capacidad de una red inalámbrica para cambiar de un canal de transmisión a otro automáticamente.",
+        "b) El proceso de enviar datos a través de múltiples nodos antes de llegar al destino final.",
+        "c) La habilidad de un dispositivo para moverse entre celdas o puntos de acceso sin perder la conexión a la red.",
+        "d) La administración de las direcciones IP en una red inalámbrica."
+    ], "c"),
+    ("¿Cuál es el requisito principal de itinerancia (roaming) en redes WLAN distribuidas?", [
+        "a) El uso de celdas de gran tamaño para garantizar una cobertura completa.",
+        "b) La administración de las direcciones MAC de los dispositivos.",
+        "c) La capacidad de los dispositivos para moverse entre celdas o puntos de acceso sin perder la conexión.",
+        "d) La utilización de cables de red en lugar de conexiones inalámbricas."
+    ], "c"),
+    ("¿En qué situación es más adecuada la topología centralizada?", [
+        "c) Cuando se utilizan celdas de gran tamaño para garantizar una cobertura completa.",
+        "b) Cuando se necesita itinerancia (roaming) entre celdas o puntos de acceso.",
+        "a) Cuando hay muchas celdas e información de naturaleza variada.",
+        "d) Cuando se desea una red inalámbrica con puntos de acceso en lugares estratégicos."
+    ], "a"),
+    ("¿Quién gestiona cada celda en una topología centralizada?", [
+        "a) Los puntos de acceso (access points).",
+        "b) Los dispositivos finales (clientes).",
+        "c) Los routers inalámbricos.",
+        "d) Los switches WLAN."
+    ], "d"),
+    ("En una topología centralizada de redes inalámbricas, ¿cómo se describiría la función de los puntos de acceso 'tontos'?", [
+        "a) Los puntos de acceso 'tontos' gestionan activamente dispositivos conectados a la red.",
+        "b) Los puntos de acceso 'tontos' dividen la red en celdas para una mejor cobertura.",
+        "c) Los puntos de acceso 'tontos' permiten el movimiento entre diferentes celdas sin desconexión.",
+        "d) Los puntos de acceso 'tontos' solo amplían el radio de acción y no gestionan dispositivos."
+    ], "d"),
+    ("¿Cómo se describe un enlace en el que la información fluye en un solo sentido?", [
+        "a) Semi-duplex",
+        "c) Duplex",
+        "b) Simplex",
+        "d) Multiplex"
+    ], "b"),
+    ("¿Cuál de los siguientes dispositivos de comunicación a menudo utiliza un enlace semi-duplex?", [
+        "a) Teléfono",
+        "b) Walkie talkie",
+        "c) Radio FM",
+        "d) Televisión"
+    ], "b"),
+    ("¿En qué tipo de enlace la transmisión de información es bidireccional y simultánea?", [
+        "a) Simplex",
+        "b) Semi-duplex",
+        "d) Duplex (Full-duplex)",
+        "c) Multiplex"
+    ], "d"),
+    ("¿Cómo se define la conmutación en el contexto de las redes?", [
+        "c) La transmisión de datos en un solo sentido",
+        "b) La conexión entre dispositivos en una misma ubicación",
+        "a) La conexión que realizan nodos intermedios para establecer un camino entre un emisor y un receptor en una red",
+        "d) El proceso de comunicación a larga distancia"
+    ], "a"),
+    ("¿Cuáles son los diferentes tipos de conmutación utilizados en las redes de comunicación?", [
+        "a) Conmutación de circuitos, conmutación de mensajes y conmutación de paquetes",
+        "b) Conmutación de voz, conmutación de video y conmutación de datos",
+        "c) Conmutación simplex, conmutación semi-duplex y conmutación duplex",
+        "d) Conmutación de tiempo, conmutación de espacio y conmutación de frecuencia"
+    ], "a"),
+    ("¿Cuál es una característica de la conmutación de circuitos?", [
+        "a) Se divide el mensaje en paquetes pequeños para su transmisión.",
+        "b) Se establece un camino físico dedicado para la transferencia del mensaje.",
+        "c) Los datos se envían como mensajes completos sin división.",
+        "d) Es el método comúnmente utilizado en la conmutación de paquetes."
+    ], "b"),
+    ("¿Cuáles son las fases en la conmutación de circuitos?", [
+        "a) Inicialización y finalización del circuito.",
+        "b) Envío y recepción del mensaje.",
+        "c) Establecimiento del circuito, envío del mensaje y liberación del circuito.",
+        "d) Conexión y desconexión de la red."
+    ], "c"),
+    ("¿Qué característica describe el hecho de que en la conmutación de circuitos, el circuito no se libera hasta finalizar la transmisión?", [
+        "a) Sobreutilización de recursos.",
+        "b) Multiplexación de circuitos.",
+        "d) Infrautilización de recursos.",
+        "c) Conexión de corta duración."
+    ], "d"),
+    ("¿Cuál es una característica de la conmutación de mensajes?", [
+        "a) Se establece un camino físico para transferir el mensaje.",
+        "b) No se establece una ruta física.",
+        "c) Los mensajes se envían como paquetes independientes.",
+        "d) La ruta se mantiene durante toda la transmisión."
+    ], "b"),
+    ("En la conmutación de mensajes, ¿cómo se envía el mensaje de datos?", [
+        "a) Se envía como un paquete completo sin almacenamiento intermedio.",
+        "b) Se envía por un camino físico preestablecido.",
+        "c) Se envía el mensaje de datos entero mediante almacenamiento y envío en cada nodo.",
+        "d) Se transmite en ambos sentidos simultáneamente."
+    ], "c"),
+    ("En la conmutación de mensajes, ¿qué se necesita en gran cantidad en los nodos?", [
+        "a) Capacidad de procesamiento.",
+        "b) Energía eléctrica.",
+        "c) Capacidad de almacenamiento.",
+        "d) Ancho de banda de red."
+    ], "c"),
+    ("En la conmutación de mensajes, ¿qué ocurre en caso de un error en la transmisión?", [
+        "c) Se corrige automáticamente el error.",
+        "b) Se descarta el mensaje completo.",
+        "a) Se debe enviar el mensaje entero.",
+        "d) El mensaje se divide en paquetes más pequeños para evitar errores."
+    ], "a"),
+    ("¿Cuál es una característica clave de la conmutación de paquetes?", [
+        "a) Establece una ruta física dedicada para cada transmisión.",
+        "b) Requiere una gran capacidad de almacenamiento en los nodos.",
+        "c) Permite la transmisión de mensajes completos sin divisiones.",
+        "d) No establece una ruta física y divide los datos en paquetes para su transmisión."
+    ], "d"),
+    ("¿Qué característica distingue a la conmutación de paquetes?", [
+        "a) Establece una ruta física dedicada para cada transmisión.",
+        "c) Requiere una gran capacidad de almacenamiento en los nodos.",
+        "b) Permite que cada paquete tome un camino distinto.",
+        "d) Requiere una conexión permanente durante la transmisión."
+    ], "b"),
+    ("¿Cuál es una ventaja de la conmutación de paquetes en comparación con la conmutación de circuitos?", [
+        "a) Mayor tiempo de conmutación en cada nodo.",
+        "b) Requiere una conexión permanente durante la transmisión.",
+        "c) Menor tiempo de conmutación en cada nodo.",
+        "d) Establece una ruta física dedicada para cada transmisión."
+    ], "c"),
+    ("¿Qué ventaja de la conmutación de paquetes permite que si un enlace está saturado pueda ir por otro?", [
+        "a) Permite el balanceo de carga.",
+        "b) Facilita la retransmisión de paquetes erróneos.",
+        "c) Se ocupa completamente cada enlace de la red.",
+        "d) Requiere una ruta física establecida para transferir mensajes."
+    ], "a"),
+    ("¿Cuál es una ventaja de la conmutación de paquetes que permite que si un enlace está saturado, los paquetes puedan ser redirigidos por otro camino disponible?", [
+        "a) No permite el balanceo de carga.",
+        "b) Requiere una ruta física establecida para transferir mensajes.",
+        "c) Mejora el rendimiento de la red al utilizar eficazmente los enlaces disponibles.",
+        "d) Facilita la retransmisión de paquetes erróneos."
+    ], "c"),
+    ("¿Cuál es una ventaja de la conmutación de paquetes?", [
+        "a) No permite el balanceo de carga.",
+        "b) Requiere una ruta física establecida para transferir mensajes.",
+        "c) Mejora el rendimiento de la red, se ocupa muy poco cada enlace.",
+        "d) Facilita la retransmisión de diversos paquetes erróneos."
+    ], "c"),
+    ("¿Por qué la conmutación de paquetes facilita la gestión de errores en la transmisión de datos en comparación con otros métodos?", [
+        "a) Requiere una ruta física establecida para transferir mensajes.",
+        "b) No permite el balanceo de carga.",
+        "c) Mejora el rendimiento de la red al utilizar eficazmente los enlaces disponibles.",
+        "d) Si hay un error, solo es necesario retransmitir el paquete erróneo, no todo el mensaje."
+    ], "d"),
+    ("¿Cuál es el propósito principal de la Red Telefónica Conmutada (RTC)?", [
+        "a) Transmitir datos a través de fibra óptica.",
+        "b) Proporcionar acceso a Internet de alta velocidad.",
+        "c) La transmisión de voz mediante corriente eléctrica en un par de cables de cobre (bucle de abonado).",
+        "d) Conectar redes de área local (LAN) en empresas."
+    ], "c"),
+    ("¿Cuál de las siguientes afirmaciones describe mejor la extensión de la Red Telefónica Conmutada (RTC)?", [
+        "a) Limitada a ciertas regiones geográficas.",
+        "c) Principalmente utilizada en entornos empresariales.",
+        "b) Tiene cientos de millones de abonados en todo el mundo.",
+        "d) Se utiliza principalmente para la transmisión de datos."
+    ], "c"),
+    ("¿Cuál de las siguientes opciones describe mejor la evolución de la conmutación en la Red Telefónica Conmutada (RTC)?", [
+        "a) La conmutación ha seguido siendo manual y no ha experimentado cambios significativos.",
+        "b) La conmutación se realizaba manualmente, pero luego se automatizó con centralitas.",
+        "c) La conmutación ha avanzado hacia sistemas de conmutación por paquetes en lugar de circuitos.",
+        "d) La RTC no ha experimentado cambios en su infraestructura desde su creación."
+    ], "b"),
+    ("¿Cuál de los siguientes servicios es uno de los principales ofrecidos por la Red Telefónica Conmutada (RTC)?", [
+        "a) Servicio de correo electrónico.",
+        "b) Transmisión de video en tiempo real.",
+        "c) Servicio de fax.",
+        "d) Transmisión de voz en tiempo real."
+    ], "d"),
+    ("¿Cuál de los siguientes servicios NO es uno de los ofrecidos por la Red Telefónica Conmutada (RTC)?", [
+        "a) Servicio de correo electrónico.",
+        "b) Llamada en espera.",
+        "c) Conferencia a tres.",
+        "d) Desvío de llamadas."
+    ], "a"),
+    ("¿Cuál de los siguientes dispositivos es responsable de realizar la modulación y desmodulación en la Red Telefónica Conmutada (RTC)?", [
+        "a) Routers.",
+        "b) Concentradores.",
+        "c) Centralitas telefónicas.",
+        "d) Módems."
+    ], "d"),
+    ("Según la información proporcionada, ¿qué tipo de transmisión se utiliza en la Red Telefónica Conmutada (RTC)?", [
+        "a) Transmisión digital.",
+        "b) Transmisión analógica.",
+        "c) Transmisión por paquetes.",
+        "d) Transmisión inalámbrica."
+    ], "b"),
+    ("Según la información proporcionada, ¿a qué velocidad máxima de transmisión de datos puede llegar utilizando el espectro de la transmisión de voz en la Red Telefónica Conmutada (RTC)?", [
+        "a) 128 Kbps.",
+        "b) 56 Kbps.",
+        "c) 1 Gbps.",
+        "d) 10 Mbps."
+    ], "b"),
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
