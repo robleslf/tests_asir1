@@ -1330,7 +1330,111 @@ preguntas = [
         "c) 1 Gbps.",
         "d) 10 Mbps."
     ], "b"),
-    
+    ("¿Cuál es la diferencia entre topología física y topología lógica?", [
+        "a) La topología física es la forma que se puede ver, y la topología lógica es la forma en que los datos viajan por la misma.",
+        "b) La topología física solo afecta a la capa 1, mientras que la lógica afecta al resto de las capas.",
+        "c) La topología física hace referencia a los dispositivos finales y la lógica a los intermediarios.",
+        "d) No existe ninguna diferencia, ambas son las mismas."
+    ], "a"),
+    ("¿Cuáles son las topologías físicas?", [
+        "a) Las que hacen referencia al aspecto que tiene el diseño del cableado que se utiliza para conectar los diferentes dispositivos de la red, incluyendo la ubicación de cada host y la conexión entre los hosts y el cableado.",
+        "b) Las que hacen referencia al aspecto que tiene el diseño del cableado que se utiliza para conectar los diferentes dispositivos de la red, sin incluir la ubicación de cada host y la conexión entre los hosts y el cableado.",
+        "c) Las que hacen referencia al aspecto que tiene el diseño lógico que se utiliza para conectar los diferentes dispositivos de la red, sin incluir la ubicación de cada host y la conexión entre los hosts y el cableado.",
+        "d) Las que hacen referencia al aspecto que tiene el diseño lógico que se utiliza para conectar los diferentes dispositivos de la red, incluyendo la ubicación de cada host y la conexión entre los hosts y el cableado."
+    ], "a"),
+        ("¿Cuáles son las topologías físicas?", [
+        "a) Las que hacen referencia al aspecto que tiene el diseño del cableado que se utiliza para conectar los diferentes dispositivos de la red, incluyendo la ubicación de cada host y la conexión entre los hosts y el cableado.",
+        "b) se refiere a las conexiones físicas e identifica cómo se interconectan los dispositivos finales y de infraestructura, como los routers, los switches y los puntos de acceso inalámbrico.",
+        "c) Son las de conexión punto a punto o conexión multipunto.",
+        "d) Todas las anteriores son correctas."
+    ], "d"),
+        ("¿Cuál de las siguientes definiciones encaja con la de topología lógica?", [
+        "a) Indica el medio en el que las señales viajan por la red, teniendo en cuenta la conexión lógica entre los dispositivos.",
+        "b) Indica el modo en el que las señales viajan por la red, teniendo en cuenta la conexión física entre los dispositivos.",
+        "c) Indica el modo en el que las señales viajan por la red, sin tener en cuenta la conexión física entre los dispositivos.",
+        "d) Indica el medio en el que las señales viajan por la red, teniendo en cuenta la conexión física entre los dispositivos."
+    ], "b"),
+    ("¿Cuáles son las topologías lógicas?", [
+        "a) Aquellas que indican el modo en el que las señales viajan por la red, sin tener en cuenta la conexión física entre los dispositivos.",
+        "b) Aquellas en que se indica la forma en que una red transfiere tramas de un nodo al siguiente.",
+        "c) Aquellas cuya disposición consta de conexiones virtuales entre los nodos de una red. Los protocolos de capa de enlace de datos definen estas rutas de señales lógicas.",
+        "d) Todas las anteriores son correctas."
+    ], "d"),
+    ("¿Cuáles son las topologías lógicas más comunes?", [
+        "a) Broadcast, transmisión de tokens y FDDI.",
+        "b) Broadcast, Multicast, Bittercast.",
+        "c) Broadcast, Elder Ring y FBI.",
+        "d) Broadcast, Multicast y Simple Cast."
+    ], "a"),
+    ("¿Cuál de las siguientes características pertenece a una topología de BROADCAST?", [
+        "a) Cada host envía sus datos hacia un único nodo específico de la red.",
+        "b) Cada host envía sus datos hacias todos los demás hosts del medio de la red.",
+        "c) Cada host envía sus datos hacia uno o varios nodos específicos de la red.",
+        "d) Ninguna de las anteriores es correcta."
+    ], "b"),
+    ("¿Cuál de las siguientes características pertenece a una topología de BROADCAST?", [
+        "a) Las estaciones siguen un orden lógico definido de antemano.",
+        "b) Las estaciones siguen un orden en el sentido de las agujas del reloj.",
+        "c) Las estaciones no siguen ningún orden.",
+        "d) Ninguna de las anteriores es correcta."
+    ], "c"),
+    ("¿Cuál de las siguientes características pertenece a una topología de BROADCAST?", [
+        "a) El primero que entra es el primero que se sirve (FIFO).",
+        "b) El último en llegar es el primero en salir (LILO).",
+        "c) Se sirve primero el de mayor prioridad.",
+        "d) Ninguna de las anteriores es correcta."
+    ], "a"),
+    ("¿Cuál de las siguientes características pertenece a una topología de BROADCAST?", [
+        "a) Es la forma de Internet.",
+        "b) Es la forma de Ethernet.",
+        "c) Es la forma de Intranet.",
+        "d) Ninguna de las anteriores es correcta."
+    ], "b"),
+        ("¿Cuál de las siguientes características pertenece a una topología de TRANSMISIÓN DE TOKENS?", [
+        "a) Controla el acceso a la red al transmitir un token eléctrico de forma secuencial a cada host.",
+        "b) Controla el acceso a la red al transmitir un token mecánico de forma secuencial a cada host.",
+        "c) Controla el acceso a la red al transmitir un token mecánico de forma aleatoria a cada host.",
+        "d) Controla el acceso a la red al transmitir un token eléctrico de forma aleatoria a cada host."
+    ], "A"),
+        ("¿Cuál de las siguientes características pertenece a una topología de TRANSMISIÓN DE TOKENS?", [
+        "a) Cuando un host recibe el token, significa que no puede enviar datos a través de la red hasta recibir el siguiente token.",
+        "b) Cuando un host recibe el token, significa que puede enviar datos a través de la red.",
+        "c) Cuando un host recibe el token, el mensaje ha llegado a su destino.",
+        "d) Ninguna de las anteriores."
+    ], "b"),
+        ("¿Cuál de las siguientes características pertenece a una topología de TRANSMISIÓN DE TOKENS?", [
+        "a) Si el host no tiene ningún dato para enviar, almacena el token hasta tenerlo.",
+        "b) Si el host no tiene ningún dato para enviar, el token desaparece.",
+        "c) Si el host no tiene ningún dato para enviar, transmite el token hacia el siguiente host y el proceso se repite.",
+        "d) Ninguna de las anteriores."
+    ], "c"),
+    ("¿Cuál de las siguientes características pertenece a una topología FDDI?", [
+        "a) Se basa en la arquitectura Token Ring.",
+        "b) Se basa en la arquitectura Broadcast.",
+        "c) Permite una comunicación de tipo dúplex.",
+        "d) a y c son correctas."
+    ], "d"),
+    ("¿Como son las topologías físicas y lógicas entre sí?", [
+        "a) Incompatibles.",
+        "b) Independientes.",
+        "c) Dependientes.",
+        "d) Ninguna de las anteriores es correcta."
+    ], "b"),
+        ("¿Qué significa que las topologías físicas y lógicas son independientes entre sí?", [
+        "a) Que ambas deben estar separadas a la hora de diseñar e implementar la red.",
+        "b) Que, por ejemplo, cualquier variedad de Ethernet utiliza una topología de bus lógica cuando los componentes se comunican, independientemente de la disposición física del cableado (bus, estrella, punto a punto...).",
+        "c) Las topologías físicas y lógicas NO son independientes entre sí.",
+        "d) a y c son correctas."
+    ], "b"),
+    ("¿Cómo son las topologías lógica y física del TOKEN RING?", [
+        "a) Topología en estrella y topología de anillo respectivamente.",
+        "b) Topología en anillo en ambos casos.",
+        "c) Topología en bus y topología en anillo respectivamente.",
+        "d) Topología en malla y topología en anillo respectivamente."
+    ], "b"),
+
+
+
 
 
 
