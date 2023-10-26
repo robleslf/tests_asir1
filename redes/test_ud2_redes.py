@@ -1432,6 +1432,510 @@ preguntas = [
         "c) Topología en bus y topología en anillo respectivamente.",
         "d) Topología en malla y topología en anillo respectivamente."
     ], "b"),
+    ("¿Cómo se estructura la arquitectura de redes?",
+    [   "a) En una sola capa.",
+        "b) En capas o niveles.",
+        "c) En 7 capas o niveles.",
+        "d) Sin una estructura definida."],
+    "b"),
+    ("¿Cómo podemos definir la arquitectura de redes?",
+    [
+        "a) Como una estructura caótica sin niveles.",
+        "b) Como una descripción de las capas que la componen, su funcionalidad, los servicios que utilizan y los protocolos que emplea para comunicarse entre 'iguales'.",
+        "c) Como una estructura basada en una sola capa de funcionalidad.",
+        "d) Como una red que no utiliza protocolos para la comunicación."
+    ],
+    "b"),
+    ("¿Cómo intercambia información una capa con otra en la arquitectura de redes?",
+    [
+        "a) A través de protocolos.",
+        "b) Utilizando mensajes en lenguaje natural.",
+        "c) Empleando servicios compuestos por una serie de órdenes u operaciones llamadas primitivas de servicio.",
+        "d) Mediante una conexión directa de hardware."
+    ],
+    "c"),
+    ("¿Qué elementos son utilizados por los servicios en la arquitectura de redes?",
+    [
+        "a) Protocolos complicados.",
+        "b) Dispositivos de red.",
+        "c) Puntos de Acceso al Servicio (SAP's).",
+        "d) Hardware especializado."
+    ],
+    "c"),
+    (
+    "¿Cuál es el propósito principal del modelo OSI (Open Systems Interconnection)?",
+    [
+        "a) Conectar equipos de la misma marca.",
+        "b) Conectar equipos de diferentes fabricantes.",
+        "c) Evolucionar la tecnología SNA de IBM.",
+        "d) Limitar la interconexión de sistemas abiertos."
+    ],
+    "b"
+    ),
+    (
+    "¿Qué característica clave destaca el término 'Open' (Abierto) en el contexto del modelo OSI?",
+    [
+        "a) Limita el acceso a modelos de comunicación de empresas.",
+        "b) Significa que el modelo OSI es exclusivo de una empresa en particular.",
+        "c) Indica que el modelo OSI es accesible y no está cerrado a sistemas propietarios.",
+        "d) Se refiere a la necesidad de pagar una tarifa para utilizar el modelo OSI."
+    ],
+    "c"
+    ),
+    (
+    "¿Cuál fue el propósito principal del modelo OSI?",
+    [
+        "a) Ser un modelo de referencia teórico sin aplicación práctica.",
+        "b) Establecer una base para la arquitectura de redes actuales.",
+        "c) Ser un modelo de red ampliamente utilizado en la práctica.",
+        "d) Facilitar la implementación de redes propietarias."
+    ],
+    "b"
+    ),
+    (
+    "Según el modelo OSI, ¿qué relación existe entre las capas adyacentes?",
+    [
+        "a) La capa n ofrece servicios a la capa n-1.",
+        "b) La capa n ofrece servicios a las capas superiores.",
+        "c) La capa n ve los servicios que ofrece la capa n+1.",
+        "d) La capa n ve los servicios que ofrece la capa n-1."
+    ],
+    "d"
+    ),
+    (
+    "¿Cómo se denomina a la comunicación entre capas en el modelo OSI, donde una capa en un sistema solo se comunica con su homóloga en el sistema remoto?",
+    [
+        "a) Comunicación de extremo a extremo.",
+        "b) Comunicación de nodo a nodo.",
+        "c) Comunicación entre iguales o 'peer-to-peer'.",
+        "d) Comunicación punto a punto."
+    ],
+    "c"
+    ),
+    (
+    "¿Cómo se llaman las reglas que rigen la conversación entre capas en el modelo OSI?",
+    [
+        "a) Directrices de la capa n.",
+        "b) Comandos de la capa n.",
+        "c) Protocolo de la capa n.",
+        "d) Reglas de comunicación de la capa n."
+    ],
+    "c"
+    ),
+    (
+    "¿Cuál es la función principal del Nivel Físico en el modelo OSI?",
+    [
+        "a) Gestionar las conexiones entre aplicaciones en sistemas remotos.",
+        "b) Realizar el enrutamiento de paquetes a través de la red.",
+        "c) Encargarse de la transmisión física de señales electromagnéticas entre sistemas.",
+        "d) Controlar el flujo de datos entre las capas de aplicación y transporte."
+    ],
+    "c"
+    ),
+    (
+    "¿Cuál es el principal objetivo del Nivel Físico en el modelo OSI?",
+    [
+        "a) Enviar información entre sistemas remotos.",
+        "b) Encriptar los datos para mayor seguridad.",
+        "c) Transmitir bits por un canal de comunicación sin alteraciones al receptor.",
+        "d) Gestionar el enrutamiento de paquetes en la red."
+    ],
+    "c"
+    ),
+    (
+    "¿Qué proporciona el Nivel Físico en el modelo OSI?",
+    [
+        "a) Proporciona la encriptación de datos para mayor seguridad.",
+        "b) Proporciona los medios mecánicos, de procedimiento y electrónicos para mantener y desactivar conexiones físicas para la transmisión de bits entre unidades de enlace de datos.",
+        "c) Proporciona la gestión del enrutamiento de paquetes en la red.",
+        "d) Proporciona servicios de aplicación a las capas superiores."
+    ],
+    "b"
+    ),
+    (
+    "¿Cuáles son algunas de las limitaciones impuestas por el Nivel Físico en un sistema de comunicación?",
+    [
+        "a) Limita la velocidad de transmisión y aumenta la probabilidad de errores en la transmisión de datos.",
+        "b) Garantiza una velocidad de transmisión constante sin errores.",
+        "c) No tiene ningún impacto en la velocidad de transmisión ni en la probabilidad de errores.",
+        "d) Aumenta la velocidad de transmisión y disminuye la probabilidad de errores en la transmisión de datos."
+    ],
+    "a"
+    ),
+    (
+    "¿Por qué los parámetros físicos imponen un límite superior a la velocidad de transmisión en un sistema de comunicación?",
+    [
+        "a) Porque los parámetros físicos son capaces de aumentar la velocidad de transmisión sin límites.",
+        "b) Porque los parámetros físicos no tienen ningún impacto en la velocidad de transmisión.",
+        "c) Porque los parámetros físicos siempre imponen un límite superior a la velocidad de transmisión xd.",
+        "d) Porque los parámetros físicos no afectan la velocidad de transmisión ni imponen ningún límite."
+    ],
+    "c"
+    ),
+    (
+    "¿Por qué los medios de transmisión imponen un límite superior de velocidad de transmisión en el nivel físico de una red?",
+    [
+        "a) Debido a que la electrónica no puede mejorar la velocidad de transmisión.",
+        "b) Debido a la capacidad de transmisión limitada de los medios físicos.",
+        "c) Esto no es cierto, ya que no existe un límite en la velocidad de transmisión.",
+        "d) Porque los dispositivos de enrutamiento restringen la velocidad de transmisión."
+    ],
+    "b"
+    ),
+    (
+    "En el nivel físico del modelo OSI, ¿cómo influye el ancho de banda de un medio de transmisión en la velocidad de transmisión de datos?",
+    [
+        "a) El ancho de banda no tiene influencia en la velocidad de transmisión de datos.",
+        "b) El ancho de banda determina la capacidad máxima de datos que puede transmitirse por el medio en un período de tiempo dado.",
+        "c) A mayor ancho de banda, menor velocidad de transmisión de datos.",
+        "d) El ancho de banda está relacionado con la velocidad de procesamiento de los nodos de la red, no con la velocidad de transmisión."
+    ],
+    "b"
+    ),
+    (
+    "En el nivel físico de una red, ¿cómo se aborda el problema de los errores de transmisión? Elige la respuesta correcta.",
+    [
+        "b) El nivel físico corrige automáticamente todos los errores de transmisión que se produzcan.",
+        "a) El nivel físico asume una probabilidad de error y delega la corrección de errores en el nivel superior.",
+        "c) Los errores de transmisión no son un problema en el nivel físico de una red.",
+        "d) El nivel físico utiliza técnicas avanzadas de corrección de errores para garantizar la transmisión sin errores."
+    ],
+    "a"
+    ),
+    ("¿Cuál es la característica distintiva del nivel de enlace en el modelo OSI en términos de su base tecnológica y de protocolos?", [
+        "a) Es el primer nivel basado en hardware y conexiones físicas.",
+        "b) Es el primer nivel basado en software, algoritmos y protocolos.",
+        "c) Es independiente de la tecnología y los protocolos.",
+        "d) Se basa en la topología de la red."
+    ], "b"),
+    ("¿Cuál es la misión principal del nivel de enlace en el modelo OSI?", [
+    "a) Proporcionar encriptación de datos para mayor seguridad.",
+    "b) Gestionar las conexiones entre aplicaciones en sistemas remotos.",
+    "c) Garantizar la fiabilidad en la transmisión de señales eléctricas o electromagnéticas que proporciona el nivel físico.",
+    "d) Controlar el flujo de datos entre las capas de aplicación y transporte."
+    ], "c"),
+    ("¿En el nivel de enlace del modelo OSI, cuál es la tasa de error con la que se considera que la transmisión de señales eléctricas o electromagnéticas que proporciona el nivel físico es fiable?", [
+    "a) Menos del 50%.",
+    "b) Menos del 35%.",
+    "c) Menos del 1%.",
+    "d) Menos del 10%."
+    ], "c"),
+    ("¿En el nivel de enlace, qué estrategia se utiliza para detectar y corregir errores de transmisión del nivel físico del modelo OSI?", [
+    "a) Se aumenta la velocidad de transmisión para minimizar los errores.",
+    "b) Se utiliza encriptación avanzada de datos.",
+    "c) Se añaden bits adicionales a la mensaje para detectar errores y solicitar su retransmisión.",
+    "d) Se reduce la amplitud de las señales electromagnéticas."
+    ], "c"),
+    ("¿En el nivel de enlace del modelo OSI, cuál es la técnica habitual utilizada para detectar errores en la transmisión de datos desde el nivel físico?", [
+    "a) Aumento de la velocidad de transmisión para minimizar errores.",
+    "b) Utilización de encriptación avanzada de datos.",
+    "c) División de los datos en un polinomio y adición del resultado a los datos para su detección de errores y retransmisión.",
+    "d) Reducción de la amplitud de las señales electromagnéticas."
+    ], "c"),
+    ("¿En el nivel de enlace del modelo OSI, cómo se detectan errores en la transmisión de datos desde el nivel físico?", [
+    "a) Se agrupan los datos en pequeños bloques denominados tramas, que contendrán los bits del mensaje, los bits añadidos para detectar errores y diferentes números de control, como el número de trama.",
+    "b) Se agrupan los datos en pequeños bloques denominados segmentos, que contendrán los bits del mensaje, los bits añadidos para detectar errores y diferentes números de control, como el número de trama.",
+    "c) Se agrupan los datos en pequeños bloques denominados tramas, que contendrán exclusivamente los bits para detectar errores.",
+    "d) Se añade un grupo de bits a la trama, denominado subtrama, que son los bits encargados de la detección de errores dentro de la trama."
+    ], "a"),
+    ("¿Dentro del nivel de enlace del modelo OSI, cómo se conoce el proceso de agregar bits redundantes y compararlos en el receptor para detectar errores en la transmisión de datos?", [
+    "a) Compresión de datos.",
+    "b) Encriptación de datos.",
+    "c) Detección de errores.",
+    "d) Reducción de la velocidad de transmisión."
+    ], "c"),
+    ("¿En el nivel de enlace, cómo se denomina el proceso de agregar bits redundantes y compararlos en el receptor para detectar errores en la transmisión de datos, y qué se conoce como los procedimientos que se derivan de esta acción?", [
+    "a) Corrección de errores y procedimientos de corrección.",
+    "b) Detección de errores y procedimientos de detección.",
+    "d) Detección de errores y control de errores.",
+    "c) Compresión de datos y procedimientos de compresión."
+    ], "d"),
+    ("Además del control de errores, ¿qué otra tarea importante se encarga de realizar el nivel de enlace en el modelo OSI?", [
+    "c) Encriptación de datos.",
+    "b) Control de velocidad de transmisión.",
+    "a) Control de flujo.",
+    "d) División de datos en tramas."
+    ], "a"),
+    ("¿El nivel de enlace del modelo OSI se encarga del control de flujo. ¿Qué necesidad surge en el receptor cuando procesa las tramas a medida que las recibe, especialmente en situaciones en las que el proceso puede tener un costo en términos de tiempo, y cómo se aborda esta necesidad?", [
+    "a) El receptor necesita transmitir más tramas para acelerar el proceso de recepción.",
+    "b) El receptor necesita aumentar la velocidad de transmisión para ahorrar tiempo.",
+    "c) El receptor necesita un mecanismo que notifique al transmisor que debe detener momentáneamente la transmisión para permitir al receptor realizar sus tareas.",
+    "d) El receptor no requiere ningún mecanismo adicional."
+    ], "c"),
+    ("¿En qué nivel del modelo OSI trabaja un switch o conmutador?", [
+    "a) Nivel físico.",
+    "b) Nivel de red.",
+    "b) Nivel de enlace.",
+    "d) Nivel de transporte."
+    ], "b"),
+    ("¿Qué normas o protocolos pertenecen al nivel de enlace de datos del modelo OSI?", [
+    "a) TCP/IP, HTTP, FTP.",
+    "b) HDLC, LAP-B, IEEE 802.",
+    "c) ICMP, SMTP, POP3.",
+    "d) DNS, DHCP, SNMP."
+    ], "b"),
+    ("¿Cuál es la función principal del nivel de red en el modelo OSI?", [
+    "a) Conectar dos máquinas entre sí.",
+    "b) Permitir la interconexión de más de 2 máquinas.",
+    "c) Gestionar la velocidad de transmisión de datos.",
+    "d) Encriptar los datos para mayor seguridad."
+    ], "b"),
+    ("¿Por qué es necesario el nivel de red en el modelo OSI  y cuál es su función principal?", [
+    "a) El nivel de red es necesario para acelerar la transmisión de datos.",
+    "b) El nivel de enlace permite interconectar más de 2 máquinas.",
+    "c) El nivel de red es necesario para identificar y conectar máquinas de manera que se puedan interconectar más de 2 terminales, y su función principal es realizar la conexión.",
+    "d) Ninguna de las anteriores."
+    ], "c"),
+    ("Según el modelo OSI, ¿qué tipo de red es considerada la más eficiente para transmitir datos desde varios puntos de vista, como el uso de recursos, costo y capacidad para mantener múltiples conexiones simultáneas, y por lo tanto es la única de la que habla?", [
+    "a) Redes de conmutación de circuitos.",
+    "b) Redes de conmutación de mensajes.",
+    "c) Redes de conmutación de paquetes.",
+    "d) Redes de conmutación de voz."
+    ], "c"),
+    ("¿Cuáles son los dos tipos de dispositivos comunes en el nivel de red del modelo OSI?", [
+    "a) Servidores y routers.",
+    "b) Estaciones terminales y hubs.",
+    "c) Estaciones terminales y nodos de conmutación.",
+    "d) Modems y repetidores."
+    ], "c"),
+    ("¿Cuál es la función principal de los nodos de conmutación en el nivel de red según la información proporcionada?", [
+    "a) Procesar y almacenar datos en la red.",
+    "b) Gestionar la seguridad de la red.",
+    "c) Conectar múltiples terminales y permitir el tráfico de paquetes entre estaciones.",
+    "d) Controlar la velocidad de transmisión de datos en la red."
+    ], "c"),
+    ("¿Cuáles son los dos tipos de redes de conmutación de paquetes en el nivel de red del modelo OSI?", [
+    "a) Redes conmutadas y redes dedicadas.",
+    "b) Redes de paquetes y redes de circuito virtual.",
+    "c) Redes analógicas y redes digitales.",
+    "d) Redes inalámbricas y redes por cable."
+    ], "b"),
+    ("En el nivel de red del modelo OSI, ¿cuál es la característica principal de las redes que funcionan en modo datagrama?", [
+    "a) Son las más caras de implementar.",
+    "b) Incorporan una funcionalidad completa para la transmisión de datos.",
+    "c) Son las redes básicas que permiten la transferencia de información entre nodos y terminales interconectados de un punto a otro.",
+    "d) Son las más seguras en términos de transmisión de datos."
+], "c"),
+("Dentro del nivel de red del modelo OSI, ¿cuál es uno de los problemas asociados a las redes en modo datagrama?", [
+    "c) Garantizan la entrega de información de manera confiable y completa.",
+    "b) Mantienen un vínculo constante entre los paquetes de la transmisión a través de la red.",
+    "a) La dificultad de garantizar la entrega correcta y completa de la información debido a la falta de un vínculo constante entre los paquetes.",
+    "d) Son las redes más seguras en términos de transmisión de datos."
+], "a"),
+("Dentro del nivel de red del modelo OSI, ¿Qué responsabilidad recae en el terminal receptor en una red en modo datagrama?", [
+    "a) Restaurar el orden de llegada de los paquetes.",
+    "b) Mantener un vínculo constante entre los paquetes durante la transmisión.",
+    "c) Garantizar que los paquetes nunca se dupliquen.",
+    "d) Recibir los paquetes sin necesidad de restaurar daños sufridos durante la transmisión."
+], "a"),
+("¿Cuál es uno de los desafíos que enfrentan las redes en modo datagrama en cuanto a la entrega de información?", [
+    "a) Siempre garantizan la entrega correcta y completa de la información.",
+    "b) Los paquetes siempre llegan en orden y sin pérdidas.",
+    "c) La dificultad de mantener un vínculo constante entre los paquetes.",
+    "d) La falta de responsabilidad del terminal receptor en la restauración de datos dañados durante la transmisión."
+], "c"),
+("¿Qué característica distingue a las redes que funcionan en modo circuito virtual?", [
+    "a) Garantizan la entrega incorrecta y parcial de los paquetes.",
+    "c) No pueden garantizar la entrega de paquetes en absoluto.",
+    "b) Pueden garantizar que la entrega de los paquetes sea correcta y completa.",
+    "d) Son incapaces de establecer conexiones entre terminales."
+], "b"),
+("¿Qué concepto propio de las redes de conmutación de circuitos se utiliza en modo circuito virtual para establecer una conexión virtual entre terminales?", [
+    "a) Datagrama.",
+    "b) Datagrama inverso.",
+    "c) Circuito virtual.",
+    "d) Paquete estático."
+], "c"),
+("¿Qué ventaja ofrece el circuito virtual en la transmisión de paquetes en una red?", [
+    "a) Agrupa los paquetes de manera aleatoria para mayor eficiencia.",
+    "b) Garantiza que el receptor reciba los paquetes ordenados y sin duplicaciones ni pérdidas.",
+    "c) Aumenta la probabilidad de que los paquetes se pierdan durante la transmisión.",
+    "d) Permite que los paquetes se transmitan en cualquier dirección sin restricciones."
+], "b"),
+("¿Qué función es fundamental en el nivel de red del modelo OSI y le permite determinar el destinatario final de cada paquete en una red?", [
+    "a) Control de errores.",
+    "b) Conmutación de paquetes.",
+    "c) Asignación de direcciones.",
+    "d) Control de flujo."
+], "c"),
+("En el nivel de red del modelo OSI, ¿qué procedimiento se encarga de guiar la información a través de los nodos de una red desde el origen hasta el destino, minimizando el recorrido y el tiempo de tránsito?", [
+    "a) Control de errores.",
+    "b) Conmutación de paquetes.",
+    "c) Asignación de direcciones.",
+    "d) Encaminamiento o enrutamiento."
+], "d"),
+("¿Cuál es la característica principal del nivel de transporte en el modelo OSI?", [
+    "a) Se encarga de la asignación de direcciones.",
+    "b) Es el primer nivel extremo a extremo.",
+    "c) Controla el flujo de datos en la red.",
+    "d) Gestiona la conmutación de paquetes."
+], "b"),
+("¿Dónde existen los servicios en una red en el nivel de transporte?", [
+    "a) Solo en los dispositivos intermedios de la red.",
+    "b) Solo en los dispositivos finales de la red.",
+    "c) Tanto en los dispositivos intermedios como en los dispositivos finales.",
+    "d) En ningún lugar de la red."
+], "b"),
+("Según la descripción, ¿qué capacidad tiene el nivel de transporte en términos de conexión en una red?", [
+    "a) Solo permite conexiones en redes fiables.",
+    "b) Permite conexiones solo en redes no fiables.",
+    "c) Permite una conexión fiable sobre cualquier tipo de red, ya sea fiable o no.",
+    "d) No permite ninguna conexión en redes."
+], "c"),
+("En las redes de conmutación de paquetes en modo datagrama, ¿cuál es la responsabilidad principal del nivel de transporte?", [
+    "a) No tiene ninguna responsabilidad en este modo de red.",
+    "b) Su principal responsabilidad es controlar la asignación de direcciones en la red.",
+    "c) Es responsable de controlar las posibles deficiencias en las transmisiones.",
+    "d) Su responsabilidad es garantizar la entrega completa de los paquetes sin importar las deficiencias en la red."
+], "c"),
+("¿Cuál es la función principal del nivel de transporte en una red?", [
+    "a) Controlar el enrutamiento de paquetes en la red.",
+    "b) Garantizar la asignación de direcciones a los paquetes.",
+    "d) Asegurar la calidad de transmisión entre los terminales que utilizan la red.",
+    "c) Supervisar el flujo de datos entre las capas de aplicación y transporte."
+], "d"),
+("¿Cuáles son algunas de las funciones que el nivel de transporte puede realizar en una red?", [
+    "c) Controlar el enrutamiento de paquetes en la red.",
+    "b) Garantizar la asignación de direcciones a los paquetes.",
+    "a) Recuperar errores, ordenar correctamente la información y ajustar la velocidad de transmisión de la información.",
+    "d) Supervisar el flujo de datos entre las capas de aplicación y transporte."
+], "a"),
+("¿Cuántos niveles en el modelo OSI están orientados a la aplicación?", [
+    "a) 1",
+    "b) 2",
+    "c) 3",
+    "d) 4"
+], "c"),
+("¿Por qué razón se pueden agrupar los niveles de sesión, presentación y aplicación en el modelo OSI?", [
+    "a) Porque realizan funciones idénticas en la mayoría de las redes.",
+    "b) Porque son los niveles más simples del modelo OSI.",
+    "c) Porque no son relevantes en las redes de comunicación.",
+    "d) Porque son los niveles de mayor complejidad en el modelo OSI."
+], "a"),
+("¿Cuál es la función principal del nivel de sesión en el modelo OSI?", [
+    "a) Gestionar las conexiones de corta duración en la red.",
+    "b) Gestionar las conexiones de larga duración y recuperar caídas de red de manera transparente.",
+    "c) Gestionar la transmisión física de datos en la red.",
+    "d) Gestionar el direccionamiento de los dispositivos en la red."
+], "b"),
+("¿Cuál es la función principal del nivel de sesión en el modelo OSI en relación al diálogo y el intercambio de datos entre entidades de presentación?", [
+    "a) Proporcionar el medio preciso para la transmisión de datos en la red.",
+    "b) Proporcionar la organización y sincronización del diálogo entre entidades de presentación.",
+    "c) Gestionar el direccionamiento de los dispositivos en la red.",
+    "d) Proporcionar seguridad a la transmisión de datos."
+], "b"),
+("En el modelo OSI, ¿qué función principal tiene el nivel de sesión en el diálogo entre dos máquinas?", [
+    "a) Garantizar la seguridad de los datos transmitidos.",
+    "b) Gestionar el direccionamiento de los dispositivos en la red.",
+    "c) Organizar y sincronizar el diálogo entre las dos máquinas.",
+    "d) Proporcionar medios físicos para la transmisión de datos."
+], "c"),
+("¿A qué nivel del modelo OSI pertenecen las recomendaciones X.215 (ISO 8326) y X.225 (ISO 8327)?", [
+    "a) Nivel de transporte",
+    "b) Nivel de red",
+    "c) Nivel de sesión",
+    "d) Nivel de enlace",
+], "c"),
+("¿Cuál es la función principal del nivel de presentación en el modelo OSI?", [
+    "c) Gestionar las conexiones de larga duración",
+    "b) Proporcionar un medio para que las entidades de presentación organicen y sincronicen su diálogo",
+    "a) Garantizar que diferentes plataformas puedan entenderse al conectarse por red",
+    "d) Encargarse del diálogo entre las dos máquinas",
+], "a"),
+("¿Cuál es una de las funciones del nivel de presentación en el modelo OSI?", [
+    "a) Gestionar las conexiones de larga duración",
+    "b) Proporcionar un medio para que las entidades de presentación organicen y sincronicen su diálogo",
+    "c) Garantizar que diferentes plataformas puedan entenderse al conectarse por red",
+    "d) Definir una manera universal de codificar la información, incluyendo la sintaxis y el significado, compresión de datos y criptografía",
+], "d"),
+("¿Cuál es una de las funciones principales del nivel de presentación en el modelo OSI?", [
+    "a) Gestionar las conexiones de larga duración",
+    "b) Proporcionar un medio para que las entidades de presentación organicen y sincronicen su diálogo",
+    "c) Garantizar que diferentes plataformas puedan entenderse al conectarse por red",
+    "d) Proporcionar independencia a los procesos de aplicación con respecto a las diferencias en las representaciones de datos",
+], "d"),
+("¿Qué permite el nivel de presentación en el modelo OSI?", [
+    "a) Gestionar las conexiones de larga duración",
+    "b) Proporcionar un medio para que las entidades de presentación organicen y sincronicen su diálogo",
+    "c) Garantizar que diferentes plataformas puedan entenderse al conectarse por red",
+    "d) Permitir la representación de la información que las entidades de aplicación comunican en su comunicación",
+], "d"),
+("¿A qué nivel del modelo OSI pertenecen las normas para Videotex, Telefax y Teletex, así como la norma X.225 del CCITT?", [
+    "a) Nivel de transporte",
+    "b) Nivel de sesión",
+    "c) Nivel de presentación",
+    "d) Nivel de red",
+], "c"),
+("¿Dónde residen los programas en el modelo OSI?", [
+    "a) Nivel de sesión",
+    "b) Nivel de presentación",
+    "c) Nivel de transporte",
+    "d) Nivel de aplicación",
+], "d"),
+("¿Por qué nivel de la arquitectura OSI acceden los procesos de los programas al entorno OSI?", [
+    "a) Nivel de sesión",
+    "b) Nivel de presentación",
+    "c) Nivel de transporte",
+    "d) Nivel de aplicación",
+], "d"),
+("¿Qué tipos de elementos o configuraciones se pueden encontrar en el nivel de aplicación del modelo OSI?", [
+    "a) Solo servidores",
+    "b) Solo clientes",
+    "c) Servidores, clientes, aplicaciones con modelos simétricos (peer-to-peer), etc.",
+    "d) Ninguna de las anteriores.",
+], "c"),
+("¿A qué nivel del modelo OSI pertenecen normas como X.400 para el tratamiento del correo electrónico y el protocolo HTTP?", [
+    "a) Nivel de enlace",
+    "b) Nivel de transporte",
+    "c) Nivel de sesión",
+    "d) Nivel de aplicación",
+], "d")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
