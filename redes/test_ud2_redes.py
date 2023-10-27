@@ -1889,7 +1889,499 @@ preguntas = [
     "b) Nivel de transporte",
     "c) Nivel de sesión",
     "d) Nivel de aplicación",
-], "d")
+], "d"),
+("¿Qué se conoce como el proceso desde que los datos son incorporados a la aplicación del emisor hasta que son transmitidos al medio físico?", [
+    "a) Enrutamiento",
+    "b) Encapsulamiento",
+    "c) Conmutación",
+    "d) Compresión",
+], "b"),
+("¿Cómo se denomina el proceso en el cual los datos (la información a transmitir) son formateados, segmentados e identificados con direcciones lógicas y físicas de red antes de ser enviados al medio?", [
+    "a) Encriptación",
+    "b) Enrutamiento",
+    "c) Encapsulamiento",
+    "d) Compresión",
+], "c"),
+("Cuando un emisor, como un navegador web, desea enviar datos a un servidor web, ¿qué hace la capa de aplicación para preparar los datos antes de que sean enviados a través de la red?", [
+    "a) Encripta los datos.",
+    "b) Añade una cabecera a los datos para formar la PDU que la capa de aplicación del servidor debe recibir.",
+    "c) Comprime los datos.",
+    "d) Divide los datos en paquetes más pequeños para su transmisión.",
+], "b"),
+("Cuando un emisor, como un navegador web, desea enviar datos a un servidor web, ¿qué hace la capa de aplicación para preparar los datos antes de que sean enviados a través de la red?", [
+    "a) Encripta los datos.",
+    "b) Añade una cabecera a los datos para formar la PDU que la capa de aplicación del servidor debe recibir.",
+    "c) Comprime los datos.",
+    "d) Divide los datos en paquetes más pequeños para su transmisión.",
+], "b"),
+("Cuando la capa de aplicación del emisor prepara los datos para ser enviados a través de la red, añade una cabecera para formar la PDU. ¿Qué ocurre en la capa de Presentación después de que se haya formado la P-PDU?", [
+    "a) La P-PDU se envía directamente a través de la red.",
+    "b) La P-PDU se almacena en el emisor hasta que la capa de Presentación del receptor esté lista para recibirla.",
+    "c) La capa de Presentación del emisor agrega otra cabecera para formar la P-PDU.",
+    "d) La P-PDU se convierte en la información que la capa de Presentación del receptor debe recibir.",
+], "c"),
+("¿Qué función cumple la cola agregada por la capa de enlace de datos, además de servir para la detección y corrección de errores?", [
+    "a) La cola se utiliza para identificar la fuente de los datos en el receptor.",
+    "b) La cola se utiliza para garantizar la velocidad de transmisión en la red.",
+    "d) La cola se emplea para detectar errores en los datos transmitidos.",
+    "c) La cola se utiliza para comprimir los datos antes de su transmisión.",
+], "d"),
+("¿Cuál es el orden correcto de encapsulamiento desde los datos originales hasta los bits para su transmisión en una red de datos?", [
+    "a) Datos, Paquetes, Tramas, Segmentos, Bits",
+    "b) Datos, Segmentos, Paquetes, Tramas, Bits",
+    "c) Datos, Tramas, Paquetes, Segmentos, Bits",
+    "d) Datos, Segmentos, Tramas, Paquetes, Bits",
+], "b"),
+("En un sistema de comunicación, ¿qué proceso se lleva a cabo en el lado receptor para recuperar la A-PDU formada por el nivel de aplicación del emisor?", [
+    "a) Desencapsulamiento",
+    "b) Segmentación",
+    "c) Encapsulamiento inverso",
+    "d) Enrutamiento",
+], "a"),
+("¿Qué proceso se lleva a cabo en la capa de transporte de origen cuando la cantidad de datos a transmitir es grande?", [
+    "a) Segmentación",
+    "b) Encapsulamiento",
+    "c) Encriptación",
+    "d) Compresión",
+], "a"),
+("¿Cuál es la función de la capa de transporte en el destino cuando recibe segmentos de datos?", [
+    "a) Reensamblar los segmentos para formar la información inicial",
+    "b) Segmentar aún más los datos",
+    "c) Encriptar los segmentos recibidos",
+    "d) Comprimir los segmentos antes de la entrega",
+], "a"),
+("¿Qué ocurre en la capa de red en el proceso de empaquetado de datos?", [
+    "a) Los segmentos se empaquetan en paquetes o datagramas",
+    "b) Se agregan los datos de presentación a los segmentos",
+    "c) Se realiza la segmentación de los datos",
+    "d) Los datos se encriptan antes de ser empaquetados",
+], "a"),
+("¿Qué se forma en la capa de enlace de datos como parte del proceso de encapsulamiento?", [
+    "a) Datagramas",
+    "b) Segmentos",
+    "c) Tramas",
+    "d) Paquetes",
+], "c"),
+("¿Cuál es la función principal de la capa física en el modelo OSI?", [
+    "a) Formar paquetes",
+    "b) Transmitir bits utilizando el medio físico de transmisión",
+    "c) Enviar segmentos",
+    "d) Gestionar direcciones IP",
+], "b"),
+("En el proceso inverso de encapsulamiento en el lado receptor, ¿en qué orden se eliminan las capas de encapsulamiento?", [
+    "a) Tramas, paquetes, segmentos, datos, bits",
+    "b) Datos, segmentos, paquetes, tramas, bits",
+    "c) Bits, tramas, paquetes, segmentos, datos",
+    "d) Bits, datos, segmentos, paquetes, tramas",
+], "c"),
+("¿Cuál es el estándar abierto de internet desde el punto de vista histórico y técnico?", [
+    "a) OSI",
+    "b) TCP/IP",
+    "c) HTTP",
+    "d) DNS",
+], "b"),
+("¿El protocolo TCP/IP es compatible con cuál de las siguientes opciones?", [
+    "a) Solo sistemas operativos Windows",
+    "b) Cualquier sistema operativo y hardware",
+    "c) Solo sistemas operativos Linux",
+    "d) Hardware específico de Apple",
+], "b"),
+("¿Cuál fue uno de los principales propósitos de la creación del modelo TCP/IP?", [
+    "a) Conectar solo dos tipos de redes",
+    "b) Proporcionar conexión inalámbrica a Internet",
+    "c) Conectar múltiples redes y mantener conexiones a pesar de daños en la red",
+    "d) Facilitar la transmisión de señales de televisión",
+], "c"),
+("¿Cuál fue la razón principal por la que se creó el modelo TCP/IP?", [
+    "a) Para facilitar el comercio en línea.",
+    "b) Para conectar redes en caso de desastres naturales.",
+    "c) Para permitir la conexión de múltiples redes y mantener conexiones en situaciones de guerra.",
+    "d) Para mejorar la velocidad de transmisión de datos.",
+], "c"),
+("¿Quién promovió y financió el proyecto ARPANET?", [
+    "a) Departamento de Comercio de Estados Unidos.",
+    "b) NASA (Administración Nacional de Aeronáutica y del Espacio).",
+    "c) DARPA (Agencia de Proyectos de Investigación Avanzados de Defensa).",
+    "d) Departamento de Energía de Estados Unidos.",
+], "c"),
+("¿En qué tipo de red de conmutación de paquetes se basa el modelo TCP/IP?", [
+    "a) Redes de conmutación de circuitos.",
+    "b) Redes de conmutación de mensajes.",
+    "c) Redes de conmutación de paquetes.",
+    "d) Redes de conmutación de tramas.",
+], "c"),
+("¿Cuántas capas componen el modelo TCP/IP?", [
+    "a) Dos capas.",
+    "c) Tres capas.",
+    "b) Cuatro capas.",
+    "d) Cinco capas.",
+], "b"),
+("Dentro del modelo TCP/IP, la capa de Red se divide en dos subniveles. ¿Cuáles son esos subniveles?", [
+    "a) Capa de Aplicación y Capa de Transporte.",
+    "b) Capa de Red y Capa de Transporte.",
+    "d) Capa de Enlace/Interfaz de Red y Capa Física/Hardware de Red.",
+    "c) Capa de Sesión y Capa de Presentación.",
+], "d"),
+("Dentro del modelo TCP/IP, ¿qué consideración tuvieron los diseñadores con respecto a los protocolos de nivel superior en la Capa de Aplicación?", [
+    "a) Deben omitir los detalles de las capas de Sesión y Presentación.",
+    "b) Deben incluir los detalles de las capas de Sesión y Presentación.",
+    "c) Deben enfocarse solo en la capa de Red.",
+    "d) Deben ignorar la capa de Transporte.",
+], "b"),
+("Dentro del modelo TCP/IP, ¿qué funcionalidad tiene la capa de aplicación en relación a los protocolos de alto nivel y otros aspectos?", [
+    "a) Omitir los protocolos de alto nivel y centrarse en la capa de Red.",
+    "b) Gestionar protocolos de alto nivel y aspectos de presentación, codificación y control del diálogo.",
+    "c) Ignorar por completo los protocolos de alto nivel.",
+    "d) Concentrarse en la capa de Transporte.",
+], "b"),
+("¿Cuál es una de las diferencias clave entre el modelo TCP/IP y el modelo OSI en relación con la capa de aplicación?", [
+    "a) El modelo TCP/IP omite completamente la capa de aplicación.",
+    "b) El modelo TCP/IP combina todos los aspectos de las aplicaciones en una sola capa.",
+    "c) Ambos modelos dividen la capa de aplicación en varias subcapas para una mejor gestión.",
+    "d) El modelo OSI no utiliza una capa de aplicación.",
+], "b"),
+("¿Cuál es la función principal de la capa de transporte en el modelo TCP/IP?", [
+    "a) Gestionar las comunicaciones entre host y servidor.",
+    "b) Enviar datos a través de la red desde un host a otro.",
+    "c) Proporcionar la comunicación extremo a extremo en la red.",
+    "d) Manejar la presentación y la codificación de datos.",
+], "c"),
+("¿Dónde se utilizan principalmente los protocolos de transporte en el modelo TCP/IP?", [
+    "a) Principalmente en los nodos de enrutamiento de la red.",
+    "b) Tanto en los extremos como en los nodos intermedios de la comunicación.",
+    "c) Únicamente en los nodos intermedios de la comunicación.",
+    "d) Exclusivamente en los extremos de la comunicación.",
+], "d"),
+("¿Además de aspectos relacionados con la confiabilidad (pérdida de paquetes), qué aspectos de calidad de servicio aborda principalmente la capa de transporte en el modelo TCP/IP?", [
+    "a) Control de acceso a la red y asignación de direcciones IP.",
+    "b) Control de flujo y corrección de errores.",
+    "c) Enrutamiento y división de la red en subredes.",
+    "d) Formateo de datos y codificación de la información.",
+], "b"),
+("¿De qué manera la capa de transporte en el modelo TCP/IP se relaciona con la capa de red?", [
+    "a) La capa de transporte proporciona servicios de seguridad a la capa de red.",
+    "b) La capa de transporte utiliza los servicios de la capa de red para ofrecer un servicio eficiente y confiable a los procesos de la capa de aplicación.",
+    "c) La capa de transporte controla la división de la red en subredes en la capa de red.",
+    "d) La capa de transporte asigna direcciones IP a los dispositivos en la capa de red.",
+], "b"),
+("¿Qué función se lleva a cabo en la capa de transporte del modelo TCP/IP en relación a los datos generados en la capa de aplicación?", [
+    "a) La capa de transporte codifica los datos para su transmisión en la red.",
+    "b) La capa de transporte realiza la segmentación de los datos en segmentos más pequeños.",
+    "c) La capa de transporte asigna direcciones IP a los datos.",
+    "d) La capa de transporte asegura la confidencialidad de los datos.",
+], "b"),
+("¿Cuál de las siguientes afirmaciones describe mejor la función de la capa de transporte en el modelo TCP/IP?", [
+    "a) La capa de transporte determina la ruta que seguirán los datos para llegar a su destino.",
+    "b) La capa de transporte segmenta los datos en unidades más pequeñas llamadas segmentos.",
+    "c) La capa de transporte se encarga de asignar direcciones IP a los datos.",
+    "d) La capa de transporte garantiza la confidencialidad de los datos durante la transmisión.",
+], "b"),
+("¿Qué aspecto de la comunicación no es responsabilidad de la capa de transporte en el modelo TCP/IP?", [
+    "a) Determinar la ruta que seguirán los datos para llegar a su destino.",
+    "b) Segmentar los datos en unidades más pequeñas llamadas segmentos.",
+    "c) Asignar direcciones IP a los datos.",
+    "d) Garantizar la confidencialidad de los datos durante la transmisión.",
+], "a"),
+("¿Cuáles son los dos protocolos definidos por la capa de transporte en el modelo TCP/IP?", [
+    "a) TCP y HTTP",
+    "b) UDP y FTP",
+    "c) SMTP y SNMP",
+    "d) TCP y UDP",
+], "d"),
+("¿Qué característica describe mejor al protocolo TCP (Transmission Control Protocol) en la capa de transporte del modelo TCP/IP?", [
+    "a) Ofrece un servicio no confiable con pérdida de paquetes.",
+    "b) Proporciona un servicio orientado a la conexión y confiable con entrega ordenada de datos.",
+    "c) Controla el flujo de datos y proporciona compresión de datos.",
+    "d) Funciona exclusivamente en nodos intermedios de la red.",
+], "b"),
+("¿Cuál de los siguientes protocolos de aplicación utiliza TCP (Transmission Control Protocol) para proporcionar un servicio de transferencia de archivos?", [
+    "a) SMTP (Simple Mail Transfer Protocol)",
+    "b) FTP (File Transfer Protocol)",
+    "c) HTTP (Hypertext Transfer Protocol)",
+    "d) UDP (User Datagram Protocol)",
+], "b"),
+("¿Cuál de los siguientes protocolos de transporte proporciona un servicio no orientado a la conexión y no fiable?", [
+    "a) TCP (Transmission Control Protocol)",
+    "b) UDP (User Datagram Protocol)",
+    "c) SMTP (Simple Mail Transfer Protocol)",
+    "d) FTP (File Transfer Protocol)",
+], "b"),
+("¿Qué tipo de servicio ofrece el protocolo UDP (User Datagram Protocol)?", [
+    "a) Servicio orientado a la conexión y confiable",
+    "b) Servicio no orientado a la conexión y no fiable",
+    "c) Servicio de transferencia de correos electrónicos",
+    "d) Servicio de transferencia de archivos",
+], "b"),
+("¿Por qué se prefiere utilizar UDP en vez de TCP en aplicaciones de transmisión de voz y vídeo en tiempo real?", [
+    "a) Porque UDP ofrece un servicio orientado a la conexión y confiable",
+    "b) Porque UDP garantiza la entrega de todos los paquetes de datos sin pérdida",
+    "c) Porque el retardo introducido por el control de errores de TCP sería perjudicial en este caso",
+    "d) Porque UDP es más seguro que TCP para la transmisión de datos en tiempo real",
+], "c"),
+("¿Cuál es el papel de la capa de Internet en la arquitectura TCP/IP?", [
+    "a) La capa de Internet es responsable de la transmisión de voz y video en tiempo real.",
+    "b) La capa de Internet controla la calidad de servicio en la red.",
+    "c) La capa de Internet es el núcleo central de la arquitectura TCP/IP.",
+    "d) La capa de Internet se encarga de la codificación de datos en la red.",
+], "c"),
+("¿Cuál es el propósito principal de la capa de Internet en la arquitectura TCP/IP?", [
+    "a) La capa de Internet controla la calidad de servicio en la red.",
+    "b) La capa de Internet asegura la transmisión de voz y video en tiempo real.",
+    "c) La capa de Internet garantiza que los paquetes lleguen a su destino independientemente de la ruta y las redes utilizadas.",
+    "d) La capa de Internet es responsable de la codificación de datos en la red.",
+], "c"),
+("¿Cuál es el tipo de servicio ofrecido por la capa de Internet en el modelo TCP/IP?", [
+    "a) Ofrece un servicio orientado a la conexión.",
+    "b) Proporciona una conexión directa entre el emisor y el receptor.",
+    "c) Brinda un servicio de conmutación de paquetes no orientado a la conexión.",
+    "d) Controla la calidad de servicio en la red.",
+], "c"),
+("¿Qué puede suceder con los paquetes durante la transmisión a través de la capa de Internet en el modelo TCP/IP?", [
+    "a) Los paquetes nunca se dividen en fragmentos durante la transmisión.",
+    "c) Los paquetes se transmiten en su totalidad y siempre llegan ordenados al destino.",
+    "b) Los paquetes pueden ser divididos en fragmentos y llegar desordenados al destino.",
+    "d) Los paquetes se transmiten sin problemas de fragmentación y desorden.",
+], "b"),
+("¿Cuál es el protocolo oficial de la capa de Internet en el modelo TCP/IP?", [
+    "a) TCP",
+    "b) UDP",
+    "c) HTTP",
+    "d) IP",
+], "d"),
+("¿Cuál es la función principal del protocolo IP en el modelo TCP/IP?", [
+    "a) Controlar el flujo de datos",
+    "b) Determinar la mejor ruta para el envío de paquetes a través de la red",
+    "c) Proporcionar un servicio de conexión fiable",
+    "d) Gestionar las solicitudes de acceso a recursos compartidos en una red",
+], "b"),
+("¿Cómo están formadas las direcciones IP en la versión 4?", [
+    "a) 4 letras separadas por comas",
+    "b) 4 números enteros separados por guiones",
+    "c) 4 bytes separados por puntos",
+    "d) 4 palabras separadas por espacios",
+], "c"),
+("¿Cuál es la función principal de la capa de acceso a la red en el modelo OSI?", [
+    "a) Controlar el flujo de datos",
+    "b) Establecer conexiones extremo a extremo",
+    "c) Realizar enlaces físicos para paquetes IP",
+    "d) Proporcionar servicios de aplicación",
+], "c"),
+("¿Qué detalles abarca la capa de red en el modelo TCP/IP?", [
+    "a) Detalles de tecnología de LAN únicamente.",
+    "b) Detalles de tecnología de WAN únicamente.",
+    "c) Detalles de tecnología de LAN y WAN, así como de las capas física y de enlace del modelo OSI.",
+    "d) Detalles de aplicaciones de red.",
+], "c"),
+("¿Cuál es la responsabilidad principal de la subcapa de interface de red en el modelo TCP/IP?", [
+    "a) La subcapa de interface de red no tiene responsabilidades específicas.",
+    "b) Intercambiar datos entre sistemas finales y la red, incluyendo la provisión de la dirección de destino.",
+    "c) Gestionar el control de flujo de datos en la red.",
+    "d) Realizar tareas de compresión de datos para reducir el ancho de banda utilizado.",
+], "b"),
+("¿Qué función principal desempeña la subcapa física en el modelo TCP/IP?", [
+    "a) Gestionar la dirección IP de los dispositivos en la red.",
+    "b) Realizar la segmentación de datos en paquetes.",
+    "c) Definir la interfaz física entre el dispositivo de transmisión y el medio de transmisión o red.",
+    "d) Enviar datos a través de la red de manera segura.",
+], "c"),
+("¿Cuál de las siguientes afirmaciones describe una similitud entre el modelo OSI y el modelo TCP/IP?", [
+    "a) El modelo OSI consta de 4 capas, mientras que el modelo TCP/IP tiene 7 capas.",
+    "b) Ambos modelos son específicos para una tecnología de conmutación de circuitos.",
+    "c) Ambos modelos dividen las funcionalidades de red en capas o niveles.",
+    "d) El modelo OSI incluye una capa de transporte, pero el modelo TCP/IP no.",
+], "c"),
+("¿Cuál de las siguientes afirmaciones describe una diferencia importante entre el modelo OSI y el modelo TCP/IP?", [
+    "a) OSI distingue claramente entre servicios, interfaces y protocolos, mientras que TCP/IP no lo hace.",
+    "b) OSI se basó en protocolos existentes, mientras que TCP/IP se desarrolló antes de los protocolos.",
+    "c) En el modelo TCP/IP, las funciones de las capas de aplicación, presentación y sesión se combinan en la capa de aplicación.",
+    "d) El modelo TCP/IP tiene más capas que el modelo OSI.",
+], "a"),
+("¿Cuál de las siguientes afirmaciones describe mejor el Protocolo para el Control de Transmisión (TCP) en el modelo TCP/IP?", [
+    "a) Ofrece métodos de comunicación no confiables con pérdida de paquetes.",
+    "b) Proporciona métodos rígidos con alta pérdida de paquetes y problemas de flujo.",
+    "c) Ofrece métodos flexibles y de alta calidad para comunicación confiable sin pérdida de paquetes y problemas de flujo.",
+    "d) No está relacionado con la comunicación en redes.",
+], "c"),
+("¿Cuál de las siguientes afirmaciones es cierta acerca del Protocolo para el Control de Transmisión (TCP)?", [
+    "a) No es un protocolo orientado a la conexión.",
+    "b) Divide el flujo de bits en mensajes discretos y no maneja el control de flujo.",
+    "c) Es un protocolo orientado a la conexión que divide el flujo de bits en mensajes discretos y controla el flujo de transmisión.",
+    "d) No está relacionado con la transmisión de datos en redes.",
+], "c"),
+("¿Cuál de las siguientes afirmaciones es correcta acerca de las conexiones TCP?", [
+    "a) Las conexiones TCP son punto a punto y unidireccionales.",
+    "b) Las conexiones TCP son punto a punto y solo permiten la transferencia en una dirección.",
+    "c) Las conexiones TCP son punto a punto y half-dúplex, lo que significa que solo permiten la transferencia en una dirección a la vez.",
+    "d) Las conexiones TCP son punto a punto y full-dúplex, lo que permite la transferencia simultánea en ambas direcciones.",
+], "d"),
+("¿Cómo se caracterizan los flujos de datos en las conexiones TCP?", [
+    "a) Los flujos de datos en las conexiones TCP son unidireccionales, solo se mueven en una dirección.",
+    "b) Los flujos de datos en las conexiones TCP son half-dúplex, lo que significa que permiten la transferencia en una dirección a la vez.",
+    "c) Los flujos de datos en las conexiones TCP son full-dúplex, lo que permite la transferencia simultánea en ambas direcciones.",
+    "d) Los flujos de datos en las conexiones TCP son punto a punto y no tienen interacción entre sí.",
+], "c"),
+("¿Cuál de las siguientes afirmaciones describe mejor el protocolo UDP?", [
+    "a) UDP es un protocolo confiable que garantiza la entrega de mensajes sin pérdida de paquetes.",
+    "b) UDP es un protocolo orientado a conexión que establece conexiones antes de la transmisión de datos.",
+    "c) UDP es un protocolo no confiable y no orientado a conexión que puede resultar en la pérdida de paquetes durante la transmisión.",
+    "d) UDP es un protocolo que solo se utiliza para redes locales y no es adecuado para la comunicación a través de Internet.",
+], "c"),
+("¿Qué caracteriza mejor al protocolo UDP en el modelo TCP/IP?", [
+    "a) IP establece conexiones entre hosts antes de la transmisión de datos.",
+    "b) IP es un protocolo confiable que garantiza la entrega de paquetes sin pérdida.",
+    "c) IP utiliza datagramas y no establece conexiones ni realiza un control estricto de los paquetes enviados y recibidos.",
+    "d) IP es el protocolo utilizado exclusivamente en redes locales y no se utiliza en Internet.",
+], "c"),
+("¿Qué caracteriza mejor al protocolo UDP en el modelo TCP/IP?", [
+    "a) UDP establece conexiones entre hosts antes de la transmisión de datos.",
+    "b) UDP garantiza la entrega de paquetes sin pérdida y un control estricto de los mismos.",
+    "c) UDP utiliza datagramas y enrutamiento independiente, sin establecer conexiones entre hosts ni un control riguroso de los paquetes enviados y recibidos.",
+    "d) UDP es un protocolo utilizado exclusivamente en servidores de correo electrónico y no se aplica en otras aplicaciones de red.",
+], "c"),
+("¿Cuál es el protocolo principal utilizado en la capa de Internet del modelo TCP/IP?", [
+    "a) TCP (Transmission Control Protocol)",
+    "b) UDP (User Datagram Protocol)",
+    "c) IP (Internet Protocol)",
+    "d) HTTP (Hypertext Transfer Protocol)",
+], "c"),
+("¿Qué función realiza la capa de Internet en el modelo TCP/IP?", [
+    "a) Controlar el flujo de datos entre el emisor y el receptor.",
+    "b) Gestionar la segmentación de datos en la capa de transporte.",
+    "c) Definir protocolos de aplicación como HTTP y FTP.",
+    "d) Transferir paquetes de datos desde el host de origen al host de destino.",
+], "d"),
+("¿Cuál es el propósito principal de la capa IP en el modelo TCP/IP?", [
+    "c) Gestionar la segmentación de datos en la capa de transporte.",
+    "b) Controlar el flujo de datos entre el emisor y el receptor.",
+    "a) Encontrar la mejor ruta para enrutar paquetes o datagramas hacia su destino.",
+    "d) Definir protocolos de aplicación como HTTP y FTP.",
+], "a"),
+("¿Cuál es una de las principales debilidades del Protocolo IP en el modelo TCP/IP?", [
+    "a) Falta de segmentación de datos en la capa de transporte.",
+    "b) Falta de control de flujo en la capa de transporte.",
+    "c) Falta de orientación a conexión y falta de confiabilidad en la entrega de paquetes.",
+    "d) Falta de definición de protocolos de aplicación como HTTP y FTP.",
+], "c"),
+("¿Por qué fue necesario introducir protocolos específicos en la capa de acceso al medio en el modelo TCP/IP?", [
+    "a) Para proporcionar seguridad adicional a las comunicaciones en la red.",
+    "b) Para especificar el direccionamiento IP de manera más eficiente.",
+    "c) Para traducir direcciones IP a direcciones de nivel de enlace de datos y controlar posibles errores a nivel de subred.",
+    "d) Para proporcionar funciones de aplicación como HTTP y FTP en la capa de acceso al medio.",
+], "c"),
+("¿Cuál es la principal utilidad del protocolo ICMP (Protocolo de Mensajes de Control y Error de Internet) en la arquitectura TCP/IP?", [
+    "c) Transportar datos de usuario de manera confiable y segura.",
+    "b) Enmascarar direcciones IP para mayor privacidad en la red.",
+    "a) Controlar si un paquete no puede llegar a su destino, si su vida ha terminado o si hay problemas en el encabezamiento, entre otros.",
+    "d) Enviar paquetes de eco y respuestas a través de la red.",
+], "a"),
+("¿Cuál es la función principal del protocolo ICMP (Protocolo de Mensajes de Control y Error de Internet) en una red?", [
+    "a) Transportar datos de usuario de manera segura y confiable.",
+    "b) Enmascarar direcciones IP para mayor privacidad.",
+    "c) Controlar y reportar mensajes de error y control a las fuentes originales para solucionar problemas en la red.",
+    "d) Enviar paquetes de datos de manera anónima.",
+], "c"),
+("¿Cuál es la principal función de las herramientas 'ping' y 'tracert' en sistemas Windows en una red?", [
+    "a) Transmitir datos de usuario de manera segura y confiable.",
+    "b) Ocultar direcciones IP para mayor privacidad.",
+    "d) Controlar y reportar mensajes de error y control en la red.",
+    "c) Enviar paquetes de datos de manera anónima.",
+], "d"),
+("¿Cuál es la función principal del protocolo ARP en una red de computadoras?", [
+    "a) Establecer conexiones seguras entre servidores y clientes.",
+    "b) Asignar direcciones IP a dispositivos en una red local.",
+    "c) Transformar direcciones IP en direcciones MAC para el enrutamiento en una LAN.",
+    "d) Administrar los recursos de red y asignar ancho de banda a dispositivos.",
+], "c"),
+("¿Cuál es la función principal del nivel de enlace en el modelo OSI?", [
+    "a) Establecer conexiones seguras entre servidores y clientes.",
+    "b) Garantizar una conexión sin errores entre dos dispositivos, realizando detección y control de errores.",
+    "c) Gestionar el enrutamiento de datos en una red.",
+    "d) Administrar el ancho de banda de la red y asignarlo a los dispositivos.",
+], "b"),
+("Además de garantizar una conexión sin errores entre dos dispositivos, ¿qué otra función desempeña el nivel de enlace en el modelo OSI?", [
+    "a) Administrar el enrutamiento de datos en la red.",
+    "b) Controlar el ancho de banda de la red.",
+    "c) Realizar el control de flujo.",
+    "d) Gestionar las direcciones IP de los dispositivos en la red.",
+], "c"),
+("En el extremo EMISOR, ¿cuál es una de las tareas del nivel de enlace respecto a los paquetes del nivel de red?", [
+    "a) Generar paquetes a partir de los datos del nivel de aplicación.",
+    "b) Dividir los paquetes del nivel de red en tramas.",
+    "c) Realizar el control de flujo en la red.",
+    "d) Administrar las direcciones IP de los dispositivos en la red.",
+], "b"),
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
