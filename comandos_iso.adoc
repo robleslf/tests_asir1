@@ -3,9 +3,11 @@
 * *pwd:* En qué directorio estamos posicionados.
 * *clear:* Limpia pantalla.
 * *exit:* Salir de la terminal.
-* *id:* Toda la información sobre nuestra cuenta: -grupos, nombres y números.
 * *history:* muestra el historial de comandos.
 ** *history -c:* borra el historial de comandos.
+
+
+* *id:* Toda la información sobre nuestra cuenta: grupos, nombres y números.
 
 [EXAMPLE]
 ====
@@ -24,11 +26,11 @@ usuario=número_de_grupo(nombre_de_grupo)
 
 * *uname:* muestra información sobre el sistema operativo. 
 
-* *uname:* Nombre del sistema (Unix name). Se suele utilizar con parámetros, es raro usarlo solo.
+* *uname:* Nombre del sistema (Unix NAME). Se suele utilizar con parámetros, es raro usarlo solo.
 - *-n:* Nodo. Es el nombre del PC. 
 - *-o:* Nombre completo del Sistema Operativo.
-- *-p:* Procesador. Muestra la arquitectura, p.ej: x86_64.
-- *-r:* Release; versión del kernell, núcleo.
+- *-p:* Procesador. Muestra la arquitectura del procesador, p.ej: x86_64.
+- *-r:* Release; versión del kernell, núcleo, del SO.
 - *-a:* muestra todo (all). Muestra el nombre del kernell (Linux), el nombre del host, la versión del kernell, la arquitectura del hardware y la fecha y hora de compilación del kernell.
 
 image:assetsa/imgs/001_grafico.png[Gráfico 001]
@@ -40,7 +42,7 @@ image:assetsa/imgs/001_grafico.png[Gráfico 001]
 - Ctrl+D (^D) para salir.
 
 * *man:* Manual del sistema. Va seguido del comando del que quieres saber la ayuda.
-- Por ejemplo, *man -date:* Ayuda del comando date.
+- Por ejemplo, *man date:* Ayuda del comando date.
 
 * *info:* Información. Se basa en el man, pero suele ser más entendible. Es indistinto usar uno u otro, donde se encuentre mejor. Suele dar más ejemplos el info.
 Al igual que _man_, se usa seguido de un comando:
@@ -58,10 +60,13 @@ ___
 - *-a:* Nos muestra los ficheros y directorios, incluídos ocultos.
 - *.:* Nos muestra lo del directorio actual, es lo mismo que no poner nada.
 - *..:* Nos muestra lo que hay en el directorio padre.
-- *A:* lista los archivos y directorios en un directorio, excluyendo los directorios especiales " . " (punto) y " .. " (punto-punto). Estos dos directorios son referencias al directorio actual y al directorio padre, respectivamente, y se omiten en la salida cuando se utiliza ls -A. Muestra también los ocultos.
+- *-A:* lista los archivos y directorios en un directorio, excluyendo los directorios especiales " . " (punto) y " .. " (punto-punto). Estos dos directorios son referencias al directorio actual y al directorio padre, respectivamente, y se omiten en la salida cuando se utiliza ls -A. Muestra también los ocultos. Vamos, resumiendo, muestra lo mismo que el *ls -a* pero sin las referencias al directorio padre y el directorio actual.
     
+
+- *-l:* Listado largo, tiene la mayoría de la información que estamos buscando: nombre, tamaño de la carpeta, hora y fecha de creación... Y el tipo de fichero que es (la d es de directorio, el . un fichero oculto, la _ un fichero ordinario...) y los permisos (rwx), quién es el propietario del fichero y cuál es el grupo primario (el grupo que sale es el grupo principal que era en el momento de la creación).
+
 [NOTE]
-    El CHAR al principio del directorio hace referencia al tipo de archivo:
+    El CHAR al principio del directorio en el *ls -l* hace referencia al tipo de archivo:
         
         d → directorio
 
@@ -77,8 +82,8 @@ ___
 
         s → socket
 
-- *-l:* Listado largo, tiene la mayoría de la información que estamos buscando: nombre, tamaño de la carpeta, hora y fecha de creación... Y el tipo de fichero que es (la d es de directorio, el . un fichero oculto, la _ un fichero ordinario...) y los permisos (rwx), quién es el propietario del fichero y cuál es el grupo primario (el grupo que sale es el grupo principal que era en el momento de la creación).
-- *-1:* La lista la quiero en una columna; no existe el -2 xD. Obviamente si lo combinas con -A no hace falta porque ya lo saca en una columna. Carece de sentido.
+
+- *-1:* La lista la quiero en una columna; no existe el -2 xD. Obviamente si lo combinas con -l no hace falta porque ya lo saca en una columna. Carece de sentido.
 * *ls -d /ruta/al/directorio:* El comando mostrará el nombre del directorio _/ruta/al/directorio_ en lugar de listar los archivos y subdirectorios que contiene.
 - *ls /:* En este caso nos muestra lo que hay en la raíz del sistema; se puede poner otro sitio en vez de _/_, por ejemplo *ls /home -l*.
 - *-M*:* Que liste todo lo que empiece por M. Si buscamos directorios hay que hacer el siguiente comando.
@@ -88,7 +93,7 @@ ___
 - *ls -ld \*s > termina.s:* No lo mostrará por pantalla, porque le estás cambiando la salida al archivo que le mandas crear después del _>_.
 - *ls -[DdEe]\*:* lista los elementos que empiecen con D, d, E o e. En el ejemplo se pone tanto minúscula como mayúscula porque discrimina estas.
 - ls -d [{CHAR}-{CHAR}]*: lista elementos que empiecen por los CHAR(S) dentro de un rango. Es sensible a mayúsculas y minúsculas.
-    
+     
     ▪ Ejemplo: ls -d [A - E] → Buscará todo lo que contenga desde una “A” hasta una “E”
     
     ▪ Ejemplo: ls -d [A - EI]* → Buscará todo lo que acaba con una “A” hasta una “E” o acabe en una “I”
