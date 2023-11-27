@@ -556,11 +556,8 @@ preguntas = [
 
 ######################################################################################
 
-# Mezclar las preguntas en orden aleatorio
-random.shuffle(preguntas)
-
-# Función para realizar el test
-def realizar_test():
+# Función para realizar el test individual (sin cambios)
+def realizar_test_individual(nombre_usuario):
     puntaje = 0
     for i, (pregunta, opciones, respuesta) in enumerate(preguntas, 1):
         print(f"\nPregunta {i}: {pregunta}")
@@ -568,32 +565,109 @@ def realizar_test():
         for opcion in opciones:
             print(opcion)
         respuesta_usuario = input("\nTu respuesta: ").strip().lower()
+
         if respuesta_usuario == respuesta:
             print("-------------------------")
             print("¡Respuesta correcta! ✔✔✔✔✔✔✔✔✔")
             print("-------------------------\n")
-            puntaje += 1
+            puntaje += 3
+        elif respuesta_usuario == "paso":
+            print("-------------------------")
+            print("Has pasado a la siguiente pregunta.\n")
+            print("-------------------------\n")
         else:
             print("-------------------------")
             print(f"✖✖✖✖✖✖✖ Respuesta incorrecta. La opción correcta es: {respuesta}\n")
             print("-------------------------\n")
-    
-    print(f"Has completado el test, {nombre_usuario}. Puntuación final: {puntaje}/{len(preguntas)}")
+            puntaje -= 1
 
-# Solicitar el nombre del usuario
+    print(f"Has completado el test, {nombre_usuario}. Puntuación final: {puntaje}/{len(preguntas) * 3}")
+
+# Función para el modo competitivo 1vs1 (con cambios)
+def modo_1vs1():
+    nombre_jugador1 = input("Jugador 1, por favor introduce tu nombre: ")
+    nombre_jugador2 = input("Jugador 2, por favor introduce tu nombre: ")
+
+    puntaje_jugador1 = 0
+    puntaje_jugador2 = 0
+
+    for i, (pregunta, opciones, respuesta) in enumerate(preguntas, 1):
+        print(f"\nPregunta {i}: {pregunta}")
+
+        # Jugador 1
+        print(f"\nTurno de {nombre_jugador1}:")
+        random.shuffle(opciones)
+        for opcion in opciones:
+            print(opcion)
+        respuesta_jugador1 = input("\nTu respuesta: ").strip().lower()
+
+        if respuesta_jugador1 == respuesta:
+            print("-------------------------")
+            print(f"{nombre_jugador1}, ✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔ +3 ptos ¡respuesta correcta! ✔✔✔")
+            print("-------------------------")
+            puntaje_jugador1 += 3
+        elif respuesta_jugador1 == "paso":
+            print("-------------------------")
+            print(f"{nombre_jugador1}, has pasado a la siguiente pregunta.\n")
+        else:
+            print("-------------------------")
+            print(f"{nombre_jugador1}, ✖✖✖✖✖✖✖✖✖✖✖✖✖✖ -1 pto Respuesta incorrecta. Restas 1 punto; La opción correcta es: {respuesta}\n")
+            print("-------------------------")
+            puntaje_jugador1 -= 1
+
+        # Jugador 2
+        print(f"\nTurno de {nombre_jugador2}:")
+        random.shuffle(opciones)
+        for opcion in opciones:
+            print(opcion)
+        respuesta_jugador2 = input("\nTu respuesta: ").strip().lower()
+
+        if respuesta_jugador2 == respuesta:
+            print("-------------------------")
+            print(f"{nombre_jugador1}, ✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔ +3 ptos ¡respuesta correcta! ✔✔✔")
+            print("-------------------------")
+            puntaje_jugador2 += 3
+        elif respuesta_jugador2 == "paso":
+            print("-------------------------")
+            print(f"{nombre_jugador2}, has pasado a la siguiente pregunta.\n")
+        else:
+            print("-------------------------")
+            print(f"{nombre_jugador1}, ✖✖✖✖✖✖✖✖✖✖✖✖✖✖ -1 pto Respuesta incorrecta. Restas 1 punto; La opción correcta es: {respuesta}\n")
+            print("-------------------------")
+            puntaje_jugador2 -= 1
+
+        # Mostrar marcador después de cada pregunta
+        print("==================================================")
+        print(f"\nMarcador después de la pregunta {i}:\n{nombre_jugador1}: {puntaje_jugador1} puntos")
+        print(f"{nombre_jugador2}: {puntaje_jugador2} puntos")
+        print("==================================================")
+
+    print(f"\nFin del juego:\n{nombre_jugador1}, tu puntuación final: {puntaje_jugador1}")
+    print(f"{nombre_jugador2}, tu puntuación final: {puntaje_jugador2}")
+
+# Solicitar el nombre del usuario (sin cambios)
 nombre_usuario = input("Vamos a aprobar bases de datos. Por favor, introduce tu nombre: ")
 
-# Solicitar el número de preguntas
+# Solicitar el número de preguntas (sin cambios)
 num_preguntas = int(input("¿Cuántas preguntas deseas en el test? "))
 while num_preguntas > len(preguntas):
     print(f"Lo siento, solo hay {len(preguntas)} preguntas disponibles.")
     num_preguntas = int(input("Por favor, elige un número igual o menor: "))
 
-# Mezclar las preguntas en orden aleatorio
+# Mezclar las preguntas en orden aleatorio (sin cambios)
 random.shuffle(preguntas)
 preguntas = preguntas[:num_preguntas]
 
-# Ejecutar el test
-print("✵------------BASE DE DATOS UNIDAD 3 -PDF 1------------✵")
-print(f"Muy bien, {nombre_usuario}! Comencemos con tu test de {num_preguntas} preguntas.")
-realizar_test()
+# Preguntar al usuario si desea modo individual o competitivo (sin cambios)
+modo = input("¿Quieres jugar en modo individual (i) o competitivo 1vs1 (c)? ").lower()
+
+if modo == "i":
+    # Ejecutar el test individual (sin cambios)
+    print("✵------------BASE DE DATOS UNIDAD 3 -PDF 1------------✵")
+    print(f"Muy bien, {nombre_usuario}! Comencemos con tu test de {num_preguntas} preguntas.")
+    realizar_test_individual(nombre_usuario)
+elif modo == "c":
+    # Ejecutar el modo competitivo 1vs1 (con cambios)
+    modo_1vs1()
+else:
+    print("Modo no válido. Por favor, selecciona 'i' para modo individual o 'c' para competitivo 1vs1.")
