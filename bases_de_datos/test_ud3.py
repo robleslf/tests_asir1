@@ -476,7 +476,7 @@ preguntas = [
     "a) Si estamos haciendo referencia a un elemento de una relación, ese elemento debe existir en esa relación.",
     "b) Podemos hacer referencia a cualquier elemento, incluso si no existe en la relación.",
     "c) La existencia o no de un elemento en la relación no afecta al proceso de referencia.",
-    "d) No es necesario considerar la existencia de elementos al hacer referencia en una relación."
+    "d) No es necesario considerar la existencia de elementos al hacer referencia en una relación.",
     "e) b, c y d son correctas."
 ], "a"),
 ("Para garantizar la integridad referencial en una base de datos, ¿qué acciones son necesarias?", [
