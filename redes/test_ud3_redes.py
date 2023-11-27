@@ -771,121 +771,121 @@ preguntas = [
     "c) Cable coaxial.",
     "d) Transmisión inalámbrica."
 ], "c"),
-("¿Cuál fue el medio más empleado en las comunicaciones telefónicas a larga distancia, según el texto?", [
+("¿Cuál fue el medio más empleado en las comunicaciones telefónicas a larga distancia?", [
     "a) Cable de pares.",
     "b) Transmisión inalámbrica.",
     "c) Cable coaxial.",
     "d) Fibra óptica."
 ], "c"),
-("En la actualidad, ¿dónde sigue siendo utilizado el cable coaxial, según el texto?", [
+("En la actualidad, ¿dónde sigue siendo utilizado el cable coaxial?", [
     "a) Exclusivamente en comunicaciones telefónicas.",
     "b) Como cable principal en LAN.",
     "c) Como cable de distribución de televisión y para conectar hogares con nodos zonales en la tecnología HFC (Híbrido de Fibra Óptica y Coaxial).",
     "d) En comunicaciones inalámbricas."
 ], "c"),
-("¿Cómo se compone un cable coaxial, según el texto?", [
+("¿Cómo se compone un cable coaxial?", [
     "a) Con un núcleo de aluminio rodeado de material aislante.",
     "b) Con un núcleo de fibra óptica rodeado de plástico.",
     "c) Con un núcleo de cobre como transmisor rodeado de material aislante (plástico).",
     "d) Con un núcleo de hierro rodeado de material conductor."
 ], "c"),
-("¿Cómo se protege el plástico en un cable coaxial y qué propósito tiene dicha protección, según el texto?", [
+("¿Cómo se protege el plástico en un cable coaxial y qué propósito tiene dicha protección?", [
     "a) No se protege.",
     "c) Con una capa adicional de plástico.",
     "b) Está cubierto por una malla protectora metálica (compuesta por malla de cobre o aluminio) para aislar de interferencias electromagnéticas.",
     "d) Con una capa de fibra óptica para mayor resistencia."
 ], "b"),
-("¿Cómo se protege el cable coaxial contra interferencias electromagnéticas, según el texto?", [
+("¿Cómo se protege el cable coaxial contra interferencias electromagnéticas?", [
     "a) Con una cubierta de plástico.",
     "b) No se toma ninguna medida de protección.",
     "c) Mediante una malla protectora metálica compuesta por cobre o aluminio.",
     "d) Con una capa adicional de fibra óptica."
 ], "c"),
-("¿Qué proporciona la construcción y la blindaje del cable coaxial, según el texto?", [
+("¿Qué proporciona la construcción y la blindaje del cable coaxial?", [
     "a) Ancho de banda bajo y resistencia al ruido pobre.",
     "b) Ancho de banda alto y excelente inmunidad frente al ruido.",
     "c) Ancho de banda variable y baja inmunidad al ruido.",
     "d) Ancho de banda alto pero vulnerable al ruido."
 ], "b"),
-("¿Qué factores determinan el ancho de banda posible en el cable coaxial, según el texto?", [
+("¿Qué factores determinan el ancho de banda posible en el cable coaxial?", [
     "a) Solo la longitud del cable.",
     "b) Solo la relación señal/ruido del señal de datos.",
     "d) Tanto la longitud del cable como la relación señal/ruido del señal de datos.",
     "c) Ningún factor afecta al ancho de banda posible."
 ], "d"),
-("¿Cuántos tipos de cable coaxial existen, según el texto?", [
+("¿Cuántos tipos de cable coaxial existen?", [
     "a) Uno, cable coaxial a secas.",
     "b) Dos, coaxial de banda ancha y coaxial de banda base.",
     "c) Tres, coaxial de banda ancha, coaxial de banda base y coaxial de banda Manchester.",
     "d) Cuatro, coaxial de banda ancha, coaxial de banda estrecha, coaxial de banda base y coaxial de banda masiva."
 ], "b"),
-("¿Para qué se utiliza el cable coaxial de banda ancha en las comunicaciones telefónicas, según el texto?", [
+("¿Para qué se utiliza el cable coaxial de banda ancha en las comunicaciones telefónicas?", [
     "a) Como nivel intermedio entre cable coaxial de banda base y fibra óptica.",
     "b) Exclusivamente en redes LAN.",
     "c) Para conectar hogares con nodos zonales en la tecnología HFC.",
     "d) Para transmisiones inalámbricas."
 ], "a"),
-("¿En qué tipo de instalaciones se utiliza también el cable coaxial de banda ancha, según el texto?", [
+("¿En qué tipo de instalaciones se utiliza también el cable coaxial de banda ancha?", [
     "a) Exclusivamente en redes de fibra óptica.",
     "b) Solo en comunicaciones telefónicas.",
     "c) En instalaciones de televisión por cable.",
     "d) En transmisiones inalámbricas."
 ], "c"),
-("¿Cuál es la impedancia del cable coaxial de banda ancha, según el texto?", [
+("¿Cuál es la impedancia del cable coaxial de banda ancha?", [
     "a) 50 Ω",
     "b) 75 Ω",
     "c) 100 Ω",
     "d) 125 Ω"
 ], "b"),
-("¿En qué situaciones se utiliza el cable coaxial de banda ancha en redes LAN, según el texto?", [
+("¿En qué situaciones se utiliza el cable coaxial de banda ancha en redes LAN?", [
     "a) Cuando se prefiere utilizar fibra óptica.",
     "b) Cuando se necesita poca capacidad de transmisión.",
     "c) Cuando se requiere mucha capacidad pero no se desea utilizar la fibra óptica.",
     "d) Exclusivamente en transmisiones inalámbricas."
 ], "c"),
-("¿Cuál es el estado actual del cable coaxial de banda base, según el texto?", [
+("¿Cuál es el estado actual del cable coaxial de banda base?", [
     "a) En pleno uso y expansión.",
     "b) En desuso.",
     "c) Utilizado exclusivamente en comunicaciones telefónicas.",
     "d) En constante desarrollo tecnológico."
 ], "b"),
-("¿Cuál es la impedancia del cable coaxial de banda base, según el texto?", [
+("¿Cuál es la impedancia del cable coaxial de banda base?", [
     "a) 25 Ω",
     "b) 50 Ω",
     "c) 75 Ω",
     "d) 100 Ω"
 ], "b"),
-("¿Cuántos tipos de cable coaxial de banda base existen, según el texto?", [
+("¿Cuántos tipos de cable coaxial de banda base existen?", [
     "a) Uno, de banda base a secas.",
     "b) Dos, fino y grueso.",
     "c) Tres, de baja frecuencia, de media frecuencia y de alta frecuencia.",
     "d) Cuatro, de un hilo, de dos hilos, de tres hilos y de cuatro hilos."
 ], "b"),
-("¿En qué redes se utiliza el cable coaxial fino, según el texto?", [
+("¿En qué redes se utiliza el cable coaxial fino?", [
     "a) En redes Ethernet 10BASE5.",
     "b) En redes 10BASE2 con una velocidad de 10Mbps.",
     "c) En redes de fibra óptica.",
     "d) Exclusivamente en transmisiones inalámbricas."
 ], "b"),
-("¿Cómo se conoce al cable coaxial fino en las redes 10BASE2, según el texto?", [
+("¿Cómo se conoce al cable coaxial fino en las redes 10BASE2?", [
     "a) Cheapernet",
     "b) Thicknet",
     "c) FastEthernet",
     "d) Coaxnet"
 ], "a"),
-("¿En qué redes se utiliza el cable coaxial grueso, según el texto?", [
+("¿En qué redes se utiliza el cable coaxial grueso?", [
     "a) En redes Ethernet 10BASE2.",
     "b) En redes de fibra óptica.",
     "c) En redes 10BASE5.",
     "d) Exclusivamente en comunicaciones telefónicas."
 ], "c"),
-("¿Cuáles son las características del cable coaxial grueso, según el texto?", [
+("¿Cuáles son las características del cable coaxial grueso?", [
     "a) Grosor de 2cm y costo bajo.",
     "b) Grosor de 1cm y costo alto.",
     "c) Grosor de 0.5cm y costo medio.",
     "d) Grosor variable y costo variable."
 ], "b"),
-("En la actualidad, ¿quién sigue utilizando ampliamente el cable coaxial en las instalaciones de red para la parte del cliente, según el texto?", [
+("En la actualidad, ¿quién sigue utilizando ampliamente el cable coaxial en las instalaciones de red para la parte del cliente?", [
     "a) Exclusivamente las redes 10BASE5.",
     "b) Proveedores de servicios telefónicos.",
     "c) Proveedores de internet.",
