@@ -621,8 +621,280 @@ preguntas = [
     "c) Es el canal por el cual se envía la señal.",
     "d) Es la señal que modifica algún parámetro de la portadora y contiene la información."
 ], "d"),
+("En el contexto de la transmisión en banda ancha, ¿cómo se define la 'moduladora' según la información proporcionada?", [
+    "a) Es la señal del medio que transporta la información.",
+    "b) Es la información que se desea transmitir.",
+    "c) Es el canal por el cual se envía la señal.",
+    "d) Es la señal que modifica algún parámetro de la portadora y contiene la información."
+], "d"),
+("En el contexto de una portadora analógica, ¿cuáles son las dos formas comunes de modular la señal?", [
+    "a) Moduladora analógica y Moduladora digital.",
+    "b) Moduladora analógica y Moduladora de amplitud.",
+    "c) Moduladora digital y Moduladora de frecuencia.",
+    "d) Moduladora de amplitud y Moduladora de fase."
+], "a"),
+("En el contexto de una moduladora analógica, ¿cuáles son las posibles técnicas de modulación que puede emplear?", [
+    "a) Modulación de amplitud (AM) y de frecuencia (FM).",
+    "b) Modulación de frecuencia (FM) únicamente.",
+    "c) Modulación de fase (AM) únicamente.",
+    "d) Modulación de amplitud (AM), modulación de frecuencia (FM) y modulación de fase (PM)."
+], "d"),
+("En el contexto de una moduladora digital, ¿cuáles son las posibles técnicas de modulación que puede emplear?", [
+    "a) Modulación por desplazamiento de amplitud (ASK) únicamente.",
+    "b) Modulación por desplazamiento de frecuencia (FSK) únicamente.",
+    "c) Modulación por desplazamiento de fase (PSK) únicamente.",
+    "d) Modulación por desplazamiento de amplitud (ASK), modulación por desplazamiento de frecuencia (FSK) y modulación por desplazamiento de fase (PSK)."
+], "d"),
+("En el contexto de una portadora digital, ¿cuál de las siguientes opciones describe correctamente la relación entre la portadora digital y la modulación?", [
+    "a) La portadora digital es independiente de cualquier técnica de modulación.",
+    "b) La portadora digital está asociada exclusivamente con la modulación analógica.",
+    "c) La portadora digital se utiliza únicamente en la modulación digital.",
+    "d) La portadora digital puede estar asociada tanto con la modulación analógica como con la modulación digital."
+], "d"),
+("En el contexto de una portadora digital utilizada para modulación analógica, ¿cuál es su función principal?", [
+    "a) Transmitir señales digitales por medios digitales.",
+    "b) Transmitir señales analógicas por medios digitales.",
+    "c) Transmitir señales digitales por medios analógicos.",
+    "d) No tiene ninguna función específica en la modulación analógica."
+], "b"),
+("¿Qué tipo de señal se utiliza comúnmente para transmitir la voz en telefonía móvil digital?", [
+    "a) Señal analógica.",
+    "b) Señal digital.",
+    "c) Señal de frecuencia modulada.",
+    "d) Señal de amplitud modulada."
+], "b"),
+("¿Qué problema se presenta en la portadora digital y modulación analógica?", [
+    "a) Que son incompatibles.",
+    "b) Que se infrautiliza el canal.",
+    "c) Que se pierde potencia.",
+    "d) No existe ningún problema, va todo bien."
+], "b"),
+("¿Qué variantes exiten en la portadora digital y modulación analógica?", [
+    "a) PPM (Pulsos Modulados en Frecuencia) y PDM (Pulsos Modulados en Fase).",
+    "b) PDM (Pulsos Modulados en Fase) y PAM (Pulsos Modulados en Amplitude).",
+    "c) PCM (Modulación por Codificación de Pulsos) y PDM (Pulsos Modulados en Fase).",
+    "d) PAM (Pulsos Modulados en Amplitude), PPM (Pulsos Modulados en Frecuencia) y PDM (Pulsos Modulados en Fase)."
+], "d"),
+("¿Cuántas y cuáles son las variantes de la portadora digital?", [
+    "a) Dos variantes: PAM y PDM.",
+    "b) Tres variantes: PAM, PPM, y PDM.",
+    "c) Cuatro variantes: PAM, PPM, PDM, y PCM.",
+    "d) Una variante: PDM."
+], "b"),
+("¿Qué caracteriza a la portadora digital con modulación digital?", [
+    "a) Se utiliza comúnmente en transmisiones en banda base.",
+    "b) No se utiliza en ningún caso debido a su obsolescencia.",
+    "c) Es una forma especializada de transmisión en banda base que no se usa frecuentemente.",
+    "d) Es el estándar principal en las comunicaciones modernas."
+], "c"),
+("¿Cómo se define un medio de transmisión?", [
+    "a) Como el proceso de enviar señales desde el emisor hasta el receptor.",
+    "b) Como el soporte físico que utiliza la señal para llegar desde el emisor hasta el receptor.",
+    "c) Como el espacio que separa al emisor del receptor durante la transmisión de señales.",
+    "d) Como la velocidad con la que viaja la señal desde el emisor hasta el receptor."
+], "b"),
+("¿Qué aspectos determina la naturaleza del medio de transmisión?", [
+    "a) Solo el tipo de señal transmitida.",
+    "b) Únicamente la calidad de la transmisión.",
+    "c) Tanto el tipo de señal transmitida como las características y calidad de la transmisión.",
+    "d) La velocidad de transmisión pero no la calidad."
+], "c"),
+("¿Por qué la elección del medio de transmisión es probablemente la parte más permanente del diseño de la red?", [
+    "a) Porque es la opción más económica.",
+    "b) Debido a su fácil reemplazo en caso de cambios en la red.",
+    "c) Dado que afecta la estabilidad a largo plazo de la red.",
+    "d) Solo influye en la calidad momentánea de la transmisión."
+], "c"),
+("¿Por qué es importante realizar adecuadamente la elección del cableado en el diseño de una red?", [
+    "a) Porque afecta solo temporalmente el rendimiento de la red.",
+    "b) Debido a su fácil sustitución en caso de problemas.",
+    "c) Dado que la elección del cableado es probablemente la parte más permanente del diseño de la red.",
+    "d) Porque no hay estándares que reduzcan las posibilidades de cableado."
+], "c"),
+("¿Qué se debe hacer para realizar una valoración objetiva de la necesidad de un cableado?", [
+    "c) Evaluar únicamente las tecnologías disponibles en el momento actual.",
+    "b) Considerar solo las necesidades actuales sin mirar al futuro.",
+    "a) Realizar una valoración adecuada de las tecnologías disponibles y una estimación tanto de las necesidades actuales como de las futuras.",
+    "d) No considerar las tecnologías disponibles y solo centrarse en las necesidades actuales."
+], "a"),
+("¿Por qué es importante mantenerse informado en el campo de cableado?", [
+    "a) Porque no hay cambios frecuentes en productos y sistemas en este campo.",
+    "b) Para evitar la aparición de nuevos productos y sistemas.",
+    "c) Dado que este es un campo muy activo con frecuentes desarrollos de productos y sistemas.",
+    "d) Porque la información sobre cableado no afecta significativamente a la red."
+], "c"),
+("¿Cuántos grandes grupos se pueden utilizar para clasificar los medios de transmisión, según el texto?", [
+    "a) 1",
+    "b) 2",
+    "c) 3",
+    "d) 4"
+], "c"),
+("¿Cuántos grandes grupos se pueden utilizar para clasificar los medios de transmisión?", [
+    "a) 1",
+    "b) 2, sin hilos y con hilos",
+    "c) 3, cables metálicos, ópticos y sin hilos",
+    "d) 4, cables metálicos, ópticos, sin hilos y wifi"
+], "c"),
+("¿En qué situaciones el cable metálico es el medio de transmisión más empleado?", [
+    "a) En distancias muy largas y tasas de transferencia bajas.",
+    "b) Solo en distancias muy cortas.",
+    "d) En distancias no muy largas y cuando se necesitan tasas de transferencia elevadas.",
+    "c) Exclusivamente en transmisiones inalámbricas."
+], "d"),
+("¿Cómo se transmite la información a través del cable?", [
+    "a) A través de pulsos eléctricos de baja frecuencia.",
+    "c) Mediante señales de radio.",
+    "b) En forma de ondas electromagnéticas: corrientes eléctricas de alta frecuencia.",
+    "d) Utilizando luz visible."
+], "b"),
+("¿Por qué el metal utilizado en cables siempre es el cobre?", [
+    "c) Porque es el metal más barato.",
+    "b) Debido a su alta conductividad y resistencia a grandes corrientes eléctricas.",
+    "a) Por su alta conductividad, costo razonable, ductilidad y maleabilidad.",
+    "d) Por su resistencia a la deformación sin romperse."
+], "a"),
+("¿Cuáles son los principales problemas de los cables metálicos?", [
+    "c) Atenuación e interferencias ópticas.",
+    "b) Resistencia e interferencias magnéticas.",
+    "a) Atenuación e interferencias electromagnéticas.",
+    "d) Pérdida de información y resistencia térmica."
+], "a"),
+("¿Qué se utiliza comúnmente para evitar los problemas de atenuación e interferencias electromagnéticas en los cables metálicos?", [
+    "a) Cableado de mayor longitud.",
+    "b) Cableado sin protección adicional.",
+    "c) Cables apantallados.",
+    "d) Cables con mayor resistencia eléctrica."
+], "c"),
+("¿Cuál fue el medio de transmisión más utilizado en los primeros tiempos de las LAN?", [
+    "a) Cable de fibra óptica.",
+    "b) Cable de pares.",
+    "c) Cable coaxial.",
+    "d) Transmisión inalámbrica."
+], "c"),
+("¿Cuál fue el medio más empleado en las comunicaciones telefónicas a larga distancia, según el texto?", [
+    "a) Cable de pares.",
+    "b) Transmisión inalámbrica.",
+    "c) Cable coaxial.",
+    "d) Fibra óptica."
+], "c"),
+("En la actualidad, ¿dónde sigue siendo utilizado el cable coaxial, según el texto?", [
+    "a) Exclusivamente en comunicaciones telefónicas.",
+    "b) Como cable principal en LAN.",
+    "c) Como cable de distribución de televisión y para conectar hogares con nodos zonales en la tecnología HFC (Híbrido de Fibra Óptica y Coaxial).",
+    "d) En comunicaciones inalámbricas."
+], "c"),
+("¿Cómo se compone un cable coaxial, según el texto?", [
+    "a) Con un núcleo de aluminio rodeado de material aislante.",
+    "b) Con un núcleo de fibra óptica rodeado de plástico.",
+    "c) Con un núcleo de cobre como transmisor rodeado de material aislante (plástico).",
+    "d) Con un núcleo de hierro rodeado de material conductor."
+], "c"),
+("¿Cómo se protege el plástico en un cable coaxial y qué propósito tiene dicha protección, según el texto?", [
+    "a) No se protege.",
+    "c) Con una capa adicional de plástico.",
+    "b) Está cubierto por una malla protectora metálica (compuesta por malla de cobre o aluminio) para aislar de interferencias electromagnéticas.",
+    "d) Con una capa de fibra óptica para mayor resistencia."
+], "b"),
+("¿Cómo se protege el cable coaxial contra interferencias electromagnéticas, según el texto?", [
+    "a) Con una cubierta de plástico.",
+    "b) No se toma ninguna medida de protección.",
+    "c) Mediante una malla protectora metálica compuesta por cobre o aluminio.",
+    "d) Con una capa adicional de fibra óptica."
+], "c"),
+("¿Qué proporciona la construcción y la blindaje del cable coaxial, según el texto?", [
+    "a) Ancho de banda bajo y resistencia al ruido pobre.",
+    "b) Ancho de banda alto y excelente inmunidad frente al ruido.",
+    "c) Ancho de banda variable y baja inmunidad al ruido.",
+    "d) Ancho de banda alto pero vulnerable al ruido."
+], "b"),
+("¿Qué factores determinan el ancho de banda posible en el cable coaxial, según el texto?", [
+    "a) Solo la longitud del cable.",
+    "b) Solo la relación señal/ruido del señal de datos.",
+    "d) Tanto la longitud del cable como la relación señal/ruido del señal de datos.",
+    "c) Ningún factor afecta al ancho de banda posible."
+], "d"),
+("¿Cuántos tipos de cable coaxial existen, según el texto?", [
+    "a) Uno, cable coaxial a secas.",
+    "b) Dos, coaxial de banda ancha y coaxial de banda base.",
+    "c) Tres, coaxial de banda ancha, coaxial de banda base y coaxial de banda Manchester.",
+    "d) Cuatro, coaxial de banda ancha, coaxial de banda estrecha, coaxial de banda base y coaxial de banda masiva."
+], "b"),
+("¿Para qué se utiliza el cable coaxial de banda ancha en las comunicaciones telefónicas, según el texto?", [
+    "a) Como nivel intermedio entre cable coaxial de banda base y fibra óptica.",
+    "b) Exclusivamente en redes LAN.",
+    "c) Para conectar hogares con nodos zonales en la tecnología HFC.",
+    "d) Para transmisiones inalámbricas."
+], "a"),
+("¿En qué tipo de instalaciones se utiliza también el cable coaxial de banda ancha, según el texto?", [
+    "a) Exclusivamente en redes de fibra óptica.",
+    "b) Solo en comunicaciones telefónicas.",
+    "c) En instalaciones de televisión por cable.",
+    "d) En transmisiones inalámbricas."
+], "c"),
+("¿Cuál es la impedancia del cable coaxial de banda ancha, según el texto?", [
+    "a) 50 Ω",
+    "b) 75 Ω",
+    "c) 100 Ω",
+    "d) 125 Ω"
+], "b"),
+("¿En qué situaciones se utiliza el cable coaxial de banda ancha en redes LAN, según el texto?", [
+    "a) Cuando se prefiere utilizar fibra óptica.",
+    "b) Cuando se necesita poca capacidad de transmisión.",
+    "c) Cuando se requiere mucha capacidad pero no se desea utilizar la fibra óptica.",
+    "d) Exclusivamente en transmisiones inalámbricas."
+], "c"),
+("¿Cuál es el estado actual del cable coaxial de banda base, según el texto?", [
+    "a) En pleno uso y expansión.",
+    "b) En desuso.",
+    "c) Utilizado exclusivamente en comunicaciones telefónicas.",
+    "d) En constante desarrollo tecnológico."
+], "b"),
+("¿Cuál es la impedancia del cable coaxial de banda base, según el texto?", [
+    "a) 25 Ω",
+    "b) 50 Ω",
+    "c) 75 Ω",
+    "d) 100 Ω"
+], "b"),
+("¿Cuántos tipos de cable coaxial de banda base existen, según el texto?", [
+    "a) Uno, de banda base a secas.",
+    "b) Dos, fino y grueso.",
+    "c) Tres, de baja frecuencia, de media frecuencia y de alta frecuencia.",
+    "d) Cuatro, de un hilo, de dos hilos, de tres hilos y de cuatro hilos."
+], "b"),
+("¿En qué redes se utiliza el cable coaxial fino, según el texto?", [
+    "a) En redes Ethernet 10BASE5.",
+    "b) En redes 10BASE2 con una velocidad de 10Mbps.",
+    "c) En redes de fibra óptica.",
+    "d) Exclusivamente en transmisiones inalámbricas."
+], "b"),
+("¿Cómo se conoce al cable coaxial fino en las redes 10BASE2, según el texto?", [
+    "a) Cheapernet",
+    "b) Thicknet",
+    "c) FastEthernet",
+    "d) Coaxnet"
+], "a"),
+("¿En qué redes se utiliza el cable coaxial grueso, según el texto?", [
+    "a) En redes Ethernet 10BASE2.",
+    "b) En redes de fibra óptica.",
+    "c) En redes 10BASE5.",
+    "d) Exclusivamente en comunicaciones telefónicas."
+], "c"),
+("¿Cuáles son las características del cable coaxial grueso, según el texto?", [
+    "a) Grosor de 2cm y costo bajo.",
+    "b) Grosor de 1cm y costo alto.",
+    "c) Grosor de 0.5cm y costo medio.",
+    "d) Grosor variable y costo variable."
+], "b"),
+("En la actualidad, ¿quién sigue utilizando ampliamente el cable coaxial en las instalaciones de red para la parte del cliente, según el texto?", [
+    "a) Exclusivamente las redes 10BASE5.",
+    "b) Proveedores de servicios telefónicos.",
+    "c) Proveedores de internet.",
+    "d) Redes de fibra óptica."
+], "c"),
 
-# Seguir en página 9 copiando el apartado de portadora analóxica.
+
+
+# Seguir en página 12 copiando el apartado de cable de par trenzado.
 
 
 
