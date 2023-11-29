@@ -272,9 +272,280 @@ preguntas = [
     "a) Las dependencias funcionales permiten especificar restricciones sobre atributos para describir de manera más precisa el esquema de relación.",
     "d) Las dependencias funcionales son solo relevantes para la normalización y no afectan la descripción del esquema."
 ], "a"),
+("¿Cuál es la definición formal de una dependencia funcional (DF) en un esquema de relación R(A)?", [
+    "a) Una dependencia funcional se establece cuando todos los atributos de R son iguales entre dos tuplas t1 y t2.",
+    "b) Una dependencia funcional existe entre los subconjuntos de atributos α y β si para todas las tuplas t1 y t2 en R, si los valores de α son iguales, entonces los valores de β también son iguales.",
+    "c) La dependencia funcional se representa como α -> β si la relación R tiene exactamente N atributos.",
+    "d) La dependencia funcional solo se cumple si α y β son conjuntos vacíos en el esquema de relación R(A)."
+], "b"),
+("En una dependencia funcional, ¿qué significa que para dos tuplas t1 y t2 en la extensión de una relación r(R), si tienen los mismos valores en los atributos de α, también tendrán los mismos valores en los atributos de β?", [
+    "a) Si t1 y t2 tienen los mismos valores en los atributos de α, entonces deben tener diferentes valores en los atributos de β.",
+    "b) Si t1 y t2 tienen diferentes valores en los atributos de α, entonces deben tener diferentes valores en los atributos de β.",
+    "c) Si t1 y t2 tienen los mismos valores en los atributos de α, entonces deben tener diferentes valores en los atributos de β.",
+    "d) La dependencia funcional no establece ninguna relación entre los valores de α y β en las tuplas t1 y t2."
+], "c"),
+("En el contexto de dependencias funcionales, ¿qué significa que β depende funcionalmente de α?", [
+    "a) β y α son independientes entre sí.",
+    "b) Cambios en α no afectan a β.",
+    "c) α determina funcionalmente los valores de β.",
+    "d) β determina funcionalmente los valores de α."
+], "c"),
+("En el contexto de dependencias funcionales, ¿qué significa que a un valor dado de α le corresponde un único valor de β?", [
+    "a) Hay varios valores de β para un valor de α.",
+    "b) β y α son independientes.",
+    "c) β determina múltiples valores de α.",
+    "d) Cada valor de α tiene un único valor correspondiente en β."
+], "d"),
+("¿Qué característica de las dependencias funcionales destaca el hecho de que se aplica sobre todos los valores posibles de la relación, no solo sobre los actuales?", [
+    "a) Extensión",
+    "b) Intensión",
+    "c) Temporalidad",
+    "d) Actualidad"
+], "b"),
+("En el contexto de las dependencias funcionales, ¿qué significa la afirmación 'dado α no se puede deducir el valor de β'?", [
+    "a) α determina funcionalmente a β",
+    "b) α no tiene relación con β",
+    "c) α y β son independientes",
+    "d) β determina funcionalmente a α"
+], "c"),
+("En el contexto de dependencias funcionales, ¿qué se puede concluir si se afirma que 'siendo diferentes en α pueden ser iguales en β'?", [
+    "a) α y β son independientes",
+    "b) α determina funcionalmente a β",
+    "c) No hay relación entre α y β",
+    "d) β determina funcionalmente a α"
+], "a"),
+("¿Cómo se define la clave de una relación R(A) según las dependencias funcionales?", [
+    "a) La clave es un subconjunto de atributos Y tal que Y -> A1, A2, …, An.",
+    "b) La clave es el conjunto mínimo de atributos que determina funcionalmente a todos los demás.",
+    "c) La clave es el conjunto de todos los atributos A1, A2, …, An.",
+    "d) La clave es el subconjunto máximo de atributos que determina funcionalmente a todos los demás."
+], "b"),
+("¿Cuál es un ejemplo de dependencia funcional?", [
+    "a) El DNI depende funcionalmente del nombre de una persona.",
+    "b) El nombre de una persona depende funcionalmente del DNI.",
+    "c) Existe una dependencia funcional entre el nombre de una persona y su edad.",
+    "d) La edad depende funcionalmente del nombre de una persona."
+], "b"),
+("¿Qué caracteriza al proceso de normalización de una relación?", [
+    "a) Somete al esquema de relación a pruebas para mejorar el rendimiento.",
+    "b) Somete al esquema de relación a pruebas para certificar si el esquema de relación pertenece a una cierta forma normal.",
+    "c) Reduce la cantidad de datos almacenados en la relación.",
+    "d) Aumenta la redundancia en el esquema de relación."
+], "b"),
+("¿Cuál es el resultado del proceso de normalización de datos?", [
+    "a) Aumento de la redundancia en los esquemas de relación.",
+    "b) Descomposición de esquemas de relación que no cumplen condiciones.",
+    "c) Certificación de esquemas de relación sin cambios.",
+    "d) Reducción de la independencia de datos en los esquemas."
+], "b"),
+("¿Qué garantiza el proceso de normalización en relación a las anomalías de actualización?", [
+    "a) Aumento de anomalías de actualización.",
+    "b) Descomposición de esquemas que previene anomalías de actualización.",
+    "c) Certificación de esquemas sin cambios en las anomalías de actualización.",
+    "d) Reducción de la consistencia de los datos en los esquemas."
+], "b"),
+("¿Cómo se expresa formalmente la descomposición en el proceso de normalización?", [
+    "a) Se reorganiza directamente la relación R sin proyecciones ni reuniones.",
+    "b) Se realiza una serie de proyecciones y reuniones para obtener nuevas relaciones R1, R2, ..., Rn.",
+    "c) Se duplican los atributos de la relación R para evitar redundancias.",
+    "d) Se eliminan aleatoriamente atributos de la relación R."
+], "b"),
+("¿Cuáles son las propiedades que debe verificar una buena descomposición en el proceso de normalización?", [
+    "a) Pérdida y Modificación de dependencias.",
+    "b) Reunión sin pérdida y Conservación de las dependencias.",
+    "c) Pérdida y Conservación de las dependencias.",
+    "d) Reunión sin pérdida y Modificación de dependencias."
+], "b"),
+("¿Qué significa la propiedad 'Reunión sin pérdida' en el proceso de normalización?", [
+    "a) La extensión de las relaciones normalizadas debe ser más pequeña que la de la relación original.",
+    "b) La extensión de las relaciones normalizadas debe permitir obtener todos los valores de todas las tuplas de la relación original.",
+    "c) La extensión de las relaciones normalizadas debe contener solo algunos valores de la relación original.",
+    "d) La extensión de las relaciones normalizadas no tiene relación con la relación original."
+], "b"),
+("¿Qué significa la propiedad 'Conservación de dependencias' en el proceso de normalización?", [
+    "a) Las dependencias funcionales de la relación original deben eliminarse en las relaciones resultantes.",
+    "b) Todas las dependencias funcionales de la relación original deben estar representadas en al menos una de las relaciones resultantes.",
+    "c) Las dependencias funcionales no tienen importancia en el proceso de normalización.",
+    "d) Solo algunas dependencias funcionales deben conservarse en las relaciones resultantes."
+], "b"),
+("¿Por qué es importante la propiedad 'Reunión sin pérdida' en el proceso de normalización?", [
+    "a) Para eliminar información innecesaria en la relación original.",
+    "b) Para garantizar que todas las relaciones resultantes tengan la misma cantidad de tuplas que la relación original.",
+    "c) Para reducir la complejidad de las dependencias funcionales.",
+    "d) No es importante, ya que algunas pérdidas de información son aceptables en el proceso de normalización."
+], "b"),
+("¿Qué condición debe cumplir un esquema para estar en la Primera Forma Normal (1FN)?", [
+    "a) Todos los atributos deben tener dominios atómicos y multivaluados.",
+    "b) Todos los atributos deben tener dominios atómicos y univaluados.",
+    "c) Al menos un atributo debe tener dominio multivaluado.",
+    "d) No hay condiciones específicas para la 1FN."
+], "b"),
+("¿Qué significa que un atributo tenga un dominio atómico en el contexto de la Primera Forma Normal (1FN)?", [
+    "a) Puede tomar valores compuestos.",
+    "b) Puede tomar valores multivaluados.",
+    "c) Debe tomar valores únicos y simples.",
+    "d) No hay restricciones para los valores del atributo."
+], "c"),
+("En el contexto de la Primera Forma Normal (1FN), ¿qué restricción se aplica a los atributos en cuanto a sus valores?", [
+    "a) Pueden tener valores compuestos.",
+    "b) Pueden tener valores multivaluados.",
+    "c) Deben tener valores únicos y simples.",
+    "d) No hay restricciones para los valores del atributo."
+], "c"),
+("¿Cuál de las siguientes afirmaciones es verdadera acerca de la Primera Forma Normal (1FN)?", [
+    "a) Es una restricción opcional en el modelo relacional.",
+    "b) Es una forma normal que permite valores compuestos en los atributos.",
+    "c) Es una parte inherente del modelo relacional de datos.",
+    "d) No tiene relación con los dominios de los atributos."
+], "c"),
+("¿Qué característica debe tener un elemento para que un atributo sea considerado atómico?", [
+    "a) Ser divisible.",
+    "b) Ser un número entero.",
+    "c) Ser una unidad indivisible.",
+    "d) Ser un valor compuesto."
+], "c"),
+("¿Cuál de los siguientes ejemplos representa un dominio no atómico en un esquema de relación?", [
+    "a) Número entero.",
+    "b) Nombre completo (compuesto por nombre y apellidos).",
+    "c) Dirección de correo electrónico.",
+    "d) Número de teléfono único."
+], "b"),
+("¿Qué puede depender de los usos que se hagan de los valores de un atributo en un esquema de relación?", [
+    "a) El tipo de dato utilizado en el atributo.",
+    "b) La longitud del valor almacenado en el atributo.",
+    "c) Si el atributo se considera atómico o no.",
+    "d) La unicidad de los valores en el atributo."
+], "c"),
+("¿Qué sucede cuando una relación no cumple con la primera forma normal y se descompone en otras relaciones?", [
+    "a) Se pierde información de la relación original.",
+    "b) Los atributos se duplican en las nuevas relaciones.",
+    "c) Los atributos de la relación original se dividen entre las relaciones resultantes.",
+    "d) Se conservan todas las dependencias funcionales de la relación original."
+], "c"),
+("¿Cuál es la idea principal al descomponer una relación que no cumple con la primera forma normal?", [
+    "a) Eliminar todos los atributos de la relación original.",
+    "b) Duplicar todos los atributos en la nueva relación.",
+    "c) Eliminar el atributo que incumple la 1ª FN y colocarlo en una nueva relación junto con la clave primaria.",
+    "d) Conservar solo los atributos atómicos en la relación original."
+], "c"),
+("En el proceso de normalización para cumplir con la 1ª FN, ¿cuál es la idea principal?", [
+    "a) Eliminar la relación original.",
+    "b) Duplicar todos los atributos en la nueva relación.",
+    "c) Eliminar el atributo que incumple la 1ª FN y colocarlo en una relación diferente junto con la clave primaria de la relación original.",
+    "d) Conservar todos los atributos en la relación original."
+], "c"),
+("En el proceso de normalización para cumplir con la 1ª FN, ¿cuál es un paso clave?", [
+    "a) Eliminar la relación original.",
+    "b) Duplicar todos los atributos en la nueva relación.",
+    "c) Engadir os atributos non atómicos á relación existente.",
+    "d) Crear unha nova relación cos atributos que incumpren ser atómico ou son táboas dentro de táboas."
+], "d"),
+("¿Cuáles son los pasos a seguir para normalizar a 1ª FN?", [
+    "a) Crear unha nova relación sen engadir a clave primaria.",
+    "b) Duplicar todos los atributos en la nueva relación.",
+    "c) Buscar lo valores multivaluados, transformarlos en atributos compuestos, añadir una nueva clase formada por los atributos compuestos y si fuese necesario crear una nueva relación.",
+    "d) Crear unha nova relación cos atributos que incumpren ser atómico ou son táboas dentro de táboas, Engadir a esta nova relación a clave primaria da relación que orixinalmente a contiña, Darlle un nome á nova relación (opcionalmente no nome incluirase a FN na que a táboa aparece), Determinar a clave primaria da nova relación, Repetir ata que non queden máis atributos non atómicos."
+], "d"),
+("Además de cumplir con la 1FN, ¿Cuándo una relación está en 2FN?", [
+    "a) Si todos sus atributos son independientes de la clave primaria.",
+    "b) Si todos sus atributos no clave dependen completamente de la clave primaria.",
+    "c) Si todos los atributos son clave primaria.",
+    "d) Cuando tiene solo atributos atómicos."
+], "b"),
+("¿Cuál de las siguientes afirmaciones es verdadera en relación con la 2FN?", [
+    "a) Todos los atributos pueden depender de partes de una clave.",
+    "b) Solo los atributos de una clave pueden depender de partes de una clave.",
+    "c) Los atributos no clave deben ser independientes de la clave primaria.",
+    "d) No hay restricciones en la dependencia funcional de los atributos."
+], "b"),
+("¿En qué tipo de relaciones se aplica la 2FN?", [
+    "a) Solo en relaciones con claves primarias simples.",
+    "b) Solo en relaciones sin claves primarias.",
+    "c) Solo en relaciones con claves compuestas.",
+    "d) En todo tipo de relaciones."
+], "c"),
+("¿Qué se hace con un esquema de relación que no está en 2FN?", [
+    "a) Se mantiene sin cambios.",
+    "b) Se descompone en varias relaciones que sí estén en 2FN.",
+    "c) Se elimina.",
+    "d) Se transforma en una relación diferente."
+], "b"),
+("¿En qué base se debe realizar la descomposición para cumplir con la 2FN?", [
+    "a) Se debe realizar en base a cualquier dependencia funcional.",
+    "b) Se debe realizar en base a la dependencia funcional completa.",
+    "c) Se debe realizar en base a la dependencia funcional transitiva.",
+    "d) Se debe realizar en base a la dependencia funcional incompleta."
+], "d"),
+("¿Cuál es una condición necesaria para que una relación esté en tercera forma normal (3FN)?", [
+    "a) La relación no debe estar en 2FN.",
+    "b) Todos los atributos no principales deben depender funcionalmente solo de la clave.",
+    "c) Deben existir dependencias funcionales transitivas respecto de las claves.",
+    "d) Los atributos no principales deben depender de otros atributos no clave."
+], "b"),
+("¿Qué significa que una relación cumple con la tercera forma normal (3FN)?", [
+    "a) Debe tener dependencias funcionales transitivas respecto de las claves.",
+    "b) Todos los atributos no principales deben depender funcionalmente solo de la clave.",
+    "c) Deben existir dependencias funcionales transitivas entre los atributos no principales.",
+    "d) No deben existir dependencias funcionales transitivas respecto de las claves."
+], "d"),
+("Resumindo, para toda dependencia funcional X -> Y, X é uma chave.", [
+    "a) Verdadeiro",
+    "b) Falso"
+], "a"),
+("La mayoría de las tablas en 3NF están libres de anomalías de actualización, inserción y eliminación.", [
+    "a) Verdadero",
+    "b) Falso"
+], "a"),
+("Ciertos tipos de tablas en 3NF, que en la práctica raramente se encuentran, son afectadas por tales anomalías; estas son tablas que no satisfacen la forma normal de Boyce-Codd (FNBC o BCNF) o, si satisfacen la FNBC, son insuficientes para satisfacer las formas normales más altas 4NF o 5NF, todas ellas formas a estudiar en los siguientes puntos.", [
+    "a) Verdadero",
+    "b) Falso"
+], "a"),
 
 
-# seguir en pagina 6 con Definición formal de dependencia funcional (DF)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
