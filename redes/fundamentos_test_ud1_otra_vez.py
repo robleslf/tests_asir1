@@ -792,6 +792,793 @@ preguntas = [
     ],
     "b"
 ),
+(
+    "Según la información proporcionada, ¿cuál es una de las razones clave para el éxito de la informática móvil?",
+    [
+        "a) La conexión a plataformas en la nube.",
+        "b) La mejora en la productividad.",
+        "c) La potencia de los microprocesadores (SoC) para pequeños dispositivos.",
+        "d) La adopción de la arquitectura x86 desde 1978.",
+    ],
+    "c"
+),
+(
+    "Según la información proporcionada, ¿qué aspectos contribuyen a hacer de la informática móvil una nueva forma de trabajo?",
+    [
+        "a) La potencia de cálculo y la adopción de la arquitectura x86.",
+        "b) La mejora en la productividad y la conexión a plataformas en la nube.",
+        "c) La potencia de cálculo y la irrupción de smartphones y tabletas.",
+        "d) La adopción de la arquitectura ARM y la mejora en el servicio al cliente.",
+    ],
+    "b"
+),
+(
+    "Según la información proporcionada, ¿cuáles son algunos de los beneficios de la informática móvil?",
+    [
+        "a) Aumento de la potencia de cálculo y mejora en la conexión a plataformas en la nube.",
+        "b) Mejora en la productividad y adopción de la arquitectura x86.",
+        "c) Aumento de la eficiencia y mejora en el servicio al cliente.",
+        "d) Adopción de la arquitectura ARM y mayor capacidad de almacenamiento.",
+    ],
+    "c"
+),
+(
+    "Según la información proporcionada, ¿cuál es un factor decisivo para el éxito de la informática móvil?",
+    [
+        "a) La adopción de la arquitectura x86 en dispositivos móviles.",
+        "b) La conectividad a plataformas en la nube.",
+        "c) La potencia de los nuevos microprocesadores (SoC) para pequeños dispositivos.",
+        "d) La disponibilidad de smartphones y tabletas.",
+    ],
+    "c"
+),
+(
+    "Según la información proporcionada, ¿cuál ha sido un cambio significativo en la arquitectura de microprocesadores debido a la irrupción de smartphones y tabletas?",
+    [
+        "a) La continuación de la arquitectura x86 en dispositivos móviles.",
+        "b) El aumento en la complejidad de la arquitectura x86.",
+        "c) La adopción masiva de la arquitectura ARM en dispositivos móviles.",
+        "d) El uso exclusivo de microprocesadores CISC en smartphones y tabletas.",
+    ],
+    "c"
+),
+(
+    "¿Cuál fue uno de los objetivos principales del diseño inicial de la arquitectura ARM?",
+    [
+        "c) Priorizar la potencia de cálculo y velocidad.",
+        "b) Establecer una arquitectura exclusiva para dispositivos de alta capacidad de procesamiento.",
+        "a) Centrarse en dispositivos de muy poca capacidad de procesamiento y bajo consumo.",
+        "d) Competir directamente con la arquitectura x86 en términos de rendimiento.",
+    ],
+    "a"
+),
+(
+    "Según la información proporcionada, ¿qué ventaja ofrece la arquitectura ARM en comparación con x86 en términos de funcionalidades adicionales?",
+    [
+        "a) La arquitectura ARM se centra exclusivamente en el procesamiento de datos.",
+        "b) La arquitectura x86 es más eficiente en el procesamiento gráfico.",
+        "c) La arquitectura ARM permite a los microprocesadores gestionar características adicionales como bluetooth, entrada/salida y procesamiento gráfico.",
+        "d) La arquitectura x86 es más eficaz en el manejo de funciones de entrada/salida.",
+    ],
+    "c"
+),
+(
+    "¿Cuál de las siguientes afirmaciones es correcta sobre ARM según la información proporcionada?",
+    [
+        "a) ARM es una empresa independiente que no está vinculada a ninguna corporación.",
+        "b) ARM fue adquirida por NVIDIA en septiembre de 2020 por 40.000 millones de dólares.",
+        "c) ARM es actualmente propiedad de Intel.",
+        "d) La adquisición de ARM por parte de NVIDIA no ha tenido lugar.",
+    ],
+    "b"
+),
+(
+    "Según la información proporcionada, ¿en qué tipo de dispositivos se puede encontrar actualmente la arquitectura ARM?",
+    [
+        "a) Exclusivamente en ordenadores de alta potencia.",
+        "b) Solo en dispositivos de almacenamiento secundario.",
+        "d) Principalmente en microprocesadores de menor tamaño y bajo consumo, como los de dispositivos de electrónica portátil e integrada.",
+        "c) Únicamente en dispositivos de realidad virtual.",
+    ],
+    "d"
+),
+(
+    "¿Dónde se puede encontrar actualmente la arquitectura ARM según la información proporcionada?",
+    [
+        "a) Exclusivamente en dispositivos de realidad virtual.",
+        "b) Principalmente en microprocesadores de menor tamaño y bajo consumo, como los de dispositivos de electrónica portátil e integrada.",
+        "c) Únicamente en ordenadores de alta potencia.",
+        "d) Solo en dispositivos de almacenamiento secundario.",
+    ],
+    "b"
+),
+(
+    "¿Cuáles son algunas de las características de la arquitectura ARM según la información proporcionada?",
+    [
+        "a) Se encuentra exclusivamente en dispositivos de alta potencia.",
+        "b) Está presente solo en dispositivos de almacenamiento secundario.",
+        "c) Se encuentra en microprocesadores de menor tamaño y bajo consumo, con un coste reducido.",
+        "d) Únicamente se utiliza en ordenadores de escritorio.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es uno de los beneficios de la arquitectura ARM según la información proporcionada?",
+    [
+        "a) Se destaca por su alta potencia de procesamiento.",
+        "b) Está diseñada exclusivamente para aplicaciones de alto rendimiento.",
+        "c) Es ideal para aplicaciones que no requieren mucha potencia.",
+        "d) Solo se utiliza en dispositivos de escritorio.",
+    ],
+    "c"
+),
+(
+    "¿Qué tipo de arquitectura utiliza el microprocesador de los iPhones (AX), según la información proporcionada?",
+    [
+        "a) x86",
+        "b) ARM",
+        "c) RISC",
+        "d) CISC",
+    ],
+    "b"
+),
+(
+    "¿Cuál es la arquitectura comúnmente utilizada en la mayoría de los microprocesadores de los móviles Android?",
+    [
+        "a) x86",
+        "b) ARM",
+        "c) RISC",
+        "d) CISC",
+    ],
+    "b"
+),
+(
+    "¿Cuál es uno de los fabricantes de procesadores comúnmente presentes en los dispositivos móviles, incluyendo muchos de los móviles Android?",
+    [
+        "a) Konami",
+        "b) Qualcomm",
+        "c) Kellogs",
+        "d) SEGA",
+    ],
+    "b"
+),
+(
+    "¿En qué tipo de dispositivos se está empezando a utilizar la arquitectura ARM, incluyendo algunos ordenadores portátiles que ofrecen un rendimiento notable y una duración de batería impresionante?",
+    [
+        "a) Solo en smartphones",
+        "b) Exclusivamente en dispositivos de electrónica portátil",
+        "c) Únicamente en sistemas de entretenimiento",
+        "d) También en ordenadores personales",
+    ],
+    "d"
+),
+(
+    "¿Cuál es una de las ventajas destacadas de los ordenadores portátiles con CPU de arquitectura ARM, cuando se combinan con un sistema operativo adecuado?",
+    [
+        "a) Rendimiento excepcional en tareas de alta demanda",
+        "b) Mayor consumo de energía en comparación con otras arquitecturas",
+        "c) Duración de la batería impresionante",
+        "d) Dependencia total de la conexión a la nube",
+    ],
+    "c"
+),
+(
+    "¿Por qué los procesadores con arquitectura ARM son a menudo considerados ideales para ordenadores orientados al mundo ofimático?",
+    [
+        "a) Mayor complejidad y potencia de cálculo",
+        "b) Baja duración de la batería",
+        "c) Elevado consumo de energía",
+        "d) Simplicidad y eficiencia energética",
+    ],
+    "d"
+),
+(
+    "¿Cuál fue la principal razón para que Apple migrara de procesadores Intel x86 a sus propios procesadores Apple Silicon basados en la arquitectura ARM?",
+    [
+        "a) Mayor potencia de cálculo de los procesadores ARM",
+        "b) Colaboración estratégica con ARM",
+        "c) Mejor eficiencia energética y rendimiento en tareas específicas",
+        "d) Precio más bajo de los procesadores ARM",
+    ],
+    "c"
+),
+(
+    "¿Cuál es una de las principales ventajas de la arquitectura ARM en dispositivos móviles?",
+    [
+        "a) Mayor potencia de cálculo",
+        "b) Mayor consumo de energía",
+        "c) Tamaño más grande",
+        "d) Bajo consumo de energía y tamaño reducido",
+    ],
+    "d"
+),
+(
+    "¿En qué tipo de dispositivos cotidianos se utilizan microprocesadores con arquitectura ARM?",
+    [
+        "a) Supercomputadoras",
+        "b) Refrigeradores",
+        "c) Ordenadores de a bordo de coches y barcos",
+        "d) Equipos de minería de criptomonedas",
+    ],
+    "c"
+),
+(
+    "¿Cómo se les denomina a los microprocesadores basados en arquitectura ARM que integran en un solo chip funciones como CPU, GPU, controladores de memoria, y otros componentes?",
+    [
+        "c) CPU",
+        "b) GPU",
+        "a) System on a Chip (SoC)",
+        "d) FPGA",
+    ],
+    "a"
+),
+(
+    "¿Cómo ha evolucionado la capacidad de procesamiento de los System on a Chip (SoC) a lo largo del tiempo?",
+    [
+        "a) Ha disminuido en términos de rendimiento",
+        "b) Ha permanecido constante sin cambios significativos",
+        "c) Ha aumentado, permitiendo realizar funciones más complejas",
+        "d) No ha experimentado cambios",
+    ],
+    "c"
+),
+(
+    "¿Cómo influye el número de núcleos en la velocidad y capacidad de procesamiento de un System on a Chip (SoC)?",
+    [
+        "a) No tiene ninguna influencia en el rendimiento",
+        "b) Cuantos más núcleos, mayor velocidad y capacidad de procesamiento",
+        "c) Cuantos más núcleos, menor velocidad y capacidad de procesamiento",
+        "d) La velocidad y capacidad de procesamiento dependen solo de la eficiencia, no del número de núcleos",
+    ],
+    "b"
+),
+(
+    "¿Cuál es la función principal de un coprocesador en un System on a Chip (SoC)?",
+    [
+        "a) Realizar todas las operaciones del procesador principal",
+        "b) Reducir la eficiencia del procesador principal",
+        "c) Ayudar al procesador principal en ciertos tipos de operaciones de manera eficiente",
+        "d) Aumentar el consumo de energía del procesador principal",
+    ],
+    "c"
+),
+(
+    "¿Cuál es una característica clave de los coprocesadores en un System on a Chip (SoC)?",
+    [
+        "a) Realizan el trabajo de manera menos eficiente que el procesador principal",
+        "b) Consumen más energía que el procesador principal",
+        "c) Realizan el trabajo de forma más eficiente y consumiendo menos energía que el procesador principal",
+        "d) No contribuyen al rendimiento del SoC",
+    ],
+    "c"
+),
+(
+    "¿Cuál es la función principal de la GPU (Graphics Processing Unit) en un System on a Chip (SoC)?",
+    [
+        "a) Realizar operaciones matemáticas de coma flotante exclusivamente",
+        "b) Descargar trabajo de la CPU mejorando el rendimiento del sistema",
+        "c) Procesar únicamente información gráfica estática",
+        "d) Aumentar el consumo de energía del SoC",
+    ],
+    "b"
+),
+(
+    "¿Cuál es una de las principales diferencias entre un System on a Chip (SoC) eficiente y uno mediocre?",
+    [
+        "a) El tamaño físico del SoC",
+        "b) La cantidad de núcleos de la CPU",
+        "c) La presencia y calidad de la GPU (Graphics Processing Unit)",
+        "d) El tipo de memoria RAM utilizada",
+    ],
+    "c"
+),
+(
+    "¿Cuál es la misión principal de la GPU (Graphics Processing Unit) en un System on a Chip (SoC)?",
+    [
+        "a) Realizar operaciones matemáticas de coma flotante",
+        "b) Descargar a la CPU del procesamiento gráfico para mejorar el rendimiento del sistema",
+        "c) Ejecutar instrucciones de la Unidad de Control",
+        "d) Gestionar la memoria principal del SoC",
+    ],
+    "b"
+),
+(
+    "¿En qué tipo de operaciones se especializa principalmente la GPU (Graphics Processing Unit) en un System on a Chip (SoC)?",
+    [
+        "a) Operaciones lógicas",
+        "b) Operaciones matemáticas de enteros",
+        "c) Operaciones matemáticas de coma flotante y procesamiento de gráficos",
+        "d) Operaciones de entrada/salida",
+    ],
+    "c"
+),
+(
+    "¿Cuál es la principal diferencia entre una GPU (Graphics Processing Unit) y una CPU (Central Processing Unit)?",
+    [
+        "a) La GPU está diseñada para el procesamiento general de datos, mientras que la CPU está especializada en gráficos.",
+        "b) La CPU es más eficiente en operaciones matemáticas de coma flotante, mientras que la GPU se especializa en operaciones lógicas.",
+        "c) La GPU está diseñada para el procesamiento de gráficos y operaciones matemáticas de coma flotante, mientras que la CPU maneja tareas generales.",
+        "d) La CPU y la GPU son intercambiables y pueden realizar las mismas tareas.",
+    ],
+    "c"
+),
+(
+    "¿Por qué las GPU actuales, a pesar de su gran potencia de cálculo, no pueden reemplazar completamente a las CPU?",
+    [
+        "a) Las GPU son menos eficientes en el procesamiento de gráficos.",
+        "c) Las CPU son más eficientes en operaciones matemáticas de coma flotante.",
+        "b) Las GPU están diseñadas exclusivamente para tareas específicas, mientras que las CPU manejan una variedad de tareas generales.",
+        "d) Las GPU son más caras que las CPU.",
+    ],
+    "b"
+),
+(
+    "¿De qué depende la potencia gráfica del SOC?",
+    [
+        "a) De la CPU.",
+        "b) De la GPU.",
+        "c) De la GC.",
+        "d) De la ALU.",
+    ],
+    "b"
+),
+(
+    "¿Cómo afecta tener una GPU más evolucionada a la gestión de pantallas con mayor resolución?",
+    [
+        "a) La GPU no tiene impacto en la resolución de la pantalla.",
+        "b) Una GPU más evolucionada permite gestionar pantallas con mayor resolución de manera más eficiente.",
+        "c) La resolución de la pantalla solo depende de la CPU.",
+        "d) Una GPU más evolucionada reduce la calidad de la pantalla.",
+    ],
+    "b"
+),
+(
+    "¿Qué otro factor determina la evolución de un SOC?",
+    [
+        "a) La litografía o tecnología de fabricación.",
+        "b) La orografía o tecnología de procesador.",
+        "c) La nanografía o tecnología de procesador.",
+        "d) La litografía o tecnología de procesamiento.",
+    ],
+    "b"
+),
+(
+    "¿Cómo influye el tamaño de la tecnología de fabricación en la evolución de un microprocesador?",
+    [
+        "a) Un mayor tamaño de tecnología de fabricación mejora el rendimiento del microprocesador.",
+        "b) La tecnología de fabricación no tiene impacto en la evolución de un microprocesador.",
+        "c) Cuanto más pequeña sea la tecnología de fabricación, más evolucionado estará dicho microprocesador.",
+        "d) Un microprocesador evoluciona independientemente de su tecnología de fabricación.",
+    ],
+    "c"
+),
+(
+    "¿Cómo afecta una tecnología de fabricación menor en un microprocesador?",
+    [
+        "a) Aumenta el gasto energético y reduce la concentración de transistores.",
+        "b) No tiene impacto en el rendimiento del microprocesador.",
+        "c) Disminuye el gasto energético y permite una mayor concentración de transistores en el mismo espacio.",
+        "d) Una tecnología de fabricación menor no afecta al microprocesador.",
+    ],
+    "c"
+),
+(
+    "¿Qué indica la tecnología de fabricación en un SoC?",
+    [
+        "a) La velocidad del procesador.",
+        "b) El tamaño de las puertas lógicas en los circuitos.",
+        "c) El número de núcleos en el microprocesador.",
+        "d) La capacidad de almacenamiento de la memoria RAM.",
+    ],
+    "b"
+),
+(
+    "¿Qué significa una tecnología de fabricación de 14 nanómetros en un SoC?",
+    [
+        "a) Indica el número de transistores (14) en el microprocesador.",
+        "b) Representa la velocidad del procesador.",
+        "c) Significa que las puertas lógicas tienen un tamaño aproximado de 14 nanómetros.",
+        "d) Es una medida de la capacidad de la memoria RAM.",
+    ],
+    "c"
+),
+(
+    "¿Qué característica destaca a los chips neuromórficos en comparación con los microprocesadores convencionales?",
+    [
+        "a) Capacidad para realizar billones de operaciones por segundo.",
+        "b) Reconocimiento de patrones y procesamiento de imágenes similar al cerebro humano.",
+        "c) Velocidad de procesamiento superior a los microprocesadores convencionales.",
+        "d) Capacidad para reconocer a una persona por su manera de caminar.",
+    ],
+    "b"
+),
+(
+    "¿Cuál es una de las limitaciones actuales de los ordenadores en comparación con el cerebro humano?",
+    [
+        "a) Incapacidad para realizar billones de operaciones por segundo.",
+        "b) Dificultad para procesar imágenes de manera eficiente.",
+        "c) Falta de capacidad para reconocer patrones y personas por su manera de caminar.",
+        "d) Las mismas limitaciones emocionales que tu ex.",
+    ],
+    "c"
+),
+(
+    "¿Qué presentó Google en 2012 en relación con el reconocimiento en vídeos?",
+    [
+        "a) Un nuevo modelo de procesador.",
+        "b) Un software capaz de reconocer gatos en vídeos.",
+        "c) Un avance en la eficiencia de los procesadores.",
+        "d) Una tecnología de fabricación para microchips neuromórficos.",
+    ],
+    "b"
+),
+(
+    "¿Cuántos procesadores necesitaba Google para ejecutar el software capaz de reconocer gatos en vídeos en 2012?",
+    [
+        "a) 8,000 procesadores.",
+        "b) 12,000 procesadores.",
+        "c) 16,000 procesadores.",
+        "d) 20,000 procesadores.",
+    ],
+    "c"
+),
+(
+    "En términos de energía, ¿cuántas veces más eficiente es el cerebro humano en comparación con cualquier procesador u ordenador?",
+    [
+        "a) Miles de veces.",
+        "b) Cientos de miles de veces.",
+        "c) Millones de veces.",
+        "d) Miles de millones de veces.",
+    ],
+    "c"
+),
+(
+    "¿Qué papel desempeñan los microchips neuromórficos?",
+    [
+        "a) Aumentar la velocidad de procesamiento.",
+        "b) Optimizar la eficiencia energética.",
+        "c) Mejorar la capacidad de almacenamiento.",
+        "d) Ampliar la conectividad de red.",
+    ],
+    "b"
+),
+(
+    "¿Cuál es una característica destacada de los microchips neuromórficos?",
+    [
+        "a) Aumentan significativamente la velocidad de procesamiento.",
+        "b) Optimizan la eficiencia energética.",
+        "c) Mejoran la capacidad de almacenamiento.",
+        "d) Amplían la conectividad de red.",
+    ],
+    "b"
+),
+(
+    "¿Cuál es una aplicación potencial de los microchips neuromórficos?",
+    [
+        "a) Aumentar la velocidad de procesamiento en computadoras personales.",
+        "b) Implantar microchips en retinas artificiales para personas con ceguera.",
+        "c) Mejorar la capacidad de almacenamiento en dispositivos móviles.",
+        "d) Ampliar la conectividad de red en sistemas de comunicación.",
+    ],
+    "b"
+),
+(
+    "¿Cuál es el secreto fundamental que hace eficientes a los microchips neuromórficos?",
+    [
+        "b) Su capacidad para realizar operaciones matemáticas complejas.",
+        "a) La organización similar al cerebro para tareas rápidas y eficientes.",
+        "c) El uso de la arquitectura x86 en su diseño.",
+        "d) Su capacidad para almacenar grandes cantidades de datos.",
+    ],
+    "a"
+),
+(
+    "¿Qué ventaja clave proporciona la organización y funciones neuronales de los microchips neuromórficos?",
+    [
+        "a) Mayor capacidad de almacenamiento de datos.",
+        "b) Mayor velocidad de procesamiento.",
+        "c) Eficiencia energética y capacidad para tareas sensoriales.",
+        "d) Mayor compatibilidad con arquitecturas x86.",
+    ],
+    "c"
+),
+(
+    "¿Cuántas conexiones neuronales puede activar un cerebro en un segundo?",
+    [
+        "a) Cien mil millones.",
+        "b) Un millón.",
+        "c) Diez cuadrillones.",
+        "d) Mil millones.",
+    ],
+    "c"
+),
+(
+    "¿Cuántos Pentium y cuántos megavatios de electricidad se necesitarían para igualar la capacidad de cálculo de un cerebro en un segundo?",
+    [
+        "a) Un millón de Pentium y unos cientos de megavatios.",
+        "b) Mil millones de Pentium y unos pocos megavatios.",
+        "c) Cien mil millones de Pentium y unos cientos de megavatios.",
+        "d) Un millón de Pentium y unos pocos megavatios.",
+    ],
+    "a"
+),
+(
+    "¿Qué se está haciendo actualmente para acercarse a la capacidad de cálculo del cerebro humano?",
+    [
+        "a) Utilizando un millón de Pentium y megavatios de electricidad.",
+        "b) Replicando microchips que copian la organización y funciones neuronales.",
+        "c) Creando chips neuromórficos sin basarse en la estructura cerebral.",
+        "d) Desarrollando software más eficiente para la inteligencia artificial.",
+    ],
+    "b"
+),
+(
+    "¿Cuál es una posible aplicación exitosa de los chips neuromórficos en el futuro?",
+    [
+        "a) Replicar exactamente la capacidad de cálculo de un Pentium.",
+        "b) Desarrollar sistemas de reconocimiento facial más avanzados.",
+        "c) Mejorar la eficiencia energética de los procesadores actuales.",
+        "d) Tratar datos sensoriales y darles sentido.",
+    ],
+    "d"
+),
+(
+    "¿Qué técnicas de inteligencia artificial utilizan los procesadores?",
+    [
+        "a) Ingeniería genética y biotecnología.",
+        "b) Astronomía y astrofísica.",
+        "c) Machine learning, deep learning y neural networks.",
+        "d) Química orgánica y teoría de números.",
+    ],
+    "c"
+),
+(
+    "En términos de inteligencia artificial, ¿qué significa 'Machine Learning'?",
+    [
+        "a) Aprendizaje automático.",
+        "b) Aprendizaje multinivel.",
+        "c) Aprendizaje profundo.",
+        "d) Aprendizaje mecánico.",
+    ],
+    "a"
+),
+(
+    "En términos de inteligencia artificial, ¿qué significa 'Deep Learning'?",
+    [
+        "a) Aprendizaje automático.",
+        "b) Aprendizaje multinivel.",
+        "c) Aprendizaje profundo.",
+        "d) Redes nuronales.",
+    ],
+    "c"
+),
+(
+    "En términos de inteligencia artificial, ¿qué significa 'Neuronal Networks'?",
+    [
+        "a) Aprendizaje automático.",
+        "b) Aprendizaje multinivel.",
+        "c) Aprendizaje profundo.",
+        "d) Redes neuronales.",
+    ],
+    "d"
+),
+(
+    "¿Cuál de las siguientes técnicas NO es una disciplina de la inteligencia artificial?",
+    [
+        "a) Machine learning.",
+        "b) Deep learning.",
+        "c) Circuitos integrados.",
+        "d) Neural networks.",
+    ],
+    "c"
+),
+(
+    "En el contexto de inteligencia artificial, ¿por qué se afirma que cuanto mejor sea el algoritmo y más entrenado esté, mejor eficiencia tendrá?",
+    [
+        "a) Porque al aumentar la complejidad del algoritmo se mejora la eficiencia.",
+        "b) Porque un algoritmo bien diseñado y entrenado puede realizar tareas de forma más rápida y precisa.",
+        "c) Porque el entrenamiento del algoritmo no tiene impacto en su eficiencia.",
+        "d) Porque la eficiencia de un algoritmo no depende de su diseño o entrenamiento.",
+    ],
+    "b"
+),
+(
+    "¿Cuál de las siguientes afirmaciones es correcta?",
+    [
+        "a) Machine learning es una rama del deep learning.",
+        "b) Deep learning es una rama del machine learning.",
+        "c) Machine learning y deep learning son dos disciplinas completamente independientes.",
+        "d) Ninguna de las anteriores.",
+    ],
+    "b"
+),
+(
+    "¿Cuál de las siguientes afirmaciones es correcta sobre Machine Learning?",
+    [
+        "a) Machine Learning no tiene relación con la inteligencia artificial.",
+        "b) Los sistemas de Machine Learning no requieren datos de referencia clasificados.",
+        "c) Machine Learning permite que los sistemas aprendan por sí mismos.",
+        "d) Machine Learning solo funciona en hardware y no en software.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es un requisito clave para que un sistema de Machine Learning pueda aprender?",
+    [
+        "a) No necesita datos de referencia clasificados.",
+        "b) Debe tener una serie de datos de referencia previamente clasificados.",
+        "c) Puede aprender sin ningún tipo de datos.",
+        "d) La clasificación previa de datos no es relevante para el aprendizaje en Machine Learning.",
+    ],
+    "b"
+),
+(
+    "¿Qué puede hacer un sistema de Machine Learning una vez que ha sido parametrizado con datos clasificados?",
+    [
+        "a) No puede realizar ninguna tarea adicional.",
+        "b) Solo puede clasificar los datos previamente utilizados en el aprendizaje.",
+        "c) Puede clasificar nuevos datos que no ha visto durante el aprendizaje.",
+        "d) Debe ser reentrenado cada vez que se presentan nuevos datos.",
+    ],
+    "c"
+),
+(
+    "En el ejemplo de detección de caras humanas mediante Machine Learning, ¿qué tarea puede realizar el sistema después de ser entrenado?",
+    [
+        "a) Solo puede detectar caras humanas en las fotografías utilizadas durante el entrenamiento.",
+        "b) No puede realizar ninguna tarea adicional.",
+        "c) Puede detectar caras humanas en nuevas fotografías que no ha visto durante el entrenamiento.",
+        "d) Necesita ser reentrenado cada vez que se presentan nuevas fotografías.",
+    ],
+    "c"
+),
+(
+    "¿Qué característica destacada tienen los sistemas que utilizan deep learning o aprendizaje profundo?",
+    [
+        "a) Utilizan algoritmos que imitan el funcionamiento de un cerebro.",
+        "b) Requieren un entrenamiento manual constante.",
+        "c) Solo pueden ejecutarse en supercomputadoras.",
+        "d) No pueden integrarse en dispositivos como los smartphones.",
+    ],
+    "a"
+),
+(
+    "¿Cuál es la función principal de las redes neuronales en los sistemas que utilizan deep learning o aprendizaje profundo?",
+    [
+        "a) Imitar el funcionamiento de un corazón.",
+        "b) Simular el comportamiento de un software convencional.",
+        "c) Emular el funcionamiento de un cerebro.",
+        "d) Sustituir completamente a los algoritmos tradicionales.",
+    ],
+    "c"
+),
+(
+    "¿Qué ha permitido la evolución de los procesadores en relación con los algoritmos de machine learning y deep learning?",
+    [
+        "a) Su eliminación completa de los dispositivos.",
+        "b) Su integración en dispositivos normales como los smartphones.",
+        "c) La restricción de su uso exclusivo en supercomputadoras.",
+        "d) El desarrollo de algoritmos más simples sin necesidad de procesadores avanzados.",
+    ],
+    "b"
+),
+(
+    "¿Cómo afectará el uso de motores neurales en los chips al procesamiento de inteligencia artificial?",
+    [
+        "a) No tendrá impacto en el procesamiento de inteligencia artificial.",
+        "b) Aumentará la dependencia de la fuerza bruta con la CPU o GPU.",
+        "c) Hará que muchos procesadores utilicen la inteligencia artificial de manera más eficiente.",
+        "d) Reducirá la eficacia de la inteligencia artificial en los procesadores.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es la función principal de la unidad de control (UC) en un microprocesador?",
+    [
+        "a) Almacenar datos en la memoria principal.",
+        "b) Realizar operaciones aritméticas y lógicas.",
+        "c) Ejecutar programas y activar la circuitería para realizar operaciones.",
+        "d) Gestionar los dispositivos de entrada/salida.",
+    ],
+    "c"
+),
+(
+    "¿Qué función principal cumple la memoria en un sistema informático?",
+    [
+        "a) Realizar operaciones aritméticas y lógicas.",
+        "b) Almacenar el código del programa y los datos.",
+        "c) Ejecutar programas y activar la circuitería.",
+        "d) Gestionar dispositivos de entrada/salida.",
+    ],
+    "b"
+),
+(
+    "¿Cuál es la función principal de la ALU (Unidad Aritmético-Lógica) en un sistema informático?",
+    [
+        "a) Almacenar el código del programa y los datos.",
+        "b) Ejecutar operaciones aritméticas y lógicas.",
+        "c) Gestionar dispositivos de entrada/salida.",
+        "d) Activar la circuitería para realizar operaciones.",
+    ],
+    "b"
+),
+(
+    "¿Qué función cumple el buffer llamado ACC en una ALU (Unidad Aritmético-Lógica)?",
+    [
+        "a) Almacenar el código del programa.",
+        "b) Almacenar los datos del programa.",
+        "c) Almacenar el resultado de las operaciones realizadas.",
+        "d) Gestionar dispositivos de entrada/salida.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es la función de los registros (A-J) en un microprocesador?",
+    [
+        "a) Almacenar el código del programa.",
+        "b) Almacenar los datos del programa.",
+        "c) Almacenar resultados intermedios de las operaciones.",
+        "d) Gestionar dispositivos de entrada/salida.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es la función del buffer de teclado en un microprocesador?",
+    [
+        "a) Almacenar el código del programa.",
+        "b) Almacenar los datos del programa.",
+        "c) Almacenar resultados intermedios de las operaciones.",
+        "d) Almacenar pulsaciones de teclas para su posterior procesamiento.",
+    ],
+    "d"
+),
+(
+    "¿Cuál es la función de la memoria de vídeo en un microprocesador?",
+    [
+        "a) Almacenar el código del programa.",
+        "b) Almacenar los datos del programa.",
+        "c) Almacenar resultados intermedios de las operaciones.",
+        "d) Permitir la comunicación con el exterior y mostrar datos en pantalla.",
+    ],
+    "d"
+),
+(
+    "¿Qué realiza la instrucción 'SUMA ACC RX' en un microprocesador?",
+    [
+        "a) Almacena el contenido del acumulador en el registro RX.",
+        "b) Resta el contenido del registro RX al acumulador.",
+        "c) Multiplica el contenido del acumulador por el registro RX.",
+        "d) Suma el contenido del acumulador y el registro RX, almacenando el resultado en el acumulador.",
+    ],
+    "d"
+),
+
+(
+    "¿Qué realiza la instrucción 'RESTA RX ACC' en un microprocesador?",
+    [
+        "a) Almacena el contenido del acumulador en el registro RX.",
+        "b) Resta el contenido del registro RX al acumulador, almacenando el resultado en el acumulador.",
+        "c) Multiplica el contenido del acumulador por el registro RX.",
+        "d) Suma el contenido del acumulador y el registro RX.",
+    ],
+    "b"
+),
+(
+    "¿Qué realiza la instrucción 'READ RX' en un microprocesador?",
+    [
+        "a) Realiza una operación de suma entre el contenido del registro RX y el acumulador.",
+        "b) Lee un dato desde el teclado y lo almacena en el registro RX.",
+        "c) Copia el contenido del acumulador en el registro RX.",
+        "d) Resta el contenido del acumulador al registro RX.",
+    ],
+    "b"
+)
+
+
+
+
+
+
 
 
 
