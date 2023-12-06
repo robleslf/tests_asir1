@@ -1676,19 +1676,435 @@ preguntas = [
   "c) Las ondas de alta frecuencia no son absorbidas, son absorbidas las de baja frecuencia, que siguen la curvatura de la Tierra",
   "d) Porque rebotan en la ionosfera"],
  "d"),
+ (
+    "¿Cuál es una característica de las comunicaciones por infrarrojos según el texto?",
+    [
+        "a) Tienen frecuencias superiores a 400 THz.",
+        "b) Son omnidireccionales.",
+        "c) Pueden atravesar objetos sólidos fácilmente.",
+        "d) No se ven afectadas por la radiación infrarroja solar.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es el rango de frecuencias de las comunicaciones por infrarrojos según el texto?",
+    [
+        "a) Menos de 300 GHz.",
+        "b) Entre 300 GHz y 400 THz.",
+        "c) Más de 400 THz.",
+        "d) Exactamente 400 THz.",
+    ],
+    "b"
+),
+(
+    "¿Para qué se utilizan las comunicaciones por infrarrojos según el texto?",
+    [
+        "a) Comunicaciones a larga distancia.",
+        "b) Comunicaciones de corto alcance como el control remoto de TV y algunos mandos a distancia.",
+        "c) Comunicaciones exteriores.",
+        "d) Comunicaciones a través de internet.",
+    ],
+    "b"
+),
+(
+    "¿Cuál es una característica de las ondas infrarrojas según el texto?",
+    [
+        "a) Son ondas omnidireccionales.",
+        "b) Son ondas que pueden atravesar objetos sólidos fácilmente.",
+        "c) Son ondas que no tienen direccionalidad.",
+        "d) Son ondas que no pueden atravesar objetos sólidos.",
+    ],
+    "d"
+),
+(
+    "¿Por qué la comunicación por infrarrojos no debe usarse en exteriores según el texto?",
+    [
+        "a) Porque el sol emite radiación ultravioleta que afecta a la comunicación.",
+        "b) Porque el sol emite radiación infrarroja que puede interferir con la señal enviada.",
+        "c) Porque la comunicación por infrarrojos solo funciona en ambientes cerrados.",
+        "d) Porque el sol afecta negativamente a la dirección de las ondas infrarrojas.",
+    ],
+    "b"
+),
+(
+    "¿Cuál es una característica de la comunicación por infrarrojos según el texto?",
+    [
+        "a) Solo se utiliza en exteriores.",
+        "b) Se usa comúnmente en comunicaciones de largo alcance.",
+        "c) Se pueden encontrar puertos infrarrojos en algunos portátiles.",
+        "d) La velocidad máxima de transmisión es de 100 Mbps.",
+    ],
+    "c"
+),
+(
+    "¿Qué tipo de dispositivos utilizan frecuencias en la banda de las microondas según el texto?",
+    [
+        "a) Hornos microondas.",
+        "b) Equipos de telefonía móvil.",
+        "c) Redes wi-fi.",
+        "d) Todos los anteriores.",
+    ],
+    "d"
+),
+(
+    "¿Cuáles son las frecuencias más empleadas en comunicación de redes informáticas según el texto y a qué pertenecen?",
+    [
+        "a) 1 GHz a 300 GHz, a ondas wifi.",
+        "b) 300 MHz a 300 GHz, a microondas.",
+        "c) 30 centímetros a 1 milímetro, a infrarrojos.",
+        "d) 2,45 GHz, a radiofrecuencia.",
+    ],
+    "b"
+),
+(
+    "¿En qué dispositivos se utilizan las microondas según el texto?",
+    [
+        "a) Solo en telefonía móvil.",
+        "b) Solo en comunicación por Bluetooth.",
+        "c) En telefonía móvil, comunicación por Bluetooth, redes Wi-Fi en estándares 802.11, etc.",
+        "d) Solo en redes Wi-Fi.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es la frecuencia de trabajo de las microondas según el texto?",
+    [
+        "a) 1 GHz.",
+        "b) Entre 30 centímetros y 1 milímetro.",
+        "c) 2,45 GHz.",
+        "d) De 300 MHz a 300 GHz.",
+    ],
+    "d"
+),
+(
+    "¿Cuál es la afirmación correcta sobre las microondas según el texto?",
+    [
+        "a) Se usan solo en redes informáticas.",
+        "b) Tienen una frecuencia de trabajo de 1 GHz.",
+        "c) Tienen una frecuencia de trabajo entre 1 GHz y 300 GHz.",
+        "d) Tienen longitudes de onda de entre 30 centímetros y 1 milímetro.",
+    ],
+    "c"
+),
+(
+    "¿Por qué se utilizan las microondas en los hornos microondas según el texto?",
+    [
+        "a) Porque tienen una frecuencia de 1 GHz.",
+        "b) Porque vibran las moléculas de agua a esa frecuencia.",
+        "c) Porque tienen una longitud de onda de 30 centímetros.",
+        "d) Porque son eficientes para la comunicación por bluetooth.",
+    ],
+    "b"
+),
+(
+    "¿En qué rango de frecuencias emiten los móviles en los que se emplean microondas?",
+    [
+        "a) 300 MHz - 1 GHz.",
+        "b) 1-2 GHz.",
+        "c) 2-300 GHz.",
+        "d) 30 centímetros - 1 milímetro.",
+    ],
+    "b"
+),
+(
+    "¿Qué frecuencia emplean los terminales de telefonía fija inalámbrica, dispositivos Bluetooth y alarmas inalámbricas?",
+    [
+        "a) 300 MHz - 1 GHz.",
+        "b) 1-2 GHz.",
+        "c) 2-45 GHz.",
+        "d) 2,45 GHz.",
+    ],
+    "d"
+),
+(
+    "En cuanto a las microondas, ¿Por qué la banda de 2,45 GHz está más saturada y puede tener mayor presencia de ruido?",
+    [
+        "a) Porque es una banda poco utilizada.",
+        "b) Porque la frecuencia es muy baja.",
+        "c) Porque muchos elementos hacen uso de esta banda.",
+        "d) Porque es una banda reservada para usos especiales.",
+    ],
+    "c"
+),
+(
+    "En los estándares wifi 802.11, ¿qué frecuencias utilizan los estándares 802.11b y 802.11g?",
+    [
+        "a) 5 GHz",
+        "b) 2,4 GHz",
+        "c) 1 GHz",
+        "d) 300 MHz",
+    ],
+    "b"
+),
+(
+    "¿Cuántos canales contiene la banda de 2,4 GHz en el contexto de las microondas?",
+    [
+        "a) 5 canales",
+        "b) 10 canales",
+        "c) 13 canales",
+        "d) 20 canales",
+    ],
+    "c"
+),
+(
+    "¿Cuánto es el ancho de cada canal en la banda de 2,4 GHz en el contexto de las microondas?",
+    [
+        "a) 10 MHz",
+        "b) 15 MHz",
+        "c) 20 MHz",
+        "d) 22 MHz",
+    ],
+    "d"
+),
+(
+    "¿Cuál es una medida recomendada para evitar interferencias entre puntos de acceso en una red wifi?",
+    [
+        "a) Utilizar siempre el canal 6",
+        "b) Utilizar canales solapados para aumentar la capacidad",
+        "c) Asignar canales no solapados a puntos de acceso cercanos",
+        "d) No es necesario tener en cuenta los canales al configurar puntos de acceso",
+    ],
+    "c"
+),
+(
+    "¿Por qué es importante que varios puntos de acceso emitan en canales diferentes y no solapados?",
+    [
+        "a) Para aumentar las interferencias y reducir la tasa de transferencia",
+        "b) Para mejorar la coexistencia de puntos de acceso y reducir interferencias",
+        "c) Porque no afecta a la tasa de transferencia",
+        "d) Para limitar el alcance de la red wifi",
+    ],
+    "b"
+),
+(
+    "¿Cuál es el efecto de las interferencias en una red?",
+    [
+        "a) Aumentan la tasa de transferencia",
+        "b) Reducen la tasa de transferencia",
+        "c) No afectan la tasa de transferencia",
+        "d) Mejoran la estabilidad de la red",
+    ],
+    "b"
+),
+(
+    "En una red donde coexisten clientes 802.11n y 802.11ac, ¿qué mecanismo se utiliza para evitar interferencias?",
+    [
+        "a) RTS/CTS",
+        "b) ACK/NACK",
+        "c) ARP",
+        "d) DNS",
+    ],
+    "a"
+),
+(
+    "En el ejemplo dado con un punto de acceso y dos clientes (802.11N y 802.11AC), ¿qué trama se utiliza para indicar el tiempo de transmisión y evitar colisiones en la red?",
+    [
+        "a) ACK",
+        "b) RTS",
+        "c) CTS",
+        "d) NACK",
+    ],
+    "b"
+),
+(
+    "En el estándar 802.11n, ¿qué bandas de frecuencia puede utilizar para la transmisión?",
+    [
+        "a) Solo 2,4 GHz",
+        "b) Solo 5 GHz",
+        "c) Tanto 2,4 GHz como 5 GHz",
+        "d) Ninguna de las anteriores",
+    ],
+    "c"
+),
+(
+    "¿Cuáles son las estrategias utilizadas por los equipos que siguen el estándar 802.11n para lograr mayores velocidades?",
+    [
+        "a) Sistemas S.I.S.O (Single Input Single Output)",
+        "b) Sistemas M.I.M.O (Multiple Input Multiple Output) y canales de 20MHz de ancho",
+        "c) Sistemas M.I.M.O (Multiple Input Multiple Output) y canales de 40MHz de ancho",
+        "d) Sistemas S.I.M.O (Single Input Multiple Output) y canales de 40MHz de ancho",
+    ],
+    "c"
+),
+(
+    "¿Cómo funcionan los sistemas que emplean tecnología MIMO con dispersión por separación espacial?",
+    [
+        "c) Tienen una única antena para emitir y recibir datos.",
+        "b) Tienen múltiples antenas solo para recibir datos.",
+        "a) Tienen múltiples antenas para emitir y recibir datos, permitiendo diferentes flujos de datos por antena.",
+        "d) Tienen una única antena para emitir, pero múltiples antenas para recibir datos.",
+    ],
+    "a"
+),
+(
+    "¿Cómo está limitado el número de flujos simultáneos que se pueden emitir en sistemas que emplean tecnología MIMO con dispersión por separación espacial?",
+    [
+        "a) No está limitado, ya que cada antena puede emitir su propio flujo de datos independientemente.",
+        "b) Está limitado por el número total de antenas en ambos lados de la comunicación.",
+        "c) Está limitado solo por el número de antenas en el lado que emite los datos.",
+        "d) Está limitado solo por el número de antenas en el lado que recibe los datos.",
+    ],
+    "b"
+),
+(
+    "Si el equipo emisor tiene 3 antenas y el receptor tiene 2 antenas receptoras, ¿cuántos flujos independientes (simultáneos) puede emplear la comunicación?",
+    [
+        "a) 1 flujo independiente.",
+        "b) 2 flujos independientes.",
+        "c) 3 flujos independientes.",
+        "d) 5 flujos independientes.",
+    ],
+    "b"
+),
+(
+    "Los sistemas deberían ser capaces de alcanzar 600 Mbps (con 4 flujos independientes, 150 Mbps por cada flujo).",
+    [
+        "a) Verdadero.",
+        "b) Falso."
+    ],
+    "a"
+),
+(
+    "En la actualidad, los sistemas que consiguen 3 flujos deberían ser capaces de llegar a 450 Mbps, aunque en los clientes no es habitual esta configuración de 3 antenas.",
+    [
+        "a) Verdadero.",
+        "b) Falso."
+    ],
+    "a"
+),
+(
+    "Como habitualmente los clientes tienen 2 antenas receptoras, el máximo real está siendo de 300 Mbps (2 antenas: 2 flujos de 150 Mbps).",
+    [
+        "a) Verdadero.",
+        "b) Falso."
+    ],
+    "a"
+),
+(
+    "Otro cambio es que los canales del 802.11n tienen un ancho de 40 MHz, a diferencia de los 22 MHz del canal de las anteriores normas 802.11b/g.",
+    [
+        "a) Verdadero.",
+        "b) Falso."
+    ],
+    "a"
+),
+(
+    "Los canales del 802.11n tienen un ancho de 40 MHz, a diferencia de los 22 MHz del canal de las anteriores normas 802.11b/g. Esto no es un problema en los 5 GHz, pero un AP en la frecuencia de 2,4 GHz debe emplear 2 canales que no se solapen de los ya establecidos (por ejemplo, el 1 y el 6), para conseguir los 40 MHz.",
+    [
+        "a) Verdadero.",
+        "b) Falso."
+    ],
+    "a"
+),
+(
+    "La norma 802.11n hace que los PA bajen inmediatamente a canales de 20MHz de ancho si detectan alguna red WIFI próxima o algún dispositivo que trabaje en la banda del 2,4GHz, reduciendo por tanto su tasa de transferencia real a la mitad.",
+    [
+        "a) Verdadero.",
+        "b) Falso."
+    ],
+    "a"
+),
+(
+    "En la comunicación por infrarrojos, ¿cuál es uno de los inconvenientes principales?",
+    [
+        "a) Alta penetración a través de objetos sólidos.",
+        "b) Baja velocidad de transmisión.",
+        "c) Resistencia a la interferencia solar.",
+        "d) Elevado costo de implementación."
+    ],
+    "b"
+),
+(
+    "¿Qué sucede en la norma 802.11n cuando los Puntos de Acceso (PA) detectan redes WIFI cercanas o dispositivos que operan en la banda de 2,4GHz?",
+    [
+        "a) Permanecen en canales de 40MHz de ancho y ajustan automáticamente su potencia de transmisión.",
+        "b) Cambian automáticamente a canales de 40MHz de ancho para evitar interferencias.",
+        "c) Bajan inmediatamente a canales de 20MHz de ancho, reduciendo su tasa de transferencia a la mitad.",
+        "d) Aumentan su potencia de transmisión para superar las interferencias.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es una ventaja de trabajar en la frecuencia de 5GHz en la norma 802.11n?",
+    [
+        "a) Se experimentan menos interferencias debido a la mayor cantidad de canales disponibles.",
+        "b) Los equipos pueden utilizar canales de 80MHz de ancho para una mayor velocidad de transferencia.",
+        "c) Permite una mejor penetración a través de obstáculos sólidos.",
+        "d) Los dispositivos pueden ajustar automáticamente su potencia de transmisión para evitar interferencias.",
+    ],
+    "a"
+),
+(
+    "Dentro de la norma 802.11n: ¿Qué problema puede surgir al tener clientes que utilizan distintos protocolos, como uno en .n y otro en .g, en la misma red?",
+    [
+        "a) No hay problemas, ya que las normas son compatibles entre sí.",
+        "b) La red funcionará a la perfección sin reducción de velocidad.",
+        "c) Experimentarán una reducción significativa de velocidad al mezclar distintas normas.",
+        "d) Los clientes ajustarán automáticamente su protocolo para evitar problemas.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es la mejora principal de la norma 802.11ac (WIFI-5) en comparación con las normas anteriores?",
+    [
+        "a) Mayor alcance de la señal.",
+        "b) Mayor seguridad en la transmisión de datos.",
+        "c) Mejora la tasa de transferencia teórica, llegando a 1,3 Gbps en la primera versión.",
+        "d) Menor consumo de energía.",
+    ],
+    "c"
+),
+(
+    "¿Cuáles son algunas de las características que distinguen a la norma 802.11ac (WIFI-5) de las normas anteriores?",
+    [
+        "a) Empleo de la banda de 2.4GHz.",
+        "b) Reducción del ancho de cada canal a 40MHz.",
+        "c) Aumento en las antenas múltiples de transmisión y recepción, llegando a 8 flujos, y uso de la modulación 256QAM.",
+        "d) Modulación en baja densidad (16QAM).",
+    ],
+    "c"
+)
 
-#Seguir con Infravermellos
-#Son as comunicacións con frecuencias entre 300GHz a 400 THz. Empréganse nas comunicacións de curto
-#alcance como control remoto do TV, algúns mandos a distancia, etc. Son ondas direccionais, e os controis
-#remotos que os usan son baratos e fáciles de construír, tendo como inconveniente que as ondas non son
-#quen de atravesar obxectos sólidos.
-#A comunicación con infravermellos non debe usarse en exteriores porque o sol emite grande cantidade de
-#radiación infravermella que perturbaría o sinal enviado.
-#Tamén existen portos de infravermellos nalgúns portátiles. As velocidades de transmisión máximas poden
-#chegar a 10Mbps.
-#
-#
-#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
