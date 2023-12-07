@@ -2063,7 +2063,720 @@ preguntas = [
         "d) Modulación en baja densidad (16QAM).",
     ],
     "c"
-)
+),
+(
+    "¿Cuáles son algunas de las mejoras introducidas por la norma 802.11ac (WIFI-5) aprobada en enero de 2014?",
+    [
+        "c) Utilización de la banda de 2.4GHz.",
+        "b) Reducción del ancho de cada canal a 40MHz.",
+        "a) Incremento en la tasa de transferencia teórica a 1.3Gbps en la primera versión.",
+        "d) Limitación a 4 flujos de transmisión y recepción.",
+    ],
+    "a"
+),
+(
+    "¿Qué cambio introdujo la norma 802.11ac (WIFI-5), aprobada en enero de 2014, en relación al espectro de frecuencia utilizado?",
+    [
+        "a) Continuó utilizando la banda de 2.4GHz.",
+        "b) Cambió a la banda de 3GHz para mayor alcance.",
+        "c) Implementó el empleo de la banda de 5GHz.",
+        "d) Utilizó ambas bandas de 2.4GHz y 5GHz de manera simultánea.",
+    ],
+    "c"
+),
+(
+    "En cuanto al ancho de cada canal, ¿qué modificación introdujo la norma 802.11ac (WIFI-5), aprobada en enero de 2014?",
+    [
+        "a) Mantuvo el ancho de cada canal en 20MHz.",
+        "b) Amplió el ancho de cada canal a 40MHz.",
+        "c) Amplió el ancho de cada canal a 80 o 160MHz.",
+        "d) Redujo el ancho de cada canal a 10MHz para mejorar la eficiencia.",
+    ],
+    "c"
+),
+(
+    "¿Cuál fue una de las mejoras en el número de flujos de transmisión y recepción introducida por la norma 802.11ac (WIFI-5)?",
+    [
+        "a) Mantuvo el número de flujos en 4, igual que en la norma 802.11n.",
+        "b) Incrementó el número de flujos a 6 para mejorar la estabilidad.",
+        "c) Aumentó el número de flujos a 8 desde los 4 de la norma 802.11n.",
+        "d) Redujo el número de flujos a 2 para simplificar la implementación.",
+    ],
+    "c"
+),
+(
+    "En cuanto a la modulación utilizada, ¿qué cambio introdujo la norma 802.11ac (WIFI-5), aprobada en enero de 2014?",
+    [
+        "a) Continuó utilizando modulación de baja densidad (16QAM).",
+        "b) Cambió a modulación de media densidad (64QAM) para mayor velocidad.",
+        "d) Implementó el empleo de modulación en alta densidad (256QAM).",
+        "c) Redujo la complejidad utilizando modulación de muy baja densidad (8QAM).",
+    ],
+    "d"
+),
+(
+    "¿Cómo cambió la capacidad de envío del punto de acceso (AP) según la norma 802.11ac (WIFI-5)?",
+    [
+        "a) Limitó la capacidad de enviar a un solo usuario a la vez.",
+        "b) Mejoró la eficiencia al enviar a múltiples usuarios con la misma frecuencia (Multiusuario-MIMO).",
+        "c) Redujo la velocidad al enviar a varios usuarios simultáneamente.",
+        "d) Incrementó la frecuencia para enviar a múltiples usuarios de manera independiente.",
+    ],
+    "b"
+),
+(
+    "¿Cuáles son algunas de las mejoras introducidas por la norma 802.11ax (WIFI-6) en comparación con la norma 802.11ac?",
+    [
+        "a) Mantuvo el uso exclusivo de MIMO y MU-MIMO.",
+        "b) Introdujo OFDMA para mejorar la eficiencia espectral global.",
+        "c) No modificó la modulación y mantuvo 256-QAM.",
+        "d) Redujo la velocidad teórica a 8Gbps para mayor estabilidad.",
+    ],
+    "b"
+),
+(
+    "¿Qué nueva tecnología introdujo la norma 802.11ax (WIFI-6) para mejorar la eficiencia espectral global?",
+    [
+        "a) Mantuvo el uso exclusivo de MIMO y MU-MIMO.",
+        "b) Incorporó OFDMA para mejorar la eficiencia espectral global.",
+        "c) Redujo la velocidad teórica a 8Gbps para mayor estabilidad.",
+        "d) Eliminó completamente el uso de múltiples antenas.",
+    ],
+    "b"
+),
+(
+    "En términos de modulación, ¿qué característica introdujo la norma 802.11ax (WIFI-6) para mejorar el rendimiento?",
+    [
+        "a) Mantuvo la modulación en 256-QAM.",
+        "b) Introdujo soporte de modulación 512-QAM.",
+        "c) Incorporó soporte de modulación 1024-QAM para un mayor rendimiento.",
+        "d) Eliminó completamente la modulación para simplificar la comunicación.",
+    ],
+    "c"
+),
+(
+    "¿Cómo mejora la norma 802.11ax (WIFI-6) el rendimiento en entornos con alta densidad de dispositivos?",
+    [
+        "a) Utilizando un espectro de frecuencias más amplio.",
+        "b) Manteniendo el uso exclusivo de MIMO y MU-MIMO.",
+        "c) Aumentando el ancho de cada canal a 160MHz.",
+        "d) Empleando el espectro de frecuencias de manera más eficiente.",
+    ],
+    "d"
+),
+(
+    "¿Cuál es uno de los beneficios de la norma 802.11ax (WIFI-6) en términos de latencia y velocidad?",
+    [
+        "a) Mantiene la misma latencia que la norma 802.11ac.",
+        "b) Aumenta la latencia en entornos con alta densidad de dispositivos.",
+        "c) Reduce la latencia en un 75%.",
+        "d) Promete una velocidad teórica de 11Gbps.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es la velocidad teórica prometida por la norma 802.11ax (WIFI-6)?",
+    [
+        "a) 5Gbps.",
+        "b) 8Gbps.",
+        "c) 11Gbps.",
+        "d) 15Gbps.",
+    ],
+    "c"
+),
+(
+    "En una red inalámbrica, ¿cuál es el identificador único asociado a un punto de acceso (AP) que forma parte de un BSS (Conjunto Básico de Servicio) en modo infraestructura?",
+    [
+        "a) BSSID (Basic Service Set Identifier).",
+        "b) SSID (Service Set Identifier).",
+        "c) MAC (Media Access Control) de la estación asociada.",
+        "d) DS (Sistema de Distribución) Identifier.",
+    ],
+    "a"
+),
+(
+    "En una red inalámbrica, ¿cómo se denomina el conjunto formado por un punto de acceso (AP) junto con sus estaciones asociadas?",
+    [
+        "a) MSS (Mobile Service Set).",
+        "b) WSS (Wireless Service Set).",
+        "c) BSS (Basic Service Set o Conjunto Básico de Servicio).",
+        "d) ASS (Advanced Service Set).",
+    ],
+    "c"
+),
+(
+    "En un BSS (Conjunto Básico de Servicio) que opera en modo infraestructura, ¿qué representa el identificador BSSID?",
+    [
+        "a) Es el identificador único de cada estación asociada al BSS.",
+        "b) Es el identificador de la red inalámbrica (SSID) en modo infraestructura.",
+        "c) Es la dirección IP asignada a cada estación dentro del BSS.",
+        "d) Es la dirección MAC de la interfaz inalámbrica del punto de acceso que forma parte del BSS.",
+    ],
+    "d"
+),
+(
+    "En una red inalámbrica en modo infraestructura, ¿qué afirmación es correcta sobre el BSSID?",
+    [
+        "a) El BSSID es un identificador dinámico que cambia automáticamente.",
+        "b) El BSSID es configurable por el usuario para mayor flexibilidad.",
+        "c) El BSSID es la dirección IP asignada al punto de acceso en el BSS.",
+        "d) El BSSID no puede ser cambiado y corresponde a la dirección MAC de la interfaz inalámbrica del punto de acceso.",
+    ],
+    "d"
+),
+(
+    "En una red inalámbrica, ¿cuál es el propósito del SSID (Service Set Identifier)?",
+    [
+        "a) Identificar la dirección MAC de cada estación asociada al punto de acceso.",
+        "b) Ser un identificador único para cada estación en la red.",
+        "c) Diferenciar entre varios BSS en el mismo canal.",
+        "d) Facilitar la asignación de direcciones IP a los dispositivos en el BSS.",
+    ],
+    "c"
+),
+(
+    "¿Cómo se conoce a veces al SSID cuando se extiende, abreviado como 'ESSID'?",
+    [
+        "a) Enhanced Service Set Identifier.",
+        "b) Extended Secure Service Identifier.",
+        "c) Extra Service Set Identifier.",
+        "d) Extended SSID (ESSID).",
+    ],
+    "a"
+),
+(
+    "¿Cuál es la característica relacionada con la longitud y configurabilidad del SSID (Service Set Identifier) en una red inalámbrica?",
+    [
+        "a) El SSID siempre tiene una longitud fija de 16 caracteres.",
+        "b) El SSID tiene una longitud variable entre 2 y 32 caracteres y es configurable por el usuario.",
+        "c) La longitud del SSID depende de la velocidad de la conexión.",
+        "d) La configuración del SSID es automática y no puede ser modificada por el usuario.",
+    ],
+    "b"
+),
+(
+    "Si tienes un único punto de acceso (AP) que opera de manera aislada (solo un BSS), ¿cómo se caracterizaría la configuración?",
+    [
+        "a) El AP tendría varios BSSID y SSID para mayor flexibilidad.",
+        "b) El AP tendría un único BSSID y varios SSID para diversidad.",
+        "c) El AP tendría un único BSSID y un único SSID.",
+        "d) El AP tendría varios BSSID y un único SSID para identificación única de estaciones.",
+    ],
+    "c"
+),
+(
+    "En una red inalámbrica empresarial u organizativa con varios puntos de acceso (APs) conectados por un DS (Sistema de Distribución), ¿cómo se configurarían los BSSID y SSID?",
+    [
+        "a) Cada AP tendría un BSSID diferente y un SSID único para mayor diversidad.",
+        "b) Cada AP tendría el mismo BSSID y un SSID único para facilitar la identificación de estaciones.",
+        "c) Cada AP tendría un BSSID diferente y todos compartirían el mismo SSID para ser parte de la misma red.",
+        "d) Todos los AP tendrían el mismo BSSID y SSID para simplificar la administración de la red.",
+    ],
+    "c"
+),
+(
+    "En una red inalámbrica empresarial u organizativa con varios puntos de acceso (APs) conectados por un DS (Sistema de Distribución), ¿cómo se configurarían los BSSID y SSID?",
+    [
+        "a) Cada AP tendría un BSSID diferente y un SSID único para mayor diversidad.",
+        "b) Cada AP tendría el mismo BSSID y un SSID único para facilitar la identificación de estaciones.",
+        "c) Cada AP tendría un BSSID diferente y todos compartirían el mismo SSID para ser parte de la misma red.",
+        "d) Todos los AP tendrían el mismo BSSID y SSID para simplificar la administración de la red.",
+    ],
+    "c"
+),
+(
+    "En una red inalámbrica, ¿cómo obtiene una estación información sobre los SSID disponibles a los que puede conectarse?",
+    [
+        "a) A través de mensajes unicast enviados por los puntos de acceso.",
+        "b) Mediante la asignación automática de SSID por parte del punto de acceso.",
+        "c) Recibiendo mensajes broadcast llamados 'beacon' enviados por los puntos de acceso.",
+        "d) Consultando directamente la configuración del punto de acceso.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es un requisito esencial para que una estación participe en una red inalámbrica?",
+    [
+        "a) Tener una dirección IP asignada.",
+        "b) Configurarse con el SSID correcto.",
+        "c) Utilizar un cable de red en lugar de conexión inalámbrica.",
+        "d) Tener una antena de alta potencia.",
+    ],
+    "b"
+),
+(
+    "¿Cómo obtiene una estación información sobre los SSID disponibles a los que puede conectarse en un momento dado?",
+    [
+        "a) Mediante mensajes unicast enviados por otras estaciones en la red.",
+        "b) A través de solicitudes ARP (Address Resolution Protocol).",
+        "c) Recibiendo mensajes broadcast llamados 'beacon' enviados por los puntos de acceso.",
+        "d) Consultando directamente la base de datos del enrutador más cercano.",
+    ],
+    "c"
+),
+(
+    "En una red inalámbrica, ¿cuál es el propósito de los mensajes broadcast llamados 'beacon' enviados por los puntos de acceso?",
+    [
+        "c) Informar sobre la dirección IP del punto de acceso.",
+        "b) Transmitir datos de forma segura a todas las estaciones en la red.",
+        "a) Difundir información sobre el SSID de la red a la que pertenecen.",
+        "d) Gestionar las conexiones de red mediante mensajes unicast.",
+    ],
+    "a"
+),
+(
+    "En una red inalámbrica, ¿con qué frecuencia suelen enviarse los mensajes 'beacon' por cada punto de acceso?",
+    [
+        "a) Una vez por minuto.",
+        "b) 10 veces por segundo (cada 100 milisegundos).",
+        "c) 5 veces por segundo (cada 200 milisegundos).",
+        "d) 20 veces por segundo (cada 50 milisegundos).",
+    ],
+    "b"
+),
+(
+    "En una red inalámbrica, ¿es posible ajustar la frecuencia de envío de los mensajes 'beacon' en la configuración de un punto de acceso?",
+    [
+        "a) No, la frecuencia de envío de los 'beacon' siempre es fija.",
+        "b) Sí, la frecuencia de envío puede ajustarse y cambiar en la configuración del punto de acceso.",
+        "c) Depende de la norma utilizada en la red.",
+        "d) La frecuencia de envío se ajusta automáticamente según la carga de la red.",
+    ],
+    "b"
+),
+(
+    "¿Cuál es una medida de seguridad que un punto de acceso (AP) puede implementar con respecto a los SSID?",
+    [
+        "a) Deshabilitar la funcionalidad de punto de acceso.",
+        "b) Enviar beacons continuos para ocultar la identidad del SSID.",
+        "c) Cifrar los SSID para proteger su identidad.",
+        "d) Ocultar el SSID o configurar el AP para no enviar beacons como medida de seguridad.",
+    ],
+    "d"
+),
+(
+    "¿Cuál de las siguientes medidas de seguridad puede implementar un punto de acceso (AP) para proteger la identidad del SSID?",
+    [
+        "a) Desactivar la capacidad de punto de acceso.",
+        "b) Enviar beacons de forma continua para ocultar el SSID.",
+        "c) Cifrar los SSID para proteger su identidad.",
+        "d) Ocultar el SSID o configurar el AP para no enviar beacons.",
+    ],
+    "d"
+),
+(
+    "A pesar de las medidas de seguridad como ocultar el SSID, ¿por qué los SSID aún pueden ser identificados?",
+    [
+        "a) Los SSID siempre viajan cifrados en la red inalámbrica.",
+        "b) Los SSID no pueden ser identificados incluso con mensajes intercambiados con el AP.",
+        "c) Ocultar el SSID no afecta su visibilidad y puede identificarse capturando y analizando mensajes intercambiados con el AP.",
+        "d) Los SSID se cifran automáticamente cuando se ocultan.",
+    ],
+    "c"
+),
+(
+    "En una red inalámbrica, ¿qué hacen habitualmente las estaciones además de esperar a recibir beacons?",
+    [
+        "a) Enviar mensajes unicast a otros dispositivos en la red.",
+        "b) Enviar mensajes 'probe' o 'probe request' en busca de las redes a las que se conecta habitualmente.",
+        "c) Transmitir mensajes broadcast continuos para anunciar su presencia.",
+        "d) Enviar solicitudes ARP para mapear direcciones IP.",
+    ],
+    "b"
+),
+(
+    "En una red inalámbrica, ¿qué tipo de mensajes envían habitualmente las estaciones en busca de las redes a las que se conectan?",
+    [
+        "a) Mensajes unicast solicitando información sobre la red.",
+        "b) Mensajes 'broadcast' para anunciar su presencia en la red.",
+        "c) Mensajes 'probe' o 'probe request' en busca de las redes a las que se conectan habitualmente.",
+        "d) Mensajes de solicitud ARP para mapear direcciones IP.",
+    ],
+    "c"
+),
+(
+    "Cuando un punto de acceso (AP) recibe un 'probe request' que indica el SSID de ese AP, ¿cuál es su obligación?",
+    [
+        "c) Ignorar el 'probe request' ya que es una actividad no deseada.",
+        "b) Enviar un mensaje de respuesta indicando que el SSID es desconocido.",
+        "a) Responder al 'probe request' proporcionando información sobre la red.",
+        "d) No responder al 'probe request' ya que la red ya está disponible para la estación.",
+    ],
+    "a"
+),
+(
+    "Cuando un punto de acceso (AP) recibe un 'probe request' que indica un SSID de 0 bytes (SSID broadcast), ¿cuál es su obligación?",
+    [
+        "a) Ignorar el 'probe request' ya que es una actividad no deseada.",
+        "b) Enviar un mensaje de respuesta indicando que el SSID es desconocido.",
+        "c) Responder al 'probe request' proporcionando información sobre la red.",
+        "d) No responder al 'probe request' ya que la red ya está disponible para la estación.",
+    ],
+    "c"
+),
+(
+    "En una red inalámbrica, ¿qué ocurre durante el proceso de asociación entre una estación y un punto de acceso (AP)?",
+    [
+        "a) La estación envía un 'probe request' al AP solicitando la asociación.",
+        "b) El AP ignora la solicitud de asociación si la red no está protegida.",
+        "c) El AP reserva memoria para la estación, asigna un ID de asociación y responde con una trama que contiene información del AP.",
+        "d) La estación envía directamente tramas de datos al AP después de asociarse sin un proceso previo.",
+    ],
+    "c"
+),
+(
+    "En una red inalámbrica sin configuración de protección, ¿qué pueden hacer las estaciones para conectarse a un punto de acceso (AP)?",
+    [
+        "a) Las estaciones no pueden conectarse sin protección.",
+        "b) Las estaciones pueden conectarse directamente sin necesidad de asociarse a un AP.",
+        "c) Las estaciones pueden enviar mensajes 'broadcast' para solicitar asociación a un AP.",
+        "d) Las estaciones pueden asociarse a un AP enviando una trama de solicitud de asociación.",
+    ],
+    "d"
+),
+(
+    "En una red inalámbrica sin configuración de seguridad, ¿cómo se compara la situación de una estación con la de una estación autorizada en una red segura?",
+    [
+        "a) La estación no puede conectarse sin protección, a diferencia de una estación autorizada en una red segura.",
+        "b) La estación tiene acceso total a la red sin restricciones, al igual que una estación autorizada en una red segura.",
+        "c) La estación debe seguir un proceso de asociación similar al de una estación autorizada en una red segura.",
+        "d) La estación está automáticamente asociada sin necesidad de realizar ningún proceso, al igual que en una red segura.",
+    ],
+    "c"
+),
+(
+    "Durante el proceso de asociación en una red inalámbrica, ¿qué elementos son incluidos en la trama de solicitud de asociación enviada por la estación?",
+    [
+        "a) Solo la dirección MAC de la estación.",
+        "b) El SSID y taxas de transferencia admitidas.",
+        "c) Unicamente el ID de asociación asignado por el AP.",
+        "d) Información detallada sobre la red y el historial de conexión de la estación.",
+    ],
+    "b"
+),
+(
+    "Durante el proceso de asociación en una red inalámbrica, ¿qué hace el AP después de recibir la trama de solicitud de asociación?",
+    [
+        "a) Ignora la solicitud y no reserva memoria para el cliente.",
+        "b) Reserva memoria para el cliente, asigna un ID de asociación y responde con una trama de asociación que contiene el ID asignado y otras características del AP.",
+        "c) Rechaza la solicitud si la red está protegida.",
+        "d) Solo envía una trama de respuesta si la estación ya está en la lista de clientes asociados.",
+    ],
+    "b"
+),
+(
+    "Después de completar el proceso de asociación en una red inalámbrica, ¿qué sucede entre el adaptador de red y el punto de acceso (AP)?",
+    [
+        "a) La estación y el AP solo pueden intercambiar tramas de control, no tramas de datos.",
+        "b) Ambos pueden comenzar a transmitir tramas de datos entre ellos.",
+        "c) El AP continúa reservando memoria pero no permite la transmisión de datos.",
+        "d) La estación debe esperar instrucciones adicionales del AP antes de poder transmitir tramas de datos.",
+    ],
+    "b"
+),
+(
+    "En una red inalámbrica, ¿cómo gestiona cada punto de acceso (AP) la lista de estaciones asociadas?",
+    [
+        "a) Los AP no mantienen una lista de estaciones asociadas.",
+        "b) Cada AP tiene una lista de estaciones asociadas identificadas por sus direcciones IP.",
+        "c) Cada AP mantiene una lista de estaciones asociadas identificadas por sus direcciones MAC.",
+        "d) Los AP solo almacenan información sobre estaciones que actualmente transmiten datos.",
+    ],
+    "c"
+),
+(
+    "Cuando un punto de acceso (AP) recibe una trama del Sistema de Distribución en una red inalámbrica, ¿cómo se comporta en relación con su lista de estaciones asociadas?",
+    [
+        "a) Ignora la trama, ya que solo se preocupa por las tramas provenientes de estaciones asociadas.",
+        "b) Verifica si la dirección MAC de destino está en su lista de estaciones asociadas y, en caso afirmativo, transmite la trama a todas las estaciones.",
+        "c) Descarta la trama si la dirección MAC de destino pertenece a una estación no asociada.",
+        "d) Solo procesa la trama si la dirección MAC de destino coincide con la dirección MAC del AP.",
+    ],
+    "c"
+),
+(
+    "Cuando un punto de acceso (AP) recibe una trama en una red inalámbrica, ¿qué hace el AP si la dirección MAC de destino de la trama pertenece a una estación no asociada?",
+    [
+        "a) El AP transmite la trama a todas las estaciones, independientemente de su asociación.",
+        "b) El AP descarta la trama sin transmitirla.",
+        "c) El AP verifica la dirección IP de destino antes de tomar cualquier acción.",
+        "d) El AP almacena la trama en un búfer hasta que la estación se asocie.",
+    ],
+    "b"
+),
+(
+    "En el intercambio de tráfico entre la interfaz inalámbrica y la interfaz de cable de un punto de acceso (AP), ¿cómo se compara el funcionamiento del AP con el de un switch LAN?",
+    [
+        "a) El AP inunda la red inalámbrica con tramas destinadas a direcciones desconocidas, similar a un switch LAN.",
+        "b) El AP descarta todas las tramas destinadas a direcciones desconocidas en la red inalámbrica.",
+        "c) El AP transmite tramas a todas las estaciones asociadas y no asociadas, independientemente de su destino.",
+        "d) El AP filtra selectivamente las tramas destinadas a direcciones desconocidas en la red inalámbrica.",
+    ],
+    "d"
+),
+(
+    "En una red inalámbrica, para que una estación esté asociada (conectada) a un punto de acceso (AP), ¿qué proceso debe realizar primero la estación?",
+    [
+        "a) Enviar un mensaje de solicitud de asociación al AP.",
+        "b) Identificarse con su dirección MAC al AP.",
+        "c) Enviar un mensaje de solicitud de dirección IP al AP.",
+        "d) Establecer una conexión directa con el AP a través de un cable Ethernet.",
+    ],
+    "b"
+),
+(
+    "En una red inalámbrica, a diferencia de la situación inicial de un switch en una red cableada, ¿qué afirmación describe correctamente el proceso de asociación de una estación a un punto de acceso (AP)?",
+    [
+        "a) En una red inalámbrica, la estación puede estar asociada sin identificarse con su dirección MAC.",
+        "b) En una red inalámbrica, la estación puede asociarse directamente sin necesidad de identificación previa.",
+        "c) En una red inalámbrica, el AP permite la asociación incluso si la estación no tiene dirección MAC.",
+        "d) En una red inalámbrica, la estación debe identificarse con su dirección MAC antes de poder asociarse al AP.",
+    ],
+    "d"
+),
+(
+    "En resumen, en una red inalámbrica, ¿bajo qué condiciones una estación está asociada a un punto de acceso (AP)?",
+    [
+        "a) La estación debe tener una dirección MAC diferente a la del AP para estar asociada.",
+        "b) La estación puede estar asociada incluso si el AP no conoce su dirección MAC.",
+        "c) La estación debe identificarse con su dirección MAC antes de poder estar asociada al AP.",
+        "d) La estación está asociada solo si el AP no tiene ninguna estación conectada a él.",
+    ],
+    "c"
+),
+(
+    "En el funcionamiento con estaciones asociadas, ¿cómo opera la interfaz inalámbrica de un Punto de Acceso (AP) en una red inalámbrica?",
+    [
+        "a) La comunicación es bidireccional y simultánea (full-dúplex) entre el AP y las estaciones asociadas.",
+        "b) La comunicación es unidireccional desde el AP hacia las estaciones asociadas.",
+        "c) La comunicación es half-dúplex, bidireccional, pero nunca al mismo tiempo entre el AP y las estaciones asociadas.",
+        "d) La comunicación solo se permite desde las estaciones asociadas hacia el AP.",
+    ],
+    "c"
+),
+(
+    "En una red inalámbrica con estaciones asociadas a un Punto de Acceso (AP), ¿cómo se comportan las tramas enviadas desde cualquier elemento de la red?",
+    [
+        "a) Las tramas se envían exclusivamente al destinatario previsto, ignorando a las demás estaciones asociadas.",
+        "b) Todas las estaciones asociadas al AP reciben las tramas, independientemente del destinatario.",
+        "c) Solo el AP recibe las tramas y decide si retransmitirlas a las estaciones asociadas.",
+        "d) Las tramas se envían a una única estación asociada, seleccionada al azar por el AP.",
+    ],
+    "b"
+),
+(
+    "En las normas 802.11n y 802.11ac, que emplean diferentes flujos en la cobertura de cada Punto de Acceso (AP), ¿cómo funciona el AP con múltiples flujos?",
+    [
+        "a) Cada flujo se dirige exclusivamente a un único equipo asociado, similar a un switch cableado.",
+        "b) El AP distribuye cada flujo a todas las estaciones asociadas de manera simultánea.",
+        "c) El AP decide aleatoriamente a qué estación asociada enviar cada flujo.",
+        "d) Cada flujo puede ir destinado a un equipo diferente, similar al funcionamiento de un switch inalámbrico.",
+    ],
+    "d"
+),
+(
+    "En las normas 802.11n y 802.11ac, que emplean diferentes flujos en la cobertura de cada Punto de Acceso (AP), ¿cuál es el propósito principal de utilizar múltiples flujos?",
+    [
+        "a) Mejorar la seguridad de la red inalámbrica.",
+        "b) Reducir la interferencia de otras redes inalámbricas.",
+        "c) Aumentar la capacidad y velocidad de transmisión de datos.",
+        "d) Optimizar la asignación de direcciones IP en la red.",
+    ],
+    "c"
+),
+(
+    "En las normas 802.11n y 802.11ac, que utilizan diferentes flujos en la cobertura de cada Punto de Acceso (AP), ¿cómo se asemeja el funcionamiento del AP a un switch inalámbrico?",
+    [
+        "a) Cada flujo se dirige exclusivamente a un único equipo asociado.",
+        "b) El AP distribuye cada flujo a todas las estaciones asociadas de manera simultánea.",
+        "c) El AP decide aleatoriamente a qué estación asociada enviar cada flujo.",
+        "d) Cada flujo puede ir destinado a un equipo diferente, similar al funcionamiento de un switch inalámbrico.",
+    ],
+    "d"
+),
+(
+    "En una red inalámbrica, ¿por qué una estación debe reasociarse al cambiar de un AP a otro?",
+    [
+        "a) Para mejorar la velocidad de transmisión.",
+        "b) Porque cada estación solo puede estar asociada a un AP a la vez.",
+        "c) Para evitar conflictos de dirección MAC.",
+        "d) Porque el estándar 802.11 lo requiere explícitamente.",
+    ],
+    "b"
+),
+(
+    "¿Qué significa el término 'itinerancia' (handoff o roaming) en el contexto de las redes inalámbricas? ¿Cuál es la restricción principal relacionada con la asociación de una estación a múltiples APs al mismo tiempo?",
+    [
+        "a) Capacidad de transmitir datos a larga distancia.",
+        "b) Proceso de cambiar de un AP a otro sin perder la conexión.",
+        "c) Modo de operación exclusivo de la norma 802.11r.",
+        "d) Restricción impuesta por la banda de frecuencia.",
+    ],
+    "b"
+),
+(
+    "En el contexto de redes inalámbricas, ¿qué acción debe realizar una estación cuando se aleja de un AP y se acerca a otro AP en términos de itinerancia?",
+    [
+        "a) Permanecer asociada al primer AP.",
+        "b) Desasociarse del primer AP y asociarse al segundo AP.",
+        "c) Permanecer asociada a ambos APs simultáneamente.",
+        "d) Desconectarse temporalmente de todos los APs.",
+    ],
+    "b"
+),
+(
+    "En el contexto de itinerancia en redes inalámbricas, ¿por qué es importante realizar el proceso de cambio de AP con suficiente rapidez?",
+    [
+        "a) Para evitar la necesidad de reasociación.",
+        "b) Para garantizar una transición sin pérdida de paquetes.",
+        "c) Para reducir la velocidad de la estación.",
+        "d) Para mejorar la calidad de la señal inalámbrica.",
+    ],
+    "b"
+),
+(
+    "En el contexto de itinerancia en redes inalámbricas, ¿cuál es uno de los factores que influyen en la rapidez del proceso de cambio de AP?",
+    [
+        "a) La cantidad de dispositivos conectados a los AP.",
+        "b) La potencia de la señal inalámbrica.",
+        "c) El grado de solapamiento de las áreas de cobertura de los dos AP.",
+        "d) La capacidad de almacenamiento de los AP.",
+    ],
+    "c"
+),
+(
+    "¿Por qué la velocidad de movimiento de la estación es un factor relevante en el proceso de itinerancia?",
+    [
+        "a) Afecta la calidad de la señal inalámbrica.",
+        "b) No tiene impacto en la itinerancia.",
+        "c) Determina la cantidad de datos transferidos.",
+        "d) Influye en la agresividad de la itinerancia.",
+    ],
+    "a"
+),
+(
+    "¿Cómo se realiza la itinerancia ('handoff' o 'roaming') en una red inalámbrica?",
+    [
+        "a) Una estación puede estar asociada a múltiples AP al mismo tiempo.",
+        "b) La estación debe permanecer siempre asociada al primer AP, independientemente de su ubicación.",
+        "c) La estación se desasocia del primer AP y se asocia al segundo AP cuando se aleja.",
+        "d) La itinerancia no es posible en redes inalámbricas.",
+    ],
+    "c"
+),
+(
+    "La rapidez de la itinerancia depende de:",
+    [
+        "a) El grado de solapamiento de las áreas de cobertura de los dos APs.",
+        "b) La velocidad a la que se mueve la estación.",
+        "c) La agresividad de la itinerancia (configurable en la estación).",
+        "d) Todas las anteriores.",
+    ],
+    "d"
+),
+(
+    "¿Estaba contemplada la itinerancia en el estándar 802.11 inicial?",
+    [
+        "a) Sí, la itinerancia estaba completamente contemplada desde el inicio.",
+        "b) No, la itinerancia no estaba contemplada en el estándar 802.11 inicial.",
+        "c) La itinerancia estaba parcialmente contemplada.",
+        "d) No, ni siquiera lo está ahora.",
+    ],
+    "b"
+),
+(
+    "¿Qué impacto tuvo la aparición de los teléfonos 802.11 en la itinerancia?",
+    [
+        "a) No tuvo impacto en la itinerancia.",
+        "b) Redujo la itinerancia a velocidades más lentas.",
+        "c) Aumentó la itinerancia, haciéndola más rápida y segura.",
+        "d) Generó problemas en la itinerancia.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es el tiempo máximo recomendado para que el cambio en la itinerancia mantenga la comunicación?",
+    [
+        "a) Menos de 10 milisegundos.",
+        "b) Entre 10 y 30 milisegundos.",
+        "c) Menos de 50 milisegundos.",
+        "d) Más de 50 milisegundos.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es el propósito de la autenticación en redes WiFi con contraseñas?",
+    [
+        "a) Asegurar que todas las estaciones tengan el mismo nombre de red (SSID).",
+        "b) Establecer una conexión segura entre el AP y las estaciones.",
+        "c) Agilizar el proceso de itinerancia al cambiar de AP.",
+        "d) Evitar la necesidad de contraseñas en la red WiFi.",
+    ],
+    "b"
+),
+(
+    "¿Por qué se utiliza algún protocolo de cifrado como mecanismo de seguridad en redes WiFi?",
+    [
+        "a) Para acelerar la velocidad de la red.",
+        "b) Para garantizar la compatibilidad con dispositivos más antiguos.",
+        "c) Para cifrar la información y garantizar la seguridad de la comunicación.",
+        "d) Solo como una recomendación, pero no es esencial para la seguridad.",
+    ],
+    "c"
+),
+(
+    "¿Cuáles son algunos de los protocolos más empleados para la seguridad en redes WiFi?",
+    [
+        "a) SSL y TLS.",
+        "b) WEP, WPA, y WPA2.",
+        "c) TCP y UDP.",
+        "d) HTTP y FTP.",
+    ],
+    "b"
+),
+(
+    "¿Por qué se recomienda el uso de WPA2 en lugar de WEP en redes WiFi?",
+    [
+        "a) WPA2 es más antiguo y compatible con una variedad de dispositivos.",
+        "b) WEP ha sido descontinuado, por lo que no es viable su uso actualmente.",
+        "c) WPA2 es mucho más seguro que WEP, siendo este último considerado inseguro.",
+        "d) WEP ofrece una mejor velocidad de conexión que WPA2.",
+    ],
+    "c"
+),
+(
+    "Cuando hay una contraseña en la red, ¿qué hace el Punto de Acceso (AP) antes de permitir la asociación de las estaciones?",
+    [
+        "a) El AP solo verifica la velocidad de conexión de las estaciones.",
+        "b) El AP permite la asociación sin autenticación.",
+        "c) El AP obliga a las estaciones a autenticarse antes de permitir su asociación.",
+        "d) La autenticación es opcional y depende de la configuración del dispositivo.",
+    ],
+    "c"
+),
+(
+    "En una red WiFi, ¿cómo se realiza la autenticación y la asociación de una estación?",
+    [
+        "a) La autenticación se realiza con el BSSID y la asociación con el SSID.",
+        "b) Tanto la autenticación como la asociación se realizan con el SSID.",
+        "d) La autenticación se realiza con el SSID y un contrasinal, mientras que la asociación se realiza con el BSSID.",
+        "c) La autenticación y la asociación se realizan exclusivamente con el BSSID.",
+    ],
+    "d"
+),
+(
+    "¿Cuándo se realiza la autenticación en una red WiFi y cómo se simplifica durante el proceso de reasociación para acelerar la itinerancia?",
+    [
+        "a) La autenticación se realiza solo durante el cambio de AP.",
+        "b) La autenticación se realiza antes de la asociación y se simplifica durante el proceso de reasociación (cambio de AP) para acelerar la itinerancia.",
+        "c) La autenticación se realiza solo al unirse a la red por primera vez.",
+        "d) La autenticación y la asociación siempre son procesos independientes, sin simplificación durante la reasociación.",
+    ],
+    "b"
+),
+
+
+
 
 
 
