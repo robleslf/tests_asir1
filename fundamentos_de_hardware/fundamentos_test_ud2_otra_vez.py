@@ -2,1580 +2,1676 @@ import random
 
 # Lista de preguntas y respuestas
 preguntas = [
-    (
-    "¿Cuál es el enfoque lógico en el funcionamiento de un ordenador o sistema microinformático?",
+(
+    "¿Cuál es la función principal de los conectores externos en un sistema informático?",
     [
-        "a) Coincide siempre con la organización física o comercial.",
-        "b) Se basa en la historia y evolución del hardware.",
-        "c) Está relacionado con el almacenamiento de programas en la UCP.",
-        "d) Depende exclusivamente de la arquitectura física.",
+        "a) Conectar componentes internos de la placa base.",
+        "b) Proporcionar energía a la CPU.",
+        "c) Facilitar la conexión de periféricos y dispositivos externos.",
+        "d) Regular la temperatura interna del equipo.",
     ],
     "c"
 ),
 (
-    "¿Cuál es el aspecto principal del funcionamiento de un ordenador o sistema microinformático desde el punto de vista lógico?",
+    "¿Cuál es la función principal de los conectores externos en un sistema informático?",
     [
-        "a) La coincidencia constante con la organización física o comercial.",
-        "b) La relación directa con la historia y evolución del hardware.",
-        "c) La independencia de la organización lógica con respecto a la organización física o comercial.",
-        "d) La exclusiva dependencia de la arquitectura física.",
+        "a) Conectar componentes internos del equipo.",
+        "b) Proporcionar energía al dispositivo.",
+        "c) Interconectar distintos dispositivos y periféricos externos.",
+        "d) Regular la temperatura interna del sistema.",
     ],
     "c"
 ),
 (
-    "¿Quién estableció en 1945 un nuevo modelo básico de arquitectura de computadoras, introduciendo la Unidad Central de Proceso (UCP) para el almacenamiento de programas?",
+    "¿Cuál es una ventaja importante de que los conectores estén estandarizados en los sistemas informáticos?",
     [
-        "a) Alan Turing",
-        "b) John von Neumann",
-        "c) Ada Lovelace",
-        "d) Charles Babbage",
+        "a) Aumenta la complejidad de las conexiones.",
+        "b) Facilita la interoperabilidad entre dispositivos de diferentes fabricantes.",
+        "c) Limita las opciones de conectividad.",
+        "d) Reduce la velocidad de transferencia de datos.",
     ],
     "b"
 ),
 (
-    "Según John von Neumann, ¿cuáles son los principales componentes de un equipo o sistema informático?",
+    "¿Cuál de las siguientes afirmaciones sobre el conector USB es correcta?",
     [
-        "a) Teclado, ratón y pantalla.",
-        "b) CPU, GPU y RAM.",
-        "c) Periféricos de entrada, CPU y periféricos de salida.",
-        "d) Almacenamiento, sistema operativo y aplicaciones.",
-    ],
-    "c"
-),
-(
-    "¿Cuál es un ejemplo de periférico que puede actuar tanto como periférico de entrada como de salida, según la nota proporcionada?",
-    [
-        "a) Teclado",
-        "b) Ratón",
-        "c) Pantallas táctiles",
-        "d) Impresora",
-    ],
-    "c"
-),
-(
-    "¿Cuáles son los componentes principales de una CPU (Central Process Unit), según la descripción proporcionada?",
-    [
-        "a) Solo una unidad de control.",
-        "b) Solo una unidad aritmética.",
-        "c) Una memoria y una unidad de control.",
-        "d) Una memoria y un procesador con una unidad aritmética y una unidad de control.",
+        "a) El USB 2.0 es más rápido que el USB 3.0.",
+        "b) La característica Plug and Play no está presente en los dispositivos USB.",
+        "c) El USB 3.0 es más lento que su antecesor, el USB 2.0.",
+        "d) Todos los USB tienen la característica Plug and Play.",
     ],
     "d"
 ),
 (
-    "¿Cuál es la función principal de la memoria en una CPU, según la descripción?",
+    "¿Cuáles son algunas de las características del conector USB según la información proporcionada?",
     [
-        "a) Ejecutar órdenes de programas.",
-        "b) Realizar operaciones matemáticas y lógicas.",
-        "c) Almacenar datos y programas.",
-        "d) Controlar la entrada y salida de periféricos.",
+        "a) Complejidad y falta de resistencia.",
+        "b) Resistencia y simplicidad.",
+        "c) Complejidad y baja fiabilidad.",
+        "d) Fiabilidad y falta de resistencia.",
+    ],
+    "b"
+),
+(
+    "Según la información proporcionada, ¿quién inventó el conector USB?",
+    [
+        "a) AMD.",
+        "b) Microsoft.",
+        "c) Intel.",
+        "d) Apple.",
     ],
     "c"
 ),
 (
-    "¿Cuál es la función principal del procesador en una CPU, según la descripción?",
+    "Según la información proporcionada, ¿qué significa la característica 'Plug and Play' en los conectores USB?",
     [
-        "c) Almacenar datos y programas.",
-        "b) Realizar operaciones matemáticas y lógicas.",
-        "a) Ejecutar órdenes de programas y procesar información de periféricos de entrada.",
-        "d) Controlar la entrada y salida de periféricos.",
+        "a) Requiere instalación de controladores antes de conectar dispositivos.",
+        "b) Los dispositivos USB deben reiniciarse después de la conexión.",
+        "c) Los dispositivos USB se conectan y funcionan automáticamente sin necesidad de instalación adicional.",
+        "d) 'Plug and Play' no es una característica de los conectores USB."
+    ],
+    "c"
+),
+(
+    "Según la información proporcionada, ¿cuántas veces más rápido es el USB 3.0 en comparación con su antecesor, el USB 2.0?",
+    [
+        "a) Cinco veces más rápido.",
+        "b) Diez veces más rápido.",
+        "c) Dos veces más rápido.",
+        "d) Veinte veces más rápido."
+    ],
+    "b"
+),
+(
+    "Según la información proporcionada, ¿qué significa la retrocompatibilidad de los dispositivos USB?",
+    [
+        "a) Los dispositivos USB pueden conectarse a dispositivos más antiguos.",
+        "b) Los dispositivos USB solo pueden conectarse a puertos USB 3.0.",
+        "c) Los dispositivos USB no son compatibles con versiones anteriores.",
+        "d) La velocidad de los dispositivos USB no se ve afectada por la retrocompatibilidad."
     ],
     "a"
 ),
 (
-    "¿Cuáles son las principales componentes del procesador según la descripción proporcionada?",
+    "¿Cuál es una ventaja de los puertos USB 3.0 sobre los USB 2.0, según la información proporcionada?",
     [
-        "a) Solo la unidad de control.",
-        "b) Solo la unidad aritmética.",
-        "c) La unidad aritmética y la unidad de control.",
-        "d) La memoria y la unidad de control.",
+        "a) Los puertos USB 3.0 no requieren retrocompatibilidad.",
+        "b) Los puertos USB 3.0 son diez veces más rápidos que los USB 2.0.",
+        "c) Los puertos USB 3.0 no son compatibles con dispositivos más antiguos.",
+        "d) La velocidad de los puertos USB 2.0 es igual a la de los USB 3.0."
+    ],
+    "b"
+),
+(
+    "¿Qué sucede al conectar un dispositivo USB 2.0 a un puerto USB 3.0?",
+    [
+        "a) No es posible realizar esta conexión debido a la incompatibilidad.",
+        "b) El dispositivo funcionará sin problemas y aprovechará todas las ventajas del conector USB 3.0.",
+        "c) El dispositivo funcionará sin problemas, aunque no aprovechará las ventajas del conector USB 3.0.",
+        "d) El dispositivo presentará problemas de funcionamiento y no será reconocido por el sistema.",
     ],
     "c"
 ),
 (
-    "¿Cuál es la función principal de la unidad aritmética en un procesador?",
+    "¿Cuál es la relación entre los conectores tipo A y B en USB 3.0 con respecto a los conectores A y B en USB 2.0?",
     [
-        "a) Almacenar datos y programas.",
-        "b) Controlar la entrada y salida de periféricos.",
-        "c) Realizar operaciones matemáticas y lógicas.",
-        "d) Ejecutar órdenes de programas.",
+        "a) No hay relación entre los conectores de USB 3.0 y USB 2.0.",
+        "b) Los conectores tipo A y B en USB 3.0 son incompatibles con los conectores A y B en USB 2.0.",
+        "c) Los conectores tipo A y B en USB 3.0 son parecidos y retrocompatibles con los conectores A y B en USB 2.0.",
+        "d) Los conectores tipo A y B en USB 3.0 tienen un diseño completamente diferente a los conectores A y B en USB 2.0.",
     ],
     "c"
 ),
 (
-    "¿Cuál es el papel principal de la unidad de control en un procesador, según la descripción?",
+    "¿Cuál es la característica distintiva del conector micro-B en USB 3.0 y en qué dispositivos es comúnmente utilizado?",
     [
-        "a) Realizar operaciones matemáticas y lógicas.",
-        "b) Controlar la entrada y salida de periféricos.",
-        "c) Ejecutar órdenes de programas.",
-        "d) Ser el verdadero 'cerebro' del sistema.",
+        "a) El conector micro-B en USB 3.0 no tiene características distintivas.",
+        "b) El conector micro-B en USB 3.0 es exclusivamente utilizado en dispositivos de audio.",
+        "d) El conector micro-B en USB 3.0 es muy utilizado en dispositivos como discos duros externos.",
+        "c) El conector micro-B en USB 3.0 es incompatible con cualquier tipo de dispositivo externo.",
     ],
     "d"
 ),
 (
-    "¿Cuál es una característica principal de los microprocesadores CISC (Complex Instruction Set Computer), según la descripción proporcionada?",
+    "¿Cuál es la característica principal de la especificación USB 3.1 (SuperSpeed USB 10Gbps)?",
     [
-        "a) Utilización inicial.",
-        "b) Juego de instrucciones reducido.",
-        "c) Unidad de control muy rápida.",
-        "d) Ejecución de instrucciones en un solo ciclo de reloj.",
+        "a) Ofrece la misma velocidad que USB 3.0.",
+        "b) Proporciona un modo a 5 Gbps gracias a una mejor codificación de datos.",
+        "c) Ofrece un modo a 10 Gbps gracias a una mejor y más eficiente codificación de datos.",
+        "d) No es retrocompatible con las versiones anteriores de USB.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es el nombre completo de la nueva especificación de USB que ofrece una velocidad de 10 Gbps?",
+    [
+        "a) USB 3.0",
+        "b) SuperSpeed USB 5Gbps",
+        "c) USB 3.1",
+        "d) SuperSpeed USB 10Gbps",
+    ],
+    "d"
+),
+(
+    "¿Cómo logra la especificación USB 3.1 ofrecer un modo a 10 Gbps?",
+    [
+        "c) Aumenta el número de pines en el conector USB.",
+        "b) Mejora la eficiencia energética del sistema.",
+        "a) Gracias a una mejor y más eficiente codificación de datos.",
+        "d) Implementa una conexión inalámbrica de alta velocidad.",
     ],
     "a"
 ),
 (
-    "¿Cómo se describen las instrucciones de los microprocesadores CISC (Complex Instruction Set Computer), según la información proporcionada?",
+    "¿Cómo se compara la velocidad de la especificación USB 3.1 con respecto al USB 3.0?",
     [
-        "a) Instrucciones simples y básicas.",
-        "b) Instrucciones complejas y muy potentes.",
-        "c) Instrucciones limitadas y específicas.",
-        "d) Instrucciones rápidas y eficientes.",
+        "a) Ofrece la misma velocidad que USB 3.0.",
+        "b) Tiene el doble de velocidad que USB 3.0.",
+        "c) Es más lenta que USB 3.0.",
+        "d) No tiene relación con la velocidad de USB 3.0.",
     ],
     "b"
 ),
 (
-    "Según la información proporcionada, ¿qué se menciona sobre la naturaleza de las instrucciones en los microprocesadores CISC?",
+    "¿Qué beneficio adicional ofrece la especificación USB 3.1 además de mejorar el rendimiento?",
     [
-        "a) Todas las instrucciones son esenciales y no se pueden simplificar.",
-        "b) Muchas de ellas se pueden realizar de manera más sencilla con otras instrucciones.",
-        "c) Cada instrucción es única y no se puede reducir.",
-        "d) Las instrucciones son simples y directas, sin redundancias.",
+        "a) No tiene beneficios adicionales.",
+        "b) Aumenta el consumo de energía.",
+        "c) Mejora la eficiencia energética, reduciendo el gasto eléctrico.",
+        "d) No afecta el consumo de energía del sistema.",
+    ],
+    "c"
+),
+(
+    "¿Qué característica distingue al conector Thunderbolt y cuál es su ventaja principal en términos de velocidad de transmisión?",
+    [
+        "a) Su capacidad exclusiva para transmitir datos.",
+        "b) La conexión óptica que utiliza, transmitiendo datos por pulsos de luz en lugar de pulsos eléctricos, lo que aumenta la velocidad.",
+        "c) La capacidad de transmitir solo video y audio, pero no datos.",
+        "d) Fue inventado por Apple en lugar de Intel.",
     ],
     "b"
 ),
 (
-    "¿Qué característica destacada se menciona sobre la creación de instrucciones en los microprocesadores CISC?",
+    "¿En qué tipo de ordenadores se encuentra comúnmente el puerto de comunicaciones Thunderbolt?",
     [
-        "a) Todas las instrucciones están predefinidas y no se pueden modificar.",
-        "b) La creación de nuevas instrucciones es imposible.",
-        "c) Se pueden crear nuevas instrucciones según sea necesario.",
-        "d) Las instrucciones son estáticas y no se pueden cambiar.",
-    ],
-    "c"
-),
-(
-    "En el contexto histórico de los microprocesadores CISC, ¿cómo se describe la relación entre la velocidad de la memoria y la unidad de control?",
-    [
-        "a) La memoria era más rápida que la unidad de control.",
-        "b) La velocidad de la memoria y la unidad de control era la misma.",
-        "c) La memoria era mucho más lenta que la unidad de control.",
-        "d) La memoria y la unidad de control eran independientes en velocidad.",
-    ],
-    "c"
-),
-(
-    "En el contexto histórico de los microprocesadores CISC, ¿cómo se describe la ejecución de operaciones en términos de ciclos de reloj?",
-    [
-        "a) Cada operación requería múltiples ciclos de reloj.",
-        "b) Todas las operaciones se podían realizar en un solo ciclo de reloj.",
-        "c) Los ciclos de reloj eran irrelevantes para la ejecución de operaciones.",
-        "d) Solo las operaciones complejas necesitaban más de un ciclo de reloj.",
+        "a) Solo en computadoras Windows.",
+        "b) Exclusivamente en computadoras Apple, como MacBooks e iMacs.",
+        "c) En todos los dispositivos electrónicos, independientemente de la marca.",
+        "d) Principalmente en computadoras de escritorio.",
     ],
     "b"
 ),
 (
-    "Con el tiempo, ¿qué sucedió con la velocidad de la memoria en comparación con la unidad de control en los microprocesadores CISC?",
+    "¿Cuáles son las capacidades de transmisión del conector Thunderbolt?",
     [
-        "a) Permaneció constante.",
-        "b) La velocidad de la memoria siempre fue más lenta.",
-        "c) La unidad de control siempre fue más lenta.",
-        "d) La velocidad de la memoria aumentó e incluso superó a la de la unidad de control.",
-    ],
-    "d"
-),
-(
-    "¿Cómo afectaba el gran número y la complejidad de instrucciones en los microprocesadores CISC a la velocidad de las CPU, según la información proporcionada?",
-    [
-        "a) Aceleraba la velocidad de las CPU.",
-        "b) No tenía impacto en la velocidad de las CPU.",
-        "c) Hacía que las CPU fueran lentas.",
-        "d) Facilitaba la ejecución eficiente de instrucciones.",
+        "a) Solo transmite datos.",
+        "b) Puede transmitir únicamente vídeo y audio, pero no datos.",
+        "c) Tiene la capacidad de transmitir tanto vídeo y audio como datos.",
+        "d) No tiene capacidades de transmisión.",
     ],
     "c"
 ),
 (
-    "Según la información proporcionada, ¿qué evento dio lugar al paso de la arquitectura CISC a RISC?",
+    "¿Quién fue el inventor del conector Thunderbolt?",
     [
-        "a) La mejora continua en la velocidad de la memoria.",
-        "b) La simplificación de las instrucciones CISC.",
-        "c) El aumento en la complejidad de las instrucciones CISC.",
-        "d) Los problemas de velocidad causados por el gran número y complejidad de instrucciones CISC.",
-    ],
-    "d"
-),
-(
-    "¿Cuál es una característica principal de los microprocesadores RISC (Reduced Instruction Set Computer), según la descripción proporcionada?",
-    [
-        "a) Juego de instrucciones muy amplio.",
-        "b) Unidad de control lenta que requiere múltiples ciclos de reloj por instrucción.",
-        "c) Juego de instrucciones muy reducido.",
-        "d) Unidad de control que ejecuta múltiples instrucciones en un solo ciclo de reloj.",
+        "a) Fue desarrollado por Apple.",
+        "b) Fue inventado por Microsoft.",
+        "c) Fue inventado por Intel.",
+        "d) Fue una colaboración entre Apple y Microsoft.",
     ],
     "c"
 ),
 (
-    "¿Cuál es una característica destacada de la unidad de control en los microprocesadores RISC, según la descripción?",
+    "¿Cuál es la principal razón de la velocidad del conector Thunderbolt?",
     [
-        "a) Requiere múltiples ciclos de reloj por instrucción.",
-        "b) Ejecuta instrucciones en varios ciclos de reloj.",
-        "c) Es lenta y tiene un juego de instrucciones complejo.",
-        "d) Puede ejecutar una instrucción en un solo ciclo de reloj.",
-    ],
-    "d"
-),
-(
-    "¿Cuál es una diferencia clave entre las arquitecturas RISC y CISC, según la información proporcionada?",
-    [
-        "a) Las instrucciones en RISC son más complejas que en CISC.",
-        "b) La velocidad total del sistema es mayor en CISC que en RISC.",
-        "c) Una instrucción CISC puede transformarse en varias RISC, y aún así, la velocidad total del sistema es mayor en RISC.",
-        "d) La mayoría de las instrucciones en RISC son complejas, mientras que en CISC son simples.",
-    ],
-    "c"
-),
-(
-    "Según la información proporcionada, ¿cuál es una característica común de la mayoría de las instrucciones en una CPU, en contraste entre RISC y CISC?",
-    [
-        "a) La mayoría de las instrucciones en RISC son complejas.",
-        "b) La mayoría de las instrucciones en CISC son complejas.",
-        "c) La mayoría de las instrucciones en ambas arquitecturas son complejas.",
-        "d) La mayoría de las instrucciones que se ejecutan en una CPU son simples y no complejas.",
-    ],
-    "d"
-),
-(
-    "¿Cómo se describe la memoria que alberga la CPU, según la información proporcionada?",
-    [
-        "c) Está formada por instrucciones complejas.",
-        "b) Está compuesta por una unidad de control rápida.",
-        "a) Está formada por una serie de celdillas o biestables con 2 estados (0 ó 1).",
-        "d) Está compuesta por instrucciones simples y directas.",
+        "c) Su conexión inalámbrica.",
+        "b) La transmisión de pulsos eléctricos.",
+        "a) Su conexión óptica, transmitiendo datos por pulsos de luz en lugar de pulsos eléctricos.",
+        "d) La colaboración entre Apple e Intel.",
     ],
     "a"
 ),
 (
-    "¿Cuál es la función principal de las celdillas o biestables en la memoria de la CPU, según la información proporcionada?",
+    "¿Qué tipo de periféricos pueden conectarse generalmente al puerto Thunderbolt debido a su velocidad?",
     [
-        "a) Almacenar instrucciones complejas.",
-        "b) Almacenar instrucciones simples y directas.",
-        "c) Albergar múltiples bits de información.",
-        "d) Almacenar un bit, siendo el elemento básico de información.",
+        "a) Únicamente dispositivos de baja velocidad.",
+        "b) Exclusivamente dispositivos inalámbricos.",
+        "c) Cualquier periférico, pero generalmente está diseñado para dispositivos rápidos como monitores de alta definición y discos duros externos.",
+        "d) Solo dispositivos de Apple.",
+    ],
+    "c"
+),
+(
+    "¿Cuántos dispositivos se pueden conectar en cadena al puerto Thunderbolt en serie?",
+    [
+        "a) Hasta tres dispositivos.",
+        "b) Hasta cuatro dispositivos.",
+        "c) Hasta cinco dispositivos.",
+        "d) Hasta seis dispositivos.",
     ],
     "d"
 ),
 (
-    "Según la información proporcionada, ¿cuáles son los dos valores posibles que pueden tener los bits en la memoria de la CPU?",
+    "¿Puede un portátil acceder a un disco duro externo incluso si este no está conectado directamente a él, sino de forma indirecta a través de la cadena de dispositivos Thunderbolt?",
     [
-        "a) 0 y 2.",
-        "b) 1 y 3.",
-        "c) 0 y 1: Ausencia o presencia de energía.",
-        "d) Ninguna de las anteriores.",
+        "a) No, la conexión indirecta impide el acceso al disco duro externo.",
+        "b) Sí, el portátil puede acceder al disco duro externo aunque esté conectado indirectamente a través de Thunderbolt.",
+        "c) Solo si el disco duro externo está conectado directamente al portátil.",
+        "d) Depende del tipo de portátil utilizado.",
+    ],
+    "b"
+),
+(
+    "¿Cuántas veces más rápido es el puerto Thunderbolt en comparación con el puerto USB 3.0 al trabajar con dos canales simultáneos?",
+    [
+        "a) Dos veces más rápido.",
+        "b) Tres veces más rápido.",
+        "c) Cuatro veces más rápido.",
+        "d) Cinco veces más rápido.",
     ],
     "c"
 ),
 (
-    "Según la información proporcionada, ¿cómo se accede a un conjunto de celdillas o biestables en la memoria de la CPU?",
+    "En una placa base típica, ¿cuáles son las funciones de las entradas de color verde, azul y rosa en los conectores de sonido?",
     [
-        "a) A través de instrucciones complejas.",
-        "b) Directamente desde la unidad de control.",
-        "c) Mediante un conjunto de direcciones.",
-        "d) Accediendo individualmente a cada celdilla.",
-    ],
-    "c"
-),
-(
-    "Según la información proporcionada, ¿cuáles son los modos de acceso posibles a la memoria en la CPU?",
-    [
-        "a) Solo en modo lectura.",
-        "b) Solo en modo escritura.",
-        "c) Accesos solo directos desde la unidad de control.",
-        "d) Accesos en modo lectura y escritura.",
+        "a) Verde: Entrada de línea. Azul: Salida de línea. Rosa: Micrófono.",
+        "b) Verde: Micrófono. Azul: Altavoces. Rosa: Salida de línea.",
+        "d) Verde: Salida de línea. Azul: Entrada de línea. Rosa: Micrófono.",
+        "c) Verde: Salida de línea. Azul: Micrófono. Rosa: Entrada de línea.",
     ],
     "d"
 ),
 (
-    "¿Cuál es la función principal de las celdillas o biestables en la memoria de la CPU, según la información proporcionada?",
+    "¿Qué función comúnmente realiza un jack de sonido externo en la mayoría de los dispositivos?",
     [
-        "a) Solo almacenan datos.",
-        "b) Solo almacenan instrucciones.",
-        "c) Almacenan tanto datos como instrucciones de la máquina.",
-        "d) No tienen una función específica.",
-    ],
-    "c"
-),
-(
-    "Según la información proporcionada, ¿cómo se agrupan las instrucciones en la CPU?",
-    [
-        "a) Las instrucciones no se agrupan.",
-        "b) Se agrupan por la velocidad de ejecución.",
-        "c) Se agrupan por la complejidad.",
-        "d) Se agrupan en programas.",
+        "a) Solo funciona como salida de línea para altavoces.",
+        "b) Hace exclusivamente las funciones de entrada de micrófono.",
+        "c) Tiene solo funciones de entrada de línea.",
+        "d) Normalmente actúa como salida de línea y a veces también como entrada de micrófono.",
     ],
     "d"
 ),
 (
-    "¿Cómo se describe un programa, según la información proporcionada?",
+    "En placas con sistema de sonido 5.1 envolvente, ¿cuáles son las funciones de los conectores de color gris, negro y naranja?",
     [
-        "a) Un programa es un conjunto de instrucciones desordenadas.",
-        "b) Un programa se organiza por la complejidad de las instrucciones.",
-        "c) Un programa es un conjunto de instrucciones almacenadas de forma secuencial.",
-        "d) Un programa se ejecuta simultáneamente en múltiples ciclos de reloj.",
-    ],
-    "c"
-),
-(
-    "Según la información proporcionada, ¿dónde están almacenados los programas?",
-    [
-        "a) En la unidad de control.",
-        "b) En la memoria secundaria.",
-        "c) En la memoria caché.",
-        "d) En la memoria principal.",
+        "a) Gris: Micrófono. Negro: Salida de línea para altavoces delanteros. Naranja: Entrada de línea.",
+        "b) Gris: Salida de línea para altavoces delanteros. Negro: Salida de línea para altavoces traseros. Naranja: Salida de línea para subwoofer o altavoz central.",
+        "c) Gris: Entrada de línea. Negro: Salida de línea para altavoces delanteros. Naranja: Salida de línea para altavoces traseros.",
+        "d) Gris: Salida de línea para altavoces delanteros. Negro: Salida de línea para altavoces traseros. Naranja: Salida de línea para el subwoofer (subgrave) o altavoz central.",
     ],
     "d"
 ),
 (
-    "Según la información proporcionada, ¿dónde residen los datos de los programas y cómo se accede a ellos?",
+    "¿Cuál de los siguientes enunciados describe correctamente al puerto VGA?",
     [
-        "a) Los datos residen en la memoria secundaria y se accede directamente desde la unidad de control.",
-        "b) Los datos residen en la memoria caché y se accede directamente desde la unidad aritmética.",
-        "c) Los datos residen en la memoria principal y se accede cuando sea necesario, ya sea en modo escritura o lectura.",
-        "d) Los datos residen en la unidad de control y se accede simultáneamente con la ejecución de instrucciones.",
+        "a) Es el más reciente de todos los puertos de monitor.",
+        "b) Tiene conexiones digitales y es similar al HDMI.",
+        "c) Es el más antiguo de todos, con 15 pines, y utiliza una señal analógica.",
+        "d) Tiene un conector de color azul y solo puede usarse con monitores antiguos.",
     ],
     "c"
 ),
 (
-    "¿Cómo se denomina comúnmente la memoria que se describe como 'Random Access Memory' en inglés y 'memoria de acceso aleatorio' en castellano?",
+    "¿Cuáles son las características principales del puerto VGA (Video Graphics Array)?",
     [
-        "a) ROM (Read-Only Memory).",
-        "b) Flash Memory.",
-        "c) Cache Memory.",
-        "d) RAM (Random Access Memory).",
+        "a) Es el más reciente de todos, con conexiones digitales y un conector azul.",
+        "b) Tiene 15 pines, es analógico, y su conector es normalmente de color azul.",
+        "c) Es un puerto exclusivamente digital similar al HDMI.",
+        "d) Utiliza una conexión USB y es compatible solo con monitores modernos.",
     ],
-    "d"
+    "b"
 ),
 (
-    "Según la información proporcionada, ¿cómo se describe la estructura de la memoria RAM?",
+    "¿Cuál de las siguientes afirmaciones describe correctamente al conector DVI (Digital Visual Interface)?",
     [
-        "a) Consiste en un único bloque continuo de almacenamiento.",
-        "b) Está formada por clusters interconectados.",
-        "c) Se compone de una serie de celdas.",
-        "d) Está organizada en capas jerárquicas.",
-    ],
-    "c"
-),
-(
-    "Según la información proporcionada, ¿cómo se describen las características de las celdas en la memoria RAM?",
-    [
-        "a) Cada celda contiene instrucciones complejas.",
-        "b) Cada celda almacena datos en formato de texto.",
-        "c) Cada celda contiene una serie de bits o celdillas.",
-        "d) Cada celda almacena únicamente el valor '1'.",
+        "a) Es un conector analógico con mejor calidad que el VGA.",
+        "b) Todos los monitores actuales son analógicos, por lo que el DVI es necesario para la conversión digital-analógica.",
+        "c) Es un conector digital diseñado para obtener mejor calidad en monitores digitales, y su color normalmente es blanco.",
+        "d) Su diseño permite realizar la conversión digital-analógica sin pérdida de calidad en la imagen.",
     ],
     "c"
 ),
 (
-    "Según la información proporcionada, ¿qué valores puede almacenar cada bit en una celda de la memoria RAM?",
+    "¿Cuál es la característica principal del conector DVI (Digital Visual Interface) en términos de su señal?",
     [
-        "a) Puede almacenar los valores '0' y '1'.",
-        "b) Solo el valor '1'.",
-        "c) Puede almacenar el valor '0', '1', o nada.",
-        "d) Solo valores numéricos enteros.",
+        "a) Es un conector analógico.",
+        "b) Es un conector híbrido que admite tanto señales analógicas como digitales.",
+        "c) Es un conector digital.",
+        "d) Es un conector exclusivamente analógico.",
     ],
     "c"
 ),
 (
-    "Según la información proporcionada, ¿cuál es la relación entre celdas, biestables y bytes en la memoria RAM?",
+    "¿Cómo se compara la calidad del conector DVI con el conector VGA?",
     [
-        "a) 1 celda = 1 byte = 1 bit.",
-        "b) 1 celda = 8 bytes = 1 bit.",
-        "c) 1 celda = 1 byte = 8 bits.",
-        "d) 1 celda = 1 bit = 1 byte.",
+        "a) El conector DVI tiene menor calidad que el VGA.",
+        "b) La calidad es similar entre ambos conectores.",
+        "c) El conector DVI obtiene mejor calidad que el VGA.",
+        "d) No hay diferencia de calidad entre ambos conectores.",
     ],
     "c"
 ),
 (
-    "Según la información proporcionada, ¿cómo se describe la ubicación de las celdas en la memoria RAM?",
+    "¿Cómo se compara la calidad del conector DVI con el conector VGA?",
     [
-        "c) Las celdas no tienen una dirección específica.",
-        "b) Cada celda tiene múltiples direcciones.",
-        "a) Tienen una dirección determinada.",
-        "d) La dirección de las celdas es variable.",
+        "c) El conector DVI tiene menor calidad que el VGA.",
+        "b) La calidad es similar entre ambos conectores.",
+        "a) El conector DVI obtiene mejor calidad que el VGA.",
+        "d) Depende del fabricante.",
     ],
     "a"
 ),
 (
-    "Según la información proporcionada, ¿cuál es la unidad mínima de memoria que puede leerse o escribirse de forma completa?",
+    "¿Por qué se afirma que no tiene sentido realizar la conversión digital-analógica en los monitores actuales al usar el conector DVI?",
     [
-        "a) El bit.",
-        "b) La palabra de memoria.",
-        "c) El biestable.",
-        "d) La celda.",
+        "a) Todos los monitores actuales son exclusivamente analógicos.",
+        "b) La conversión digital-analógica es más eficiente que la conversión analógico-digital.",
+        "c) Todos los monitores actuales son digitales, por lo que no es necesario realizar la conversión digital-analógica.",
+        "d) La conversión analógico-digital es más eficiente que la conversión digital-analógica.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es el objetivo principal del diseño del conector DVI en relación con la calidad de imagen en los monitores digitales?",
+    [
+        "a) Obtener una calidad de imagen inferior en comparación con otros conectores.",
+        "b) Diseñado exclusivamente para monitores analógicos.",
+        "c) Mejorar la calidad de imagen en monitores digitales.",
+        "d) Proporcionar una conexión híbrida para admitir tanto monitores digitales como analógicos.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es el color típicamente asociado con el conector DVI?",
+    [
+        "a) Rojo.",
+        "b) Negro.",
+        "c) Blanco.",
+        "d) Azul.",
+    ],
+    "c"
+),
+(
+    "¿Cuál de las siguientes afirmaciones describe correctamente al conector HDMI (High Definition Multimedia Interface)?",
+    [
+        "a) Es un conector analógico con menor sofisticación que el DVI.",
+        "b) Puede transmitir solo video, no tiene capacidad de audio.",
+        "c) Es un conector digital más sofisticado que el DVI, capaz de transmitir video y sonido.",
+        "d) Tiene una velocidad de transmisión de hasta 1Gbps.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es la principal característica del conector HDMI (High Definition Multimedia Interface)?",
+    [
+        "a) Es un conector analógico.",
+        "b) Puede transmitir solo video, no tiene capacidad de audio.",
+        "c) Es un conector digital más sofisticado que el DVI, capaz de transmitir video y sonido.",
+        "d) Tiene una velocidad de transmisión de hasta 10Gbps.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es la naturaleza principal del conector HDMI (High Definition Multimedia Interface)?",
+    [
+        "a) Es un conector analógico.",
+        "c) Es un conector híbrido que admite señales analógicas y digitales.",
+        "b) Es un conector digital.",
+        "d) Puede transmitir solo audio, no tiene capacidad de video.",
+    ],
+    "b"
+),
+(
+    "¿Cuál es la velocidad máxima de transmisión de video y sonido que puede alcanzar el conector HDMI?",
+    [
+        "a) Hasta 1Gbps.",
+        "b) Hasta 2.5Gbps.",
+        "c) Hasta 5Gbps.",
+        "d) Hasta 10Gbps.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es la función principal del conector ATX en una computadora?",
+    [
+        "a) Conectar discos duros y unidades SSD a la placa base.",
+        "b) Suministrar energía a la placa base.",
+        "c) Proporcionar energía al procesador.",
+        "d) Conectar dispositivos de almacenamiento a la fuente de alimentación.",
+    ],
+    "b"
+),
+(
+    "¿Cuántos pines tiene el conector ATX utilizado para suministrar energía a la placa base?",
+    [
+        "a) 12 pines.",
+        "b) 20 pines.",
+        "c) 24 pines.",
+        "d) 30 pines.",
+    ],
+    "c"
+),
+(
+    "¿Cómo se establece la conexión física entre la placa base y la fuente de alimentación mediante el conector ATX?",
+    [
+        "a) Ambos tienen conectores ATX hembra.",
+        "c) Ambos tienen conectores ATX macho.",
+        "b) La placa base tiene un conector ATX hembra, mientras que la fuente de alimentación tiene un conector ATX macho.",
+        "d) La placa base tiene un conector ATX macho, mientras que la fuente de alimentación tiene un conector ATX hembra.",
+    ],
+    "b"
+),
+(
+    "¿Cuántos pines tiene el conector ATX en la actualidad y cuántos tenía en equipos muy antiguos?",
+    [
+        "a) 20 pines en la actualidad, 24 pines en equipos muy antiguos.",
+        "b) 24 pines en la actualidad, 20 pines en equipos muy antiguos.",
+        "c) 24 pines tanto en la actualidad como en equipos muy antiguos.",
+        "d) 20 pines tanto en la actualidad como en equipos muy antiguos.",
+    ],
+    "b"
+),
+(
+    "¿Cuál es la función principal del conector ATX 12V de 4 y 8 pines en una computadora?",
+    [
+        "a) Conectar discos duros y unidades SSD a la placa base.",
+        "b) Suministrar energía a la placa base.",
+        "c) Proporcionar energía al procesador, con variantes de 4 y 8 pines.",
+        "d) Conectar dispositivos de almacenamiento a la fuente de alimentación.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es la función principal del conector ATX 12V en relación con el procesador?",
+    [
+        "a) Conectar dispositivos de almacenamiento a la placa base.",
+        "b) Suministrar energía a la placa base.",
+        "c) Proporcionar energía al procesador.",
+        "d) Conectar dispositivos externos a la fuente de alimentación.",
+    ],
+    "c"
+),
+(
+    "¿Dónde se encuentra ubicada la clavija hembra del conector ATX 12V en la placa base?",
+    [
+        "a) Lejos del procesador.",
+        "b) En el extremo opuesto de la placa base.",
+        "c) Cercana al procesador.",
+        "d) En la parte superior de la placa base.",
+    ],
+    "c"
+),
+(
+    "¿Cuántas variantes de conectores existen para el conector ATX 12V en términos de cantidad de pines?",
+    [
+        "a) Solo existe una variante de 4 pines.",
+        "b) Solo existe una variante de 8 pines.",
+        "c) Existen variantes de 4 y de 8 pines.",
+        "d) Existen variantes de 6 y de 12 pines.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es la función adicional de los conectores de 8 pines en comparación con los de 4 pines en el conector ATX 12V?",
+    [
+        "a) Proporcionar una conexión más segura.",
+        "b) No hay diferencia en la función entre los conectores de 4 y 8 pines.",
+        "c) Aportar una mayor cantidad de energía al procesador.",
+        "d) Reducir la velocidad del procesador para un mejor rendimiento energético.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es la función principal del puerto SATA en una computadora?",
+    [
+        "a) Conectar dispositivos de sonido a la placa base.",
+        "b) Suministrar energía a la placa base.",
+        "c) Conectar discos duros, unidades SSD y antiguos lectores ópticos a la placa base.",
+        "d) Conectar dispositivos de red a la placa base.",
+    ],
+    "c"
+),
+(
+    "¿Para qué tipo de dispositivos se utilizaban comúnmente los puertos SATA, incluyendo lectores ópticos obsoletos?",
+    [
+        "a) Para dispositivos de impresión.",
+        "b) Para cámaras digitales.",
+        "c) Para conectar discos duros, unidades SSD y lectores ópticos obsoletos a la placa base.",
+        "d) Exclusivamente para dispositivos de red.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es la principal diferencia de velocidad entre los dispositivos NVMe con puerto M.2 y las unidades SSD SATA?",
+    [
+        "a) Los dispositivos NVMe son más lentos que las unidades SSD SATA.",
+        "b) No hay diferencia significativa de velocidad entre ellos.",
+        "c) Los dispositivos NVMe con puerto M.2 son hasta seis veces más rápidos que las unidades SSD SATA.",
+        "d) Los dispositivos NVMe con puerto M.2 son el doble de rápidos que las unidades SSD SATA.",
+    ],
+    "c"
+),
+(
+    "¿Cómo se relaciona el puerto M.2 con los puertos SATA en términos de evolución?",
+    [
+        "a) El puerto M.2 es una versión más antigua que los puertos SATA.",
+        "b) Ambos son tecnologías independientes sin relación alguna.",
+        "c) El puerto M.2 es la evolución de los puertos SATA.",
+        "d) Los puertos SATA son una versión mejorada del puerto M.2.",
+    ],
+    "c"
+),
+(
+    "¿Cómo se relaciona el puerto M.2 con los puertos SATA en términos de evolución?",
+    [
+        "a) El puerto M.2 es una versión más antigua que los puertos SATA.",
+        "b) Ambos son tecnologías independientes sin relación alguna.",
+        "c) El puerto M.2 es la evolución de los puertos SATA.",
+        "d) Los puertos SATA son una versión mejorada del puerto M.2.",
+    ],
+    "c"
+),
+(
+    "¿En qué modo funcionan los dispositivos NVMe con puerto M.2?",
+    [
+        "a) En modo USB.",
+        "b) En modo Thunderbolt.",
+        "d) En modo PCI Express, con una diferencia significativa de velocidad.",
+        "c) En modo SATA, con la misma velocidad que los dispositivos convencionales.",
     ],
     "d"
 ),
 (
-    "Según la información proporcionada, ¿cómo se describe el tiempo que tarda el sistema en leer o escribir en las celdas de la memoria?",
+    "¿Cuánto más rápido puede ser un dispositivo NVMe en comparación con una unidad SSD SATA?",
     [
-        "a) El tiempo varía para cada celda.",
-        "b) El tiempo es diferente para lectura y escritura.",
-        "c) El tiempo es el mismo para cualquiera de las celdas.",
-        "d) El tiempo es más rápido para las celdas en la memoria secundaria.",
+        "a) El doble de rápido.",
+        "b) Cuatro veces más rápido.",
+        "c) Seis veces más rápido.",
+        "d) Diez veces más rápido.",
     ],
     "c"
 ),
 (
-    "Según la información proporcionada, ¿cuántos bits constituyen un byte en cada celda de la memoria RAM?",
+    "¿Cuáles son los dos tipos de conectores para ventiladores que pueden tener las placas base?",
     [
-        "a) 1 bit.",
-        "b) 4 bits.",
-        "c) 8 bits.",
-        "d) 16 bits.",
+        "a) CPU Flan y Cha Flan.",
+        "b) JACK Chan y CPU Chan.",
+        "c) CPU Fan y CHA Fan.",
+        "d) Solo ventiladores controlados por la fuente de alimentación.",
     ],
     "c"
 ),
 (
-    "Según la información proporcionada, ¿cómo se describe la cantidad de celdas y direcciones en esta memoria?",
+    "¿Cómo se describen comúnmente los conectores CPU Fan en términos de pines y funcionalidad?",
     [
-        "a) La memoria tiene N celdas y 2N direcciones.",
-        "c) La memoria tiene 2N celdas y N direcciones.",
-        "b) La memoria tiene 2N-1 celdas y cada una con una dirección en memoria.",
-        "d) La memoria tiene N-1 celdas y 2N direcciones.",
+        "a) Conectores de 2 pines sin control de velocidad.",
+        "b) Conectores de 3 pines con control de velocidad.",
+        "c) Conectores de 4 pines con opción PWM de control de velocidad.",
+        "d) Conectores de 4 pines sin opción de control de velocidad.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es la principal ventaja de la opción PWM de control de velocidad en los conectores CPU Fan?",
+    [
+        "a) No afecta la velocidad del ventilador.",
+        "b) Adaptar la velocidad del ventilador al rendimiento del disco duro.",
+        "c) Adaptar la velocidad del ventilador al rendimiento del microprocesador.",
+        "d) Controlar la velocidad del ventilador automáticamente sin intervención del usuario.",
+    ],
+    "c"
+),
+(
+    "¿Cómo se describe el conector CHA Fan en términos de su conexión y control?",
+    [
+        "a) Es un conector obligatorio para todos los ventiladores en la placa base.",
+        "b) Es un conector opcional que controla automáticamente la velocidad de los ventiladores.",
+        "c) Es un conector opcional utilizado para conectar y controlar ventiladores por la placa base.",
+        "d) Es un conector reservado exclusivamente para ventiladores de la CPU.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es la función principal de los puertos USB externos en las cajas de computadoras?",
+    [
+        "a) Controlar la velocidad del procesador.",
+        "b) Permitir la expansión de posibilidades de conexión externa.",
+        "c) Facilitar la conexión de dispositivos de sonido.",
+        "d) Exclusivamente para la conexión de unidades de disco duro externas.",
     ],
     "b"
 ),
 (
-    "Según la información proporcionada, ¿cómo se expresa la dirección de una celda de memoria y qué indica?",
+    "¿Cuál es el propósito principal de los puertos externos en las cajas de computadoras, además de la placa base?",
     [
-        "a) Se expresa con un número decimal e indica el contenido de la celda.",
-        "b) Se expresa con un número hexadecimal e indica la posición en la memoria.",
-        "c) Se expresa con un número binario e indica en qué lugar se encuentran los datos.",
-        "d) La dirección de una celda no se expresa numéricamente.",
+        "a) Mejorar la velocidad de la memoria RAM.",
+        "b) Facilitar la conexión de dispositivos de red.",
+        "c) Permitir al equipo más posibilidades de expansión.",
+        "d) Exclusivamente para la conexión de monitores externos.",
     ],
     "c"
 ),
 (
-    "Según la información proporcionada, ¿cómo se describe el contenido de una celda de memoria?",
+    "¿Por qué en ocasiones los puertos externos en las cajas de computadoras son más accesibles para dispositivos como pendrives o tarjetas de memoria?",
     [
-        "a) Es siempre un número decimal.",
-        "b) Es una cadena de texto que indica la función de la celda.",
-        "c) Se trata del contenido que hay en una dirección de memoria.",
-        "d) La memoria no tiene un contenido específico.",
-    ],
-    "c"
-),
-(
-    "Según la información proporcionada, ¿cómo se diferencia la dirección de una celda de su contenido?",
-    [
-        "a) La dirección y el contenido son siempre iguales.",
-        "b) La dirección se expresa en binario y el contenido en decimal.",
-        "c) La dirección se expresa en hexadecimal y el contenido en binario.",
-        "d) No hay una relación directa entre la dirección de una celda y su contenido.",
+        "a) Porque solo admiten este tipo de dispositivos.",
+        "b) Por razones estéticas.",
+        "c) Para limitar el acceso a dispositivos externos.",
+        "d) Para facilitar la conexión de dispositivos portátiles como pendrives o tarjetas de memoria.",
     ],
     "d"
 ),
 (
-    "En el ejemplo dado de la diapositiva 11, ¿cómo se expresa la dirección de la segunda celda y cuál es su contenido?",
+    "¿Cuál es la función principal de los conectores del Front Panel en una computadora?",
     [
-        "a) Dirección: 1, Contenido: 1 bit.",
-        "b) Dirección: 0000000000000001, Contenido: 1 byte / 8 bits.",
-        "c) Dirección: 2, Contenido: 8 bytes / 64 bits.",
-        "d) Dirección: 0000000000000010, Contenido: 2 bytes / 16 bits.",
+        "a) Controlar la velocidad del procesador.",
+        "c) Permitir la conexión de dispositivos externos.",
+        "b) Conectar cables y botones relacionados con la operación básica de la computadora, como encendido, reinicio y actividad del disco duro.",
+        "d) Exclusivamente para la conexión de dispositivos de audio externos.",
     ],
     "b"
 ),
 (
-    "Según la información proporcionada, ¿cómo afecta el número de bits utilizados para direccionar una celda de memoria a su capacidad?",
+    "¿Cuáles son algunas de las conexiones que se pueden realizar a través de los conectores del Front Panel?",
     [
-        "a) No hay relación entre el número de bits y la capacidad de memoria.",
-        "b) Cuantos más bits se utilicen, menor será la capacidad de memoria.",
-        "c) Cuantos más bits se utilicen, mayor será la capacidad de memoria.",
-        "d) El número de bits no afecta a la capacidad de memoria.",
+        "a) Conectar dispositivos de red externos.",
+        "b) Conectar dispositivos USB externos.",
+        "c) Conectar el cable de encendido, el botón de reset, el LED de actividad del disco duro y el LED de actividad del equipo.",
+        "d) Exclusivamente para la conexión de dispositivos de almacenamiento externos.",
     ],
     "c"
 ),
 (
-    "Según la información proporcionada, ¿cómo se relaciona el número de bits en una dirección de memoria con el espacio de direcciones disponible?",
+    "¿Cuál es la función principal del conector interno PC speaker en una placa base?",
     [
-        "a) Cuantos más bits, menor es el espacio de direcciones.",
-        "b) Cuantos más bits, mayor es el espacio de direcciones.",
-        "c) No hay relación entre el número de bits y el espacio de direcciones.",
-        "d) El espacio de direcciones siempre es igual a 2N.",
+        "a) Reproducir música y sonidos durante el uso normal de la computadora.",
+        "b) Conectar dispositivos de almacenamiento externos.",
+        "c) Permitir la conexión de altavoces externos.",
+        "d) Emitir pitidos durante el arranque para indicar la presencia o ausencia de errores según el POST.",
+    ],
+    "d"
+),
+(
+    "¿Cuál es la finalidad principal del conector interno PC speaker y cómo se utiliza en la placa base?",
+    [
+        "a) Reproducir música durante el uso normal de la computadora.",
+        "b) Emitir pitidos durante el arranque para indicar la presencia o ausencia de errores según el POST.",
+        "c) Conectar altavoces externos para mejorar la calidad del sonido.",
+        "d) Transmitir datos entre la placa base y dispositivos de almacenamiento externos.",
     ],
     "b"
 ),
 (
-    "Según la información proporcionada, ¿cómo se describe el espacio de direcciones con una dirección de memoria de N bits?",
+    "¿Cuándo se utiliza principalmente el speaker conectado al conector interno PC speaker en la placa base?",
     [
-        "a) El espacio de direcciones es siempre igual a 2N.",
-        "b) Cuantos más bits, menor es el espacio de direcciones.",
-        "c) Cuantos más bits, mayor es el espacio de direcciones.",
-        "d) El espacio de direcciones siempre es igual a 2^(2N).",
+        "a) Durante el uso normal de la computadora.",
+        "b) Exclusivamente para reproducir música y sonidos.",
+        "c) Solamente durante el arranque para que el POST avise de la ausencia o presencia de errores.",
+        "d) En situaciones de alta carga de procesamiento para mejorar la calidad del sonido.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es la función principal de los pitidos emitidos por el speaker conectado al conector interno PC speaker durante el arranque?",
+    [
+        "a) Proporcionar un sonido agradable durante el inicio de la computadora.",
+        "b) Indicar errores en el sistema operativo.",
+        "c) Emitir pitidos para realizar diagnósticos de la placa base durante el arranque.",
+        "d) Reproducir música de fondo durante la carga del sistema.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es la función principal de los conectores de sonido interno en una computadora?",
+    [
+        "c) Proporcionar energía a los altavoces externos.",
+        "b) Conectar dispositivos de almacenamiento externos.",
+        "a) Permitir la conexión de entradas y salidas de audio de la caja del equipo.",
+        "d) Exclusivamente para la conexión de micrófonos externos.",
     ],
     "a"
 ),
 (
-    "Según la información proporcionada, ¿cómo se define el tiempo de acceso a la memoria y en qué unidad se suele medir?",
+    "¿Por qué es importante la estructura y el material del chasis en un equipo microinformático?",
     [
-        "a) El tiempo de acceso es el tiempo que tarda la CPU en realizar operaciones de memoria.",
-        "b) El tiempo de acceso es el tiempo que tarda la memoria en hacer operaciones de lectura o escritura.",
-        "c) El tiempo de acceso se mide en milisegundos.",
-        "d) El tiempo de acceso es el tiempo que tarda la memoria en procesar instrucciones de la CPU.",
-    ],
-    "b"
-),
-(
-    "Además, según la información proporcionada, ¿en qué unidad se suele medir el tiempo de acceso a la memoria?",
-    [
-        "a) Milisegundos.",
-        "b) Microsegundos.",
-        "c) Nanosegundos.",
-        "d) Segundos.",
+        "a) Únicamente para mejorar la estética del equipo.",
+        "b) Para proporcionar una mayor capacidad de almacenamiento.",
+        "c) Para amortiguar las vibraciones y prevenir daños mecánicos a componentes como discos duros o lectores ópticos.",
+        "d) Exclusivamente para facilitar el ensamblaje de componentes internos.",
     ],
     "c"
 ),
 (
-    "Según la información proporcionada, ¿cuánto representa un nanosegundo en términos de segundos?",
+    "¿Cuál es la principal razón por la que la estructura y el material de la caja son importantes en un equipo microinformático?",
     [
-        "a) 0.000001 segundos.",
-        "b) 0.000000001 segundos.",
-        "c) 0.00000001 segundos.",
-        "d) 0.0000001 segundos.",
+        "a) Únicamente para mejorar la estética del equipo.",
+        "b) Para proporcionar una mayor capacidad de almacenamiento.",
+        "c) Para prevenir daños mecánicos a componentes como discos duros o lectores ópticos al amortiguar las vibraciones.",
+        "d) Exclusivamente para facilitar el transporte del equipo.",
+    ],
+    "c"
+),
+(
+    "¿Cuáles son los materiales comunes utilizados en la fabricación de las cajas de equipos microinformáticos?",
+    [
+        "a) Exclusivamente chapa troquelada.",
+        "b) Chapa troquelada y plástico en el frontal.",
+        "c) Únicamente aluminio.",
+        "d) Aluminio y plástico en el frontal.",
     ],
     "b"
 ),
 (
-    "En los discos duros, según la información proporcionada, ¿cómo se mide el tiempo de acceso y en qué unidad?",
+    "¿Cuál es una característica principal de la chapa troquelada utilizada en las cajas de equipos microinformáticos?",
     [
-        "a) Se mide en nanosegundos.",
-        "b) Se mide en milisegundos.",
-        "c) Se mide en microsegundos.",
-        "d) Se mide en picosegundos.",
+        "a) Ofrece una gran rigidez y resistencia.",
+        "b) Es un material costoso pero muy liviano.",
+        "c) Proporciona mucha rigidez y es económico.",
+        "d) No es adecuada para la fabricación de cajas debido a su fragilidad.",
     ],
-    "b"
+    "c"
 ),
 (
-    "En los discos duros, según la información proporcionada, ¿cómo se mide el tiempo de acceso y en qué unidad?",
+    "¿Cuáles son las ventajas de las cajas de aluminio en comparación con las de chapa troquelada?",
     [
-        "a) Se mide en nanosegundos.",
-        "b) Se mide en milisegundos.",
-        "c) Se mide en microsegundos.",
-        "d) Se mide en picosegundos.",
+        "a) Son más pesadas pero ofrecen mayor resistencia.",
+        "b) Son menos rígidas y más costosas.",
+        "c) Son más rígidas y livianas que la chapa troquelada.",
+        "d) Ofrecen la misma rigidez que la chapa troquelada pero a un costo menor.",
     ],
-    "b"
+    "c"
 ),
 (
-    "Según la información proporcionada, ¿cuáles son las dos operaciones principales que se pueden realizar con la memoria?",
+    "¿Cuál es una característica económica de las cajas de aluminio en comparación con otras opciones?",
     [
-        "a) Leer y escribir.",
-        "b) Sumar y restar.",
-        "c) Copiar y pegar.",
-        "d) Borrar y mover.",
+        "c) Son más económicas que las cajas de chapa troquelada.",
+        "b) Tienen un costo similar al de las cajas de plástico.",
+        "a) Son más caras en comparación con otras opciones.",
+        "d) Ofrecen una excelente relación calidad-precio.",
     ],
     "a"
 ),
 (
-    "Según la información proporcionada, ¿qué implica la operación de lectura en la memoria?",
+    "¿Cuáles son algunos de los formatos más usuales de cajas de equipos microinformáticos?",
     [
-        "a) Modificar el valor de una celda de memoria.",
-        "b) Obtener el contenido de una celda concreta.",
-        "c) Escribir en una dirección de memoria.",
-        "d) Realizar operaciones matemáticas con datos de la memoria.",
-    ],
-    "b"
-),
-(
-    "Según la información proporcionada, ¿qué característica tiene la operación de lectura en relación con el valor de la celda?",
-    [
-        "a) La lectura siempre modifica el valor de la celda.",
-        "b) La lectura no afecta el valor de la celda, que permanece inalterado.",
-        "c) La lectura duplica el valor de la celda.",
-        "d) La lectura borra el contenido de la celda.",
-    ],
-    "b"
-),
-(
-    "Según la información proporcionada, ¿qué implica la operación de almacenamiento en la memoria?",
-    [
-        "a) Obtener el contenido de una celda concreta.",
-        "b) Modificar el valor de una celda de memoria.",
-        "c) Realizar operaciones matemáticas con datos de la memoria.",
-        "d) Duplicar el valor de la celda de memoria.",
-    ],
-    "b"
-),
-(
-    "Según la información proporcionada, ¿cómo se describe la operación de almacenamiento en relación con el contenido de un registro y una celda concreta?",
-    [
-        "a) La operación de almacenamiento no está relacionada con registros.",
-        "b) La operación de almacenamiento duplica el contenido de un registro.",
-        "c) La operación de almacenamiento consiste en volcar el contenido de un registro en una celda concreta.",
-        "d) La operación de almacenamiento borra el contenido de un registro.",
-    ],
-    "c"
-),
-(
-    "Según la información proporcionada, ¿cómo afecta la operación de escritura al valor de la celda en memoria?",
-    [
-        "a) La escritura no tiene ningún efecto en el valor de la celda.",
-        "b) La escritura duplica el valor de la celda.",
-        "c) La escritura modifica el valor de la celda.",
-        "d) La escritura solo borra el contenido de la celda.",
-    ],
-    "c"
-),
-(
-    "¿Cómo funciona la operación de lectura -dirección-?",
-    [
-        "a) Se decodifica la dirección, se carga la dirección en el registro de direcciones y se copia el contenido de la celda de memoria en el registro de datos.",
-        "b) Se copia el contenido de la celda de memoria en el registro de datos, se carga la dirección en el registro de direcciones y se decodifica la dirección.",
-        "d) Se carga la dirección en el registro de direcciones, se decodifica la dirección y se copia el contenido de la celda de memoria en el registro de datos.",
-        "c) Se carga la dirección en el registro de direcciones, se copia el contenido de la celda de memoria en el registro de datos y se decodifica la dirección.",
+        "a) Mini, Micro y Mega.",
+        "b) Pequeño, Mediano y Grande.",
+        "c) Estándar, Pequeño y Grande.",
+        "d) Formato estándar, Formato más pequeño y Formato grande.",
     ],
     "d"
 ),
 (
-    "¿Cómo funciona la operación de escritura -dirección, valor-?",
+    "¿Cuáles son las principales ventajas de las cajas ATX y micro-ATX en comparación con otros formatos?",
     [
-        "a) Se decodifica la dirección, se carga la dirección en el registro de direcciones, se carga el valor en el registro de datos y se copia el contenido del registro de datos en la celda de memoria seleccionada.",
-        "b) Se copia el contenido del registro de datos en la celda de memoria seleccionada, se carga la dirección en el registro de direcciones, se carga el valor en el registro de datos y se decodifica la dirección.",
-        "c) Se carga la dirección en el registro de direcciones, se carga el valor en el registro de datos, se decodifica la dirección y se copia el contenido del registro de datos en la celda de memoria seleccionada.",
-        "d) Se carga la dirección en el registro de direcciones, se decodifica la dirección, se carga el valor en el registro de datos y se copia el contenido del registro de datos en la celda de memoria seleccionada.",
+        "a) Son menos comunes y difíciles de encontrar.",
+        "b) Pueden albergar una variedad de formatos de placa base, incluyendo ATX y micro-ATX.",
+        "c) Ocupan más espacio pero son más fáciles de mantener.",
+        "d) Tienen una fuente de alimentación complicada de reemplazar.",
+    ],
+    "b"
+),
+(
+    "¿Cuáles son los formatos de cajas más utilizados en formato estándar?",
+    [
+        "a) Formatos Mini y Mega.",
+        "b) Cajas estándar y especializadas.",
+        "c) Cajas ATX y micro-ATX.",
+        "d) Formatos Pequeño y Grande.",
     ],
     "c"
 ),
 (
-    "Según la información proporcionada, ¿cuál es la función principal del subsistema de entrada/salida en un sistema informático?",
+    "¿Cuál es una de las principales ventajas de las cajas ATX y micro-ATX?",
     [
-        "a) Controlar las operaciones de la CPU.",
-        "b) Gestionar el sistema de memoria.",
-        "c) Permitir al sistema comunicarse con dispositivos externos como pantallas, teclados e impresoras.",
-        "d) Realizar operaciones matemáticas.",
+        "a) Son más pesadas y robustas.",
+        "b) Tienen un diseño más moderno.",
+        "c) Pueden albergar una variedad de formatos de placa base, incluyendo ATX y micro-ATX.",
+        "d) Son más económicas pero menos versátiles.",
     ],
     "c"
 ),
 (
-    "Según la información proporcionada, ¿qué función realiza el subsistema de entrada/salida en relación con los dispositivos externos?",
+    "¿Cuál es una de las consideraciones al elegir cajas micro-ATX en términos de la fuente de alimentación?",
     [
-        "a) Realizar operaciones matemáticas con dispositivos externos.",
-        "b) Controlar las operaciones de la CPU.",
-        "c) Gestionar el sistema de memoria.",
-        "d) Controlar los dispositivos que permiten al sistema comunicarse con el exterior, como pantalla, teclado, impresora y ratón.",
+        "a) Siempre utilizan fuentes de alimentación ATX.",
+        "b) Tienen una fuente de alimentación más fácil de reemplazar que las cajas ATX.",
+        "c) Ocupan menos espacio pero pueden tener una fuente de alimentación complicada de reemplazar.",
+        "d) No son compatibles con fuentes de alimentación ATX.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es el formato más pequeño de cajas de equipos microinformáticos?",
+    [
+        "a) Micro-ATX.",
+        "b) Mini-ITX.",
+        "c) Mega-ATX.",
+        "d) Nano-ATX.",
+    ],
+    "b"
+),
+(
+    "¿Qué tipo de placas base suelen soportar las cajas mini-ITX, y cuál es una característica común de estas cajas?",
+    [
+        "a) Suelen soportar placas base ATX, y tienen una fuente de alimentación de alta potencia.",
+        "b) Suelen soportar placas base Mini-ATX, y tienen una fuente de alimentación de alta potencia.",
+        "c) Suelen soportar placas base micro-ATX, y tienen una fuente de alimentación de alta potencia.",
+        "d) Suelen soportar placas base mini-ITX, y tienen una fuente de alimentación de poca potencia.",
     ],
     "d"
 ),
 (
-    "Según la información proporcionada, ¿qué función cumple el subsistema de entrada/salida en relación con el almacenamiento de información en dispositivos secundarios como discos duros?",
+    "¿Cuál es uno de los motivos comunes para elegir cajas mini-ITX?",
     [
-        "a) Controlar las operaciones de la CPU en dispositivos de almacenamiento secundario.",
-        "b) Realizar operaciones matemáticas en dispositivos de almacenamiento secundario.",
-        "c) Gestionar el sistema de memoria para dispositivos de almacenamiento secundario.",
-        "d) Permitir al sistema almacenar información en dispositivos de almacenamiento secundario como discos duros.",
+        "a) Para tener una fuente de alimentación de alta potencia.",
+        "b) Para soportar placas base ATX.",
+        "c) Para facilitar el montaje de unidades ópticas.",
+        "d) Para lograr un formato reducido, siendo compatibles con placas base mini-ITX.",
     ],
     "d"
 ),
 (
-    "¿Cuál es la función principal de la ALU (Unidad Aritmético-Lógica) en un sistema informático?",
+    "¿Cuál es una característica típica de la fuente de alimentación en las cajas mini-ITX?",
     [
-        "a) Gestionar el sistema de memoria.",
-        "b) Controlar dispositivos de entrada/salida.",
-        "c) Realizar operaciones aritméticas y lógicas como sumas, restas, comparaciones y operaciones lógicas.",
-        "d) Decodificar direcciones de memoria.",
+        "a) Tienen una fuente de alimentación de alta potencia.",
+        "b) Utilizan fuentes de alimentación ATX estándar.",
+        "c) Suelen tener una fuente de alimentación de poca potencia, alrededor de 15 vatios.",
+        "d) Son compatibles únicamente con fuentes de alimentación de más de 500 vatios.",
     ],
     "c"
 ),
 (
-    "Según la información proporcionada, ¿cómo está estructurada la ALU (Unidad Aritmético-Lógica)?",
+    "¿Cuál es una ventaja de algunos modelos de cajas mini-ITX?",
     [
-        "a) Solo consiste en un conjunto de registros que almacenan resultados intermedios.",
-        "c) Consiste únicamente en un conjunto de circuitos para realizar operaciones.",
-        "b) Está compuesta por un conjunto de circuitos para realizar operaciones y una serie de registros que almacenan resultados intermedios.",
-        "d) Su estructura se basa en la gestión del sistema de memoria.",
-    ],
-    "b"
-),
-(
-    "Según la información proporcionada, ¿por qué la ALU (Unidad Aritmético-Lógica) necesita un BUS?",
-    [
-        "a) Para gestionar el sistema de memoria.",
-        "b) Para realizar operaciones aritméticas y lógicas.",
-        "c) Únicamente para almacenar resultados intermedios en los registros.",
-        "d) Para interconectar los registros con la circuitería que realiza las operaciones.",
+        "a) Son más pesados que otras cajas, lo que mejora su estabilidad.",
+        "b) No permiten el montaje en la parte trasera del monitor.",
+        "c) Tienen un diseño exclusivo que no se adapta a la mayoría de los entornos de trabajo.",
+        "d) Se pueden atornillar en la parte trasera del monitor, liberando espacio en el área de trabajo.",
     ],
     "d"
 ),
 (
-    "¿Cuántos operandos puede tomar la ALU (Unidad Aritmético-Lógica) y qué tipo de operaciones puede realizar?",
+    "¿Cuál es una característica de las cajas picoITX?",
     [
-        "a) Toma un único operando y realiza operaciones aritméticas únicamente.",
-        "b) Toma hasta dos operandos y realiza operaciones aritméticas y lógicas.",
-        "c) Puede tomar operandos ilimitados y realiza operaciones aritméticas y lógicas.",
-        "d) No puede procesar operandos, solo realiza operaciones de memoria.",
-    ],
-    "b"
-),
-(
-    "Según la información proporcionada, ¿dónde suele almacenar la ALU (Unidad Aritmético-Lógica) el resultado de las operaciones?",
-    [
-        "a) En una memoria secundaria.",
-        "b) En un registro llamado acumulador (ACC).",
-        "c) En un conjunto de registros intermedios.",
-        "d) No almacena resultados, solo realiza operaciones en tiempo real.",
-    ],
-    "b"
-),
-(
-    "Según la información proporcionada, ¿cuál es la función principal de la Unidad de Control en un sistema informático?",
-    [
-        "a) Realizar operaciones aritméticas y lógicas.",
-        "b) Gestionar el sistema de memoria.",
-        "c) Almacenar resultados en registros.",
-        "d) Ejecutar, una a una, las instrucciones de los programas almacenados en memoria.",
+        "a) Son más grandes que las cajas mini-ITX.",
+        "b) Tienen un formato poco común en barebones.",
+        "c) Suelen ser menos eficientes en términos de espacio.",
+        "d) Son cajas mucho más pequeñas y son comunes en barebones.",
     ],
     "d"
 ),
 (
-    "Según la información proporcionada, ¿cómo se define un programa en el contexto de la Unidad de Control?",
+    "¿Qué se entiende por barebone en el contexto de los sistemas informáticos?",
     [
-        "a) Como un conjunto de operaciones aritméticas.",
-        "b) Como un conjunto de registros de memoria.",
-        "c) Como un conjunto de instrucciones almacenadas en memoria.",
-        "d) Como un conjunto de datos procesados por la ALU.",
-    ],
-    "c"
-),
-(
-    "Según la información proporcionada, ¿cómo se denominan las instrucciones que están en binario y son entendidas por la máquina?",
-    [
-        "a) Instrucciones de bajo nivel.",
-        "b) Instrucciones de ensamblador.",
-        "c) Instrucciones máquina.",
-        "d) Instrucciones de alto nivel.",
-    ],
-    "c"
-),
-(
-    "Según la información proporcionada, ¿cuál es el papel principal de la Unidad de Control en relación con las instrucciones?",
-    [
-        "a) Almacenar instrucciones en memoria.",
-        "b) Ejecutar operaciones aritméticas.",
-        "c) Gestionar registros de memoria.",
-        "d) Ir ejecutando, una a una, las instrucciones almacenadas en memoria.",
+        "a) Un sistema completamente ensamblado y listo para usar.",
+        "b) Una caja de computadora sin componentes internos.",
+        "c) Un PC completamente construido con todos los componentes necesarios.",
+        "d) Un PC parcialmente construido, con los mínimos componentes imprescindibles (caja + fuente de alimentación + placa base).",
     ],
     "d"
 ),
 (
-    "¿Cuáles son los pasos que la Unidad de Control sigue para ejecutar una instrucción, según la información proporcionada?",
+    "En el contexto de barebones, ¿qué aspecto es responsabilidad del usuario?",
     [
-        "a) 1. Ejecutar la instrucción, 2. Leer la instrucción de memoria, 3. Decodificarla., 4. Continuar ejecutando instrucciones hasta que se encuentre con una instrucción de fin.",
-        "b) 1. Leer la instrucción de memoria, 2. Decodificarla, 3. Ejecutarla., 4. Continuar ejecutando instrucciones hasta que se encuentre con una instrucción de fin.",
-        "c) 1. Decodificarla, 2. Ejecutarla, 3. Leer la instrucción de memoria., 4. Continuar ejecutando instrucciones hasta que se encuentre con una instrucción de fin.",
-        "d) 1. Ejecutarla, 2. Decodificarla, 3. Leer la instrucción de memoria., 4. Continuar ejecutando instrucciones hasta que se encuentre con una instrucción de fin.",
-    ],
-    "b"
-),
-(
-    "Según la información proporcionada, ¿a qué componentes la Unidad de Control envía señales durante la ejecución de instrucciones?",
-    [
-        "a) Solo a la memoria.",
-        "b) Solo a la ALU (Unidad Aritmético-Lógica).",
-        "c) A la ALU, la memoria y el subsistema de entrada/salida.",
-        "d) A la memoria y al subsistema de entrada/salida.",
+        "a) La fabricación de la caja.",
+        "b) La instalación de la fuente de alimentación.",
+        "c) Elegir y ajustar los componentes como CPU, RAM y HDD según sus necesidades.",
+        "d) Configurar el sistema operativo.",
     ],
     "c"
 ),
 (
-    "Según la información proporcionada, ¿cómo se compone una instrucción en lenguaje máquina o binaria?",
+    "¿Cuándo se suelen utilizar las cajas E-ATX o Extended ATX?",
     [
-        "a) Un solo campo que contiene el código de operación.",
-        "b) Dos campos: el código de operación y los valores o direcciones de memoria.",
-        "c) Tres campos: el código de operación, los valores y las direcciones de memoria.",
-        "d) Cuatro campos: el código de operación, los valores, las direcciones de memoria y la descripción de la operación.",
-    ],
-    "b"
-),
-(
-    "Según la información proporcionada, ¿cuál es una de las razones clave para el éxito de la informática móvil?",
-    [
-        "a) La conexión a plataformas en la nube.",
-        "b) La mejora en la productividad.",
-        "c) La potencia de los microprocesadores (SoC) para pequeños dispositivos.",
-        "d) La adopción de la arquitectura x86 desde 1978.",
+        "a) En sistemas compactos y de formato reducido.",
+        "b) Principalmente en computadoras personales de uso diario.",
+        "c) En servidores o en situaciones donde se necesita mucho espacio.",
+        "d) Exclusivamente en equipos de juegos.",
     ],
     "c"
 ),
 (
-    "Según la información proporcionada, ¿qué aspectos contribuyen a hacer de la informática móvil una nueva forma de trabajo?",
+    "¿Cuándo se suelen utilizar las cajas E-ATX o Extended ATX?",
     [
-        "a) La potencia de cálculo y la adopción de la arquitectura x86.",
-        "b) La mejora en la productividad y la conexión a plataformas en la nube.",
-        "c) La potencia de cálculo y la irrupción de smartphones y tabletas.",
-        "d) La adopción de la arquitectura ARM y la mejora en el servicio al cliente.",
-    ],
-    "b"
-),
-(
-    "Según la información proporcionada, ¿cuáles son algunos de los beneficios de la informática móvil?",
-    [
-        "a) Aumento de la potencia de cálculo y mejora en la conexión a plataformas en la nube.",
-        "b) Mejora en la productividad y adopción de la arquitectura x86.",
-        "c) Aumento de la eficiencia y mejora en el servicio al cliente.",
-        "d) Adopción de la arquitectura ARM y mayor capacidad de almacenamiento.",
+        "a) En sistemas compactos y de formato reducido.",
+        "b) Principalmente en computadoras personales de uso diario.",
+        "c) En servidores o en situaciones donde se necesita mucho espacio.",
+        "d) Exclusivamente en equipos de juegos.",
     ],
     "c"
 ),
 (
-    "Según la información proporcionada, ¿cuál es un factor decisivo para el éxito de la informática móvil?",
+    "¿Cuál es una de las ventajas principales de las cajas E-ATX o Extended ATX?",
     [
-        "a) La adopción de la arquitectura x86 en dispositivos móviles.",
-        "b) La conectividad a plataformas en la nube.",
-        "c) La potencia de los nuevos microprocesadores (SoC) para pequeños dispositivos.",
-        "d) La disponibilidad de smartphones y tabletas.",
-    ],
-    "c"
-),
-(
-    "Según la información proporcionada, ¿cuál ha sido un cambio significativo en la arquitectura de microprocesadores debido a la irrupción de smartphones y tabletas?",
-    [
-        "a) La continuación de la arquitectura x86 en dispositivos móviles.",
-        "b) El aumento en la complejidad de la arquitectura x86.",
-        "c) La adopción masiva de la arquitectura ARM en dispositivos móviles.",
-        "d) El uso exclusivo de microprocesadores CISC en smartphones y tabletas.",
-    ],
-    "c"
-),
-(
-    "¿Cuál fue uno de los objetivos principales del diseño inicial de la arquitectura ARM?",
-    [
-        "c) Priorizar la potencia de cálculo y velocidad.",
-        "b) Establecer una arquitectura exclusiva para dispositivos de alta capacidad de procesamiento.",
-        "a) Centrarse en dispositivos de muy poca capacidad de procesamiento y bajo consumo.",
-        "d) Competir directamente con la arquitectura x86 en términos de rendimiento.",
+        "c) Reducción del consumo de energía.",
+        "b) Mayor facilidad de transporte.",
+        "a) Mejora en la ventilación y espacio extra para una ubicación más correcta de los componentes.",
+        "d) Menor costo en comparación con otros tipos de cajas.",
     ],
     "a"
 ),
 (
-    "Según la información proporcionada, ¿qué ventaja ofrece la arquitectura ARM en comparación con x86 en términos de funcionalidades adicionales?",
+    "¿Por qué la placa base es considerada un componente fundamental en un sistema informático?",
     [
-        "a) La arquitectura ARM se centra exclusivamente en el procesamiento de datos.",
-        "b) La arquitectura x86 es más eficiente en el procesamiento gráfico.",
-        "c) La arquitectura ARM permite a los microprocesadores gestionar características adicionales como bluetooth, entrada/salida y procesamiento gráfico.",
-        "d) La arquitectura x86 es más eficaz en el manejo de funciones de entrada/salida.",
+        "a) Por su capacidad para almacenar grandes cantidades de datos.",
+        "b) Por su capacidad para procesar información a alta velocidad.",
+        "c) Generalmente, una buena placa base asegura un sistema eficiente.",
+        "d) Por su capacidad para ejecutar software de manera eficiente.",
     ],
     "c"
 ),
 (
-    "¿Cuál de las siguientes afirmaciones es correcta sobre ARM según la información proporcionada?",
+    "¿Cuál es la razón principal por la cual una buena placa base puede asegurar un sistema eficiente?",
     [
-        "a) ARM es una empresa independiente que no está vinculada a ninguna corporación.",
-        "b) ARM fue adquirida por NVIDIA en septiembre de 2020 por 40.000 millones de dólares.",
-        "c) ARM es actualmente propiedad de Intel.",
-        "d) La adquisición de ARM por parte de NVIDIA no ha tenido lugar.",
-    ],
-    "b"
-),
-(
-    "Según la información proporcionada, ¿en qué tipo de dispositivos se puede encontrar actualmente la arquitectura ARM?",
-    [
-        "a) Exclusivamente en ordenadores de alta potencia.",
-        "b) Solo en dispositivos de almacenamiento secundario.",
-        "d) Principalmente en microprocesadores de menor tamaño y bajo consumo, como los de dispositivos de electrónica portátil e integrada.",
-        "c) Únicamente en dispositivos de realidad virtual.",
+        "a) Aumenta la capacidad de almacenamiento.",
+        "b) Mejora la velocidad de procesamiento.",
+        "c) Facilita la conexión de periféricos externos.",
+        "d) Generalmente, una buena placa base asegura un sistema eficiente.",
     ],
     "d"
 ),
 (
-    "¿Dónde se puede encontrar actualmente la arquitectura ARM según la información proporcionada?",
+    "¿Por qué en ocasiones es preferible invertir en una mejor placa base en lugar de un microprocesador más potente?",
     [
-        "a) Exclusivamente en dispositivos de realidad virtual.",
-        "b) Principalmente en microprocesadores de menor tamaño y bajo consumo, como los de dispositivos de electrónica portátil e integrada.",
-        "c) Únicamente en ordenadores de alta potencia.",
-        "d) Solo en dispositivos de almacenamiento secundario.",
-    ],
-    "b"
-),
-(
-    "¿Cuáles son algunas de las características de la arquitectura ARM según la información proporcionada?",
-    [
-        "a) Se encuentra exclusivamente en dispositivos de alta potencia.",
-        "b) Está presente solo en dispositivos de almacenamiento secundario.",
-        "c) Se encuentra en microprocesadores de menor tamaño y bajo consumo, con un coste reducido.",
-        "d) Únicamente se utiliza en ordenadores de escritorio.",
-    ],
-    "c"
-),
-(
-    "¿Cuál es uno de los beneficios de la arquitectura ARM según la información proporcionada?",
-    [
-        "a) Se destaca por su alta potencia de procesamiento.",
-        "b) Está diseñada exclusivamente para aplicaciones de alto rendimiento.",
-        "c) Es ideal para aplicaciones que no requieren mucha potencia.",
-        "d) Solo se utiliza en dispositivos de escritorio.",
-    ],
-    "c"
-),
-(
-    "¿Qué tipo de arquitectura utiliza el microprocesador de los iPhones (AX), según la información proporcionada?",
-    [
-        "a) x86",
-        "b) ARM",
-        "c) RISC",
-        "d) CISC",
-    ],
-    "b"
-),
-(
-    "¿Cuál es la arquitectura comúnmente utilizada en la mayoría de los microprocesadores de los móviles Android?",
-    [
-        "a) x86",
-        "b) ARM",
-        "c) RISC",
-        "d) CISC",
-    ],
-    "b"
-),
-(
-    "¿Cuál es uno de los fabricantes de procesadores comúnmente presentes en los dispositivos móviles, incluyendo muchos de los móviles Android?",
-    [
-        "a) Konami",
-        "b) Qualcomm",
-        "c) Kellogs",
-        "d) SEGA",
-    ],
-    "b"
-),
-(
-    "¿En qué tipo de dispositivos se está empezando a utilizar la arquitectura ARM, incluyendo algunos ordenadores portátiles que ofrecen un rendimiento notable y una duración de batería impresionante?",
-    [
-        "a) Solo en smartphones",
-        "b) Exclusivamente en dispositivos de electrónica portátil",
-        "c) Únicamente en sistemas de entretenimiento",
-        "d) También en ordenadores personales",
-    ],
-    "d"
-),
-(
-    "¿Cuál es una de las ventajas destacadas de los ordenadores portátiles con CPU de arquitectura ARM, cuando se combinan con un sistema operativo adecuado?",
-    [
-        "a) Rendimiento excepcional en tareas de alta demanda",
-        "b) Mayor consumo de energía en comparación con otras arquitecturas",
-        "c) Duración de la batería impresionante",
-        "d) Dependencia total de la conexión a la nube",
-    ],
-    "c"
-),
-(
-    "¿Por qué los procesadores con arquitectura ARM son a menudo considerados ideales para ordenadores orientados al mundo ofimático?",
-    [
-        "a) Mayor complejidad y potencia de cálculo",
-        "b) Baja duración de la batería",
-        "c) Elevado consumo de energía",
-        "d) Simplicidad y eficiencia energética",
-    ],
-    "d"
-),
-(
-    "¿Cuál fue la principal razón para que Apple migrara de procesadores Intel x86 a sus propios procesadores Apple Silicon basados en la arquitectura ARM?",
-    [
-        "a) Mayor potencia de cálculo de los procesadores ARM",
-        "b) Colaboración estratégica con ARM",
-        "c) Mejor eficiencia energética y rendimiento en tareas específicas",
-        "d) Precio más bajo de los procesadores ARM",
-    ],
-    "c"
-),
-(
-    "¿Cuál es una de las principales ventajas de la arquitectura ARM en dispositivos móviles?",
-    [
-        "a) Mayor potencia de cálculo",
-        "b) Mayor consumo de energía",
-        "c) Tamaño más grande",
-        "d) Bajo consumo de energía y tamaño reducido",
-    ],
-    "d"
-),
-(
-    "¿En qué tipo de dispositivos cotidianos se utilizan microprocesadores con arquitectura ARM?",
-    [
-        "a) Supercomputadoras",
-        "b) Refrigeradores",
-        "c) Ordenadores de a bordo de coches y barcos",
-        "d) Equipos de minería de criptomonedas",
-    ],
-    "c"
-),
-(
-    "¿Cómo se les denomina a los microprocesadores basados en arquitectura ARM que integran en un solo chip funciones como CPU, GPU, controladores de memoria, y otros componentes?",
-    [
-        "c) CPU",
-        "b) GPU",
-        "a) System on a Chip (SoC)",
-        "d) FPGA",
+        "a) La placa base tiene un impacto directo en la velocidad de procesamiento.",
+        "b) Una mejor placa base mejora la capacidad de almacenamiento.",
+        "c) El microprocesador no afecta significativamente el rendimiento del sistema.",
+        "d) Una buena placa base es esencial para la conectividad de periféricos externos.",
     ],
     "a"
 ),
 (
-    "¿Cómo ha evolucionado la capacidad de procesamiento de los System on a Chip (SoC) a lo largo del tiempo?",
+    "¿Por qué en ocasiones es preferible invertir en una mejor placa base en lugar de un microprocesador más potente?",
     [
-        "a) Ha disminuido en términos de rendimiento",
-        "b) Ha permanecido constante sin cambios significativos",
-        "c) Ha aumentado, permitiendo realizar funciones más complejas",
-        "d) No ha experimentado cambios",
-    ],
-    "c"
-),
-(
-    "¿Cómo influye el número de núcleos en la velocidad y capacidad de procesamiento de un System on a Chip (SoC)?",
-    [
-        "a) No tiene ninguna influencia en el rendimiento",
-        "b) Cuantos más núcleos, mayor velocidad y capacidad de procesamiento",
-        "c) Cuantos más núcleos, menor velocidad y capacidad de procesamiento",
-        "d) La velocidad y capacidad de procesamiento dependen solo de la eficiencia, no del número de núcleos",
-    ],
-    "b"
-),
-(
-    "¿Cuál es la función principal de un coprocesador en un System on a Chip (SoC)?",
-    [
-        "a) Realizar todas las operaciones del procesador principal",
-        "b) Reducir la eficiencia del procesador principal",
-        "c) Ayudar al procesador principal en ciertos tipos de operaciones de manera eficiente",
-        "d) Aumentar el consumo de energía del procesador principal",
-    ],
-    "c"
-),
-(
-    "¿Cuál es una característica clave de los coprocesadores en un System on a Chip (SoC)?",
-    [
-        "a) Realizan el trabajo de manera menos eficiente que el procesador principal",
-        "b) Consumen más energía que el procesador principal",
-        "c) Realizan el trabajo de forma más eficiente y consumiendo menos energía que el procesador principal",
-        "d) No contribuyen al rendimiento del SoC",
-    ],
-    "c"
-),
-(
-    "¿Cuál es la función principal de la GPU (Graphics Processing Unit) en un System on a Chip (SoC)?",
-    [
-        "a) Realizar operaciones matemáticas de coma flotante exclusivamente",
-        "b) Descargar trabajo de la CPU mejorando el rendimiento del sistema",
-        "c) Procesar únicamente información gráfica estática",
-        "d) Aumentar el consumo de energía del SoC",
-    ],
-    "b"
-),
-(
-    "¿Cuál es una de las principales diferencias entre un System on a Chip (SoC) eficiente y uno mediocre?",
-    [
-        "a) El tamaño físico del SoC",
-        "b) La cantidad de núcleos de la CPU",
-        "c) La presencia y calidad de la GPU (Graphics Processing Unit)",
-        "d) El tipo de memoria RAM utilizada",
-    ],
-    "c"
-),
-(
-    "¿Cuál es la misión principal de la GPU (Graphics Processing Unit) en un System on a Chip (SoC)?",
-    [
-        "a) Realizar operaciones matemáticas de coma flotante",
-        "b) Descargar a la CPU del procesamiento gráfico para mejorar el rendimiento del sistema",
-        "c) Ejecutar instrucciones de la Unidad de Control",
-        "d) Gestionar la memoria principal del SoC",
-    ],
-    "b"
-),
-(
-    "¿En qué tipo de operaciones se especializa principalmente la GPU (Graphics Processing Unit) en un System on a Chip (SoC)?",
-    [
-        "a) Operaciones lógicas",
-        "b) Operaciones matemáticas de enteros",
-        "c) Operaciones matemáticas de coma flotante y procesamiento de gráficos",
-        "d) Operaciones de entrada/salida",
-    ],
-    "c"
-),
-(
-    "¿Cuál es la principal diferencia entre una GPU (Graphics Processing Unit) y una CPU (Central Processing Unit)?",
-    [
-        "a) La GPU está diseñada para el procesamiento general de datos, mientras que la CPU está especializada en gráficos.",
-        "b) La CPU es más eficiente en operaciones matemáticas de coma flotante, mientras que la GPU se especializa en operaciones lógicas.",
-        "c) La GPU está diseñada para el procesamiento de gráficos y operaciones matemáticas de coma flotante, mientras que la CPU maneja tareas generales.",
-        "d) La CPU y la GPU son intercambiables y pueden realizar las mismas tareas.",
-    ],
-    "c"
-),
-(
-    "¿Por qué las GPU actuales, a pesar de su gran potencia de cálculo, no pueden reemplazar completamente a las CPU?",
-    [
-        "a) Las GPU son menos eficientes en el procesamiento de gráficos.",
-        "c) Las CPU son más eficientes en operaciones matemáticas de coma flotante.",
-        "b) Las GPU están diseñadas exclusivamente para tareas específicas, mientras que las CPU manejan una variedad de tareas generales.",
-        "d) Las GPU son más caras que las CPU.",
-    ],
-    "b"
-),
-(
-    "¿De qué depende la potencia gráfica del SOC?",
-    [
-        "a) De la CPU.",
-        "b) De la GPU.",
-        "c) De la GC.",
-        "d) De la ALU.",
-    ],
-    "b"
-),
-(
-    "¿Cómo afecta tener una GPU más evolucionada a la gestión de pantallas con mayor resolución?",
-    [
-        "a) La GPU no tiene impacto en la resolución de la pantalla.",
-        "b) Una GPU más evolucionada permite gestionar pantallas con mayor resolución de manera más eficiente.",
-        "c) La resolución de la pantalla solo depende de la CPU.",
-        "d) Una GPU más evolucionada reduce la calidad de la pantalla.",
-    ],
-    "b"
-),
-(
-    "¿Qué otro factor determina la evolución de un SOC?",
-    [
-        "a) La litografía o tecnología de fabricación.",
-        "b) La orografía o tecnología de procesador.",
-        "c) La nanografía o tecnología de procesador.",
-        "d) La litografía o tecnología de procesamiento.",
+        "a) La placa base tiene un impacto directo en la velocidad de procesamiento.",
+        "b) Una mejor placa base mejora la capacidad de almacenamiento.",
+        "c) El microprocesador no afecta significativamente el rendimiento del sistema.",
+        "d) Una buena placa base es esencial para la conectividad de periféricos externos.",
     ],
     "a"
 ),
 (
-    "¿Cómo influye el tamaño de la tecnología de fabricación en la evolución de un microprocesador?",
+    "¿Cuál es la ventaja de la localización de los componentes en una placa base ATX?",
     [
-        "a) Un mayor tamaño de tecnología de fabricación mejora el rendimiento del microprocesador.",
-        "b) La tecnología de fabricación no tiene impacto en la evolución de un microprocesador.",
-        "c) Cuanto más pequeña sea la tecnología de fabricación, más evolucionado estará dicho microprocesador.",
-        "d) Un microprocesador evoluciona independientemente de su tecnología de fabricación.",
+        "a) Mejora la capacidad de almacenamiento.",
+        "b) Facilita la conexión de periféricos externos.",
+        "c) Optimiza la ventilación de la caja del equipo.",
+        "d) Permite una mayor velocidad de procesamiento.",
     ],
     "c"
 ),
 (
-    "¿Cómo afecta una tecnología de fabricación menor en un microprocesador?",
+    "¿Qué es el factor de forma de una placa base?",
     [
-        "a) Aumenta el gasto energético y reduce la concentración de transistores.",
-        "b) No tiene impacto en el rendimiento del microprocesador.",
-        "c) Disminuye el gasto energético y permite una mayor concentración de transistores en el mismo espacio.",
-        "d) Una tecnología de fabricación menor no afecta al microprocesador.",
+        "a) La velocidad máxima de procesamiento.",
+        "b) La capacidad de almacenamiento.",
+        "c) El tamaño y disposición de los componentes en la placa.",
+        "d) La cantidad de puertos USB disponibles.",
     ],
     "c"
 ),
 (
-    "¿Qué indica la tecnología de fabricación en un SoC?",
+    "¿Qué significa la sigla ATX en el contexto de las placas base?",
     [
-        "a) La velocidad del procesador.",
-        "b) El tamaño de las puertas lógicas en los circuitos.",
-        "c) El número de núcleos en el microprocesador.",
-        "d) La capacidad de almacenamiento de la memoria RAM.",
-    ],
-    "b"
-),
-(
-    "¿Qué significa una tecnología de fabricación de 14 nanómetros en un SoC?",
-    [
-        "a) Indica el número de transistores (14) en el microprocesador.",
-        "b) Representa la velocidad del procesador.",
-        "c) Significa que las puertas lógicas tienen un tamaño aproximado de 14 nanómetros.",
-        "d) Es una medida de la capacidad de la memoria RAM.",
-    ],
-    "c"
-),
-(
-    "¿Qué característica destaca a los chips neuromórficos en comparación con los microprocesadores convencionales?",
-    [
-        "a) Capacidad para realizar billones de operaciones por segundo.",
-        "b) Reconocimiento de patrones y procesamiento de imágenes similar al cerebro humano.",
-        "c) Velocidad de procesamiento superior a los microprocesadores convencionales.",
-        "d) Capacidad para reconocer a una persona por su manera de caminar.",
-    ],
-    "b"
-),
-(
-    "¿Cuál es una de las limitaciones actuales de los ordenadores en comparación con el cerebro humano?",
-    [
-        "a) Incapacidad para realizar billones de operaciones por segundo.",
-        "b) Dificultad para procesar imágenes de manera eficiente.",
-        "c) Falta de capacidad para reconocer patrones y personas por su manera de caminar.",
-        "d) Las mismas limitaciones emocionales que tu ex.",
-    ],
-    "c"
-),
-(
-    "¿Qué presentó Google en 2012 en relación con el reconocimiento en vídeos?",
-    [
-        "a) Un nuevo modelo de procesador.",
-        "b) Un software capaz de reconocer gatos en vídeos.",
-        "c) Un avance en la eficiencia de los procesadores.",
-        "d) Una tecnología de fabricación para microchips neuromórficos.",
-    ],
-    "b"
-),
-(
-    "¿Cuántos procesadores necesitaba Google para ejecutar el software capaz de reconocer gatos en vídeos en 2012?",
-    [
-        "a) 8,000 procesadores.",
-        "b) 12,000 procesadores.",
-        "c) 16,000 procesadores.",
-        "d) 20,000 procesadores.",
-    ],
-    "c"
-),
-(
-    "En términos de energía, ¿cuántas veces más eficiente es el cerebro humano en comparación con cualquier procesador u ordenador?",
-    [
-        "a) Miles de veces.",
-        "b) Cientos de miles de veces.",
-        "c) Millones de veces.",
-        "d) Miles de millones de veces.",
-    ],
-    "c"
-),
-(
-    "¿Qué papel desempeñan los microchips neuromórficos?",
-    [
-        "a) Aumentar la velocidad de procesamiento.",
-        "b) Optimizar la eficiencia energética.",
-        "c) Mejorar la capacidad de almacenamiento.",
-        "d) Ampliar la conectividad de red.",
-    ],
-    "b"
-),
-(
-    "¿Cuál es una característica destacada de los microchips neuromórficos?",
-    [
-        "a) Aumentan significativamente la velocidad de procesamiento.",
-        "b) Optimizan la eficiencia energética.",
-        "c) Mejoran la capacidad de almacenamiento.",
-        "d) Amplían la conectividad de red.",
-    ],
-    "b"
-),
-(
-    "¿Cuál es una aplicación potencial de los microchips neuromórficos?",
-    [
-        "a) Aumentar la velocidad de procesamiento en computadoras personales.",
-        "b) Implantar microchips en retinas artificiales para personas con ceguera.",
-        "c) Mejorar la capacidad de almacenamiento en dispositivos móviles.",
-        "d) Ampliar la conectividad de red en sistemas de comunicación.",
-    ],
-    "b"
-),
-(
-    "¿Cuál es el secreto fundamental que hace eficientes a los microchips neuromórficos?",
-    [
-        "b) Su capacidad para realizar operaciones matemáticas complejas.",
-        "a) La organización similar al cerebro para tareas rápidas y eficientes.",
-        "c) El uso de la arquitectura x86 en su diseño.",
-        "d) Su capacidad para almacenar grandes cantidades de datos.",
+        "a) Advanced Technology Xtended.",
+        "b) Average Technology eXpanded.",
+        "c) Advanced Technical eXperience.",
+        "d) All-Time Xtreme.",
     ],
     "a"
 ),
 (
-    "¿Qué ventaja clave proporciona la organización y funciones neuronales de los microchips neuromórficos?",
+    "¿Qué formato de placa base se sigue utilizando desde hace mucho tiempo?",
     [
-        "a) Mayor capacidad de almacenamiento de datos.",
-        "b) Mayor velocidad de procesamiento.",
-        "c) Eficiencia energética y capacidad para tareas sensoriales.",
-        "d) Mayor compatibilidad con arquitecturas x86.",
-    ],
-    "c"
-),
-(
-    "¿Cuántas conexiones neuronales puede activar un cerebro en un segundo?",
-    [
-        "a) Cien mil millones.",
-        "b) Un millón.",
-        "c) Diez cuadrillones.",
-        "d) Mil millones.",
-    ],
-    "c"
-),
-(
-    "¿Cuántos Pentium y cuántos megavatios de electricidad se necesitarían para igualar la capacidad de cálculo de un cerebro en un segundo?",
-    [
-        "a) Un millón de Pentium y unos cientos de megavatios.",
-        "b) Mil millones de Pentium y unos pocos megavatios.",
-        "c) Cien mil millones de Pentium y unos cientos de megavatios.",
-        "d) Un millón de Pentium y unos pocos megavatios.",
+        "a) ATX (Advanced Technology Xtended).",
+        "b) ATX (Average Technology eXpanded).",
+        "c) ARX (Advanced Reduced eXperience).",
+        "d) ARX (Advanced  Recursive Xtended.",
     ],
     "a"
 ),
 (
-    "¿Qué se está haciendo actualmente para acercarse a la capacidad de cálculo del cerebro humano?",
+    "¿Cuál es la principal diferencia entre los formatos micro-ATX y mini-ITX?",
     [
-        "a) Utilizando un millón de Pentium y megavatios de electricidad.",
-        "b) Replicando microchips que copian la organización y funciones neuronales.",
-        "c) Creando chips neuromórficos sin basarse en la estructura cerebral.",
-        "d) Desarrollando software más eficiente para la inteligencia artificial.",
-    ],
-    "b"
-),
-(
-    "¿Cuál es una posible aplicación exitosa de los chips neuromórficos en el futuro?",
-    [
-        "a) Replicar exactamente la capacidad de cálculo de un Pentium.",
-        "b) Desarrollar sistemas de reconocimiento facial más avanzados.",
-        "c) Mejorar la eficiencia energética de los procesadores actuales.",
-        "d) Tratar datos sensoriales y darles sentido.",
-    ],
-    "d"
-),
-(
-    "¿Qué técnicas de inteligencia artificial utilizan los procesadores?",
-    [
-        "a) Ingeniería genética y biotecnología.",
-        "b) Astronomía y astrofísica.",
-        "c) Machine learning, deep learning y neural networks.",
-        "d) Química orgánica y teoría de números.",
-    ],
-    "c"
-),
-(
-    "En términos de inteligencia artificial, ¿qué significa 'Machine Learning'?",
-    [
-        "a) Aprendizaje automático.",
-        "b) Aprendizaje multinivel.",
-        "c) Aprendizaje profundo.",
-        "d) Aprendizaje mecánico.",
+        "a) El micro-ATX es más grande que el mini-ITX.",
+        "b) El mini-ITX es más grande que el micro-ATX.",
+        "c) El micro-ATX tiene más conectores USB.",
+        "d) El mini-ITX es más adecuado para servidores.",
     ],
     "a"
 ),
 (
-    "En términos de inteligencia artificial, ¿qué significa 'Deep Learning'?",
+    "¿En qué situaciones es más adecuado utilizar el formato mini-ITX en lugar de micro-ATX?",
     [
-        "a) Aprendizaje automático.",
-        "b) Aprendizaje multinivel.",
-        "c) Aprendizaje profundo.",
-        "d) Redes nuronales.",
+        "a) Cuando se necesita mayor capacidad de expansión.",
+        "b) Cuando se requiere un menor tamaño y la reducción es prioritaria.",
+        "c) Cuando se desea un rendimiento superior.",
+        "d) Cuando se utiliza la placa base para servidores.",
+    ],
+    "b"
+),
+(
+    "¿Cuál es la finalidad de situar la fuente de alimentación encima del microprocesador en una placa base ATX?",
+    [
+        "a) Mejorar la estética de la placa base.",
+        "b) Facilitar el acceso a la fuente de alimentación.",
+        "c) Optimizar la ventilación de la caja.",
+        "d) Reducir el tamaño de la placa base.",
     ],
     "c"
 ),
 (
-    "En términos de inteligencia artificial, ¿qué significa 'Neuronal Networks'?",
+    "¿Cuál es el beneficio de situar las unidades de almacenamiento cerca de los puertos SATA en una placa base ATX?",
     [
-        "a) Aprendizaje automático.",
-        "b) Aprendizaje multinivel.",
-        "c) Aprendizaje profundo.",
-        "d) Redes neuronales.",
+        "a) Facilitar el acceso a las unidades de almacenamiento.",
+        "b) Reducir la longitud de los cables SATA y formar una maraña de cables.",
+        "c) Mejorar la velocidad de transferencia de datos.",
+        "d) Incrementar la capacidad de almacenamiento.",
+    ],
+    "b"
+),
+(
+    "¿Cuál es el principal beneficio de los formatos nano-ITX y pico-ITX en comparación con otros formatos más grandes?",
+    [
+        "a) Mayor capacidad de almacenamiento.",
+        "b) Menor consumo de energía.",
+        "c) Reducción significativa del espacio.",
+        "d) Mejor capacidad de ventilación.",
+    ],
+    "c"
+),
+(
+    "¿Qué tipo de memoria se utiliza comúnmente en placas base con formatos nano-ITX o pico-ITX debido a su espacio reducido?",
+    [
+        "a) DDR2",
+        "b) DDR3",
+        "c) DDR4",
+        "d) SO-DIMM",
     ],
     "d"
 ),
 (
-    "¿Cuál de las siguientes técnicas NO es una disciplina de la inteligencia artificial?",
+    "¿Qué significan las siglas SO-DIMM en el contexto de la memoria utilizada en placas base con formatos nano-ITX o pico-ITX?",
     [
-        "a) Machine learning.",
-        "b) Deep learning.",
-        "c) Circuitos integrados.",
-        "d) Neural networks.",
-    ],
-    "c"
-),
-(
-    "En el contexto de inteligencia artificial, ¿por qué se afirma que cuanto mejor sea el algoritmo y más entrenado esté, mejor eficiencia tendrá?",
-    [
-        "a) Porque al aumentar la complejidad del algoritmo se mejora la eficiencia.",
-        "b) Porque un algoritmo bien diseñado y entrenado puede realizar tareas de forma más rápida y precisa.",
-        "c) Porque el entrenamiento del algoritmo no tiene impacto en su eficiencia.",
-        "d) Porque la eficiencia de un algoritmo no depende de su diseño o entrenamiento.",
+        "a) Single Outline Dual In-Line Memory Module",
+        "b) Small Outline Dual In-Line Memory Module",
+        "c) Slim Outline Dual In-Line Memory Module",
+        "d) System Outline Dual In-Line Memory Module",
     ],
     "b"
 ),
 (
-    "¿Cuál de las siguientes afirmaciones es correcta?",
+    "¿Cuál es una de las características destacadas del diseño de las memorias RAM SO-DIMM utilizadas en arquitecturas destinadas a ordenadores portátiles?",
     [
-        "a) Machine learning es una rama del deep learning.",
-        "b) Deep learning es una rama del machine learning.",
-        "c) Machine learning y deep learning son dos disciplinas completamente independientes.",
-        "d) Ninguna de las anteriores.",
+        "a) Tamaño grande",
+        "b) Diseño asimétrico",
+        "c) Equilibrio y compacidad",
+        "d) Elevada velocidad",
+    ],
+    "c"
+),
+(
+    "¿Qué significa la sigla SoC en el contexto de los smartphones?",
+    [
+        "a) Sistema Operativo Común",
+        "b) Sistema de Organización Central",
+        "c) Sistema Operativo Centralizado",
+        "d) Sistema en un Chip",
+    ],
+    "d"
+),
+(
+    "¿Cuál de los siguientes elementos es común tanto en un smartphone como en un portátil?",
+    [
+        "a) Ratón",
+        "b) Teclado físico",
+        "c) Placa base",
+        "d) Unidad de CD/DVD",
+    ],
+    "c"
+),
+(
+    "¿Cuáles son algunos de los elementos comunes entre un smartphone y un portátil?",
+    [
+        "a) Elementos únicos, no comparten ningún componente.",
+        "b) Comparten únicamente la pantalla.",
+        "c) Comparten la placa base, batería, y sistema de carga, entre otros elementos.",
+        "d) Solo comparten el sistema operativo.",
+    ],
+    "c"
+),
+(
+    "¿Qué significa la sigla SoC en el contexto de los smartphones?",
+    [
+        "a) Sistema Operativo Compartido.",
+        "b) Servicio de Operación Continua.",
+        "c) Sistema en un Chip (System on a Chip).",
+        "d) Software Orientado a Comunicaciones.",
+    ],
+    "c"
+),
+(
+    "¿Qué es el socket o zócalo de la CPU y cuál es su función principal en la placa base?",
+    [
+        "a) Un puerto de conexión para el teclado.",
+        "b) Un conector para la tarjeta de video.",
+        "c) El lugar donde se coloca el microprocesador en la placa base.",
+        "d) Un dispositivo de almacenamiento externo.",
+    ],
+    "c"
+),
+(
+    "¿Cuáles son los dos tipos de zócalos comúnmente utilizados para colocar el microprocesador en la placa base?",
+    [
+        "a) Zócalo A y Zócalo B.",
+        "b) Zócalo X y Zócalo Y.",
+        "c) Zócalo PGA y Zócalo LGA.",
+        "d) Zócalo USB y Zócalo HDMI.",
+    ],
+    "c"
+),
+(
+    "¿Cómo se compone el socket PGA en términos de conectores o contactos y dónde residen las patillas o pines?",
+    [
+        "a) Una matriz de pines en el socket y conectores en el microprocesador.",
+        "b) Una matriz de conectores o contactos en el socket y patillas en el microprocesador.",
+        "c) Patillas en el socket y conectores en el microprocesador.",
+        "d) Conectores en ambos, tanto el socket como el microprocesador.",
     ],
     "b"
 ),
 (
-    "¿Cuál de las siguientes afirmaciones es correcta sobre Machine Learning?",
+    "¿Cómo se caracteriza la composición del socket PGA en términos de su estructura?",
     [
-        "a) Machine Learning no tiene relación con la inteligencia artificial.",
-        "b) Los sistemas de Machine Learning no requieren datos de referencia clasificados.",
-        "c) Machine Learning permite que los sistemas aprendan por sí mismos.",
-        "d) Machine Learning solo funciona en hardware y no en software.",
-    ],
-    "c"
-),
-(
-    "¿Cuál es un requisito clave para que un sistema de Machine Learning pueda aprender?",
-    [
-        "a) No necesita datos de referencia clasificados.",
-        "b) Debe tener una serie de datos de referencia previamente clasificados.",
-        "c) Puede aprender sin ningún tipo de datos.",
-        "d) La clasificación previa de datos no es relevante para el aprendizaje en Machine Learning.",
+        "a) Una matriz de patillas en el socket y conectores en el microprocesador.",
+        "b) Una matriz de conectores o contactos en el socket.",
+        "c) Una matriz de conectores en el microprocesador.",
+        "d) Una matriz de patillas en ambos, tanto el socket como el microprocesador.",
     ],
     "b"
 ),
 (
-    "¿Qué puede hacer un sistema de Machine Learning una vez que ha sido parametrizado con datos clasificados?",
+    "¿Dónde residen las patillas o pines en el caso del socket PGA?",
     [
-        "a) No puede realizar ninguna tarea adicional.",
-        "b) Solo puede clasificar los datos previamente utilizados en el aprendizaje.",
-        "c) Puede clasificar nuevos datos que no ha visto durante el aprendizaje.",
-        "d) Debe ser reentrenado cada vez que se presentan nuevos datos.",
+        "a) En una matriz en el socket.",
+        "b) En una matriz en el microprocesador.",
+        "c) En la parte superior del socket.",
+        "d) En la parte inferior del socket.",
+    ],
+    "b"
+),
+(
+    "¿Qué tipo de socket se utiliza comúnmente para los procesadores AMD?",
+    [
+        "a) LGA",
+        "b) PGA",
+        "c) USB",
+        "d) HDMI",
+    ],
+    "b"
+),
+(
+    "¿Qué tipo de socket se utiliza comúnmente para los procesadores AMD?",
+    [
+        "a) LGA",
+        "b) PGA",
+        "c) USB",
+        "d) HDMI",
+    ],
+    "b"
+),
+(
+    "¿Cómo se caracteriza la ubicación de los pines en el caso del socket LGA?",
+    [
+        "a) Los pines están en el microprocesador.",
+        "b) Los pines están en una serie de contactos en el socket.",
+        "c) Los pines están en el socket, mientras que el microprocesador tiene una serie de contactos.",
+        "d) Los pines y los contactos se distribuyen por igual entre el socket y el microprocesador.",
     ],
     "c"
 ),
 (
-    "En el ejemplo de detección de caras humanas mediante Machine Learning, ¿qué tarea puede realizar el sistema después de ser entrenado?",
+    "¿Cómo afecta la disposición de los pines en los sockets LGA a su delicadeza?",
     [
-        "a) Solo puede detectar caras humanas en las fotografías utilizadas durante el entrenamiento.",
-        "b) No puede realizar ninguna tarea adicional.",
-        "c) Puede detectar caras humanas en nuevas fotografías que no ha visto durante el entrenamiento.",
-        "d) Necesita ser reentrenado cada vez que se presentan nuevas fotografías.",
+        "a) No afecta su delicadeza.",
+        "b) Los hace menos delicados.",
+        "c) Los hace más delicados.",
+        "d) No hay diferencia en la delicadeza entre los sockets LGA y PGA.",
     ],
     "c"
 ),
 (
-    "¿Qué característica destacada tienen los sistemas que utilizan deep learning o aprendizaje profundo?",
+    "¿Qué tipo de socket es comúnmente utilizado por los microprocesadores Intel?",
     [
-        "a) Utilizan algoritmos que imitan el funcionamiento de un cerebro.",
-        "b) Requieren un entrenamiento manual constante.",
-        "c) Solo pueden ejecutarse en supercomputadoras.",
-        "d) No pueden integrarse en dispositivos como los smartphones.",
+        "a) PGA",
+        "b) LGA",
+        "c) USB",
+        "d) HDMI",
+    ],
+    "b"
+),
+(
+    "¿Qué significa la sigla ZIF en el contexto de los zócalos de la CPU?",
+    [
+        "a) Zócalo Inteligente y Fácil.",
+        "b) Zona de Interconexión Flexible.",
+        "c) Zero Insertion Force (Fuerza de Inserción Cero).",
+        "d) Zócalo Inalámbrico y Flexible.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es la característica principal de los zócalos ZIF en términos de fijación del microprocesador a la placa base?",
+    [
+        "a) Requieren una presión significativa para la fijación.",
+        "b) Utilizan fuerza magnética para la fijación.",
+        "c) No necesitan realizar presión para fijar el microprocesador.",
+        "d) Son exclusivos para microprocesadores de baja potencia.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es la función de la patilla en los zócalos ZIF y cómo afecta al proceso de fijación del microprocesador?",
+    [
+        "a) La patilla proporciona energía al microprocesador.",
+        "b) La patilla facilita la conexión de periféricos externos.",
+        "c) La patilla permite la fijación sin necesidad de aplicar presión sobre el microprocesador.",
+        "d) La patilla controla la temperatura del microprocesador.",
+    ],
+    "c"
+),
+(
+    "¿Qué significa el acrónimo BIOS y cuál es su función principal en un sistema informático?",
+    [
+        "a) Basic Input Output System; controla el sistema operativo.",
+        "b) Basic Input Output System; realiza funciones básicas de entrada/salida antes de que el sistema operativo tome el control.",
+        "c) Basic Input Output Service; gestiona servicios básicos del sistema operativo.",
+        "d) Basic Input Output Service; realiza operaciones avanzadas de entrada/salida.",
+    ],
+    "b"
+),
+(
+    "¿Cuál es una de las funciones clave de la BIOS en relación con los componentes básicos del equipo?",
+    [
+        "a) Controlar el rendimiento del microprocesador.",
+        "b) Realizar operaciones avanzadas de memoria.",
+        "c) Identificar y proporcionar referencias iniciales de los componentes básicos al sistema operativo.",
+        "d) Gestionar servicios de red del sistema operativo.",
+    ],
+    "c"
+),
+(
+    "¿Por qué es importante tener precaución al realizar modificaciones en la BIOS y qué recomendación se da en caso de realizar cambios?",
+    [
+        "a) No es necesario tener precaución, ya que la BIOS es robusta.",
+        "b) Es importante para mejorar el rendimiento del sistema operativo.",
+        "c) Se recomienda realizar varios cambios a la vez para obtener resultados más rápidos.",
+        "d) Es crucial tener precaución, ya que cambios incorrectos pueden causar mal funcionamiento, y se aconseja realizar un cambio a la vez y verificar el funcionamiento o, en caso de problemas, restablecer los parámetros por defecto.",
+    ],
+    "d"
+),
+(
+    "¿Cuál es el riesgo principal al cambiar valores en la BIOS sin comprender completamente su significado?",
+    [
+        "a) Mejora del rendimiento del equipo.",
+        "b) Posible incompatibilidad con el sistema operativo.",
+        "c) No hay riesgos, ya que la BIOS se ajusta automáticamente.",
+        "d) Mayor estabilidad del sistema.",
+    ],
+    "b"
+),
+(
+    "¿Cuál es la recomendación principal en cuanto al procedimiento al realizar cambios en la BIOS?",
+    [
+        "a) Realizar múltiples cambios simultáneamente para ahorrar tiempo.",
+        "b) Hacer solo un cambio a la vez y verificar el correcto funcionamiento.",
+        "c) No es necesario comprobar el funcionamiento después de realizar cambios.",
+        "d) Modificar varios parámetros al mismo tiempo para obtener mejores resultados.",
+    ],
+    "b"
+),
+(
+    "¿Cuál es la precaución específica recomendada al modificar parámetros en la BIOS?",
+    [
+        "a) Modificar tantos parámetros como sea posible de una vez.",
+        "b) No es necesario tener precaución, ya que la BIOS ajusta automáticamente los cambios.",
+        "c) Cambiar varios parámetros al mismo tiempo para obtener mejores resultados.",
+        "d) Evitar modificar muchos parámetros de manera simultánea.",
+    ],
+    "d"
+),
+(
+    "En caso de problemas después de realizar modificaciones en la BIOS, ¿cuál es una posible solución recomendada?",
+    [
+        "a) Desconectar la alimentación del equipo.",
+        "b) Ignorar los problemas y continuar con el uso normal del equipo.",
+        "c) Realizar cambios adicionales para corregir los problemas.",
+        "d) Ejecutar la opción de 'restablecer los parámetros por defecto' en la BIOS.",
+    ],
+    "d"
+),
+(
+    "¿Cómo suele venir configurada por defecto la BIOS y cuándo se recomienda modificar dicha configuración?",
+    [
+        "a) Siempre viene desconfigurada por defecto.",
+        "b) Viene configurada por defecto y generalmente no es necesario modificarla, salvo en casos excepcionales.",
+        "c) Solo se configura por defecto en equipos antiguos.",
+        "d) Debe ser modificada inmediatamente después de adquirir el equipo.",
+    ],
+    "b"
+),
+(
+    "¿Qué modificación en la BIOS es comúnmente realizada para cambiar la secuencia de arranque de un equipo?",
+    [
+        "a) Cambiar la velocidad del procesador.",
+        "b) Ajustar la resolución de pantalla.",
+        "c) Modificar la configuración de red.",
+        "d) Cambiar la secuencia de arranque.",
+    ],
+    "d"
+),
+(
+    "¿Cuándo es necesario cambiar la secuencia de arranque en la BIOS?",
+    [
+        "a) Solo en casos de fallos en el sistema operativo.",
+        "b) Cuando se quiere ajustar la velocidad de arranque.",
+        "c) Siempre que se adquiere un nuevo equipo.",
+        "d) Cuando se necesita arrancar el equipo desde otro dispositivo que no está contemplado previamente en la configuración de la BIOS, como un pendrive o un lector óptico.",
+    ],
+    "d"
+),
+(
+    "¿Cuál es el propósito principal de cambiar la secuencia de arranque en la BIOS?",
+    [
+        "a) Aumentar la velocidad del sistema operativo.",
+        "b) Mejorar la calidad de la pantalla de inicio.",
+        "c) Es una acción innecesaria y no afecta al rendimiento del equipo.",
+        "d) Especificar el orden en el que el sistema carga el sistema operativo, permitiendo arrancar desde diferentes dispositivos como un pendrive, lector óptico o la red.",
+    ],
+    "d"
+),
+(
+    "¿Qué define la secuencia de arranque en la BIOS de un equipo?",
+    [
+        "a) La velocidad del sistema operativo.",
+        "b) El idioma predeterminado del sistema operativo.",
+        "c) El orden que el sistema sigue para cargar el sistema operativo.",
+        "d) La cantidad de memoria RAM disponible.",
+    ],
+    "c"
+),
+(
+    "¿Cuáles son algunas de las opciones comunes desde las cuales un equipo puede arrancar según la configuración de la secuencia de arranque en la BIOS?",
+    [
+        "a) Solo desde el disco duro.",
+        "b) Exclusivamente desde un pendrive.",
+        "c) Desde un lector óptico o desde la red.",
+        "d) Únicamente desde la unidad SSD.",
+    ],
+    "c"
+),
+(
+    "¿En qué situación es comúnmente necesario arrancar un equipo desde un lector óptico o desde la red, según la configuración de la secuencia de arranque en la BIOS?",
+    [
+        "a) Únicamente cuando se quiere mejorar el rendimiento del sistema operativo.",
+        "b) En casos de fallos en el disco duro.",
+        "c) Normalmente, cuando se desea instalar un sistema operativo.",
+        "d) Nunca es necesario arrancar desde el lector óptico o desde la red.",
+    ],
+    "c"
+),
+(
+    "¿Por qué es necesario cambiar la secuencia de arranque en la BIOS cuando se quiere instalar o reemplazar el sistema operativo?",
+    [
+        "a) Para ajustar la resolución de la pantalla.",
+        "b) Como una práctica recomendada para mejorar el rendimiento del sistema operativo.",
+        "c) Únicamente cuando se desea cambiar el idioma predeterminado del sistema operativo.",
+        "d) Para permitir el arranque desde el medio (por ejemplo, un pendrive o un lector óptico) donde se encuentra el instalador del sistema operativo.",
+    ],
+    "d"
+),
+(
+    "¿Cómo se puede acceder y modificar fácilmente la secuencia de arranque en muchas BIOS?",
+    [
+        "a) A través de un menú desplegable en el escritorio del sistema operativo.",
+        "b) Mediante el Panel de Control del sistema operativo.",
+        "c) Haciendo doble clic en el dispositivo deseado desde el explorador de archivos.",
+        "d) Solo a través de herramientas especializadas de terceros.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es uno de los mensajes comunes que aparece durante el arranque para indicar la opción de acceder a la BIOS, y qué tecla suele utilizarse para ello?",
+    [
+        "a) 'Press Enter to Enter BIOS Setup', tecla 'Enter'.",
+        "b) 'Press Del to Enter BIOS Setup', tecla 'Delete'.",
+        "c) 'Press F2 to Enter BIOS Setup', tecla 'F2'.",
+        "d) 'Press Ctrl to Enter BIOS Setup', tecla 'Ctrl'.",
+    ],
+    "b"
+),
+(
+    "Durante el arranque de un ordenador, ¿qué mensaje suele aparecer para indicar cómo acceder a la BIOS y qué tecla se debe pulsar?",
+    [
+        "a) 'Loading Operating System...'",
+        "b) 'Press Enter to Start'",
+        "c) 'Press Del to Enter BIOS Setup', 'Press F2 to Enter BIOS Setup', ...",
+        "d) No hay mensajes durante el arranque.",
+    ],
+    "c"
+),
+(
+    "¿Por qué es importante actuar rápidamente cuando aparece el mensaje para acceder a la BIOS durante el arranque de un sistema?",
+    [
+        "a) Para evitar daños en el sistema operativo.",
+        "b) No es importante actuar rápidamente; se puede acceder a la BIOS en cualquier momento durante el arranque.",
+        "c) Porque los sistemas dan poco tiempo antes de continuar la secuencia de arranque.",
+        "d) No hay necesidad de acceder a la BIOS durante el arranque.",
+    ],
+    "c"
+),
+(
+    "Una vez dentro de la BIOS, ¿cuáles son las opciones comunes para seleccionar el dispositivo desde el cual arrancar el sistema?",
+    [
+        "a) No se puede seleccionar el dispositivo de arranque desde la BIOS.",
+        "b) Solo se puede hacer doble clic sobre el dispositivo deseado.",
+        "c) Se pueden hacer doble clic o modificar la secuencia de arranque.",
+        "d) Solo se permite modificar la secuencia de arranque.",
+    ],
+    "c"
+),
+(
+    "En las BIOS antiguas, ¿dónde podría aparecer la opción de configuración del arranque, como 'Boot', 'Advanced Setup' o 'Advanced Features'?",
+    [
+        "a) Nunca se incluye en las BIOS antiguas.",
+        "b) Siempre se encuentra en la opción 'Boot'.",
+        "c) Puede aparecer bajo la opción de menú 'Boot', 'Advanced Setup' o 'Advanced Features'.",
+        "d) Exclusivamente bajo la opción 'Advanced Setup'.",
+    ],
+    "c"
+),
+(
+    "¿Qué objetivo se persigue al modificar la configuración de prioridades en la BIOS, especialmente en relación con el arranque del sistema?",
+    [
+        "a) No hay necesidad de modificar las prioridades en la BIOS.",
+        "b) Colocar todos los dispositivos en igual prioridad.",
+        "c) Establecer como primera opción factible el dispositivo desde donde se desea arrancar.",
+        "d) Mantener la configuración predeterminada de prioridades.",
+    ],
+    "c"
+),
+(
+    "Después de realizar cambios en la BIOS y guardarlos, ¿qué sucede con la secuencia de arranque y desde dónde inicia el sistema?",
+    [
+        "a) La secuencia de arranque se reinicia automáticamente.",
+        "b) No es necesario guardar cambios en la BIOS; el sistema arranca desde cualquier dispositivo al reiniciar.",
+        "c) Se debe reiniciar manualmente la secuencia de arranque.",
+        "d) Se sale de la BIOS continuando la secuencia de arranque y el sistema arranca desde el dispositivo elegido.",
+    ],
+    "d"
+),
+(
+    "¿Por qué es importante tener en cuenta que las BIOS pueden ser diferentes unas de otras?",
+    [
+        "a) Todas las BIOS son idénticas, por lo que no es necesario considerar diferencias.",
+        "b) Las diferencias entre las BIOS no afectan la configuración del sistema.",
+        "c) Las opciones en las BIOS pueden diferir, por lo que es necesario elegir la opción correcta para cada caso.",
+        "d) No es necesario adaptarse a las opciones específicas de cada BIOS.",
+    ],
+    "c"
+),
+(
+    "¿Cuáles son dos de los fabricantes más destacados de BIOS en el mercado?",
+    [
+        "a) HP y Dell.",
+        "b) ASUS y MSI.",
+        "c) AMI (American Megatrends Incorporated) y AWARD-Phoenix.",
+        "d) IBM y Lenovo.",
+    ],
+    "c"
+),
+(
+    "A pesar de las diferencias en los menús según la marca, ¿cómo tiende a ser la similitud en el manejo y los parámetros de las BIOS?",
+    [
+        "a) Cada marca tiene un manejo y parámetros completamente únicos.",
+        "b) No hay similitud en el manejo y parámetros entre las diferentes marcas de BIOS.",
+        "c) Aunque los menús pueden ser distintos dependiendo de la marca, el manejo y los distintos parámetros suelen ser muy similares.",
+        "d) Solo las BIOS de la misma marca comparten similitudes en manejo y parámetros.",
+    ],
+    "c"
+),
+(
+    "¿Cómo afecta el conocimiento del funcionamiento de la BIOS a la capacidad de un técnico para modificar parámetros, incluso en BIOS de diferentes marcas?",
+    [
+        "a) No hay relación entre el conocimiento de la BIOS y la capacidad de modificar parámetros.",
+        "b) Un técnico solo puede modificar parámetros en BIOS de la misma marca.",
+        "c) Aunque el contenido de la BIOS de diferentes marcas sea distinto, un técnico que conoce el funcionamiento de la BIOS no debería tener problema para modificar los parámetros de cualquier BIOS.",
+        "d) Un técnico solo puede modificar parámetros en BIOS de marcas específicas.",
+    ],
+    "c"
+),
+(
+    "¿Cómo se describe mejor la naturaleza de la BIOS y dónde se almacenan sus datos?",
+    [
+        "a) La BIOS es un hardware y sus datos se almacenan en la memoria RAM.",
+        "b) La BIOS es un software y sus datos se almacenan en una memoria flash EEPROM o memoria ROM de lectura y escritura cuyos datos almacenan en una memoria CMOS.",
+        "c) La BIOS es un sistema operativo y sus datos se almacenan en el disco duro.",
+        "d) La BIOS es un programa almacenado en una memoria CMOS.",
+    ],
+    "b"
+),
+(
+    "¿Cómo se describe mejor la memoria CMOS en relación con su tipo y características?",
+    [
+        "a) La memoria CMOS es un tipo de memoria RAM alimentada por una pila, pero consume mucha energía.",
+        "b) La memoria CMOS es un tipo de memoria ROM alimentada por una pila y consume poca energía.",
+        "c) La memoria CMOS es un tipo de memoria flash EEPROM alimentada por una pila y consume poca energía.",
+        "d) La memoria CMOS es un tipo de memoria RAM alimentada por una pila y consume muy poca energía.",
+    ],
+    "d"
+),
+(
+    "¿Cuál es la función principal de la pila, por ejemplo, modelo CR-2032, que está alojada en la placa y alimenta la memoria CMOS?",
+    [
+        "a) Proporcionar energía a la CPU.",
+        "b) Alimentar la memoria RAM.",
+        "c) Alimentar la memoria flash EEPROM.",
+        "d) Alimentar la memoria CMOS y mantener ajustes como la hora, y cuando se agota, el sistema muestra mensajes como 'CMOS Checksum Invalid' y pierde el ajuste de la hora.",
+    ],
+    "d"
+),
+(
+    "¿Dónde se encuentra comúnmente la opción para restablecer los valores por defecto en cualquier BIOS del mercado?",
+    [
+        "a) La opción para restablecer los valores por defecto no está disponible en ninguna BIOS.",
+        "b) Siempre se encuentra en la sección 'Advanced Settings'.",
+        "c) Puede encontrarse en cualquier sección del menú de configuración de la BIOS.",
+        "d) Se encuentra comúnmente dentro del menú de configuración y puede variar de una BIOS a otra.",
+    ],
+    "d"
+),
+(
+    "En caso de no poder cargar los valores por defecto desde el menú de la BIOS debido a una contraseña, ¿cuáles son las opciones adicionales disponibles?",
+    [
+        "a) No hay opciones adicionales disponibles; la contraseña es irrompible.",
+        "b) Puentear el jumper Clear CMOS o CLRCMOS y encender el equipo o quitar la pila de la BIOS durante unos 10 segundos.",
+        "c) Quitar la memoria CMOS y reiniciar el sistema.",
+        "d) Enviar la placa base a reparación para desbloquear la contraseña.",
+    ],
+    "b"
+),
+(
+    "Cuando no se puede cargar los valores por defecto desde el menú de la BIOS debido a una contraseña, ¿cuál es una opción adicional para lograrlo?",
+    [
+        "a) Desmontar la placa base y reemplazar el jumper Clear CMOS.",
+        "b) Ignorar la contraseña y continuar con la configuración actual.",
+        "c) Puentear el jumper Clear CMOS y encender el equipo.",
+        "d) Esperar a que la contraseña expire automáticamente.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es la segunda opción para cargar los valores por defecto en la BIOS cuando no se puede hacer desde el menú y hay una contraseña?",
+    [
+        "a) Enviar la placa base a reparación para desbloquear la contraseña.",
+        "b) Ignorar la contraseña y continuar con la configuración actual.",
+        "c) Quitar la pila de la BIOS durante aproximadamente 10 segundos y volverla a colocar.",
+        "d) Desmontar la placa base y reemplazar la memoria CMOS.",
+    ],
+    "c"
+),
+(
+    "¿Cómo afecta la ausencia de corriente a la memoria CMOS de la BIOS y qué resultado se obtiene cuando se restablecen los valores por defecto?",
+    [
+        "c) La memoria CMOS se daña sin corriente, y los valores por defecto no se restablecen.",
+        "b) Sin corriente, la memoria CMOS retiene la información y no se restablecen los valores por defecto.",
+        "a) Sin corriente, la memoria CMOS de la BIOS pierde información y se restablecen los valores por defecto.",
+        "d) La memoria CMOS es independiente de la corriente y siempre mantiene la información.",
     ],
     "a"
 ),
 (
-    "¿Cuál es la función principal de las redes neuronales en los sistemas que utilizan deep learning o aprendizaje profundo?",
+    "¿Cuál es la precaución importante al retirar la pila de la BIOS?",
     [
-        "a) Imitar el funcionamiento de un corazón.",
-        "b) Simular el comportamiento de un software convencional.",
-        "c) Emular el funcionamiento de un cerebro.",
-        "d) Sustituir completamente a los algoritmos tradicionales.",
-    ],
-    "c"
-),
-(
-    "¿Qué ha permitido la evolución de los procesadores en relación con los algoritmos de machine learning y deep learning?",
-    [
-        "a) Su eliminación completa de los dispositivos.",
-        "b) Su integración en dispositivos normales como los smartphones.",
-        "c) La restricción de su uso exclusivo en supercomputadoras.",
-        "d) El desarrollo de algoritmos más simples sin necesidad de procesadores avanzados.",
-    ],
-    "b"
-),
-(
-    "¿Cómo afectará el uso de motores neurales en los chips al procesamiento de inteligencia artificial?",
-    [
-        "a) No tendrá impacto en el procesamiento de inteligencia artificial.",
-        "b) Aumentará la dependencia de la fuerza bruta con la CPU o GPU.",
-        "c) Hará que muchos procesadores utilicen la inteligencia artificial de manera más eficiente.",
-        "d) Reducirá la eficacia de la inteligencia artificial en los procesadores.",
-    ],
-    "c"
-),
-(
-    "¿Cuál es la función principal de la unidad de control (UC) en un microprocesador?",
-    [
-        "a) Almacenar datos en la memoria principal.",
-        "b) Realizar operaciones aritméticas y lógicas.",
-        "c) Ejecutar programas y activar la circuitería para realizar operaciones.",
-        "d) Gestionar los dispositivos de entrada/salida.",
-    ],
-    "c"
-),
-(
-    "¿Qué función principal cumple la memoria en un sistema informático?",
-    [
-        "a) Realizar operaciones aritméticas y lógicas.",
-        "b) Almacenar el código del programa y los datos.",
-        "c) Ejecutar programas y activar la circuitería.",
-        "d) Gestionar dispositivos de entrada/salida.",
-    ],
-    "b"
-),
-(
-    "¿Cuál es la función principal de la ALU (Unidad Aritmético-Lógica) en un sistema informático?",
-    [
-        "a) Almacenar el código del programa y los datos.",
-        "b) Ejecutar operaciones aritméticas y lógicas.",
-        "c) Gestionar dispositivos de entrada/salida.",
-        "d) Activar la circuitería para realizar operaciones.",
-    ],
-    "b"
-),
-(
-    "¿Qué función cumple el buffer llamado ACC en una ALU (Unidad Aritmético-Lógica)?",
-    [
-        "a) Almacenar el código del programa.",
-        "b) Almacenar los datos del programa.",
-        "c) Almacenar el resultado de las operaciones realizadas.",
-        "d) Gestionar dispositivos de entrada/salida.",
-    ],
-    "c"
-),
-(
-    "¿Cuál es la función de los registros (A-J) en un microprocesador?",
-    [
-        "a) Almacenar el código del programa.",
-        "b) Almacenar los datos del programa.",
-        "c) Almacenar resultados intermedios de las operaciones.",
-        "d) Gestionar dispositivos de entrada/salida.",
-    ],
-    "c"
-),
-(
-    "¿Cuál es la función del buffer de teclado en un microprocesador?",
-    [
-        "a) Almacenar el código del programa.",
-        "b) Almacenar los datos del programa.",
-        "c) Almacenar resultados intermedios de las operaciones.",
-        "d) Almacenar pulsaciones de teclas para su posterior procesamiento.",
+        "a) Se puede utilizar cualquier objeto, ya que la pila es resistente.",
+        "b) Utilizar solo objetos metálicos para evitar dañar la pila.",
+        "c) Retirar la pila sin precauciones adicionales.",
+        "d) Habrá que hacerlo con la capucha de un bolígrafo o algún utensilio de plástico, nunca con un destornillador u objeto metálico.",
     ],
     "d"
 ),
 (
-    "¿Cuál es la función de la memoria de vídeo en un microprocesador?",
+    "¿Cómo se define comúnmente el chipset en una placa base y qué indica el nombre clave asignado al chip principal?",
     [
-        "a) Almacenar el código del programa.",
-        "b) Almacenar los datos del programa.",
-        "c) Almacenar resultados intermedios de las operaciones.",
-        "d) Permitir la comunicación con el exterior y mostrar datos en pantalla.",
+        "a) El chipset es una parte externa a la placa base y no influye en su funcionamiento.",
+        "b) El chipset es un solo microprocesador en la placa base sin funciones específicas.",
+        "c) El chipset es un grupo de microprocesadores en la placa base, y su nombre clave (por ejemplo, H110, Z270, B250) indica la funcionalidad y tecnología que posee.",
+        "d) El chipset es un componente opcional y no es esencial para el funcionamiento de la placa base.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es la función principal del chipset en una placa base?",
+    [
+        "a) Realizar funciones de conectividad con el exterior, como Bluetooth y USB.",
+        "b) Proporcionar alimentación a los elementos del sistema informático.",
+        "c) Gestionar la velocidad de la unidad SSD y la tarjeta gráfica.",
+        "d) Comunicar los elementos de un sistema informático (unidad SSD, memoria, microprocesador, tarjeta gráfica, ...) y realizar funciones de conectividad con el exterior (Bluetooth, Ethernet, USB, ...).",
     ],
     "d"
 ),
 (
-    "¿Qué realiza la instrucción 'SUMA ACC RX' en un microprocesador?",
+    "¿Qué aspectos del sistema informático dependen del tipo de chipset en una placa base?",
     [
-        "a) Almacena el contenido del acumulador en el registro RX.",
-        "b) Resta el contenido del registro RX al acumulador.",
-        "c) Multiplica el contenido del acumulador por el registro RX.",
-        "d) Suma el contenido del acumulador y el registro RX, almacenando el resultado en el acumulador.",
+        "a) La marca del procesador.",
+        "b) La capacidad de almacenamiento de la memoria.",
+        "d) La frecuencia del FSB (Front Side Bus), el adaptador gráfico...",
+        "c) El color del adaptador gráfico.",
     ],
     "d"
 ),
-
-(
-    "¿Qué realiza la instrucción 'RESTA RX ACC' en un microprocesador?",
-    [
-        "a) Almacena el contenido del acumulador en el registro RX.",
-        "b) Resta el contenido del registro RX al acumulador, almacenando el resultado en el acumulador.",
-        "c) Multiplica el contenido del acumulador por el registro RX.",
-        "d) Suma el contenido del acumulador y el registro RX.",
-    ],
-    "b"
-),
-(
-    "¿Qué realiza la instrucción 'READ RX' en un microprocesador?",
-    [
-        "a) Realiza una operación de suma entre el contenido del registro RX y el acumulador.",
-        "b) Lee un dato desde el teclado y lo almacena en el registro RX.",
-        "c) Copia el contenido del acumulador en el registro RX.",
-        "d) Resta el contenido del acumulador al registro RX.",
-    ],
-    "b"
-)
-
-
-
 
 
 
@@ -1596,7 +1692,7 @@ random.shuffle(preguntas)
 # Función para calcular la equivalencia de la puntuación en una nota sobre 10
 def calcular_equivalencia_puntuacion(puntuacion, total_preguntas):
     escala_maxima = 10.0
-    equivalencia = (puntuacion / total_preguntas) * escala_maxima
+    equivalencia =f (puntuacion / total_preguntas) * escala_maxima
     return equivalencia
 
 # Función para realizar el test
