@@ -1268,9 +1268,17 @@ preguntas = [
 # Mezclar las preguntas en orden aleatorio
 random.shuffle(preguntas)
 
+# Función para calcular la equivalencia de la puntuación en una nota sobre 10
+def calcular_equivalencia_puntuacion(puntuacion, total_preguntas):
+    escala_maxima = 10.0
+    equivalencia = (puntuacion / total_preguntas) * escala_maxima
+    return equivalencia
+
 # Función para realizar el test
 def realizar_test():
     puntaje = 0
+    total_preguntas = len(preguntas)
+
     for i, (pregunta, opciones, respuesta) in enumerate(preguntas, 1):
         print(f"\nPregunta {i}: {pregunta}")
         random.shuffle(opciones)
@@ -1287,10 +1295,17 @@ def realizar_test():
             print(f"✖✖✖✖✖✖✖ Respuesta incorrecta. La opción correcta es: {respuesta}\n")
             print("-------------------------\n")
     
-    print(f"Has completado el test, {nombre_usuario}. Puntuación final: {puntaje}/{len(preguntas)}")
+    equivalencia = calcular_equivalencia_puntuacion(puntaje, total_preguntas)
+    
+    print("┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓")
+    print(f"  Has completado el test, {nombre_usuario}. Puntuación final: {puntaje}/{total_preguntas}")
+    print("┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛")
+    print("                                                  ==========")
+    print(f"Tu equivalencia de nota sobre 10 es ━━━━━━━━━━━━❯✷ {equivalencia:.2f}/10 ✷❮━━━━━━━━━━━━")
+    print("                                                  ==========")
 
 # Solicitar el nombre del usuario
-nombre_usuario = input("Bienvenido al test HTML. Por favor, introduce tu nombre: ")
+nombre_usuario = input("Bienvenido al test de Fundamentos. Por favor, introduce tu nombre: ")
 
 # Solicitar el número de preguntas
 num_preguntas = int(input("¿Cuántas preguntas deseas en el test? "))
@@ -1303,5 +1318,5 @@ random.shuffle(preguntas)
 preguntas = preguntas[:num_preguntas]
 
 # Ejecutar el test
-print(f"Muy bien, {nombre_usuario}! Comencemos con tu test de HTML con {num_preguntas} preguntas.")
+print(f"Muy bien, {nombre_usuario}! Comencemos con tu test de Fundamentos con {num_preguntas} preguntas.")
 realizar_test()
