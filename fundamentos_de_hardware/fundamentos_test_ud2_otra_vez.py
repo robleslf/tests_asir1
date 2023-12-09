@@ -1684,7 +1684,7 @@ preguntas = [
     ]
 
 
-######################################################################################
+#######################################################################################
 
 # Mezclar las preguntas en orden aleatorio
 random.shuffle(preguntas)
@@ -1692,7 +1692,7 @@ random.shuffle(preguntas)
 # Función para calcular la equivalencia de la puntuación en una nota sobre 10
 def calcular_equivalencia_puntuacion(puntuacion, total_preguntas):
     escala_maxima = 10.0
-    equivalencia =f (puntuacion / total_preguntas) * escala_maxima
+    equivalencia = (puntuacion / total_preguntas) * escala_maxima
     return equivalencia
 
 # Función para realizar el test
