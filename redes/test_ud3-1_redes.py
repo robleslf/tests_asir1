@@ -1253,6 +1253,1887 @@ preguntas = [
     ],
     "b"
 ),
+(
+    "¿Cuál es la principal característica del cable de par trenzado no blindado (UTP) utilizado en redes LAN?",
+    [
+        "a) El cable UTP tiene un revestimiento metálico para proteger contra interferencias.",
+        "b) El cable UTP consta de dos pares de hilos codificados por colores.",
+        "c) El cable UTP está diseñado para interconectar hosts de red con dispositivos finales como computadoras y impresoras.",
+        "d) El cable UTP consta de cuatro pares de hilos codificados por colores que están trenzados entre sí para proteger contra interferencias y se termina con conectores RJ-45.",
+    ],
+    "d"
+),
+(
+    "¿Cuál es la afirmación correcta sobre el cableado de par trenzado no blindado (UTP) en redes?",
+    [
+        "a) El UTP es un medio de red poco común y raramente se utiliza.",
+        "b) El UTP es el medio de red más común y ampliamente utilizado.",
+        "c) El UTP solo se utiliza para conectar dispositivos finales, como computadoras y impresoras.",
+        "d) El UTP se utiliza exclusivamente en redes LAN de alta velocidad.",
+    ],
+    "b"
+),
+(
+    "¿Para qué se utiliza comúnmente el cableado UTP terminado con conectores RJ-45?",
+    [
+        "a) Exclusivamente para conectar computadoras y dispositivos finales.",
+        "b) Para la interconexión de hosts de red con dispositivos intermediarios como switches y routers.",
+        "c) Solo en redes LAN de alta velocidad.",
+        "d) Principalmente para conectar servidores en entornos empresariales.",
+    ],
+    "b"
+),
+(
+    "¿Cómo está compuesto el cable UTP utilizado en redes LAN?",
+    [
+        "a) El cable UTP tiene solo dos pares de hilos sin codificación de colores.",
+        "b) El cable UTP consta de seis pares de hilos con codificación de colores.",
+        "c) El cable UTP consta de cuatro pares de hilos codificados por colores y trenzados entre sí, con un revestimiento de plástico flexible para protección contra daños físicos menores.",
+        "d) El cable UTP tiene un único par de hilos sin ninguna codificación de colores.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es el propósito principal del trenzado de los hilos en el cable UTP utilizado en redes?",
+    [
+        "a) Mejorar la velocidad de transmisión de datos.",
+        "b) Facilitar la identificación de los hilos.",
+        "c) Proteger contra daños físicos.",
+        "d) Ayudar a proteger contra interferencias de señales de otros hilos.",
+    ],
+    "d"
+),
+(
+    "¿Cuál es el propósito principal de los códigos por colores en el cable UTP?",
+    [
+        "a) Decoración estética del cable.",
+        "b) Facilitar la identificación del fabricante del cable.",
+        "c) Identificar los pares individuales con sus alambres y ayudar en la terminación de cables.",
+        "d) Indicar la velocidad máxima de transmisión del cable.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es una característica distintiva del cable de par trenzado blindado (STP) en comparación con el cable UTP?",
+    [
+        "a) El STP es más económico que el UTP.",
+        "b) El STP proporciona una mejor protección contra ruido y utiliza conectores RJ-11.",
+        "c) El STP es más fácil de instalar que el UTP.",
+        "d) El STP utiliza conectores RJ-45 y combina técnicas de blindaje para contrarrestar EMI y RFI, además de trenzado de hilos para contrarrestar crosstalk.",
+    ],
+    "d"
+),
+(
+    "¿Cuál es una ventaja principal del par trenzado blindado (STP) en comparación con el cable UTP?",
+    [
+        "a) Mayor velocidad de transmisión.",
+        "b) Mayor distancia de transmisión.",
+        "c) Mejor protección contra ruido, especialmente EMI y RFI.",
+        "d) Menor costo de instalación.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es una desventaja principal del cable de par trenzado blindado (STP) en comparación con el cable UTP?",
+    [
+        "a) Mayor velocidad de transmisión.",
+        "b) Mayor facilidad de instalación.",
+        "c) Menor costo.",
+        "d) Mayor costo y dificultad de instalación.",
+    ],
+    "d"
+),
+(
+    "¿Qué tipo de conector comparten los cables de par trenzado blindado (STP) y no blindado (UTP)?",
+    [
+        "a) Conector RJ-11.",
+        "b) Conector RJ-45.",
+        "c) Conector USB.",
+        "d) Conector HDMI.",
+    ],
+    "b"
+),
+(
+    "¿Cuáles son las técnicas combinadas utilizadas en el cable de par trenzado blindado (STP) para contrarrestar interferencias?",
+    [
+        "a) Trenzado de hilos y conectores blindados.",
+        "b) Blindaje de hoja metálica y conectores RJ-11.",
+        "c) Trenzado de hilos para contrarrestar crosstalk y blindaje para contrarrestar EMI y RFI.",
+        "d) Trenzado de hilos y cables coaxiales.",
+    ],
+    "c"
+),
+(
+    "¿Cómo se terminan comúnmente los cables de par trenzado blindado (STP) para obtener los máximos beneficios del blindaje?",
+    [
+        "a) Con conectores RJ-11 estándar.",
+        "b) Con conectores de datos STP blindados especiales.",
+        "c) Con conectores USB.",
+        "d) Con conectores HDMI.",
+    ],
+    "b"
+),
+(
+    "¿Por qué es importante conectar correctamente a tierra el blindaje de un cable de par trenzado blindado (STP)?",
+    [
+        "a) Para mejorar la velocidad de transmisión.",
+        "b) Para facilitar la instalación del cable.",
+        "c) Para prevenir la interferencia magnética.",
+        "d) Para evitar que el blindaje actúe como antena y capture señales no deseadas.",
+    ],
+    "d"
+),
+(
+    "¿Cómo está configurado el cable de par trenzado blindado (STP) que se describe?",
+    [
+        "a) Dos pares de hilos con blindaje de hoja metálica.",
+        "b) Tres pares de hilos con malla tejida.",
+        "c) Cuatro pares de hilos con blindaje de hoja metálica y malla tejida o hoja metálica adicional.",
+        "d) Cinco pares de hilos sin blindaje.",
+    ],
+    "c"
+),
+(
+    "¿Cuáles son los componentes principales de un cable coaxial?",
+    [
+        "a) Dos conductores de cobre y una capa de aislamiento plástico.",
+        "b) Un conductor de cobre y una capa de aislamiento plástico flexible.",
+        "c) Un conductor de aluminio y una malla de cobre tejida.",
+        "d) Un conductor de cobre, una capa de aislamiento plástico, una malla de cobre tejida o una hoja metálica y un revestimiento protector.",
+    ],
+    "d"
+),
+(
+    "¿Cuál es la característica que da nombre al cable coaxial?",
+    [
+        "a) La presencia de una capa de aislamiento plástico.",
+        "b) La malla de cobre tejida o la hoja metálica.",
+        "c) El hecho de que hay dos conductores que comparten el mismo eje.",
+        "d) El revestimiento protector que cubre el cable.",
+    ],
+    "c"
+),
+(
+    "¿Cuáles son los componentes principales de un cable coaxial?",
+    [
+        "a) Conductor de aluminio, capa de aislamiento plástico y revestimiento protector.",
+        "b) Conductor de cobre, capa de aislamiento plástico flexible y malla de cobre tejida o hoja metálica.",
+        "c) Dos conductores de cobre y una capa de aislamiento plástico.",
+        "d) Conductor de aluminio y revestimiento protector.",
+    ],
+    "b"
+),
+(
+    "¿Cuál es el propósito del conductor de cobre en un cable coaxial?",
+    [
+        "a) Actuar como una capa de aislamiento.",
+        "b) Transmitir las señales electrónicas.",
+        "c) Proporcionar flexibilidad al cable.",
+        "d) Funcionar como un revestimiento protector.",
+    ],
+    "b"
+),
+(
+    "¿Cuál es la función de la capa de aislamiento plástico flexible en un cable coaxial?",
+    [
+        "a) Transmitir señales electrónicas.",
+        "b) Proporcionar flexibilidad al cable.",
+        "c) Actuar como un conductor adicional.",
+        "d) Rodear al conductor de cobre para aislarlo.",
+    ],
+    "d"
+),
+(
+    "¿Cuál es el propósito de la malla de cobre tejida o la hoja metálica sobre el material aislante en un cable coaxial?",
+    [
+        "a) Actuar como un conductor adicional.",
+        "b) Transmitir señales electrónicas.",
+        "c) Proporcionar flexibilidad al cable.",
+        "d) Actuar como segundo hilo en el circuito y blindaje para reducir interferencias electromagnéticas externas.",
+    ],
+    "d"
+),
+(
+    "¿Cuál es el propósito del revestimiento que cubre la totalidad del cable coaxial?",
+    [
+        "a) Transmitir señales electrónicas.",
+        "b) Actuar como conductor adicional.",
+        "c) Proporcionar flexibilidad al cable.",
+        "d) Evitar daños físicos menores al cable.",
+    ],
+    "d"
+),
+(
+    "¿Cuál es la afirmación correcta sobre los conectores de cable coaxial?",
+    [
+        "a) Todos los conectores de cable coaxial son iguales.",
+        "b) Solo hay un tipo de conector para cable coaxial.",
+        "c) Existen diferentes tipos de conectores para cable coaxial.",
+        "d) Los conectores de cable coaxial no son necesarios.",
+    ],
+    "c"
+),
+(
+    "Aparte de las instalaciones de Ethernet modernas, ¿cuáles son algunos de los usos adaptados del cable coaxial?",
+    [
+        "a) No tiene otros usos aparte de las instalaciones de Ethernet.",
+        "b) Se utiliza solo en instalaciones de Internet por cable.",
+        "c) Conecta dispositivos Bluetooth en instalaciones inalámbricas.",
+        "d) Conecta antenas a dispositivos inalámbricos y se utiliza en instalaciones de Internet por cable.",
+    ],
+    "d"
+),
+(
+    "¿Cuál es uno de los roles del cable coaxial en instalaciones inalámbricas?",
+    [
+        "a) Transmitir señales de fibra óptica.",
+        "b) Conectar dispositivos Bluetooth.",
+        "c) Conectar antenas a dispositivos inalámbricos.",
+        "d) Proporcionar energía eléctrica a dispositivos inalámbricos.",
+    ],
+    "c"
+),
+(
+    "Además de conectar antenas a dispositivos inalámbricos, ¿cuál es otro papel del cable coaxial en instalaciones inalámbricas?",
+    [
+        "a) Transmitir señales de fibra óptica.",
+        "b) Transportar energía de radiofrecuencia (RF) entre antenas y equipos de radio.",
+        "c) Conectar dispositivos Bluetooth.",
+        "d) Proporcionar energía eléctrica a dispositivos inalámbricos.",
+    ],
+    "b"
+),
+(
+"En instalaciones de Internet por cable, ¿cómo se utiliza el cable coaxial según la descripción dada?",
+    [
+        "a) Se reemplaza completamente por cables de fibra óptica.",
+        "b) No se utiliza en instalaciones de Internet por cable.",
+        "c) Se utiliza para conectar dispositivos Bluetooth.",
+        "d) Se reemplaza parcialmente y se admite elementos de amplificación con cables de fibra óptica.",
+    ],
+    "d"
+),
+(
+    "A pesar de las mejoras en las infraestructuras, ¿qué tipo de cableado sigue siendo comúnmente utilizado en las instalaciones del cliente para la conexión a Internet por cable?",
+    [
+        "a) Cable de fibra óptica.",
+        "b) Cable UTP.",
+        "c) Cable coaxial.",
+        "d) Cable de par trenzado blindado.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es uno de los peligros potenciales asociados con los medios de cobre en las redes, especialmente en situaciones donde se conectan dispositivos con diferentes potenciales de conexión a tierra?",
+    [
+        "a) Peligro de inundación.",
+        "b) Peligro de explosión.",
+        "c) Peligro eléctrico y de incendio.",
+        "d) Peligro biológico.",
+    ],
+    "c"
+),
+(
+    "¿Por qué podría existir el peligro de incendio en los medios de cobre utilizados en redes?",
+    [
+        "a) Debido a la oxidación de los cables.",
+        "b) Por la exposición al agua.",
+        "c) Debido a la inflamabilidad y la producción de emanaciones tóxicas del revestimiento y aislamiento de los cables al calentarse o quemarse.",
+        "d) Por la conexión a tierra incorrecta.",
+    ],
+    "c"
+),
+(
+    "¿Quién o qué entidad puede estipular estándares de seguridad para las instalaciones de hardware y cableado?",
+    [
+        "a) Los fabricantes de hardware.",
+        "b) Los usuarios finales de la red.",
+        "c) Las organizaciones o autoridades edilicias.",
+        "d) Los proveedores de servicios de internet.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es uno de los problemas potenciales relacionados con los peligros eléctricos del cableado de cobre?",
+    [
+        "a) Conductividad mejorada.",
+        "b) Reducción de riesgos eléctricos.",
+        "c) Conducción no deseada de electricidad.",
+        "d) Mejora en la eficiencia energética.",
+    ],
+    "c"
+),
+(
+    "¿Qué riesgo eléctrico se menciona como ejemplo cuando un dispositivo de red está defectuoso?",
+    [
+        "a) Mayor eficiencia energética.",
+        "b) Conducción segura de corriente.",
+        "c) Riesgo de que el chasis de otros dispositivos conduzca corriente.",
+        "d) Ausencia de peligros eléctricos.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es un posible problema asociado al cableado de red en términos de niveles de voltaje?",
+    [
+        "a) Mayor eficiencia energética.",
+        "b) Conexión segura a tierra.",
+        "c) Posibilidad de niveles de voltaje no deseados.",
+        "d) Ausencia de problemas eléctricos.",
+    ],
+    "c"
+),
+(
+    "¿Cuándo pueden surgir posibles problemas eléctricos al utilizar cableado de cobre para conectar redes en diferentes edificios o pisos?",
+    [
+        "a) Solo cuando hay tormentas eléctricas.",
+        "b) No hay posibilidad de problemas eléctricos.",
+        "c) En situaciones donde los edificios o pisos tienen instalaciones de energía diferentes.",
+        "d) Solo en edificios de gran altura.",
+    ],
+    "c"
+),
+(
+    "¿En qué situación el cableado de cobre puede conducir voltajes provocados por descargas eléctricas a los dispositivos de red?",
+    [
+        "a) Solo durante tormentas eléctricas.",
+        "b) Cuando los dispositivos de red están apagados.",
+        "c) Si el cableado de cobre está instalado correctamente.",
+        "d) En situaciones donde se producen descargas eléctricas.",
+    ],
+    "d"
+),
+(
+    "¿Cuáles son las posibles consecuencias de las corrientes y voltajes no deseados en el cableado de cobre?",
+    [
+        "a) Daño a los dispositivos de red y a las PC conectadas.",
+        "b) Mejora del rendimiento de los dispositivos de red.",
+        "c) Mayor eficiencia energética en la red.",
+        "d) Ninguna consecuencia, ya que el cableado de cobre es seguro.",
+    ],
+    "a"
+),
+(
+    "¿Por qué es importante seguir las especificaciones relevantes y los códigos de edificación al instalar el cableado de cobre?",
+    [
+        "a) Para aumentar el costo de instalación.",
+        "b) Para prevenir situaciones peligrosas y perjudiciales.",
+        "c) Para reducir la eficiencia energética de la red.",
+        "d) Para no seguir estándares y códigos.",
+    ],
+    "b"
+),
+(
+    "¿Por qué es importante seguir prácticas de cableado adecuadas para evitar posibles peligros eléctricos y de incendio?",
+    [
+        "a) Solo por estética.",
+        "b) Para cumplir con estándares de seguridad y prevenir daños.",
+        "c) No es necesario seguir prácticas específicas de cableado.",
+        "d) Para aumentar la complejidad de la red.",
+    ],
+    "b"
+),
+(
+    "¿Cuántos pares de hilos codificados por colores tiene el cableado de par trenzado no blindado (UTP)?",
+    [
+        "a) Dos pares.",
+        "b) Tres pares.",
+        "c) Cuatro pares.",
+        "d) Cinco pares.",
+    ],
+    "c"
+),
+(
+    "¿Cómo limitan el efecto negativo del crosstalk en los cables UTP?",
+    [
+        "a) Utilizando blindaje metálico.",
+        "b) Cambiando el número de vueltas por par de hilos.",
+        "c) Aumentando el tamaño del cable.",
+        "d) Separando los hilos por una distancia mayor.",
+    ],
+    "b"
+),
+(
+    "¿Qué ventaja se menciona sobre el tamaño del cable UTP?",
+    [
+        "a) Es grande y fácil de manejar.",
+        "b) Puede ser una desventaja durante la instalación.",
+        "c) Su tamaño pequeño puede ser una ventaja durante la instalación.",
+        "d) No se menciona ninguna ventaja relacionada con el tamaño.",
+    ],
+    "c"
+),
+(
+    "¿Cuántos pares de hilos codificados por colores tiene el cableado de par trenzado no blindado (UTP)?",
+    [
+        "a) Dos pares.",
+        "b) Tres pares.",
+        "c) Cuatro pares.",
+        "d) Cinco pares.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es la función principal de la trenza entre los hilos en el cable UTP?",
+    [
+        "a) Proporcionar rigidez al cable.",
+        "b) Reducir interferencias electromagnéticas y de radiofrecuencia.",
+        "c) Aumentar la velocidad de transmisión.",
+        "d) Evitar cortocircuitos.",
+    ],
+    "b"
+),
+(
+    "¿Qué característica diferencia a los cables UTP del blindaje utilizado para contrarrestar EMI y RFI?",
+    [
+        "a) Los cables UTP no están afectados por EMI y RFI.",
+        "b) Los cables UTP no utilizan blindaje para contrarrestar EMI y RFI.",
+        "c) Los cables UTP no dependen únicamente de su trenzado interno para contrarrestar EMI y RFI.",
+        "d) Los cables UTP no necesitan protección contra EMI y RFI.",
+    ],
+    "b"
+),
+(
+    "¿Cómo los diseñadores de cables UTP limitan el efecto negativo del crosstalk?",
+    [
+        "a) Utilizando blindaje para cada par de hilos.",
+        "b) Aplicando campos magnéticos adicionales para contrarrestar el crosstalk.",
+        "c) Implementando la anulación al emparejar los hilos en un circuito.",
+        "d) Aumentando la longitud total de los cables UTP.",
+    ],
+    "c"
+),
+(
+    "¿Qué técnica utilizan los diseñadores para mejorar el efecto de anulación en los cables UTP?",
+    [
+        "a) Cambiando la codificación de colores de los hilos.",
+        "b) Incrementando la resistencia eléctrica de los hilos.",
+        "c) Cambiando el número de vueltas por par de hilos.",
+        "d) Aplicando un recubrimiento metálico en la superficie externa de los cables.",
+    ],
+    "c"
+),
+(
+    "¿Cómo se logra la anulación en los cables UTP para contrarrestar el crosstalk?",
+    [
+        "a) Mediante la aplicación de campos magnéticos adicionales.",
+        "b) Al aumentar la resistencia eléctrica de los hilos.",
+        "c) Emparejando los hilos en un circuito para que los campos magnéticos sean opuestos.",
+        "d) Utilizando blindaje en cada hilo para evitar interferencias.",
+    ],
+    "c"
+),
+(
+    "¿Qué sucede cuando los campos magnéticos generados por dos hilos en un circuito UTP son opuestos?",
+    [
+        "a) Se produce interferencia electromagnética (EMI).",
+        "b) Se anulan mutuamente, contrarrestando cualquier señal de EMI y RFI externa.",
+        "c) Los hilos se enredan, causando cortocircuitos.",
+        "d) Aumenta la resistencia eléctrica en el circuito.",
+    ],
+    "b"
+),
+(
+    "¿Cómo contribuye el cambio en el número de vueltas por par de hilos en un cable UTP a la reducción del crosstalk?",
+    [
+        "a) Aumenta el crosstalk, causando interferencia en las señales.",
+        "b) Disminuye la resistencia eléctrica del cable.",
+        "c) Mejora el efecto de anulación entre los campos magnéticos de los hilos.",
+        "d) No tiene ningún impacto en el rendimiento del cable.",
+    ],
+    "c"
+),
+(
+    "¿Por qué es importante seguir especificaciones precisas en cuanto al número de vueltas o trenzas por metro en cables UTP?",
+    [
+        "a) Para aumentar la resistencia eléctrica del cable.",
+        "b) Para reducir la flexibilidad del cable.",
+        "c) Para mejorar la eficiencia de transmisión y reducir el crosstalk.",
+        "d) No tiene impacto en el rendimiento del cable UTP.",
+    ],
+    "c"
+),
+(
+    "¿Por qué se observa que el par naranja y naranja/blanco está menos trenzado que el par azul y azul/blanco en la figura? xdddddddddddd",
+    [
+        "a) Es un error en la fabricación del cable.",
+        "b) No hay razón específica para la diferencia de trenzado.",
+        "c) La diferencia de trenzado afecta positivamente a la transmisión de datos.",
+        "d) La diferencia de trenzado afecta negativamente a la transmisión de datos."
+    ],
+    "c"
+),
+(
+    "¿Cuál es la principal estrategia de los cables UTP para limitar la degradación de la señal y proporcionar un autoblindaje eficaz de los pares de hilos?",
+    [
+        "a) Utilizan un revestimiento externo de metal para el blindaje.",
+        "b) Dependan de la anulación producida por los pares de hilos trenzados.",
+        "c) Incorporan materiales aislantes especiales.",
+        "d) Utilizan conectores RJ-45 blindados."
+    ],
+    "b"
+),
+(
+    "¿Qué estándar establece los estándares comerciales de cableado para las instalaciones LAN y es el estándar de mayor uso en entornos de cableado LAN?",
+    [
+        "a) IEEE",
+        "b) TIA/EIA-568",
+        "c) Cat5",
+        "d) Cat6"
+    ],
+    "b"
+),
+(
+    "¿Qué elementos define el estándar TIA/EIA-568?",
+    [
+        "a) Tipos de cables, longitudes del cable y conectores",
+        "b) Terminación de los cables y métodos para realizar pruebas de cable",
+        "c) Todos los anteriores",
+        "d) Ninguno de los anteriores"
+    ],
+    "c"
+),
+(
+    "¿Quién define las características eléctricas del cableado de cobre?",
+    [
+        "a) TIA/EIA",
+        "b) IEEE",
+        "c) ISO",
+        "d) ANSI"
+    ],
+    "b"
+),
+(
+    "¿Cómo se dividen los cables UTP según su capacidad para transportar datos y velocidades?",
+    [
+        "a) Por colores",
+        "b) Por marcas",
+        "c) Por categorías",
+        "d) Por longitud"
+    ],
+    "c"
+),
+(
+    "¿En qué tipo de instalaciones se utiliza comúnmente el cable de Categoría 5 (Cat5)?",
+    [
+        "a) Gigabit Ethernet",
+        "b) FastEthernet 100BASE-TX",
+        "c) Fibra óptica",
+        "d) 10BASE-T"
+    ],
+    "b"
+),
+(
+    "¿Cuál es el propósito principal de diseñar cables de categorías superiores?",
+    [
+        "a) Reducir el costo de producción.",
+        "b) Mejorar la flexibilidad del cable.",
+        "c) Admitir velocidades superiores de transmisión de datos.",
+        "d) Facilitar la instalación en entornos húmedos."
+    ],
+    "c"
+),
+(
+    "¿Qué categoría de cable es mínimamente aceptable para las actuales tecnologías Ethernet de velocidades en gigabits?",
+    [
+        "a) Cat5",
+        "b) Cat5e",
+        "c) Cat6",
+        "d) Cat6a"
+    ],
+    "b"
+),
+(
+    "¿Cuál es el tipo de cable recomendado para nuevas instalaciones edilicias?",
+    [
+        "a) Cat5",
+        "b) Cat5e",
+        "c) Cat6",
+        "d) Cat6a"
+    ],
+    "c"
+),
+(
+    "¿Cómo se refieren algunos fabricantes a los cables que exceden las especificaciones de la categoría 6a?",
+    [
+        "a) Cables de Categoría 6a+",
+        "b) Cables de Categoría 7",
+        "c) Cables de Categoría 6b",
+        "d) Cables de Categoría 6a mejorados"
+    ],
+    "b"
+),
+(
+    "¿Para qué se utiliza con mayor frecuencia el cable de Categoría 3 (UTP)?",
+    [
+        "a) Transmisión de datos a alta velocidad",
+        "b) Comunicación de voz",
+        "c) Líneas telefónicas",
+        "d) b y c son correctas."
+    ],
+    "d"
+),
+(
+"¿Cuál es una característica de los cables de Categoría 5 o 5e (UTP)?",
+    [
+        "a) Utilizado para la transmisión de voz",
+        "b) Utilizado para la trasmisión de video",
+        "c) Utilizado para la transmisión de radio",
+        "d) Utilizado para la transmisión de datos"
+    ],
+    "d"
+),
+(
+"¿Cuál es una característica de los cables de Categoría 5 o 5e (UTP)?",
+    [
+        "a) Los cables Cat5 admiten velocidades de 100 Mbps y pueden admitir velocidades de 1000 Mbps, pero esto no se recomienda.",
+        "b) Los cables Cat5 admiten velocidades de 100 Mbps y pueden admitir velocidades de 1000 Mbps, que es lo recomendable.",
+        "c) Los cables Cat5 admiten velocidades de 10 Mbps y pueden admitir velocidades de 100 Mbps, pero esto no se recomienda.",
+        "d) Los cables Cat5 admiten velocidades de 10 Mbps y pueden admitir velocidades de 100 Mbps, pero esto no se recomienda."
+    ],
+    "a"
+),
+(
+    "¿Cuál es una característica de los cables de Categoría 6 (UTP)?",
+    [
+        "a) Limitado a velocidades de 100 Mbps",
+        "b) No se recomienda para velocidades superiores a 1 Gbps",
+        "c) No utilizado para la transmisión de datos",
+        "d) Cuenta con un separador entre cada par de cables para velocidades más elevadas"
+    ],
+    "d"
+),
+(
+    "¿Cuál es una característica de los cables de Categoría 6 (UTP)?",
+    [
+        "a) Utilizado para la transmisión entre dispositivos antiguos.",
+        "b) Utilizado para la transmisión de video.",
+        "c) Utilizado para la transmisión de audio.",
+        "d) Utilizado para la transmisión de datos."
+    ],
+    "d"
+),
+(
+    "¿Cuál es una característica de los cables de Categoría 6 (UTP)?",
+    [
+        "a) Cuenta con un separador agregado entre cada par de cables para permitir que funcione a velocidades más elevadas.",
+        "b) Cuenta con un separador agregado entre cada cable para permitir que funcione a velocidades más elevadas.",
+        "c) Cuenta con un separador agregado entre cada par de cables para permitir que funcione sin interferencias.",
+        "d) Cuenta con un separador agregado entre cada cable para permitir que funcione sin interferencias."
+    ],
+    "a"
+),
+(
+    "¿Cuál es una característica de los cables de Categoría 6 (UTP)?",
+    [
+        "a) Admite velocidades desde 100 Mbps hasta 10 Gbps, aunque esta última no se recomienda.",
+        "b) Admite velocidades desde 1000 Mbps hasta 10 Gbps, aunque esta última no se recomienda.",
+        "c) Admite velocidades desde 100 Mbps hasta 10 Gbps, siendo esta última la recomendada.",
+        "d) Admite velocidades desde 1000 Mbps hasta 10 Gbps, siendo esta última la recomendada."
+    ],
+    "b"
+),
+(
+    "¿Cuál es el conector comúnmente utilizado para terminar los cables UTP?",
+    [
+        "a) RJ-11",
+        "b) RJ-45",
+        "c) USB",
+        "d) HDMI"
+    ],
+    "b"
+),
+(
+    "¿Cuál de las siguientes afirmaciones sobre los cables de categoría 6 (UTP) es correcta?",
+    [
+        "a) Se utiliza para la comunicación de voz.",
+        "b) Admite velocidades de hasta 100 Mbps.",
+        "c) No cuenta con un separador agregado entre cada par de cables.",
+        "d) Admite velocidades desde 1000 Mbps hasta 10 Gbps."
+    ],
+    "d"
+),
+(
+    "¿Cómo suelen terminarse los cables UTP en el contexto de las redes?",
+    [
+        "a) Con conectores USB.",
+        "b) Con conectores VGA.",
+        "c) Con conectores RJ-45.",
+        "d) Con conectores HDMI.",
+    ],
+    "c"
+),
+(
+    "¿Para qué especificaciones de capa física se utiliza comúnmente el conector RJ-45, incluyendo una importante como Ethernet?",
+    [
+        "a) Exclusivamente para USB.",
+        "b) Principalmente para VGA.",
+        "c) Mayormente para HDMI.",
+        "d) Comúnmente para Ethernet y otras especificaciones de capa física.",
+    ],
+    "d"
+),
+(
+    "¿Qué describe el estándar TIA/EIA-568 en el contexto de cables Ethernet?",
+    [
+        "a) Las especificaciones de USB.",
+        "b) La evolución histórica de los cables de red.",
+        "c) Las asignaciones de códigos por colores de los hilos y el diagrama de pines de los cables Ethernet.",
+        "d) La función de los conectores HDMI en la red.",
+    ],
+    "c"
+),
+(
+    "En el contexto de conexiones de red, ¿cuál es la función del conector RJ-45?",
+    [
+        "a) Es el componente hembra en dispositivos de red.",
+        "b) Es el componente macho en el extremo del cable.",
+        "c) Es el conector utilizado exclusivamente para HDMI.",
+        "d) Es el componente utilizado en paneles de conexiones de red.",
+    ],
+    "b"
+),
+(
+    "¿Por qué es fundamental asegurar terminaciones de calidad superior al trabajar con cables de cobre en redes?",
+    [
+        "a) Para evitar la pérdida de señal y la generación de ruido en el circuito de comunicación.",
+        "b) Porque cada terminación incorrecta representa una fuente potencial de mejora del rendimiento.",
+        "c) Solo se aplica a tecnologías de red futuras.",
+        "d) No afecta al funcionamiento de la capa física de la red.",
+    ],
+    "a"
+),
+(
+    "¿Cuáles son las posibles consecuencias al realizar la terminación de un cableado de cobre de manera incorrecta?",
+    [
+        "a) Pérdida de señal y generación de ruido en el circuito de comunicación.",
+        "b) Mejora del rendimiento de la capa física de la red.",
+        "c) Garantía de un funcionamiento óptimo en tecnologías de red actuales y futuras.",
+        "d) Ausencia de impacto en el rendimiento de la capa física.",
+    ],
+    "a"
+),
+(
+    "¿Qué representa cada cable cuando las terminaciones se realizan de manera incorrecta?",
+    [
+        "a) Una fuente de mejora del rendimiento de la capa física.",
+        "b) Una garantía de funcionamiento óptimo en tecnologías de red actuales y futuras.",
+        "c) Una posible fuente de degradación del rendimiento de la capa física.",
+        "d) Un componente independiente del rendimiento de la red.",
+    ],
+    "c"
+),
+(
+    "¿Por qué es esencial que todas las terminaciones de medios de cobre sean de calidad superior?",
+    [
+        "a) Para asegurar una conexión segura entre servidores y clientes.",
+        "b) Porque garantiza la compatibilidad con tecnologías de red actuales y futuras.",
+        "c) Solo es relevante para redes antiguas.",
+        "d) No afecta el rendimiento de la capa física de la red.",
+    ],
+    "b"
+),
+(
+    "¿Cuál es la principal aplicación de un cable directo de Ethernet?",
+    [
+        "a) Conectar dispositivos similares, como dos switches.",
+        "b) Interconectar un host con un switch y un switch con un router.",
+        "c) Exclusivamente utilizado para conexiones de consola en dispositivos Cisco.",
+        "d) Conectar un router a un switch.",
+    ],
+    "b"
+),
+(
+    "¿Por qué es necesario que los cables UTP estén correctamente terminados?",
+    [
+        "a) Para garantizar la compatibilidad con dispositivos y tecnologías de red actuales y futuras.",
+        "b) Para evitar la pérdida de señal y la introducción de ruido.",
+        "c) Para proteger los cables de daños físicos.",
+        "d) Para mejorar el rendimiento de la red.",
+    ],
+    "b",
+),
+(
+    "¿Cuál es la razón principal por la que los alambres individuales de un cable UTP deben conectarse en diferente orden para distintos grupos de pins en conectores RJ45?",
+    [
+        "a) Para facilitar el proceso de terminación.",
+        "b) Por motivos estéticos.",
+        "c) Para adaptarse a diferentes configuraciones de red.",
+        "d) Para garantizar la correcta conexión y funcionamiento según las convenciones de cableado.",
+    ],
+    "d"
+),
+(
+    "¿Cuál es la principal aplicación de un cable cruzado Ethernet?",
+    [
+        "a) Interconectar un host con un switch.",
+        "b) Conectar dispositivos similares, como dos switches o dos routers.",
+        "c) Exclusivamente utilizado para conexiones de consola en dispositivos Cisco.",
+        "d) Interconectar un switch con un router.",
+    ],
+    "b"
+),
+(
+    "¿Cuáles son los principales tipos de cable que se obtienen al utilizar las convenciones específicas de cableado?",
+    [
+        "a) Cable directo de Ethernet, cable cruzado de Ethernet, cable mixto de Ethernet, Cable de consola.",
+        "b) Cable directo de Ethernet, cable cruzado de Ethernet, Cable de consola.",
+        "c) Cable directo de Ethernet, cable mixto de Ethernet, Cable de consola.",
+        "d) Cable directo de Ethernet y cable indirecto de Ethernet.",
+    ],
+    "b"
+),
+(
+    "¿Cuál es la principal función de un cable directo de Ethernet?",
+    [
+        "a) Conectar dispositivos similares, como dos switches.",
+        "b) Interconectar un host con un switch y un switch con un router.",
+        "c) Exclusivamente utilizado para conexiones de consola en dispositivos Cisco.",
+        "d) Interconectar un router con un switch.",
+    ],
+    "b"
+),
+(
+    "¿Cuál es el propósito principal de un cable cruzado Ethernet?",
+    [
+        "a) Interconectar un host con un switch y un switch con un router.",
+        "b) Conectar dispositivos similares, como dos switches o dos routers.",
+        "c) Exclusivamente utilizado para conexiones de consola en dispositivos Cisco.",
+        "d) Interconectar un router con un switch.",
+    ],
+    "b"
+),
+(
+    "¿Cuál es la función principal de un cable de consola en el contexto de redes?",
+    [
+        "a) Interconectar un host con un switch y un switch con un router.",
+        "b) Conectar dispositivos similares, como dos switches o dos routers.",
+        "c) Exclusivamente utilizado para conexiones de consola en dispositivos Cisco.",
+        "d) Interconectar un router con un switch.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es el resultado probable de usar incorrectamente un cable de conexión cruzada o de conexión directa entre dispositivos?",
+    [
+        "a) Daño inmediato a los dispositivos conectados.",
+        "b) Mejora de la conectividad y la comunicación entre dispositivos.",
+        "c) Sin impacto en la conectividad o comunicación entre dispositivos.",
+        "d) Falta de conectividad y comunicación entre dispositivos.",
+    ],
+    "d"
+),
+(
+    "¿Cuál es la primera medida recomendada para resolver problemas de conectividad en un laboratorio si no se logra la conexión entre dispositivos?",
+    [
+        "a) Cambiar inmediatamente los cables de conexión.",
+        "b) Reiniciar todos los dispositivos.",
+        "c) Verificar que las conexiones de los dispositivos sean correctas.",
+        "d) Reemplazar los dispositivos con problemas.",
+    ],
+    "c"
+),
+(
+    "Después de la instalación de cables UTP, ¿cuáles son los parámetros que se deben probar utilizando un comprobador de cables?",
+    [
+        "a) Color de los cables y grosor del aislamiento.",
+        "b) Marca y modelo de los conectores utilizados.",
+        "c) Mapa de cableado, longitud del cable, pérdida de señal y crosstalk.",
+        "d) Nivel de voltaje y corriente en el cableado.",
+    ],
+    "c"
+),
+(
+    "¿Por qué se recomienda revisar minuciosamente que se cumplan todos los requisitos de instalación de UTP después de la instalación?",
+    [
+        "a) Para aumentar el rendimiento de la capa física.",
+        "b) Por razones estéticas y organizativas.",
+        "c) Para verificar la marca y modelo de los conectores utilizados.",
+        "d) Para asegurar un funcionamiento óptimo y evitar problemas en la red.",
+    ],
+    "d"
+),
+(
+    "¿Cuáles son las propiedades distintivas del cableado de fibra óptica en comparación con los cables de cobre?",
+    [
+        "a) Menor ancho de banda y mayor susceptibilidad a interferencias electromagnéticas.",
+        "b) Mayor atenuación de señal y menor distancia de transmisión.",
+        "c) Mayor capacidad de transmisión a distancias más extensas y total inmunidad a EMI y RFI.",
+        "d) Menor flexibilidad y mayor grosor que un cable de cobre estándar.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es una de las principales ventajas de la fibra óptica en términos de transmisión de datos?",
+    [
+        "a) Mayor susceptibilidad a interferencias electromagnéticas.",
+        "b) Menor capacidad de transmisión a distancias extensas.",
+        "c) Transmisión de datos a través de distancias más extensas y a anchos de banda mayores que cualquier otro medio de red.",
+        "d) Limitada inmunidad a las interferencias de radiofrecuencia.",
+    ],
+    "c"
+),
+(
+    "En comparación con los cables de cobre, ¿cuál es una característica distintiva del cable de fibra óptica?",
+    [
+        "a) Mayor susceptibilidad a interferencias electromagnéticas.",
+        "b) Transmisión de señales con mayor atenuación.",
+        "c) Limitada inmunidad a las interferencias de radiofrecuencia.",
+        "d) Transmite señales con menos atenuación y es totalmente inmune a EMI y RFI.",
+    ],
+    "d"
+),
+(
+    "¿Cuál es uno de los usos principales del cable de fibra óptica en el contexto de las redes?",
+    [
+        "a) Conectar dispositivos de red utilizando señales eléctricas.",
+        "b) Proporcionar servicios de banda ancha a hogares y pequeñas empresas.",
+        "c) Conectar dispositivos similares, como dos switches.",
+        "d) Interconectar dispositivos de red utilizando luz para la transmisión de datos.",
+    ],
+    "d"
+),
+(
+    "¿Cómo se describe la fibra óptica en términos de su estructura física?",
+    [
+        "a) Gruesa y rígida, similar a un cable de cobre estándar.",
+        "b) Flexible, extremadamente delgada y transparente, no mucho más gruesa que un cabello humano.",
+        "c) Similar en grosor a un cable de alimentación eléctrica.",
+        "d) Opaca y rígida, como un tubo de metal.",
+    ],
+    "b"
+),
+(
+    "¿Cómo se codifican los bits en la fibra óptica para la transmisión de datos?",
+    [
+        "a) Mediante impulsos eléctricos.",
+        "b) A través de señales de radiofrecuencia.",
+        "c) Utilizando impulsos de luz.",
+        "d) Codificación magnética.",
+    ],
+    "c"
+),
+(
+    "¿Cómo se describe la función principal del cable de fibra óptica en la transmisión de datos?",
+    [
+        "a) Como un conductor de electricidad.",
+        "b) Como una antena receptora de señales de radio.",
+        "c) Actúa como una guía de ondas o una 'tubería de luz' para transmitir la luz entre los dos extremos con una pérdida mínima de la señal.",
+        "d) Funciona como un generador de campos magnéticos.",
+    ],
+    "c"
+),
+(
+    "Según la analogía proporcionada, ¿cómo se describe básicamente el funcionamiento de un cable de fibra óptica?",
+    [
+        "a) Como un rollo de toallas de papel con un puntero magnético.",
+        "b) Como un conductor de electricidad recubierto de material reflectante.",
+        "c) Como una tubería de luz con un pequeño puntero láser para enviar señales de Código Morse a la velocidad de la luz.",
+        "d) Como un generador de campos eléctricos con tecnologías avanzadas de emisión y recepción.",
+    ],
+    "c"
+),
+(
+    "En la actualidad, ¿cuáles son algunos de los usos del cableado de fibra óptica en distintas industrias?",
+    [
+        "a) Principalmente en la construcción de edificios y estructuras.",
+        "b) Exclusivamente en la industria de la moda.",
+        "c) En redes empresariales, Fibre-to-the-Home (FTTH), redes de largo alcance y redes por cable submarinas.",
+        "d) Limitado a aplicaciones científicas en laboratorios.",
+    ],
+    "c"
+),
+(
+    "En redes empresariales, ¿cuál es uno de los principales propósitos de utilizar fibra óptica?",
+    [
+        "a) Únicamente para aplicaciones de iluminación en edificios de oficinas.",
+        "b) Principalmente para conectar dispositivos dentro de una sola habitación.",
+        "c) Para aplicaciones de cableado troncal y la interconexión de dispositivos de infraestructura.",
+        "d) Exclusivamente para transmisión de señales de radiofrecuencia.",
+    ],
+    "c"
+),
+(
+    "En la implementación de Fibre-to-the-Home (FTTH), ¿cuál es el propósito principal de utilizar fibra óptica?",
+    [
+        "a) Exclusivamente para transmisión de señales de televisión por cable.",
+        "b) Principalmente para la iluminación en hogares y pequeñas empresas.",
+        "c) Para proporcionar servicios de banda ancha siempre activos a hogares y pequeñas empresas.",
+        "d) Limitada a aplicaciones científicas en laboratorios domésticos.",
+    ],
+    "c"
+),
+(
+    "En redes de largo alcance, ¿cuál es el papel principal de la fibra óptica según la información proporcionada?",
+    [
+        "a) Principalmente para transmisión de señales de radio de largo alcance.",
+        "b) Limitada a conexiones locales dentro de una misma ciudad.",
+        "c) Utilizada por proveedores de servicios para conectar países y ciudades.",
+        "d) Exclusivamente para transmisión de datos a corta distancia.",
+    ],
+    "c"
+),
+(
+    "En redes por cable submarinas, ¿cuál es uno de los requisitos clave para las soluciones de fibra óptica?",
+    [
+        "a) Limitada a distancias cortas debido a las limitaciones del agua.",
+        "b) Principalmente utilizada para comunicaciones locales entre islas.",
+        "c) Proporcionar soluciones confiables de alta velocidad y alta capacidad en entornos submarinos adversos por distancias transoceánicas.",
+        "d) Exclusivamente para transmisión de señales de audio submarinas.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es la composición básica de la fibra óptica en términos de sus componentes?",
+    [
+        "a) Tres tipos de vidrio (núcleo, revestimiento y blindaje), cada uno con una función específica.",
+        "b) Un solo tipo de vidrio con múltiples capas para mayor resistencia.",
+        "c) Dos tipos de vidrio (núcleo y revestimiento) y un blindaje exterior de protección.",
+        "d) Principalmente compuesta por plástico para mayor flexibilidad.",
+    ],
+    "c"
+),
+(
+    "¿Cuáles son los componentes principales de la fibra óptica según su diseño?",
+    [
+        "a) Tres tipos de vidrio (núcleo, revestimiento y blindaje), cada uno con una función específica.",
+        "b) Un solo tipo de vidrio con múltiples capas para mayor resistencia.",
+        "c) Dos tipos de vidrio (núcleo y revestimiento) y un blindaje exterior de protección.",
+        "d) Principalmente compuesta por plástico para mayor flexibilidad.",
+    ],
+    "c"
+),
+(
+    "A pesar de ser delgada y susceptible a dobleces marcados, ¿qué característica la hace fuerte según las propiedades del vidrio del núcleo y del revestimiento?",
+    [
+        "a) Un blindaje externo de metal que proporciona resistencia adicional.",
+        "b) Su composición de plástico altamente flexible.",
+        "c) Las propiedades del núcleo y un revestimiento resistente.",
+        "d) Su capacidad para resistir cambios bruscos de temperatura.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es una de las características destacadas de la fibra óptica en términos de durabilidad y despliegue en condiciones ambientales adversas?",
+    [
+        "a) Propensa a daños en entornos con variaciones de temperatura.",
+        "c) Limitada a implementaciones en interiores y ambientes controlados.",
+        "b) Alta durabilidad y capacidad de implementación en redes en condiciones adversas en todo el mundo.",
+        "d) Necesita protección adicional para resistir condiciones climáticas extremas.",
+    ],
+    "b"
+),
+(
+    "¿Cuáles son las dos fuentes principales de generación de pulsos de luz para representar datos en los medios de fibra óptica?",
+    [
+        "a) Luz solar y luz artificial.",
+        "c) Láseres y lámparas incandescentes.",
+        "b) Láseres y diodos emisores de luz (LED).",
+        "d) Láseres y fluorescentes.",
+    ],
+    "b"
+),
+(
+    "En sistemas de fibra óptica, ¿qué función desempeñan los dispositivos electrónicos semiconductores conocidos como 'fotodiodos'?",
+    [
+        "a) Generar pulsos de luz para representar datos.",
+        "b) Transmitir señales de voltaje a través de la fibra óptica.",
+        "d) Detectar los pulsos de luz y convertirlos en voltajes.",
+        "c) Amplificar la señal luminosa en la fibra óptica.",
+    ],
+    "d"
+),
+(
+    "¿Cuál es una precaución importante al manejar la luz del láser transmitida a través del cableado de fibra óptica?",
+    [
+        "x) No hay precauciones necesarias, ya que la luz del láser no representa peligro.",
+        "y) Es necesario usar gafas de sol al trabajar con cables de fibra óptica.",
+        "z) La luz del láser puede dañar el ojo humano, por lo que se debe tener precaución y evitar mirar dentro del extremo de una fibra óptica activa.",
+        "w) Se recomienda mirar directamente a la luz del láser para verificar su funcionamiento.",
+    ],
+    "z"
+),
+(
+    "¿Cuáles son las dos clasificaciones principales de cables de fibra óptica en función del tamaño del núcleo y las tecnologías de transmisión utilizadas?",
+    [
+        "a) Fibra óptica monocapa y fibra óptica multimodo.",
+        "b) Fibra óptica de baja atenuación y fibra óptica de alta atenuación.",
+        "c) Fibra óptica de transmisión única y fibra óptica de transmisión múltiple.",
+        "d) Fibra óptica monomodo y fibra óptica multimodo.",
+    ],
+    "d"
+),
+(
+    "¿Cuál es una característica principal de la fibra óptica monomodo (SMF) en términos del tamaño del núcleo y la tecnología de transmisión?",
+    [
+        "a) Tiene un núcleo grande y utiliza tecnología láser costosa.",
+        "b) Tiene un núcleo pequeño y emplea tecnología láser costosa para enviar un único haz de luz.",
+        "c) Tiene un núcleo grande y utiliza emisores LED para la transmisión de datos.",
+        "d) Tiene un núcleo pequeño y utiliza emisores LED para la transmisión de datos.",
+    ],
+    "b"
+),
+(
+    "¿En qué situaciones se utiliza comúnmente la fibra óptica monomodo (SMF) debido a sus características de transmisión?",
+    [
+        "a) En redes LAN para distancias cortas.",
+        "b) En aplicaciones de corta distancia como conexiones entre dispositivos en una misma habitación.",
+        "c) En situaciones de larga distancia que abarcan cientos de kilómetros, como aplicaciones de TV por cable y telefonía de larga distancia.",
+        "d) En redes de área metropolitana (MAN) para conexiones de mediana distancia.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es una característica principal de la fibra óptica multimodo (MMF) en términos del tamaño del núcleo y la tecnología de transmisión?",
+    [
+        "a) Tiene un núcleo pequeño y emplea tecnología láser costosa para enviar un único haz de luz.",
+        "b) Tiene un núcleo grande y utiliza tecnología láser costosa.",
+        "c) Tiene un núcleo grande y utiliza emisores LED para enviar pulsos de luz.",
+        "d) Tiene un núcleo pequeño y utiliza emisores LED para enviar pulsos de luz.",
+    ],
+    "c"
+),
+(
+    "¿Cómo ingresa la luz a la fibra óptica multimodo (MMF) en términos de ángulos y tecnología de transmisión?",
+    [
+        "a) La luz de un LED ingresa a la fibra en un único ángulo, utilizando tecnología láser.",
+        "b) La luz de un LED ingresa a la fibra en diferentes ángulos, utilizando tecnología láser.",
+        "c) La luz de un láser ingresa a la fibra en diferentes ángulos, utilizando emisores LED.",
+        "d) La luz de un láser ingresa a la fibra en un único ángulo, utilizando emisores LED.",
+    ],
+    "b"
+),
+(
+    "¿Por qué la fibra óptica multimodo (MMF) se utiliza comúnmente en redes LAN?",
+    [
+        "a) Por su capacidad para transmitir a largas distancias.",
+        "b) Porque utiliza tecnología láser de alto rendimiento.",
+        "d) Debido a su capacidad para transmitir a cortas distancias con emisores LED de bajo costo.",
+        "c) Por su inmunidad total a las interferencias electromagnéticas (EMI).",
+    ],
+    "d"
+),
+(
+    "¿Cuál es el ancho de banda típico que proporciona la fibra óptica multimodo (MMF) a través de longitudes de enlace de hasta 550 m?",
+    [
+        "a) 1 Gbps",
+        "b) 10 Gbps",
+        "c) 100 Gbps",
+        "d) 1 Tbps",
+    ],
+    "b"
+),
+(
+    "¿Cuál es una de las diferencias destacadas entre la fibra óptica multimodo y monomodo?",
+    [
+        "a) La potencia eléctrica.",
+        "b) La dispersión.",
+        "c) El voltaje.",
+        "d) La resistencia eléctrica.",
+    ],
+    "b"
+),
+(
+    "En el contexto de la fibra óptica, ¿cómo se define la dispersión?",
+    [
+        "a) La dispersión se refiere a la pérdida de potencia de la señal.",
+        "b) La dispersión se refiere a la velocidad de transmisión de datos.",
+        "c) La dispersión se refiere a la extensión de los pulsos de luz con el tiempo.",
+        "d) La dispersión no tiene impacto en la transmisión de datos.",
+    ],
+    "c"
+),
+(
+    "En la fibra óptica, ¿cómo afecta la dispersión a la pérdida de potencia de la señal?",
+    [
+        "a) La dispersión no tiene impacto en la pérdida de potencia.",
+        "b) Cuanta más dispersión, menor es la pérdida de potencia.",
+        "c) Cuanta más dispersión, mayor es la pérdida de potencia.",
+        "d) La dispersión y la pérdida de potencia son independientes.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es la principal diferencia entre los tipos de conectores de fibra óptica?",
+    [
+        "a) La velocidad de transmisión que admiten.",
+        "b) La longitud de los cables a los que pueden estar conectados.",
+        "c) Las dimensiones y los métodos de acoplamiento.",
+        "d) El número de fibras que pueden transportar simultáneamente.",
+    ],
+    "c"
+),
+(
+    "¿Cómo termina el extremo de una fibra óptica?",
+    [
+        "a) Con un conector de fibra óptica.",
+        "b) Con un conector RJ-45.",
+        "c) Con un conector Willhemson.",
+        "d) Con cualquiera de las anteriores.",
+    ],
+    "a"
+),
+(
+    "¿Cuál de las siguientes afirmaciones es correcta con respecto a los conectores de fibra óptica?",
+    [
+        "a) Solo hay un tipo de conector de fibra óptica.",
+        "b) La variedad de conectores de fibra óptica es limitada.",
+        "c) No existen conectores específicos para fibra óptica.",
+        "d) Existe una variedad de conectores de fibra óptica.",
+    ],
+    "d"
+),
+(
+    "¿Cuáles son las principales diferencias entre los tipos de conectores de fibra óptica?",
+    [
+        "a) Las diferencias principales son solo en los materiales utilizados.",
+        "b) Las dimensiones son las únicas diferencias significativas.",
+        "c) Los métodos de acoplamiento son los únicos aspectos distintivos.",
+        "d) Las diferencias principales son las dimensiones y los métodos de acoplamiento.",
+    ],
+    "d"
+),
+(
+    "¿Cómo toman las empresas decisiones sobre qué tipos de conectores de fibra óptica utilizarán?",
+    [
+        "a) De acuerdo con la disponibilidad en el mercado.",
+        "b) Basándose únicamente en consideraciones de costos.",
+        "c) Sin tener en cuenta los equipos existentes.",
+        "d) Las empresas deciden qué tipos de conectores utilizarán según sus equipos.",
+    ],
+    "d"
+),
+(
+    "¿Por qué se requieren dos fibras para realizar una operación full duplex en sistemas de fibra óptica?",
+    [
+        "a) Para duplicar la velocidad de transmisión.",
+        "b) Porque la luz solo puede viajar en una dirección a través de la fibra óptica.",
+        "c) Para simplificar la instalación y reducir costos.",
+        "d) Porque la luz no puede viajar a través de la fibra óptica.",
+    ],
+    "b"
+),
+(
+    "¿Cómo se configuran los cables de conexión de fibra óptica en términos de número de fibras y conectores?",
+    [
+        "a) Forman un haz de una sola fibra con conectores múltiples.",
+        "b) Son cables individuales sin conectores.",
+        "c) Forman un haz de dos cables de fibra óptica con un par de conectores de fibra monomodo estándar.",
+        "d) Utilizan conectores de fibra multimodo exclusivamente.",
+    ],
+    "c"
+),
+(
+    "¿Cómo se denomina un conector que permite la transmisión y recepción en un único conector en el contexto de fibra óptica?",
+    [
+        "a) Conector único",
+        "b) Conector múltiple",
+        "c) Conector dúplex",
+        "d) Conector monomodo",
+    ],
+    "c"
+),
+(
+    "Hablamos de conectores de fibra óptica. ¿Cómo se caracterizan los conectores de punta directa (ST) en términos de su mecanismo de bloqueo?",
+    [
+        "a) Utilizan un mecanismo de bloqueo tipo tornillo.",
+        "b) No tienen un mecanismo de bloqueo.",
+        "c) Se bloquean mediante un mecanismo tipo bayoneta de giro.",
+        "d) Utilizan un mecanismo de bloqueo magnético.",
+    ],
+    "c"
+),
+(
+    "¿Cuál es una característica histórica de los conectores de punta directa (ST)?",
+    [
+        "a) Son de diseño moderno.",
+        "b) No tienen un mecanismo de bloqueo.",
+        "c) Utilizan un mecanismo tipo escopeta de feria.",
+        "d) Fueron uno de los primeros tipos de conectores utilizados.",
+    ],
+    "d"
+),
+(
+    "¿Cómo se conoce comúnmente al conector suscriptor (CS) y qué tipo de mecanismo utiliza para asegurar la inserción correcta?",
+    [
+        "a) Conector redondo con mecanismo de clic.",
+        "b) Conector cuadrado con mecanismo de bayoneta.",
+        "c) Conector estándar con mecanismo magnético.",
+        "d) Conector LAN y WAN con mecanismo de inserción/extracción.",
+    ],
+    "d"
+),
+(
+    "¿Cómo se conoce ocasionalmente al conector suscriptor (CS)?",
+    [
+        "a) Conector redondo",
+        "b) Conector cuadrado",
+        "c) Conector estándar",
+        "d) Conector magnético",
+    ],
+    "b"
+),
+(
+    "¿Para qué tipo de redes se utiliza comúnmente el conector suscriptor (CS), y qué mecanismo emplea para asegurar la inserción correcta?",
+    [
+        "a) Para redes locales (LAN) y utiliza un mecanismo de clic.",
+        "b) Para redes anchas (WAN) y utiliza un mecanismo magnético.",
+        "c) Para redes LAN y WAN, utiliza un mecanismo de inserción/extracción.",
+        "d) Para redes privadas y utiliza un mecanismo tipo bayoneta.",
+    ],
+    "c"
+),
+(
+    "¿Qué tipo de fibra óptica es compatible con el conector suscriptor (CS)?",
+    [
+        "a) Solo fibra óptica multimodo.",
+        "b) Solo fibra óptica monomodo.",
+        "c) Ambos, fibra óptica multimodo y monomodo.",
+        "d) No es compatible con ninguna fibra óptica.",
+    ],
+    "c"
+),
+(
+    "¿Cómo se describe el conector Lucent (LC) simplex (WSA) en comparación con el conector SC?",
+    [
+        "a) Es una versión más grande del conector SC.",
+        "b) Es una versión del conector SC diseñada exclusivamente para uso local.",
+        "c) Es una versión pequeña del conector SC.",
+        "d) No tiene relación con el conector SC.",
+    ],
+    "c"
+),
+(
+    "¿Cómo se refiere a veces al conector Lucent (LC) simplex (WSA) en términos de tamaño?",
+    [
+        "c) Conector grande",
+        "b) Conector de uso exclusivamente local",
+        "a) Conector pequeño",
+        "d) Conector remoto",
+    ],
+    "a"
+),
+(
+    "¿Qué característica contribuye al creciente aumento de popularidad del conector Lucent (LC) simplex (WSA)?",
+    [
+        "a) Su velocidad de transmisión",
+        "b) Su resistencia al desgaste",
+        "c) Su tamaño reducido",
+        "d) Su compatibilidad con la fibra óptica monomodo",
+    ],
+    "c"
+),
+(
+    "¿Cómo se caracteriza un conector LC multimodo dúplex en comparación con un conector LC simplex?",
+    [
+        "a) Tiene un tamaño más grande.",
+        "b) Utiliza un conector magnético.",
+        "c) Es idéntico en tamaño y diseño.",
+        "d) Utiliza un conector dúplex.",
+    ],
+    "d"
+),
+(
+    "¿Cuál es la función principal de los cables de conexión de fibra óptica en un entorno de infraestructura?",
+    [
+        "a) Proporcionar energía a los dispositivos conectados.",
+        "b) Interconectar dispositivos de infraestructura.",
+        "c) Transmitir datos de forma inalámbrica.",
+        "d) Garantizar la seguridad de la red.",
+    ],
+    "b"
+),
+(
+    "¿Cuál es la función principal de los cables de conexión de fibra óptica en un entorno de infraestructura?",
+    [
+        "a) Proporcionar energía a los dispositivos conectados.",
+        "b) Interconectar dispositivos de infraestructura.",
+        "c) Transmitir datos de forma inalámbrica.",
+        "d) Garantizar la seguridad de la red.",
+    ],
+    "b"
+),
+(
+    "En el contexto de los cables de conexión de fibra óptica, ¿cómo se utiliza el código de colores para distinguir entre cables monomodo y multimodo?",
+    [
+        "a) No se utiliza ningún código de colores.",
+        "b) Se utiliza el color para indicar la velocidad de transmisión.",
+        "c) Los cables monomodo y multimodo no se distinguen por colores.",
+        "d) El código de colores se utiliza para distinguir entre cables monomodo y multimodo.",
+    ],
+    "d"
+),
+(
+    "En el contexto de los cables de conexión de fibra óptica, ¿cuál es la asociación de colores para distinguir entre cables monomodo y multimodo?",
+    [
+        "a) Amarillo para monomodo y naranja para multimodo.",
+        "b) Amarillo para multimodo y naranja para monomodo.",
+        "c) No hay una distinción de colores para cables monomodo y multimodo.",
+        "d) Amarillo para ambos tipos de cables.",
+    ],
+    "a"
+),
+(
+    "¿Cuál es una práctica recomendada para proteger los cables de fibra óptica cuando no se están utilizando?",
+    [
+        "a) Almacenarlos en una bolsa de papel.",
+        "b) Mantenerlos al aire libre para una mejor ventilación.",
+        "c) Envolverlos en tela para mayor protección.",
+        "d) Protegerlos con un pequeño capuchón de plástico.",
+    ],
+    "d"
+),
+(
+    "En el contexto de la prueba de cables de fibra óptica, ¿cuál es uno de los métodos rápidos y sencillos para detectar problemas en la fibra?",
+    [
+        "a) Utilizar un Reflectómetro óptico de dominio de tiempo (OTDR).",
+        "b) Realizar una prueba de campo iluminando un extremo con una linterna potente.",
+        "c) Separar los extremos del cable y observar visualmente.",
+        "d) Medir la temperatura del cable con un termómetro infrarrojo.",
+    ],
+    "b"
+),
+(
+    "¿Por qué la terminación y el empalme del cableado de fibra óptica requieren equipo y capacitación especiales?",
+    [
+        "a) Porque la fibra óptica es un material muy costoso.",
+        "b) Porque la fibra óptica no necesita equipo especial para su terminación.",
+        "c) Debido a que la fibra óptica es un material fácil de manipular.",
+        "d) Porque la terminación incorrecta puede provocar disminución en las distancias de señalización o falla total en la transmisión.",
+    ],
+    "d"
+),
+(
+    "¿Cuál es el impacto de una terminación incorrecta en los medios de fibra óptica?",
+    [
+        "a) Aumenta las distancias de señalización.",
+        "b) No afecta la transmisión de la señal.",
+        "c) Produce una disminución en las distancias de señalización.",
+        "d) Mejora la calidad de la transmisión.",
+    ],
+    "c"
+),
+(
+    "Según la información proporcionada, ¿cuáles son tres tipos comunes de errores de empalme y terminación de fibra óptica?",
+    [
+        "a) Desgaste, oxidación y torsión.",
+        "b) Desalineación, separación de los extremos y acabado final.",
+        "c) Superposición, interferencia y resonancia.",
+        "d) Calentamiento, congelamiento y exposición a la luz solar.",
+    ],
+    "b"
+),
+(
+    "Según la información proporcionada, ¿cómo se define la desalineación en el contexto de la fibra óptica?",
+    [
+        "a) Un exceso de alineación en los medios de fibra óptica.",
+        "b) Una alineación perfecta en los medios de fibra óptica.",
+        "c) Una falta de alineación precisa al unir los medios de fibra óptica.",
+        "d) Un proceso de alineación automática de los medios de fibra óptica.",
+    ],
+    "c"
+),
+(
+    "Según la información proporcionada, ¿cómo se describe la separación de los extremos en el contexto de la fibra óptica?",
+    [
+        "a) Una conexión perfecta entre los medios de fibra óptica.",
+        "b) Una falta de contacto completo de los medios en el empalme.",
+        "c) Un exceso de contacto en el empalme de los medios de fibra óptica.",
+        "d) Un proceso automático de unión de los extremos de la fibra óptica.",
+    ],
+    "b"
+),
+(
+    "Según la información proporcionada, ¿cómo se define el acabado final en el contexto de la fibra óptica?",
+    [
+        "a) Los extremos de los medios están perfectamente pulidos sin ninguna suciedad.",
+        "b) Los extremos de los medios no están pulidos y presentan suciedad en la terminación.",
+        "c) El proceso de pulido automático de los extremos de los medios.",
+        "d) La terminación de los extremos no afecta la calidad de la fibra óptica.",
+    ],
+    "b"
+),
+(
+    "Según la información proporcionada, ¿cuál es un método rápido y sencillo para realizar una prueba de campo en una fibra óptica?",
+    [
+        "a) Utilizar un Reflectómetro óptico de dominio de tiempo (OTDR).",
+        "b) Medir la temperatura de la fibra con un termómetro infrarrojo.",
+        "c) Iluminar un extremo con una linterna potente mientras se observa el otro extremo.",
+        "d) Sumergir la fibra en agua para verificar su resistencia al líquido.",
+    ],
+    "c"
+),
+(
+    "Según la información proporcionada, ¿cuál es el dispositivo recomendado para probar cada segmento del cable de fibra óptica?",
+    [
+        "a) Linterna potente.",
+        "b) Termómetro infrarrojo.",
+        "c) Reflectómetro óptico de dominio de tiempo (OTDR).",
+        "d) Medidor de señal de radiofrecuencia.",
+    ],
+    "c"
+),
+(
+    "Según la información proporcionada, ¿cómo funciona un Reflectómetro óptico de dominio de tiempo (OTDR) al probar un cable de fibra óptica?",
+    [
+        "a) Genera impulsos eléctricos para medir la conductividad del cable.",
+        "b) Introduce un impulso de luz de prueba en el cable y mide la retrodispersión y el reflejo de la luz detectados en función del tiempo.",
+        "c) Utiliza ondas de sonido para evaluar la integridad del cable.",
+        "d) Emite señales de radio para analizar la transmisión del cable.",
+    ],
+    "b"
+),
+(
+    "Según la información proporcionada, ¿cuál es una función del Reflectómetro óptico de dominio de tiempo (OTDR) al detectar fallas en un cable de fibra óptica?",
+    [
+        "a) Emitir un sonido de alerta al encontrar una falla.",
+        "b) Calcular la velocidad de transmisión del cable.",
+        "c) Medir la temperatura del cable durante la falla.",
+        "d) Calcular la distancia aproximada en la que se detectan las fallas en toda la longitud del cable.",
+    ],
+    "d"
+),
+(
+    "Según la información proporcionada, ¿cuál es una ventaja clave de la fibra óptica sobre el cobre?",
+    [
+        "a) Mayor conductividad eléctrica.",
+        "b) Inmunidad a la interferencia electromagnética.",
+        "c) Baja pérdida de señal en longitudes cortas.",
+        "d) Mayor capacidad de conducción de corriente eléctrica no deseada.",
+    ],
+    "b"
+),
+(
+    "Según la información proporcionada, ¿por qué la fibra óptica es inmune a la interferencia electromagnética?",
+    [
+        "a) Debido a que las fibras de vidrio son conductores eléctricos.",
+        "b) Debido a que las fibras de vidrio no son conductores eléctricos.",
+        "c) Debido a que la fibra óptica utiliza cables más gruesos.",
+        "d) Debido a que la fibra óptica conduce corriente eléctrica no deseada.",
+    ],
+    "b"
+),
+(
+    "Según la información proporcionada, ¿cuáles son características clave de las fibras ópticas en comparación con los medios de cobre?",
+    [
+        "a) Las fibras ópticas son más gruesas y tienen una alta pérdida de señal.",
+        "b) Las fibras ópticas son más delgadas y tienen una pérdida de señal relativamente baja.",
+        "c) Las fibras ópticas son menos flexibles y solo se pueden utilizar en distancias cortas.",
+        "d) Las fibras ópticas tienen una pérdida de señal más alta y son menos eficientes en distancias largas.",
+    ],
+    "b"
+),
+(
+    "Según la información proporcionada, ¿qué afirmación es cierta con respecto a las especificaciones de la capa física de la fibra óptica?",
+    [
+        "a) Las especificaciones de la capa física de la fibra óptica solo admiten longitudes de unos pocos metros.",
+        "b) Las especificaciones de la capa física de la fibra óptica no están relacionadas con la longitud del cable.",
+        "c) Las especificaciones de la capa física de la fibra óptica pueden admitir longitudes que alcanzan varios kilómetros.",
+        "d) Las especificaciones de la capa física de la fibra óptica limitan su uso a distancias cortas.",
+    ],
+    "c"
+),
+(
+    "Según la información proporcionada, ¿cuál es un uso común de la fibra óptica en entornos empresariales?",
+    [
+        "a) Uso exclusivo en conexiones de corta distancia.",
+        "b) Uso en conexiones de baja velocidad.",
+        "c) Principalmente utilizado como cableado troncal para conexiones punto a punto con mucho tráfico entre servicios de distribución de datos.",
+        "d) Limitado a la conexión de edificios en pequeños entornos empresariales.",
+    ],
+    "c"
+),
+(
+    "Según la información proporcionada, ¿cuál es una razón clave por la cual la fibra óptica es considerada ideal para su uso en entornos empresariales?",
+    [
+        "a) Conduce electricidad eficientemente.",
+        "b) Presenta una pérdida de señal alta.",
+        "c) No es adecuada para conexiones punto a punto.",
+        "d) No conduce electricidad y tiene una pérdida de señal baja.",
+    ],
+    "d"
+),
+(
+    "Según la información proporcionada, ¿cómo se transportan las señales electromagnéticas en los medios inalámbricos?",
+    [
+        "a) Mediante cables de fibra óptica.",
+        "b) A través de señales eléctricas.",
+        "c) Utilizando frecuencias de radio y de microondas.",
+        "d) Con cables de cobre.",
+    ],
+    "c"
+),
+(
+    "Según la información proporcionada, ¿cómo se representan los dígitos binarios en las comunicaciones de datos mediante medios inalámbricos?",
+    [
+        "a) A través de cables coaxiales.",
+        "b) Mediante señales eléctricas directas.",
+        "c) Utilizando señales de infrarrojos.",
+        "d) Mediante frecuencias de radio y de microondas.",
+    ],
+    "d"
+),
+(
+    "Según la información proporcionada, ¿cuál es una característica destacada de los medios inalámbricos en términos de movilidad?",
+    [
+        "a) Los medios inalámbricos tienen una movilidad limitada.",
+        "b) La movilidad de los medios inalámbricos es comparable a la de los medios con cables.",
+        "c) Los medios inalámbricos proporcionan las mejores opciones de movilidad de todos los medios.",
+        "d) La movilidad de los medios inalámbricos es más lenta que la de los medios con cables.",
+    ],
+    "c"
+),
+(
+    "Según la información proporcionada, ¿cuál es una tendencia destacada relacionada con la cantidad de dispositivos habilitados para tecnología inalámbrica?",
+    [
+        "a) La cantidad de dispositivos inalámbricos está disminuyendo.",
+        "b) La cantidad de dispositivos inalámbricos permanece constante.",
+        "c) La cantidad de dispositivos inalámbricos sigue en aumento.",
+        "d) Los dispositivos inalámbricos ya no se utilizan.",
+    ],
+    "c"
+),
+(
+    "Según la información proporcionada, ¿qué relación existe entre el aumento de opciones de ancho de banda de red y la popularidad de la tecnología inalámbrica en redes empresariales?",
+    [
+        "a) El aumento del ancho de banda no afecta la popularidad de la tecnología inalámbrica.",
+        "b) A medida que aumentan las opciones de ancho de banda, la tecnología inalámbrica pierde popularidad.",
+        "c) La tecnología inalámbrica es independiente del ancho de banda de red.",
+        "d) A medida que aumentan las opciones de ancho de banda de red, la tecnología inalámbrica adquiere popularidad rápidamente en redes empresariales.",
+    ],
+    "d"
+),
+(
+    "Según la información proporcionada, ¿cuáles son algunas de las áreas de importancia para la tecnología inalámbrica?",
+    [
+        "a) La tecnología inalámbrica no se ve afectada por interferencias.",
+        "b) La seguridad no es un problema en las redes inalámbricas.",
+        "c) La tecnología inalámbrica no tiene limitaciones en la cobertura efectiva.",
+        "d) La tecnología inalámbrica puede ser afectada por interferencias, tiene limitaciones en la cobertura efectiva y presenta desafíos en seguridad y medio compartido.",
+    ],
+    "d"
+),
+(
+    "Según la información proporcionada, ¿cuál es una consideración importante en el área de cobertura de las tecnologías inalámbricas?",
+    [
+        "a) Las tecnologías inalámbricas tienen una cobertura ilimitada en cualquier entorno.",
+        "b) La cobertura efectiva de las tecnologías inalámbricas puede ser limitada por materiales de construcción, estructuras y terreno local.",
+        "c) La cobertura de las tecnologías inalámbricas siempre es constante sin importar el entorno.",
+        "d) Los materiales de construcción y la estructura no afectan la cobertura de las tecnologías inalámbricas.",
+    ],
+    "b"
+),
+(
+    "Según la información proporcionada, ¿cuál es un desafío importante relacionado con la interferencia en la tecnología inalámbrica?",
+    [
+        "a) La tecnología inalámbrica no es vulnerable a interferencias.",
+        "b) Dispositivos como teléfonos inalámbricos, luces fluorescentes y hornos microondas no afectan la tecnología inalámbrica.",
+        "c) La interferencia no es un problema común en las redes inalámbricas.",
+        "d) La tecnología inalámbrica es vulnerable a interferencias de dispositivos comunes, lo que puede afectar su rendimiento.",
+    ],
+    "d"
+),
+(
+    "Según la información proporcionada, ¿cuál es un desafío significativo en términos de seguridad para la comunicación inalámbrica?",
+    [
+        "a) La comunicación inalámbrica siempre es segura y no requiere medidas adicionales.",
+        "b) La seguridad en la comunicación inalámbrica se garantiza a través de hilos físicos.",
+        "c) La falta de hilos físicos en la cobertura de la comunicación inalámbrica facilita el acceso no autorizado a la red.",
+        "d) Solo los dispositivos autorizados pueden acceder a la comunicación inalámbrica, independientemente de la presencia de hilos físicos.",
+    ],
+    "c"
+),
+(
+    "Según la información proporcionada, ¿por qué la seguridad de la red es un componente principal en la administración de redes inalámbricas?",
+    [
+        "a) La seguridad no es importante en las redes inalámbricas.",
+        "b) La administración de redes inalámbricas no involucra cuestiones de seguridad.",
+        "c) La seguridad de la red es crítica debido a la falta de hilos físicos en la comunicación inalámbrica.",
+        "d) La seguridad de la red no está relacionada con la administración de redes inalámbricas.",
+    ],
+    "c"
+),
+(
+    "Según la información proporcionada, ¿cuál es una característica importante del medio compartido en WLAN (redes locales inalámbricas)?",
+    [
+        "a) En WLAN, ambos dispositivos pueden enviar o recibir a la vez debido a su operación en duplex.",
+        "b) En WLAN, solo un dispositivo puede enviar o recibir debido a su operación en simplex.",
+        "c) Ninguna de las anteriores.",
+        "d) En WLAN, solo un dispositivo puede enviar o recibir a la vez debido a su operación en half-duplex.",
+    ],
+    "d"
+),
+(
+    "Según la información proporcionada, ¿cuál es una consecuencia del medio compartido en WLAN cuando más usuarios necesitan acceso simultáneo?",
+    [
+        "a) Todos los usuarios obtienen el mismo ancho de banda sin importar la cantidad de usuarios simultáneos.",
+        "b) Cuantos más usuarios necesitan acceso simultáneo, cada uno obtendrá más ancho de banda.",
+        "c) El medio compartido en WLAN no afecta el ancho de banda, independientemente del número de usuarios simultáneos.",
+        "d) Cuantos más usuarios necesitan acceso simultáneo, cada uno obtendrá menos ancho de banda debido a la compartición del medio inalámbrico.",
+    ],
+    "d"
+),
+(
+    "Según la información proporcionada, ¿cuál es la tendencia general en las implementaciones de redes en cuanto a la elección de medios de capa física?",
+    [
+        "a) La tecnología inalámbrica es la única opción popular para la conectividad de escritorio.",
+        "b) El cobre y la fibra óptica son los medios de capa física menos populares para las implementaciones de redes.",
+        "c) Aunque la tecnología inalámbrica es popular, el cobre y la fibra óptica siguen siendo los medios más populares para las implementaciones de redes.",
+        "d) La tecnología inalámbrica ha reemplazado completamente al cobre y la fibra óptica en las implementaciones de redes.",
+    ],
+    "c"
+),
+(
+    "Según la información proporcionada, ¿qué aspectos cubren los estándares de IEEE y del sector de las telecomunicaciones en las comunicaciones inalámbricas de datos?",
+    [
+        "a) Solo la capa física de las comunicaciones inalámbricas de datos.",
+        "b) Solo la capa de enlace de datos de las comunicaciones inalámbricas de datos.",
+        "c) Ambas la capa física y la capa de enlace de datos en las comunicaciones inalámbricas de datos.",
+        "d) Ninguna de las anteriores.",
+    ],
+    "c"
+),
+(
+    "Según la información proporcionada, ¿qué aspectos abarcan las especificaciones de la capa física en los estándares de comunicaciones inalámbricas?",
+    [
+        "a) Solo codificación de señales de datos a señales de radio.",
+        "b) Solo frecuencia e intensidad de la transmisión.",
+        "c) Codificación de señales de datos a señales de radio, frecuencia e intensidad de la transmisión, requisitos de recepción y decodificación de señales, y diseño y construcción de antenas.",
+        "d) Ninguna de las anteriores.",
+    ],
+    "c"
+),
+(
+    "Según la información proporcionada, ¿qué afirmación es correcta sobre Wi-Fi?",
+    [
+        "a) Wi-Fi es un estándar de comunicación inalámbrica desarrollado por IEEE.",
+        "b) Wi-Fi es una marca comercial de Bluetooth.",
+        "c) Wi-Fi es una marca comercial de Wi-Fi Alliance.",
+        "d) Wi-Fi no está asociado con ninguna organización o entidad.",
+    ],
+    "c"
+),
+(
+    "Según la información proporcionada, ¿con qué tipo de dispositivos se utiliza la tecnología Wi-Fi?",
+    [
+        "a) Solo con dispositivos Bluetooth.",
+        "b) Con cualquier dispositivo inalámbrico, independientemente del estándar.",
+        "c) Solo con dispositivos WLAN basados en los estándares IEEE 802.11.",
+        "d) No se utiliza con ningún tipo de dispositivo.",
+    ],
+    "c"
+),
+(
+    "Según la información proporcionada, ¿cuáles son los dispositivos necesarios para una LAN inalámbrica?",
+    [
+        "a) Solo routers inalámbricos.",
+        "b) Solo adaptadores NIC inalámbricos.",
+        "c) Solo puntos de acceso inalámbrico (AP).",
+        "d) Puntos de acceso inalámbrico (AP) y adaptadores NIC inalámbricos.",
+    ],
+    "d"
+),
+(
+    "Según la información proporcionada, ¿para qué se utiliza comúnmente la tecnología inalámbrica de datos?",
+    [
+        "a) Exclusivamente para conexiones punto a punto.",
+        "b) Únicamente en entornos cerrados.",
+        "c) Para permitir a los dispositivos conectarse en forma inalámbrica a través de una LAN.",
+        "d) Solo en redes de área extensa (WAN).",
+    ],
+    "c"
+),
+(
+    "¿Qué dispositivos necesita una LAN inalámbrica?",
+    [
+        "a) Un punto de acceso inalámbrico y adaptadores NIC inalámbricos.",
+        "b) Un punto de acceso inalámbrico y adaptadores NIC, los cuales no tienen por qué ser inalámbricos.",
+        "c) Punto de acceso, antena de carga y adaptadores NIC.",
+        "d) Un adaptador NIC, sin que tenga por qué ser inalámbrico.",
+    ],
+    "a"
+),
+(
+    "Según la información proporcionada, ¿cuál es la función principal de un Punto de Acceso Inalámbrico (AP) en una LAN inalámbrica?",
+    [
+        "a) Concentrar las señales inalámbricas de los usuarios.",
+        "b) Proporcionar capacidad de comunicación inalámbrica a cada host de la red.",
+        "c) Integrar funciones de router, switch y punto de acceso en un solo dispositivo.",
+        "d) Conectar la infraestructura de red existente basada en fibra óptica.",
+    ],
+    "a"
+),
+(
+    "Según la información proporcionada, ¿qué tipo de infraestructura de red conecta un Punto de Acceso Inalámbrico (AP) en una LAN inalámbrica?",
+    [
+        "a) Fibra óptica.",
+        "b) Coaxial.",
+        "c) Ethernet basado en cobre.",
+        "d) Redes de área amplia (WAN).",
+    ],
+    "c"
+),
+(
+    "Según la información proporcionada, ¿qué funciones integran los routers inalámbricos domésticos y de pequeñas empresas en un solo dispositivo?",
+    [
+        "a) Solo funciones de router.",
+        "b) Solo funciones de switch.",
+        "c) Solo funciones de punto de acceso.",
+        "d) Funciones de router, switch y punto de acceso.",
+    ],
+    "d"
+),
+(
+    "Según la información proporcionada, ¿cuál es la función principal de los Adaptadores NIC Inalámbricos en una LAN inalámbrica?",
+    [
+        "a) Proporcionar funciones de router.",
+        "b) Establecer conexiones con la infraestructura de red basada en fibra óptica.",
+        "c) Suministrar energía eléctrica a dispositivos inalámbricos.",
+        "d) Proporcionar capacidad de comunicación inalámbrica a cada host de la red.",
+    ],
+    "d"
+),
+(
+    "Según la evolución de la tecnología, ¿qué consecuencia positiva se menciona en relación con la aparición de estándares WLAN basados en Ethernet?",
+    [
+        "a) Limitación en la variedad de dispositivos compatibles.",
+        "b) Reducción de la movilidad en las conexiones inalámbricas.",
+        "c) Mayor diversidad y compatibilidad de dispositivos WLAN.",
+        "d) Incremento en la complejidad y dificultad de configuración.",
+    ],
+    "c"
+),
+(
+    "¿Por qué se destaca la importancia de tener precaución al comprar dispositivos inalámbricos?",
+    [
+        "a) Para aumentar el costo de adquisición.",
+        "b) Garantizar la incompatibilidad entre dispositivos.",
+        "c) Asegurar la interoperabilidad y compatibilidad de los dispositivos inalámbricos.",
+        "d) Reducir la diversidad de dispositivos en una red.",
+    ],
+    "c"
+),
+(
+    "¿Cuáles son los beneficios destacados de las tecnologías inalámbricas de comunicación de datos?",
+    [
+        "a) Mayor costo debido a la necesidad de cableado extenso.",
+        "b) Limitación en la movilidad del host.",
+        "c) Ahorro en el costoso cableado de las instalaciones y mayor conveniencia en la movilidad del host.",
+        "d) Complejidad adicional en la administración de la red.",
+    ],
+    "c"
+),
+(
+    "¿Qué necesitan desarrollar y aplicar los administradores de red para proteger las LAN inalámbricas del daño y el acceso no autorizado?",
+    [
+        "a) Procesos y políticas de seguridad relajadas.",
+        "b) Mayor apertura en la configuración de la red.",
+        "c) Políticas de seguridad solo para LAN con cable.",
+        "d) Procesos y políticas de seguridad rigurosas.",
+    ],
+    "d"
+),
+
 
 
 
