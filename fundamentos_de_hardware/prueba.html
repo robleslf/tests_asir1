@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test de Fundamentos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #quiz-container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        input[type="number"] {
+            width: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div id="quiz-container">
+    <h1>Test de Fundamentos</h1>
+    <label for="num-preguntas">Número de preguntas: </label>
+    <input type="number" id="num-preguntas" min="1" max="6" value="1">
+    <button onclick="iniciarTest()">Iniciar Test</button>
+    <div id="quiz"></div>
+    <button onclick="mostrarResultado()" id="boton-resultado" disabled>Ver Resultado</button>
+    <div id="resultados"></div>
+</div>
+
+<script>
+    var preguntas = [
+        {
+            pregunta: "¿Cuál es la función principal de la capa física en el modelo OSI?",
+            opciones: [
+                "a) Preparar los datos para la transmisión y controlar el acceso a los medios físicos.",
+                "b) Decodificar señales y convertirlas nuevamente en datos.",
+                "c) Transmitir tramas a la capa de enlace de datos para su procesamiento.",
+                "d) Controlar la forma en que los datos acceden a los medios físicos y prepararlos para la transmisión."
+            ],
+            respuesta: "b"
+        },
+        {
+            pregunta: "¿Cuál es la función principal de la capa física en el modelo OSI?",
+            opciones: [
+                "a) Preparar los datos para la transmisión y controlar el acceso a los medios físicos.",
+                "b) Decodificar señales y convertirlas nuevamente en datos.",
+                "c) Transmitir tramas a la capa de enlace de datos para su procesamiento.",
+                "d) Controlar la forma en que los datos acceden a los medios físicos y prepararlos para la transmisión."
+            ],
+            respuesta: "b"
+        },
+        {
+            pregunta: "¿Cuál es la función principal de la capa física en el modelo OSI?",
+            opciones: [
+                "a) Preparar los datos para la transmisión y controlar el acceso a los medios físicos.",
+                "b) Decodificar señales y convertirlas nuevamente en datos.",
+                "c) Transmitir tramas a la capa de enlace de datos para su procesamiento.",
+                "d) Controlar la forma en que los datos acceden a los medios físicos y prepararlos para la transmisión."
+            ],
+            respuesta: "b"
+        },
+        {
+            pregunta: "¿Cuál es la función principal de la capa física en el modelo OSI?",
+            opciones: [
+                "a) Preparar los datos para la transmisión y controlar el acceso a los medios físicos.",
+                "b) Decodificar señales y convertirlas nuevamente en datos.",
+                "c) Transmitir tramas a la capa de enlace de datos para su procesamiento.",
+                "d) Controlar la forma en que los datos acceden a los medios físicos y prepararlos para la transmisión."
+            ],
+            respuesta: "b"
+        },
+        {
+            pregunta: "¿Cuál es la función principal de la capa física en el modelo OSI?",
+            opciones: [
+                "a) Preparar los datos para la transmisión y controlar el acceso a los medios físicos.",
+                "b) Decodificar señales y convertirlas nuevamente en datos.",
+                "c) Transmitir tramas a la capa de enlace de datos para su procesamiento.",
+                "d) Controlar la forma en que los datos acceden a los medios físicos y prepararlos para la transmisión."
+            ],
+            respuesta: "b"
+        },
+        {
+            pregunta: "¿Cuál es la función principal de la capa física en el modelo OSI?",
+            opciones: [
+                "a) Preparar los datos para la transmisión y controlar el acceso a los medios físicos.",
+                "b) Decodificar señales y convertirlas nuevamente en datos.",
+                "c) Transmitir tramas a la capa de enlace de datos para su procesamiento.",
+                "d) Controlar la forma en que los datos acceden a los medios físicos y prepararlos para la transmisión."
+            ],
+            respuesta: "b"
+        },
+        {
+            pregunta: "¿Cuál es la función principal de la capa física en el modelo OSI?",
+            opciones: [
+                "a) Preparar los datos para la transmisión y controlar el acceso a los medios físicos.",
+                "b) Decodificar señales y convertirlas nuevamente en datos.",
+                "c) Transmitir tramas a la capa de enlace de datos para su procesamiento.",
+                "d) Controlar la forma en que los datos acceden a los medios físicos y prepararlos para la transmisión."
+            ],
+            respuesta: "b"
+        },
+        // Agregar las demás preguntas aquí...
+    ];
+
+    var quizContainer = document.getElementById("quiz");
+    var resultadosContainer = document.getElementById("resultados");
+    var botonResultado = document.getElementById("boton-resultado");
+
+    // Mezclar las preguntas en orden aleatorio
+    preguntas.sort(function() { return 0.5 - Math.random() });
+
+    // Función para construir el formulario del quiz
+    function construirQuiz(numPreguntas) {
+        limpiarQuiz();
+
+        for (var i = 0; i < numPreguntas; i++) {
+            var pregunta = preguntas[i];
+            var opcionesHTML = "";
+            pregunta.opciones.forEach(function(opcion) {
+                opcionesHTML += '<label><input type="radio" name="pregunta' + i + '" value="' + opcion.charAt(0).toLowerCase() + '"> ' + opcion + '</label><br>';
+            });
+
+            quizContainer.innerHTML += '<div class="question">' +
+                '<p><strong>' + (i + 1) + '. ' + pregunta.pregunta + '</strong></p>' +
+                opcionesHTML +
+                '</div>';
+        }
+
+        botonResultado.disabled = false;
+    }
+
+    // Función para limpiar el contenido del quiz
+    function limpiarQuiz() {
+        quizContainer.innerHTML = "";
+        resultadosContainer.innerHTML = "";
+        botonResultado.disabled = true;
+    }
+
+    // Función para iniciar el test
+    function iniciarTest() {
+        var numPreguntas = document.getElementById("num-preguntas").value;
+        construirQuiz(numPreguntas);
+    }
+
+    // Función para mostrar el resultado
+    function mostrarResultado() {
+        var respuestas = obtenerRespuestas();
+        var puntaje = calcularPuntaje(respuestas);
+        var equivalencia = calcularEquivalenciaPuntuacion(puntaje, preguntas.length);
+
+        resultadosContainer.innerHTML = '<p>Has completado el test. Puntuación final: ' + puntaje + '/' + preguntas.length + '</p>' +
+            '<p>Tu equivalencia de nota sobre 10 es: ' + equivalencia + '</p>';
+
+        botonResultado.disabled = true; // Deshabilitar el botón después de ver los resultados
+    }
+
+    // Función para obtener las respuestas del usuario
+    function obtenerRespuestas() {
+        var respuestas = [];
+        preguntas.forEach(function(_, index) {
+            var seleccion = document.querySelector('input[name="pregunta' + index + '"]:checked');
+            respuestas.push(seleccion ? seleccion.value : undefined);
+        });
+        return respuestas;
+    }
+
+    // Función para calcular el puntaje
+    function calcularPuntaje(respuestasUsuario) {
+        var puntaje = 0;
+        respuestasUsuario.forEach(function(respuestaUsuario, index) {
+            if (respuestaUsuario === preguntas[index].respuesta) {
+                puntaje++;
+            }
+        });
+        return puntaje;
+    }
+
+    // Función para calcular la equivalencia de la puntuación en una nota sobre 10
+    function calcularEquivalenciaPuntuacion(puntuacion, totalPreguntas) {
+        var escalaMaxima = 10.0;
+        var equivalencia = (puntuacion / totalPreguntas) * escalaMaxima;
+        return equivalencia.toFixed(2);
+    }
+</script>
+
+</body>
+</html>
